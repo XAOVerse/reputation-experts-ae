@@ -42,7 +42,7 @@ const SOCIAL_ICONS: Record<string, React.ReactNode> = {
 };
 
 const DEFAULT_OFFICES = [
-  { city: "London", address: "167-169 Great Portland Street, 5th Floor, London W1W 5PF" },
+  { city: "Dubai", address: "Business Bay, Dubai, United Arab Emirates" },
 ];
 
 const DEFAULT_NAV: NavItem[] = [
@@ -92,12 +92,6 @@ export function Footer({
             <p className="text-[#999] text-[12px] max-w-[220px] leading-relaxed">
               Helping individuals and businesses take control of their digital reputation.
             </p>
-            <a href="tel:08006546009" className="inline-flex items-center gap-1.5 text-[#1a1a1a] text-[13px] font-medium mt-3 hover:text-[#555] transition-colors">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-              </svg>
-              0800 654 6009
-            </a>
           </div>
 
           <nav className="flex flex-wrap gap-x-6 gap-y-2" aria-label="Footer navigation">
@@ -129,7 +123,7 @@ export function Footer({
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <p className="text-[#aaa] text-[12px]">{copyrightText}</p>
-            <p className="text-[#ccc] text-[11px] mt-1">Reputation Experts Ltd \u2014 Company No. 16939732 \u2014 Registered in England &amp; Wales</p>
+            <p className="text-[#ccc] text-[11px] mt-1">Reputation Experts \u2014 Company No. 16939732 \u2014 Registered in England &amp; Wales</p>
           </div>
 
           <div className="flex flex-wrap gap-4 lg:gap-8">

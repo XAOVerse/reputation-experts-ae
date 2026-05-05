@@ -34,10 +34,10 @@ export function DentalCTASection() {
               </span>
               <p>
                 <a
-                  href="mailto:uk@reputation-experts.co.uk"
+                  href="mailto:info@reputationexperts.ae"
                   className="text-white text-[16px] sm:text-[17px] font-normal hover:text-white/70 transition-colors"
                 >
-                  uk@reputation-experts.co.uk
+                  info@reputationexperts.ae
                 </a>
               </p>
             </div>
@@ -49,10 +49,10 @@ export function DentalCTASection() {
               </span>
               <p>
                 <a
-                  href="mailto:info@reputation-experts.co.uk"
+                  href="mailto:info@reputationexperts.ae"
                   className="text-white text-[16px] sm:text-[17px] font-normal hover:text-white/70 transition-colors"
                 >
-                  info@reputation-experts.co.uk
+                  info@reputationexperts.ae
                 </a>
               </p>
             </div>
@@ -71,19 +71,11 @@ export function DentalCTASection() {
               >
                 Talk To Expert
               </Link>
-
-              {/* Phone button */}
-              <a
-                href="tel:08006546009"
-                className="inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/30 text-white text-[14px] font-medium hover:border-white/60 transition-colors whitespace-nowrap"
-              >
-                0800 654 6009
-              </a>
             </div>
 
             {/* Tagline */}
             <p className="text-white/35 text-[13px] sm:ml-4 leading-snug">
-              Join aesthetics clinics across the UK who trust us to protect and grow their online presence.
+              Join aesthetics clinics across the UAE who trust us to protect and grow their online presence.
             </p>
           </div>
 

@@ -94,7 +94,7 @@ export default function DentalClinicPage() {
               monitor, or dispute their online presence.
             </p>
             <p style={{ fontSize: '16px', lineHeight: '1.7', color: '#555' }}>
-              We work exclusively with dental practices across the UK to build, protect, and
+              We work exclusively with dental practices across the UAE to build, protect, and
               recover online reputations through proper platform channels. From disputing
               policy-violating reviews to generating authentic feedback from satisfied patients â
               we handle the reputation so you can focus on the dentistry.
@@ -370,7 +370,7 @@ export default function DentalClinicPage() {
             <p style={{ fontSize: '16px', lineHeight: '1.7', color: '#555', marginBottom: '40px' }}>
               Our approach brings together review management, reputation building, Google AI Overview
               optimisation, ChatGPT recommendation positioning, and major online media publications
-              â all in one integrated service built specifically for UK dental practices. Every
+              â all in one integrated service built specifically for UAE dental practices. Every
               strategy is shaped around how patients actually search for and choose their dentist
               online.
             </p>
@@ -1036,7 +1036,7 @@ export default function DentalClinicPage() {
               >
                 New Business
               </span>
-              <span style={{ fontSize: '16px' }}>newbusiness@reputation-experts.co.uk</span>
+              <span style={{ fontSize: '16px' }}>newbusiness@reputationexperts.ae</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
               <span
@@ -1051,7 +1051,7 @@ export default function DentalClinicPage() {
               >
                 Other inquiries
               </span>
-              <span style={{ fontSize: '16px' }}>info@reputation-experts.co.uk</span>
+              <span style={{ fontSize: '16px' }}>info@reputationexperts.ae</span>
             </div>
           </div>
 

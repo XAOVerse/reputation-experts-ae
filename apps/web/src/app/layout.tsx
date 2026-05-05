@@ -12,14 +12,14 @@ export const metadata: Metadata = {
   },
   description:
     "Professional online reputation management for individuals and businesses. Take control of your digital presence across search results, review platforms, and social media.",
-  metadataBase: new URL("https://reputation-experts.co.uk"),
+  metadataBase: new URL("https://reputationexperts.ae"),
   icons: {
     icon: "/favicon.svg",
     apple: "/favicon.svg",
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_AE",
     siteName: "Reputation Experts",
   },
   twitter: {

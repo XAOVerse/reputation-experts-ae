@@ -148,7 +148,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div>
               <p className="text-[#999] text-[12px] font-medium uppercase tracking-wider mb-2">Registered Name</p>
-              <p className="text-[#0f0f0f] text-[15px] font-medium">Reputation Experts Ltd</p>
+              <p className="text-[#0f0f0f] text-[15px] font-medium">Reputation Experts</p>
             </div>
             <div>
               <p className="text-[#999] text-[12px] font-medium uppercase tracking-wider mb-2">Company Number</p>

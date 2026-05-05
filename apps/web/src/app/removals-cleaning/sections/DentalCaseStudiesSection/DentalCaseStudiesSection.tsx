@@ -24,7 +24,7 @@ const CASE_STUDIES: CaseStudyItem[] = [
       "An independent restaurant came to Reputation Experts with a 3.9-star rating and a mixed review profile that was costing it bookings. After identifying and challenging damaging reviews, implementing a structured system for generating genuine guest feedback, and strengthening the restaurant’s wider online trust signals, we helped increase its rating to 4.8 stars within five months. Reservation enquiries rose by 27%, and the restaurant moved from being overlooked online to being chosen with confidence.",
     avatar: { src: "/images/dental-case-study-2.png", alt: "Pierre Lambert" },
     name: "Pierre Lambert",
-    title: "Reputation Building for a Restaurant in London",
+    title: "Reputation Building for a Restaurant in Dubai",
   },
   {
     quote:

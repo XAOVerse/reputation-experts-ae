@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy Policy for Reputation Experts Ltd — how we collect, use, store, and protect your personal data in accordance with UK GDPR.",
+    "Privacy Policy for Reputation Experts — how we collect, use, store, and protect your personal data in accordance with UAE PDPL.",
 };
 
 export default function PrivacyPage() {
@@ -20,7 +20,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">1. About This Privacy Policy</h2>
               <p>
-                Reputation Experts Ltd (&quot;Reputation Experts&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to protecting the privacy and security of the personal information entrusted to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at reputation-experts.co.uk (the &quot;Site&quot;) or engage our professional services.
+                Reputation Experts (&quot;Reputation Experts&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to protecting the privacy and security of the personal information entrusted to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at reputationexperts.ae (the &quot;Site&quot;) or engage our professional services.
               </p>
               <p className="mt-2">
                 By accessing the Site or using our services, you acknowledge that you have read, understood, and agree to the practices described in this policy. If you do not agree with the terms of this policy, please do not access the Site or use our services.
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">2. Data Controller</h2>
               <p>
-                The data controller responsible for your personal data is Reputation Experts Ltd, Company No. 16939732 (England &amp; Wales), 167-169 Great Portland Street, 5th Floor, London, W1W 5PF. For data protection enquiries, please contact us at privacy@reputation-experts.co.uk.
+                The data controller responsible for your personal data is Reputation Experts, Business Bay, Dubai, United Arab Emirates, Business Bay, Dubai, United Arab Emirates. For data protection enquiries, please contact us at info@reputationexperts.ae.
               </p>
             </div>
 
@@ -60,7 +60,7 @@ export default function PrivacyPage() {
 
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">5. Legal Basis for Processing</h2>
-              <p>Under the UK General Data Protection Regulation (UK GDPR), we rely on the following lawful bases to process your personal data:</p>
+              <p>Under the UAE Personal Data Protection Law (PDPL), we rely on the following lawful bases to process your personal data:</p>
               <p className="mt-2">
                 <strong>Consent:</strong> Where you have given clear consent for us to process your personal data for a specific purpose, such as submitting a contact form or subscribing to communications.
               </p>
@@ -97,7 +97,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">7. International Data Transfers</h2>
               <p>
-                Your personal data is primarily stored and processed within the United Kingdom and the European Economic Area (EEA). Where we transfer data outside of the UK or EEA, we ensure that appropriate safeguards are in place, such as Standard Contractual Clauses approved by the UK Information Commissioner, or transfers to countries that have been deemed to provide an adequate level of data protection.
+                Your personal data is primarily stored and processed within the United Arab Emirates. Where we transfer data outside of the UAE, we ensure that appropriate safeguards are in place, such as Standard Contractual Clauses approved by the UAE Data Office, or transfers to countries that have been deemed to provide an adequate level of data protection.
               </p>
             </div>
 
@@ -107,7 +107,7 @@ export default function PrivacyPage() {
                 We retain your personal data only for as long as is necessary to fulfil the purposes for which it was collected, or as required or permitted by law. Our standard retention periods are as follows:
               </p>
               <p className="mt-2">
-                <strong>Enquiry and contact form data:</strong> Up to 24 months from the date of submission, unless you become a client. <strong>Client case data:</strong> Up to 6 years following the conclusion of services, in accordance with UK limitation periods and regulatory obligations. <strong>Financial and billing records:</strong> Up to 7 years, as required by HMRC and applicable tax legislation. <strong>Website analytics data:</strong> Up to 26 months, in accordance with our analytics provider&apos;s retention settings.
+                <strong>Enquiry and contact form data:</strong> Up to 24 months from the date of submission, unless you become a client. <strong>Client case data:</strong> Up to 6 years following the conclusion of services, in accordance with UAE limitation periods and regulatory obligations. <strong>Financial and billing records:</strong> Up to 7 years, as required by UAE Federal Tax Authority and applicable tax legislation. <strong>Website analytics data:</strong> Up to 26 months, in accordance with our analytics provider&apos;s retention settings.
               </p>
               <p className="mt-2">
                 When personal data is no longer required, we securely delete or anonymise it in accordance with our data retention procedures.
@@ -120,7 +120,7 @@ export default function PrivacyPage() {
                 We take the security of your personal data seriously and implement appropriate technical and organisational measures to protect it against unauthorised access, alteration, disclosure, or destruction. These measures include encryption of data in transit using TLS/SSL protocols, secure access-controlled hosting environments, regular security assessments and vulnerability monitoring, strict access controls limiting data access to authorised personnel only, and confidentiality agreements with all staff and contractors who handle personal data.
               </p>
               <p className="mt-2">
-                While we strive to protect your information, no method of electronic storage or transmission is completely secure. If you have reason to believe that your interaction with us is no longer secure, please contact us immediately at privacy@reputation-experts.co.uk.
+                While we strive to protect your information, no method of electronic storage or transmission is completely secure. If you have reason to believe that your interaction with us is no longer secure, please contact us immediately at info@reputationexperts.ae.
               </p>
             </div>
 
@@ -140,10 +140,10 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">11. Your Privacy Rights</h2>
               <p>
-                Under the UK GDPR, you have the following rights in relation to your personal data: the right of access to request a copy of the personal data we hold about you; the right to rectification to correct any inaccurate or incomplete data; the right to erasure to request deletion of your personal data, subject to certain legal exceptions; the right to restrict processing in certain circumstances; the right to data portability to request transfer of your data in a structured, commonly used, machine-readable format; the right to object to processing where we rely on legitimate interests; and the right to withdraw consent at any time without affecting the lawfulness of processing carried out before withdrawal.
+                Under the UAE PDPL, you have the following rights in relation to your personal data: the right of access to request a copy of the personal data we hold about you; the right to rectification to correct any inaccurate or incomplete data; the right to erasure to request deletion of your personal data, subject to certain legal exceptions; the right to restrict processing in certain circumstances; the right to data portability to request transfer of your data in a structured, commonly used, machine-readable format; the right to object to processing where we rely on legitimate interests; and the right to withdraw consent at any time without affecting the lawfulness of processing carried out before withdrawal.
               </p>
               <p className="mt-2">
-                To exercise any of these rights, please email us at privacy@reputation-experts.co.uk. We will respond to your request within one month. We may ask you to verify your identity before processing your request.
+                To exercise any of these rights, please email us at info@reputationexperts.ae. We will respond to your request within one month. We may ask you to verify your identity before processing your request.
               </p>
               <p className="mt-2">
                 If you are not satisfied with how we handle your request, you have the right to lodge a complaint with the Information Commissioner&apos;s Office (ICO) at ico.org.uk.
@@ -177,13 +177,13 @@ export default function PrivacyPage() {
                 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
               </p>
               <p className="mt-2">
-                Reputation Experts Ltd, 167-169 Great Portland Street, 5th Floor, London, W1W 5PF, United Kingdom.
+                Reputation Experts, Business Bay, Dubai, United Arab Emirates.
               </p>
               <p className="mt-1">
-                Email: privacy@reputation-experts.co.uk
+                Email: info@reputationexperts.ae
               </p>
               <p className="mt-1">
-                General enquiries: info@reputation-experts.co.uk
+                General enquiries: info@reputationexperts.ae
               </p>
             </div>
           </div>

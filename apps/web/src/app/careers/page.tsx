@@ -105,7 +105,7 @@ export default function CareersPage() {
               We&apos;re always looking for talented people. Send us your CV and a short note about what you&apos;re interested in.
             </p>
             <a
-              href="mailto:careers@reputation-experts.co.uk"
+              href="mailto:careers@reputationexperts.ae"
               className="inline-flex items-center rounded-full bg-[#28b44f] text-white text-[14px] font-medium px-6 py-3 hover:bg-[#1d9440] transition-colors"
             >
               Get in Touch

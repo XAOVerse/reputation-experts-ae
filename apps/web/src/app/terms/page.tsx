@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Terms of Service for Reputation Experts Ltd — conditions governing the use of our website and professional reputation management services.",
+    "Terms of Service for Reputation Experts — conditions governing the use of our website and professional reputation management services.",
 };
 
 export default function TermsPage() {
@@ -20,10 +20,10 @@ export default function TermsPage() {
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">1. Agreement Overview</h2>
               <p>
-                These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;you&quot;, &quot;your&quot;, or &quot;Client&quot;) and Reputation Experts Ltd (&quot;Reputation Experts&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), a company registered in England &amp; Wales (Company No. 16939732) with its registered office at 167-169 Great Portland Street, 5th Floor, London, W1W 5PF.
+                These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;you&quot;, &quot;your&quot;, or &quot;Client&quot;) and Reputation Experts (&quot;Reputation Experts&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), a company registered in England &amp; Wales (Company No. 16939732) with its registered office at Business Bay, Dubai, United Arab Emirates.
               </p>
               <p className="mt-2">
-                By accessing or using our website at reputation-experts.co.uk (the &quot;Site&quot;), submitting an enquiry, or engaging our professional services, you acknowledge that you have read, understood, and agree to be bound by these Terms in their entirety. If you do not agree to these Terms, you must not access the Site or use our services. We recommend that you print or save a copy of these Terms for your records.
+                By accessing or using our website at reputationexperts.ae (the &quot;Site&quot;), submitting an enquiry, or engaging our professional services, you acknowledge that you have read, understood, and agree to be bound by these Terms in their entirety. If you do not agree to these Terms, you must not access the Site or use our services. We recommend that you print or save a copy of these Terms for your records.
               </p>
             </div>
 
@@ -43,7 +43,7 @@ export default function TermsPage() {
                 You represent and warrant that you are at least 18 years of age and have the legal capacity to enter into a binding agreement. If you are acting on behalf of an organisation, you represent that you have the authority to bind that organisation to these Terms.
               </p>
               <p className="mt-2">
-                You are responsible for maintaining the confidentiality of any account credentials or login details associated with our services, and for all activity that occurs under your account. You agree to notify us immediately at info@reputation-experts.co.uk of any unauthorised access or security breach.
+                You are responsible for maintaining the confidentiality of any account credentials or login details associated with our services, and for all activity that occurs under your account. You agree to notify us immediately at info@reputationexperts.ae of any unauthorised access or security breach.
               </p>
             </div>
 
@@ -70,7 +70,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">6. Refund and Cancellation Policy</h2>
               <p>
-                If we are unable to deliver the services substantially as described in your service agreement, you may be entitled to a partial or full refund at our discretion. Refund requests must be submitted in writing to info@reputation-experts.co.uk and will be considered on a case-by-case basis within 30 days of receipt.
+                If we are unable to deliver the services substantially as described in your service agreement, you may be entitled to a partial or full refund at our discretion. Refund requests must be submitted in writing to info@reputationexperts.ae and will be considered on a case-by-case basis within 30 days of receipt.
               </p>
               <p className="mt-2">
                 Refunds for work already performed and delivered (including completed assessments, reports, or dispute submissions) are generally not available, as the professional value has been provided. You may cancel your engagement at any time by providing written notice; however, fees for services already rendered remain payable.
@@ -103,7 +103,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">9. Intellectual Property</h2>
               <p>
-                All content on this Site, including but not limited to text, graphics, logos, icons, images, page layouts, software, and design elements, is the property of Reputation Experts Ltd or its licensors and is protected by United Kingdom and international copyright, trademark, and intellectual property laws.
+                All content on this Site, including but not limited to text, graphics, logos, icons, images, page layouts, software, and design elements, is the property of Reputation Experts or its licensors and is protected by UAE and international copyright, trademark, and intellectual property laws.
               </p>
               <p className="mt-2">
                 You are granted a limited, non-exclusive, non-transferable, revocable licence to access and view the Site for your personal, non-commercial use. You may not reproduce, distribute, modify, create derivative works from, publicly display, or exploit any content from this Site without our prior written consent. Unauthorised use of any materials may give rise to a claim for damages and may constitute a criminal offence.
@@ -123,7 +123,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">11. Limitation of Liability</h2>
               <p>
-                To the maximum extent permitted by applicable law, Reputation Experts Ltd, its directors, officers, employees, agents, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, revenue, data, business opportunities, or goodwill, arising from or related to your use of the Site, your engagement of our services, or any reliance on information provided by us.
+                To the maximum extent permitted by applicable law, Reputation Experts, its directors, officers, employees, agents, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, revenue, data, business opportunities, or goodwill, arising from or related to your use of the Site, your engagement of our services, or any reliance on information provided by us.
               </p>
               <p className="mt-2">
                 Our total aggregate liability to you for any and all claims arising under or in connection with these Terms or our services shall not exceed the total fees actually paid by you to Reputation Experts during the twelve (12) months immediately preceding the event giving rise to the claim. Nothing in these Terms shall exclude or limit our liability for death or personal injury caused by our negligence, fraud, or any other liability that cannot be excluded or limited under applicable law.
@@ -133,7 +133,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-[#0f0f0f] font-semibold text-[18px] mb-3">12. Indemnification</h2>
               <p>
-                You agree to indemnify, defend, and hold harmless Reputation Experts Ltd, its directors, officers, employees, and agents from and against any and all claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising out of or in connection with: your breach of these Terms; your use of the Site or our services; any information or content you provide to us that is inaccurate, misleading, or unlawful; or any third-party claim arising from your engagement of our services.
+                You agree to indemnify, defend, and hold harmless Reputation Experts, its directors, officers, employees, and agents from and against any and all claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising out of or in connection with: your breach of these Terms; your use of the Site or our services; any information or content you provide to us that is inaccurate, misleading, or unlawful; or any third-party claim arising from your engagement of our services.
               </p>
             </div>
 
@@ -194,10 +194,10 @@ export default function TermsPage() {
                 If you have any questions, concerns, or requests regarding these Terms of Service, please contact us:
               </p>
               <p className="mt-2">
-                Reputation Experts Ltd, 167-169 Great Portland Street, 5th Floor, London, W1W 5PF, United Kingdom.
+                Reputation Experts, Business Bay, Dubai, United Arab Emirates.
               </p>
               <p className="mt-1">
-                Email: info@reputation-experts.co.uk
+                Email: info@reputationexperts.ae
               </p>
             </div>
           </div>

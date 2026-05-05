@@ -24,14 +24,14 @@ const CASE_STUDIES: CaseStudyItem[] = [
       "An independent restaurant came to Reputation Experts with a 3.9-star rating and a mixed review profile that was costing it bookings. After identifying and challenging damaging reviews, implementing a structured system for generating genuine guest feedback, and strengthening the restaurant’s wider online trust signals, we helped increase its rating to 4.8 stars within five months. Reservation enquiries rose by 27%, and the restaurant moved from being overlooked online to being chosen with confidence.",
     avatar: { src: "/images/dental-case-study-2.png", alt: "Pierre Lambert" },
     name: "Pierre Lambert",
-    title: "Reputation Building for a Restaurant in London",
+    title: "Reputation Building for a Restaurant in Dubai",
   },
   {
     quote:
       "A premium aesthetic clinic was attracting attention online, but too many potential clients were dropping off before booking. Its 4.0-star rating and mixed review profile were creating doubt at the point of decision. Reputation Experts helped reposition the business by challenging damaging reviews, building a stronger flow of genuine positive feedback, and improving the spa’s wider digital trust signals. Within four months, the rating rose to 4.8 stars and treatment enquiries and package bookings increased by 35%.",
     avatar: { src: "/images/dental-case-study-3.png", alt: "Pierre Lambert" },
     name: "Pierre Lambert",
-    title: "Reputation Acceleration for an Aesthetic Clinic in London",
+    title: "Reputation Acceleration for an Aesthetic Clinic in Dubai",
   },
 ];
 

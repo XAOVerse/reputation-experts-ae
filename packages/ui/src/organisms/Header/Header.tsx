@@ -193,20 +193,11 @@ export function Header({
 
             {/* Talk To Expert — orange filled pill (mailto CTA) */}
             <a
-              href="mailto:info@reputation-experts.co.uk"
+              href="mailto:info@reputationexperts.ae"
               className="header__cta-expert inline-flex items-center whitespace-nowrap rounded-full bg-[#e8503a] text-white text-[12px] sm:text-[13px] font-semibold px-3.5 sm:px-5 py-[7px] hover:bg-[#d4432f] transition-colors"
             >
               Talk To Expert
             </a>
-
-            {/* Phone number — black filled pill */}
-            <a
-              href="tel:08006546009"
-              className="header__cta-phone hidden sm:inline-flex items-center whitespace-nowrap rounded-full bg-[#1a1a1a] text-white text-[12px] sm:text-[13px] font-semibold px-3.5 sm:px-5 py-[7px] hover:bg-[#333] transition-colors"
-            >
-              0800 654 6009
-            </a>
-
             {/* Mobile: Menu pill */}
             <button
               onClick={() => setMenuOpen(true)}
