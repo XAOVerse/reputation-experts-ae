@@ -1,7 +1,6 @@
 import {
   HeroSection,
   WhoWeServeSection,
-  ServicesSection,
   KeyBenefitsSection,
   TestimonialsSection,
   AwardsStrip,
@@ -10,6 +9,7 @@ import {
   FAQSection,
   CTASection,
 } from "@repute/ui";
+import { DentalServicesSection } from "./aesthetic-clinics/sections/DentalServicesSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -41,7 +41,7 @@ mediaSrc="/images/hero-laptop.jpg"      />
       />
 
       {/* 3. Services */}
-      <ServicesSection heading="Our Solutions" />
+      <DentalServicesSection heading="Our Solutions" />
 
       {/* 4. Key Benefits */}
       <KeyBenefitsSection heading="Why Choose Us" />

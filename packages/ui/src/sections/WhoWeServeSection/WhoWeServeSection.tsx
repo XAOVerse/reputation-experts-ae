@@ -71,7 +71,7 @@ export function WhoWeServeSection({
                 src={card.image.src}
                 alt={card.image.alt ?? card.title}
                 fill
-                className="who-we-serve__card-image object-cover transition-transform duration-500 group-hover:scale-105"
+                className="who-we-serve__card-image object-cover grayscale transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 640px) 100vw, 33vw"
               />
               {/* Dark overlay — gradient so top text and bottom text both readable */}
