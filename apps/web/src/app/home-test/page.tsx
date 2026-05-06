@@ -53,7 +53,7 @@ export default function HomeTestPage() {
 
       <AwardsStrip heading="Awards and Mentions" />
 
-      <ProcessSection heading="Our Process" />
+      <ProcessSection />
 
       <PrivacySection heading="How We Safeguard Your Privacy" />
 
