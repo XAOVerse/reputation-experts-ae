@@ -48,11 +48,34 @@ const DEFAULT_OFFICES = [
 const DEFAULT_NAV: NavItem[] = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
-  { label: "Blog", href: "/blog" },
   { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
   { label: "Privacy Policy", href: "/privacy" },
   { label: "Terms of Service", href: "/terms" },
+];
+
+const DEFAULT_SOLUTIONS: { label: string; href: string }[] = [
+  { label: "Solutions for Dental Clinics", href: "/dental-clinics" },
+  { label: "Solutions for Aesthetic Clinics", href: "/aesthetic-clinics" },
+  { label: "Solutions for Laser Eye Surgery Clinics", href: "/laser-eye-surgery" },
+  { label: "Solutions for Restaurants & Cafés", href: "/restaurants-cafes" },
+  { label: "Solutions for Hotels & Accommodation", href: "/hotels-accommodation" },
+  { label: "Solutions for Automotive Dealerships", href: "/automotive-dealerships" },
+  { label: "Solutions for Construction & Building", href: "/construction-contractors" },
+  { label: "Solutions for Event Venues", href: "/event-venues" },
+  { label: "Solutions for Bars, Lounges & Entertainment", href: "/bars-lounges-entertainment" },
+  { label: "Solutions for Home Services", href: "/home-services" },
+  { label: "Solutions for Childcare & Education", href: "/childcare-education" },
+  { label: "Solutions for Personal Care & Beauty", href: "/personal-care-beauty" },
+  { label: "Solutions for Health & Wellbeing", href: "/health-wellbeing" },
+  { label: "Solutions for Fitness & Wellness", href: "/fitness-wellness" },
+  { label: "Solutions for Takeaways & Food Retail", href: "/takeaways-food-retail" },
+  { label: "Solutions for Financial Services", href: "/financial-services" },
+  { label: "Solutions for Recruitment & Staffing", href: "/recruitment-staffing" },
+  { label: "Solutions for Retail & Specialist Shops", href: "/retail-specialist-shops" },
+  { label: "Solutions for Cleaning Services", href: "/removals-cleaning" },
+  { label: "Solutions for MOT, Tyres & Driving Schools", href: "/mot-tyres-driving" },
+  { label: "Solutions for Estate & Letting Agents", href: "/estate-letting-agents" },
 ];
 
 const DEFAULT_SOCIALS: SocialLink[] = [];
@@ -118,12 +141,26 @@ export function Footer({
           </div>
         </div>
 
+        <div className="border-t border-[#f0f0f0] mb-8" />
+
+        <div className="mb-10">
+          <h3 className="text-[#1a1a1a] text-[12px] font-semibold uppercase tracking-[0.12em] mb-5">Solutions</h3>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
+            {DEFAULT_SOLUTIONS.map((s) => (
+              <li key={s.href}>
+                <Link href={s.href} className="text-[#666] text-[13px] hover:text-[#1a1a1a] transition-colors">
+                  {s.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <div className="border-t border-[#f0f0f0] mb-6" />
 
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <p className="text-[#aaa] text-[12px]">{copyrightText}</p>
-            <p className="text-[#ccc] text-[11px] mt-1">Reputation Experts \u2014 Company No. 16939732 \u2014 Registered in England &amp; Wales</p>
           </div>
 
           <div className="flex flex-wrap gap-4 lg:gap-8">
