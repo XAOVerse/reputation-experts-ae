@@ -29,7 +29,7 @@ const TIERS: Tier[] = [
     tagline: "Protect what you have built.",
     price: "AED 4,950",
     priceSuffix: "/ month",
-    ideal: "Best for boutique hotels, guest houses and 4-star properties up to 100 rooms — single location.",
+    ideal: "Best for boutique hotels, guest houses and 4-star properties up to 100 rooms \u2014 single location.",
     cta: "Start with Foundation",
     ctaHref: "/contact",
     features: [
@@ -40,8 +40,7 @@ const TIERS: Tier[] = [
       "Google Business Profile optimisation",
       "Monthly performance dashboard and reporting",
       "Direct WhatsApp support, replies within 4 working hours",
-      "60-day proof-of-progress checkpoint \u2014 visible review and rating gains, or your second month is free",
-      "120-day full goal guarantee \u2014 100% money-back if agreed written goals are not reached",
+      "90-day money-back guarantee \u2014 hit your written goals or full refund, no questions",
     ],
   },
   {
@@ -64,8 +63,7 @@ const TIERS: Tier[] = [
       "Schema markup and structured data implementation",
       "One PR placement per quarter in international travel or lifestyle media",
       "Bi-weekly strategy call with a dedicated reputation manager",
-      "60-day proof-of-progress checkpoint \u2014 visible review and rating gains, or your second month is free",
-      "120-day full goal guarantee \u2014 100% money-back if agreed written goals are not reached",
+      "90-day money-back guarantee \u2014 hit your written goals or full refund, no questions",
     ],
   },
   {
@@ -86,8 +84,7 @@ const TIERS: Tier[] = [
       "Dedicated account director with hospitality background",
       "Quarterly executive review presented to GM and ownership",
       "Custom luxury reputation strategy tailored to your property\u2019s positioning",
-      "60-day proof-of-progress checkpoint \u2014 visible review and rating gains, or your second month is free",
-      "120-day full goal guarantee \u2014 100% money-back if agreed written goals are not reached",
+      "90-day money-back guarantee \u2014 hit your written goals or full refund, no questions",
     ],
   },
 ];
@@ -112,7 +109,7 @@ export function PricingSection() {
             Transparent pricing. 100% money-back guarantee. No long-term lock-in.
           </h2>
           <p className="text-[#555] text-[15px] leading-[1.7]">
-            Three engagement tiers built around the realities of Dubai hospitality. All plans bill monthly, cancel anytime, and come with a written 120-day goal guarantee \u2014 if we don\u2019t hit the agreed targets, you receive a full refund of every dirham paid.
+            Three engagement tiers built around the realities of Dubai hospitality. All plans bill monthly, cancel anytime, and come with a written 90-day money-back guarantee \u2014 if we don\u2019t hit the agreed targets, you receive a full refund of every dirham paid.
           </p>
         </div>
 
