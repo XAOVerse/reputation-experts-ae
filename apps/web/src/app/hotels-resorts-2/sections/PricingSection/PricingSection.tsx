@@ -27,63 +27,67 @@ const TIERS: Tier[] = [
   {
     name: "Foundation",
     tagline: "Protect what you have built.",
-    price: "AED 8,500",
+    price: "AED 4,950",
     priceSuffix: "/ month",
-    ideal: "Best for boutique hotels, guest houses and 4-star properties up to 100 rooms.",
+    ideal: "Best for boutique hotels, guest houses and 4-star properties up to 100 rooms — single location.",
     cta: "Start with Foundation",
     ctaHref: "/contact",
     features: [
       "24/7 monitoring across Google, Booking.com, TripAdvisor, Trustpilot",
       "Up to 5 review removal cases per month",
       "Multilingual review responses in English and Arabic",
-      "Authentic 5-star review generation campaign — target +20 verified reviews per month",
+      "Authentic 5-star review generation campaign \u2014 target +20 verified reviews per month",
       "Google Business Profile optimisation",
       "Monthly performance dashboard and reporting",
       "Direct WhatsApp support, replies within 4 working hours",
+      "60-day proof-of-progress checkpoint \u2014 visible review and rating gains, or your second month is free",
+      "120-day full goal guarantee \u2014 100% money-back if agreed written goals are not reached",
     ],
   },
   {
     name: "Growth",
     tagline: "Outrank the resort next door.",
-    price: "AED 19,500",
+    price: "AED 11,500",
     priceSuffix: "/ month",
-    ideal: "Best for established 4 and 5-star hotels with 100–300 rooms competing for direct bookings.",
+    ideal: "Best for established 4 and 5-star hotels with 100\u2013300 rooms competing for direct bookings \u2014 single location.",
     cta: "Start with Growth",
     ctaHref: "/contact",
     highlight: true,
     highlightLabel: "Most chosen by Dubai hotels",
     features: [
       "Everything in Foundation",
-      "Unlimited review removal cases — no monthly cap",
+      "Unlimited review removal cases \u2014 no monthly cap",
       "Multilingual review responses in 5 languages: English, Arabic, Russian, Mandarin, German or French",
-      "Multilingual review generation campaign — target +50 verified reviews per month",
+      "Multilingual review generation campaign \u2014 target +50 verified reviews per month",
       "Google AI Overview optimisation for high-intent Dubai search queries",
       "ChatGPT and Perplexity citation positioning",
       "Schema markup and structured data implementation",
       "One PR placement per quarter in international travel or lifestyle media",
       "Bi-weekly strategy call with a dedicated reputation manager",
-      "Performance guarantee: minimum 0.3 Google rating uplift in 90 days, or your next month is free",
+      "60-day proof-of-progress checkpoint \u2014 visible review and rating gains, or your second month is free",
+      "120-day full goal guarantee \u2014 100% money-back if agreed written goals are not reached",
     ],
   },
   {
     name: "Authority",
     tagline: "Become the obvious recommendation.",
-    price: "AED 39,500",
+    price: "AED 22,500",
     priceSuffix: "/ month",
-    ideal: "Best for 5-star resorts, luxury properties and hotel groups managing up to three properties.",
+    ideal: "Best for 5-star resorts and luxury properties \u2014 single flagship location, white-glove engagement.",
     cta: "Speak to a director",
     ctaHref: "/contact",
     features: [
       "Everything in Growth",
-      "Up to 3 properties under one engagement",
-      "Monthly PR placement in international travel and luxury publications (Condé Nast Traveller, Travel + Leisure, TimeOut, Skift, Hotelier Middle East)",
+      "Monthly PR placement in international travel and luxury publications (Cond\u00e9 Nast Traveller, Travel + Leisure, TimeOut, Skift, Hotelier Middle East)",
       "Booking.com Genius and Preferred Partner status acceleration",
-      "24/7 crisis response hotline — first response within 60 minutes, in any language",
+      "24/7 crisis response hotline \u2014 first response within 60 minutes, in any language",
       "One verified influencer partnership per quarter (luxury and Dubai-resident creators)",
       "Authentic review generation in 8 languages, including Spanish, Italian and Korean",
       "Dedicated account director with hospitality background",
       "Quarterly executive review presented to GM and ownership",
-      "Performance guarantee: minimum 0.5 Google rating uplift in 90 days, or 50% of your fees refunded",
+      "Custom luxury reputation strategy tailored to your property\u2019s positioning",
+      "60-day proof-of-progress checkpoint \u2014 visible review and rating gains, or your second month is free",
+      "120-day full goal guarantee \u2014 100% money-back if agreed written goals are not reached",
     ],
   },
 ];
@@ -105,10 +109,10 @@ export function PricingSection() {
             className="text-[#0f0f0f] font-normal leading-[1.15] tracking-[-0.02em] mb-5"
             style={{ fontSize: "clamp(1.85rem, 4vw, 2.75rem)" }}
           >
-            Transparent pricing. Performance-backed. No long-term lock-in.
+            Transparent pricing. 100% money-back guarantee. No long-term lock-in.
           </h2>
           <p className="text-[#555] text-[15px] leading-[1.7]">
-            Three engagement tiers built around the realities of Dubai hospitality. All plans bill monthly, cancel anytime, and include a written performance guarantee on rating uplift.
+            Three engagement tiers built around the realities of Dubai hospitality. All plans bill monthly, cancel anytime, and come with a written 120-day goal guarantee \u2014 if we don\u2019t hit the agreed targets, you receive a full refund of every dirham paid.
           </p>
         </div>
 

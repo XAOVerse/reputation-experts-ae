@@ -75,7 +75,7 @@ export function DentalCTASection() {
 
             {/* Tagline */}
             <p className="text-white/35 text-[13px] sm:ml-4 leading-snug">
-              Join hotels and resorts across Dubai who trust us to protect and grow their online presence. Every engagement is backed by a written 90-day rating-uplift guarantee \u2014 you only stay if it works.
+              Join hotels and resorts across Dubai who trust us to protect and grow their online presence. Every engagement is backed by a 100% money-back guarantee \u2014 if we don\u2019t hit your agreed written goals within 4 months, you receive a full refund.
             </p>
           </div>
 
