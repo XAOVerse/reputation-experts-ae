@@ -101,8 +101,8 @@ const DEFAULT_PLATFORMS: PlatformCard[] = [
 
 export function ProblemStatementSection({
   heading,
-  bodyLeft = "In 2026, Over 93% of travellers read online reviews before booking a hotel. Reputation directly drives revenue. A practice with a poor online reputation loses guests to competitors every single day, even when the clinical care is identical. We close that gap by removing damaging reviews that drag your rating down and generating a consistent flow of new 5-star reviews that strengthen trust and push your rating up.",
-  bodyRight = "We also help ensure your property appears prominently when potential guests search on Google, ask ChatGPT, or browse AI Overviews. The result is more visibility, more clicks, more calls, and more booked appointments. Clients typically see a 30\u201350% increase in new guest enquiries within the first three months.",
+  bodyLeft = "In 2026, over 95% of international travellers read online reviews before booking a Dubai hotel \u2014 and most read between 7 and 10 reviews across multiple languages before deciding where to stay. With global travel sentiment softer and arrivals more sensitive than ever to regional headlines, every booking matters. Dubai properties with weak review profiles lose guests to the resort next door every single day \u2014 even when the rooms, the location and the service are identical. We close that gap by removing damaging reviews that drag your rating down and generating a steady flow of authentic 5-star reviews \u2014 in every language your guests speak \u2014 that strengthen trust and push your rating up.",
+  bodyRight = "We also ensure your property appears prominently when travellers search on Google, ask ChatGPT for hotel recommendations in Dubai, browse Google AI Overviews, or compare on Booking.com, TripAdvisor and Agoda. The result is more visibility in the markets that matter \u2014 GCC, UK, Russia, India, China, Europe \u2014 more direct enquiries, and more confirmed bookings. Dubai clients typically see a 30\u201350% increase in new booking enquiries within the first three months.",
   platforms = DEFAULT_PLATFORMS,
 }: ProblemStatementSectionProps) {
   return (
@@ -118,11 +118,11 @@ export function ProblemStatementSection({
         >
           {heading ?? (
             <>
-              For many UK hotels and accommodation providers,{" "}
+              For many Dubai hotels and resorts,{" "}
               <strong className="font-bold">
-                poor reviews mean losing £50,000 to £500,000+ per year
+                poor reviews mean losing AED 250,000 to AED 2.5 million+ per year
               </strong>{" "}
-              in lost revenue.
+              in cancelled bookings and lost direct revenue.
             </>
           )}
         </h2>

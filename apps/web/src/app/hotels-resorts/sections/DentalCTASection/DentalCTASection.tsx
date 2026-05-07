@@ -75,7 +75,7 @@ export function DentalCTASection() {
 
             {/* Tagline */}
             <p className="text-white/35 text-[13px] sm:ml-4 leading-snug">
-              Join hotels and accommodation providers across the UAE who trust us to protect and grow their online presence.
+              Join hotels and resorts across Dubai who trust us to protect and grow their online presence.
             </p>
           </div>
 

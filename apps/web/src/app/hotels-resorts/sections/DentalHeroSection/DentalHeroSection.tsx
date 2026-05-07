@@ -15,12 +15,12 @@ export interface DentalHeroSectionProps {
 }
 
 export function DentalHeroSection({
-  headline = "We protect and grow Dental Clinics\u2019 online reputations.",
-  subtitle = "Improving online reputation directly affects clinics by helping them gain more bookings, build trust, and increase sales.",
+  headline = "We protect and grow Dubai hotels and resorts\u2019 online reputations.",
+  subtitle = "Before guests book a Dubai hotel, they read dozens of reviews and compare every option side by side \u2014 in their own language. We remove damaging reviews, generate authentic multilingual 5-star feedback, and position your property at the top of Google, Booking.com, TripAdvisor, Agoda and AI-driven search.",
   ctaLabel = "Free Assessment",
   ctaLink = "/contact",
   imageSrc = "/images/hotels-1.png",
-  imageAlt = "Hotel accommodation reputation",
+  imageAlt = "Dubai hotel and resort reputation management",
 }: DentalHeroSectionProps) {
   return (
     <section

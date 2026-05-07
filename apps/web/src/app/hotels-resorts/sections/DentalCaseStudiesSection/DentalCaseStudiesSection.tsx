@@ -14,24 +14,24 @@ export interface CaseStudyItem {
 const CASE_STUDIES: CaseStudyItem[] = [
   {
     quote:
-      "A private hotel came to us with a 3.6-star rating, several damaging fake reviews, and an online reputation that was undermining guest trust. Within just under four months, we helped remove 8 fake and policy-violating reviews, implemented a consistent guest review strategy, and increased the clinic’s rating to 4.7 stars. Room bookings rose by 40%, with the clinic benefiting from stronger trust, better visibility, and a much healthier flow of new enquiries.",
-    avatar: { src: "/images/dental-case-study-1.png", alt: "Hotel Case Study" },
-    name: "Hotel Case Study",
-    title: "Reputation Recovery for a Hotel in Midlands",
+      "A 5-star resort on Palm Jumeirah came to us with a 3.7-star Google rating, several damaging fake reviews, and a slipping position on Booking.com. Within just under four months, we removed 11 fake and policy-violating reviews, implemented a multilingual guest review strategy across English, Arabic and Russian, and lifted the resort\u2019s rating to 4.7 stars. Direct booking enquiries rose by 42%, and the resort moved from page two to the top of Booking.com results for Palm Jumeirah.",
+    avatar: { src: "/images/dental-case-study-1.png", alt: "Palm Jumeirah Resort Case Study" },
+    name: "Palm Jumeirah Resort",
+    title: "Reputation Recovery for a 5-Star Resort in Palm Jumeirah",
   },
   {
     quote:
-      "An independent restaurant came to Reputation Experts with a 3.9-star rating and a mixed review profile that was costing it bookings. After identifying and challenging damaging reviews, implementing a structured system for generating genuine guest feedback, and strengthening the restaurant’s wider online trust signals, we helped increase its rating to 4.8 stars within five months. Reservation enquiries rose by 27%, and the restaurant moved from being overlooked online to being chosen with confidence.",
-    avatar: { src: "/images/dental-case-study-2.png", alt: "Pierre Lambert" },
-    name: "Pierre Lambert",
-    title: "Reputation Building for a Restaurant in Dubai",
+      "A boutique hotel in Downtown Dubai approached Reputation Experts with a 3.9-star rating and a mixed review profile that was costing it bookings during a period of softer demand. After challenging damaging reviews, building a structured system for generating authentic multilingual guest feedback, and strengthening the hotel\u2019s authority across Booking.com, TripAdvisor and Google, we lifted its rating to 4.8 stars within five months. Reservation enquiries rose by 31%, and the hotel began appearing in Google AI Overviews for searches like \"design hotels in Downtown Dubai\".",
+    avatar: { src: "/images/dental-case-study-2.png", alt: "Downtown Dubai Boutique Hotel Case Study" },
+    name: "Downtown Dubai Boutique Hotel",
+    title: "Reputation Building for a Boutique Hotel in Downtown Dubai",
   },
   {
     quote:
-      "A premium aesthetic clinic was attracting attention online, but too many potential clients were dropping off before booking. Its 4.0-star rating and mixed review profile were creating doubt at the point of decision. Reputation Experts helped reposition the business by challenging damaging reviews, building a stronger flow of genuine positive feedback, and improving the spa’s wider digital trust signals. Within four months, the rating rose to 4.8 stars and treatment enquiries and package bookings increased by 35%.",
-    avatar: { src: "/images/dental-case-study-3.png", alt: "Pierre Lambert" },
-    name: "Pierre Lambert",
-    title: "Reputation Acceleration for an Aesthetic Clinic in Dubai",
+      "A beach resort in JBR with strong physical assets was attracting attention online but losing too many travellers at the booking stage. A 4.0-star rating and inconsistent reviews across English-speaking and GCC guest segments were creating doubt at the moment of decision. Reputation Experts cleaned up damaging reviews, built a steady stream of authentic 5-star feedback in Arabic, English, Russian and Chinese, and strengthened the resort\u2019s presence across Booking.com, Agoda and TripAdvisor. Within four months, the rating rose to 4.8 stars and confirmed bookings grew by 38%.",
+    avatar: { src: "/images/dental-case-study-3.png", alt: "JBR Beach Resort Case Study" },
+    name: "JBR Beach Resort",
+    title: "Reputation Acceleration for a Beach Resort in JBR Dubai",
   },
 ];
 

@@ -13,9 +13,9 @@ import { DentalCTASection } from "./sections/DentalCTASection";
 import { DentalContactSection } from "./sections/DentalContactSection";
 
 export const metadata: Metadata = {
-  title: "Hotels & Accommodation - Reputation Management for Hotels, B&Bs & Serviced Apartments",
+  title: "Dubai Hotels & Resorts — Online Reputation Management for Luxury Hospitality",
   description:
-    "We protect and grow the online reputations of hotels and accommodation providers. Remove damaging reviews, strengthen your ratings across Google, Booking.com, TripAdvisor, and turn trust into more bookings.",
+    "We protect and grow the online reputations of Dubai hotels and resorts. Remove damaging reviews, generate authentic multilingual 5-star reviews, and position your property at the top of Google, Booking.com, TripAdvisor, Agoda, and AI-driven search.",
 };
 
 export default function Home2Page() {
@@ -23,12 +23,12 @@ export default function Home2Page() {
     <main>
       {/* ── 1. Hero ──────────────────────────────────────────────── */}
       <DentalHeroSection
-        headline="We protect and grow Hotels & Accommodation providers' online reputations."
-        subtitle="Your reputation is the first thing guests see before they book. We remove damaging reviews, strengthen your ratings, and position your property where travellers are searching, including in AI-driven search."
+        headline="We protect and grow Dubai hotels and resorts' online reputations."
+        subtitle="Before guests book a Dubai hotel, they read dozens of reviews and compare every option side by side — in their own language. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Chinese, German and French, and position your property at the top of Google, Booking.com, TripAdvisor, Agoda and AI-driven search."
         ctaLabel="Free Assessment"
         ctaLink="/contact"
         imageSrc="/images/hotels-1.png"
-        imageAlt="Hotel accommodation reputation"
+        imageAlt="Dubai hotel and resort reputation management"
       />
 
       {/* ── 2. Problem Statement + Platform Cards ────────────────── */}
