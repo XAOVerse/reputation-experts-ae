@@ -6,27 +6,20 @@ import Image from "next/image";
 import type { HeaderProps } from "./Header.types";
 
 const SOLUTIONS: { label: string; href: string }[] = [
-  { label: "Solutions for Dental Clinics", href: "/dental-clinics" },
-  { label: "Solutions for Aesthetic Clinics", href: "/aesthetic-clinics" },
-  { label: "Solutions for Laser Eye Surgery Clinics", href: "/laser-eye-surgery" },
+  { label: "Solutions for Hotels & Resorts", href: "/hotels-resorts" },
   { label: "Solutions for Restaurants & Cafés", href: "/restaurants-cafes" },
-  { label: "Solutions for Hotels & Accommodation", href: "/hotels-accommodation" },
-  { label: "Solutions for Automotive Dealerships", href: "/automotive-dealerships" },
-  { label: "Solutions for Construction & Building", href: "/construction-contractors" },
-  { label: "Solutions for Event Venues", href: "/event-venues" },
-  { label: "Solutions for Bars, Lounges & Entertainment", href: "/bars-lounges-entertainment" },
+  { label: "Solutions for Aesthetic & Cosmetic Clinics", href: "/aesthetic-cosmetic-clinics" },
+  { label: "Solutions for Real Estate Agencies", href: "/real-estate-agencies" },
+  { label: "Solutions for Car Rental Companies", href: "/car-rental" },
+  { label: "Solutions for Automotive Showrooms", href: "/automotive-showrooms" },
+  { label: "Solutions for Fit-Out Contractors", href: "/fit-out-contractors" },
+  { label: "Solutions for Bars, Lounges & Nightlife", href: "/bars-lounges-nightlife" },
+  { label: "Solutions for Fitness, Spa & Wellness", href: "/fitness-spa-wellness" },
+  { label: "Solutions for Personal Care & Beauty Salons", href: "/personal-care-beauty-salons" },
   { label: "Solutions for Home Services", href: "/home-services" },
-  { label: "Solutions for Childcare & Education", href: "/childcare-education" },
-  { label: "Solutions for Personal Care & Beauty", href: "/personal-care-beauty" },
-  { label: "Solutions for Health & Wellbeing", href: "/health-wellbeing" },
-  { label: "Solutions for Fitness & Wellness", href: "/fitness-wellness" },
-  { label: "Solutions for Takeaways & Food Retail", href: "/takeaways-food-retail" },
+  { label: "Solutions for Cleaning Services", href: "/cleaning-services" },
+  { label: "Solutions for Auto Service Centres", href: "/auto-service-centres" },
   { label: "Solutions for Financial Services", href: "/financial-services" },
-  { label: "Solutions for Recruitment & Staffing", href: "/recruitment-staffing" },
-  { label: "Solutions for Retail & Specialist Shops", href: "/retail-specialist-shops" },
-  { label: "Solutions for Cleaning Services", href: "/removals-cleaning" },
-  { label: "Solutions for MOT, Tyres & Driving Schools", href: "/mot-tyres-driving" },
-  { label: "Solutions for Estate & Letting Agents", href: "/estate-letting-agents" },
 ];
 
 const DEFAULT_NAV: import("../../types").NavItem[] = [

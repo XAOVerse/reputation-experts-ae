@@ -9,7 +9,7 @@ import {
   FAQSection,
   CTASection,
 } from "@repute/ui";
-import { DentalServicesSection } from "./aesthetic-clinics/sections/DentalServicesSection";
+import { DentalServicesSection } from "./aesthetic-cosmetic-clinics/sections/DentalServicesSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
