@@ -120,9 +120,8 @@ export function PricingSection() {
               key={tier.name}
               className={[
                 "relative rounded-3xl flex flex-col transition-all duration-300",
-                tier.highlight
-                  ? "bg-[#0e0e0e] text-white border border-[#0e0e0e] shadow-[0_20px_60px_rgba(232,80,58,0.15)] lg:scale-[1.02]"
-                  : "bg-white text-[#1a1a1a] border border-[#e8e8e8] hover:border-[#d0d0d0]",
+                "bg-white text-[#1a1a1a] border border-[#e7e7eb]/30 shadow-[0_4px_12px_rgba(0,0,0,0.05)]",
+                tier.highlight ? "lg:scale-[1.02]" : "",
               ].join(" ")}
             >
               {tier.highlight && (
@@ -135,20 +134,12 @@ export function PricingSection() {
                 {/* Tier name + tagline */}
                 <div className="mb-6">
                   <h3
-                    className={[
-                      "font-semibold mb-2 tracking-[-0.01em]",
-                      tier.highlight ? "text-white" : "text-[#0f0f0f]",
-                    ].join(" ")}
+                    className="font-semibold mb-2 tracking-[-0.01em] text-[#0f0f0f]"
                     style={{ fontSize: "clamp(1.35rem, 2.4vw, 1.65rem)" }}
                   >
                     {tier.name}
                   </h3>
-                  <p
-                    className={[
-                      "text-[14px] leading-[1.5]",
-                      tier.highlight ? "text-[#bbb]" : "text-[#666]",
-                    ].join(" ")}
-                  >
+                  <p className="text-[14px] leading-[1.5] text-[#666]">
                     {tier.tagline}
                   </p>
                 </div>
@@ -157,50 +148,29 @@ export function PricingSection() {
                 <div className="mb-5">
                   <div className="flex items-baseline gap-1.5 mb-1">
                     <span
-                      className={[
-                        "font-bold tracking-[-0.02em] leading-none",
-                        tier.highlight ? "text-white" : "text-[#0f0f0f]",
-                      ].join(" ")}
+                      className="font-bold tracking-[-0.02em] leading-none text-[#0f0f0f]"
                       style={{ fontSize: "clamp(2rem, 4vw, 2.6rem)" }}
                     >
                       {tier.price}
                     </span>
-                    <span
-                      className={[
-                        "text-[13px] font-medium",
-                        tier.highlight ? "text-[#999]" : "text-[#777]",
-                      ].join(" ")}
-                    >
+                    <span className="text-[13px] font-medium text-[#777]">
                       {tier.priceSuffix}
                     </span>
                   </div>
-                  <p
-                    className={[
-                      "text-[12.5px] leading-[1.6]",
-                      tier.highlight ? "text-[#aaa]" : "text-[#777]",
-                    ].join(" ")}
-                  >
+                  <p className="text-[12.5px] leading-[1.6] text-[#777]">
                     {tier.ideal}
                   </p>
                 </div>
 
                 {/* Divider */}
-                <div
-                  className={[
-                    "h-px w-full mb-5",
-                    tier.highlight ? "bg-[#2a2a2a]" : "bg-[#eee]",
-                  ].join(" ")}
-                />
+                <div className="h-px w-full mb-5 bg-[#eee]" />
 
                 {/* Features */}
                 <ul className="space-y-3 mb-8 flex-1">
                   {tier.features.map((feature, i) => (
                     <li
                       key={i}
-                      className={[
-                        "flex gap-2.5 text-[13.5px] leading-[1.55]",
-                        tier.highlight ? "text-[#ddd]" : "text-[#333]",
-                      ].join(" ")}
+                      className="flex gap-2.5 text-[13.5px] leading-[1.55] text-[#333]"
                     >
                       <svg
                         className="flex-shrink-0 mt-[3px]"
