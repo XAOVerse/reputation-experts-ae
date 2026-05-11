@@ -10,7 +10,7 @@ import React from "react";
 export function TrustStripSection() {
   return (
     <section
-      className="bg-white border-y border-[#f0f0f0] py-7 lg:py-9"
+      className="bg-white pt-6 lg:pt-8 pb-2 lg:pb-3"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="As seen in major media"
     >
