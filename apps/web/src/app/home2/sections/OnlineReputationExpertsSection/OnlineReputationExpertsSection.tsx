@@ -98,7 +98,7 @@ export function OnlineReputationExpertsSection() {
 
   return (
     <section
-      className="bg-white py-14 lg:py-20"
+      className="bg-white pt-7 lg:pt-10 pb-14 lg:pb-20"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="Online Reputation Experts"
     >

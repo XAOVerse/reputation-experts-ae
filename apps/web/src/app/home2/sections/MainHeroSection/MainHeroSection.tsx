@@ -26,7 +26,7 @@ export function MainHeroSection({
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="Hero"
     >
-      <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10 pt-10 sm:pt-14 lg:pt-16 pb-6 sm:pb-8 lg:pb-10">
+      <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10 pt-10 sm:pt-14 lg:pt-16 pb-3 sm:pb-4 lg:pb-5">
         {/* ── Image with text overlay ───────────────────────── */}
         <div
           className={`${styles.fadeUp} relative w-full rounded-2xl overflow-hidden`}
