@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { MainHeroSection } from "./home2/sections/MainHeroSection";
+import { TrustStripSection } from "./home2/sections/TrustStripSection";
 import { OnlineReputationExpertsSection } from "./home2/sections/OnlineReputationExpertsSection";
 import { IndustriesSection } from "./home2/sections/IndustriesSection";
 import { DentalServicesSection } from "./home2/sections/DentalServicesSection";
@@ -25,6 +26,9 @@ export default function HomePage() {
     <main>
       {/* ── 0. Main Hero ─────────────────────────────────────────── */}
       <MainHeroSection />
+
+      {/* Press logo strip */}
+      <TrustStripSection />
 
       {/* ── 0b. Online Reputation Experts ───────────────────────── */}
       <OnlineReputationExpertsSection />
