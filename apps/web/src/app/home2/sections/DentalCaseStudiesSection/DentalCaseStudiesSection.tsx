@@ -133,7 +133,7 @@ export function DentalCaseStudiesSection() {
                         alt={t.avatar.alt}
                         width={44}
                         height={44}
-                        className="w-11 h-11 rounded-xl object-cover shrink-0"
+                        className="w-11 h-11 rounded-xl object-cover grayscale shrink-0"
                       />
                     ) : (
                       <div className="w-11 h-11 rounded-xl bg-[#ddd] flex items-center justify-center text-[#1a1a1a] text-sm shrink-0" style={{ fontWeight: 700 }}>
@@ -176,7 +176,7 @@ export function DentalCaseStudiesSection() {
                       alt={t.avatar.alt}
                       width={52}
                       height={52}
-                      className="w-13 h-13 rounded-xl object-cover"
+                      className="w-13 h-13 rounded-xl object-cover grayscale"
                     />
                   ) : (
                     <div className="w-11 h-11 rounded-xl bg-[#ddd] flex items-center justify-center text-[#1a1a1a] text-sm" style={{ fontWeight: 700 }}>
@@ -227,7 +227,7 @@ export function DentalCaseStudiesSection() {
                   alt={CASE_STUDIES[active].avatar!.alt}
                   width={40}
                   height={40}
-                  className="w-10 h-10 rounded-xl object-cover shrink-0"
+                  className="w-10 h-10 rounded-xl object-cover grayscale shrink-0"
                 />
               )}
               <div>
