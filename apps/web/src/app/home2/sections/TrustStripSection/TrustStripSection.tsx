@@ -21,7 +21,7 @@ export function TrustStripSection() {
         <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-5 lg:gap-x-14">
           <img src="/images/forbes-logo-black.svg" alt="Forbes" style={{ height: 22, opacity: 0.7 }} />
           <img src="/images/bloomberg-logo-black.svg" alt="Bloomberg" style={{ height: 18, opacity: 0.7 }} />
-          <img src="/images/ap-logo.svg" alt="Associated Press" style={{ height: 26, opacity: 0.7 }} />
+          <img src="/images/ap-logo.svg" alt="Associated Press" style={{ height: 42, opacity: 0.7 }} />
           <img src="/images/cbs-logo.svg" alt="CBS" style={{ height: 18, opacity: 0.7 }} />
           <img src="/images/nbc-logo.svg" alt="NBC" style={{ height: 22, opacity: 0.7 }} />
           <img src="/images/yahoo-finance-logo-black.svg" alt="Yahoo Finance" style={{ height: 22, opacity: 0.7 }} />
