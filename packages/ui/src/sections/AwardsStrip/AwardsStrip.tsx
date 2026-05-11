@@ -161,7 +161,7 @@ function MediaCardItem({ card, cardKey }: { card: MediaCard; cardKey: string }) 
 /* ─── Component ───────────────────────────────────────────────────────── */
 
 export function AwardsStrip({
-  heading = "As Featured In",
+  heading = "Featured In",
   mentions = DEFAULT_MENTIONS,
   middleCards = DEFAULT_MIDDLE_CARDS,
   rightCards = DEFAULT_RIGHT_CARDS,
