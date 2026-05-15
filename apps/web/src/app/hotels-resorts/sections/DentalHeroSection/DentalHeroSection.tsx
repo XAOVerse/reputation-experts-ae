@@ -15,9 +15,9 @@ export interface DentalHeroSectionProps {
 }
 
 export function DentalHeroSection({
-  headline = "We protect and grow Dubai hotels and resorts\u2019 online reputations.",
-  subtitle = "Before guests book a Dubai hotel, they read dozens of reviews and compare every option side by side \u2014 in their own language. We remove damaging reviews, generate authentic multilingual 5-star feedback, and position your property at the top of Google, Booking.com, TripAdvisor, Agoda and AI-driven search.",
-  ctaLabel = "Free Assessment",
+  headline = "Dubai\u2019s only multilingual reputation team built for hotels and resorts.",
+  subtitle = "We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your property at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee , hit your goals or full refund, no questions.",
+  ctaLabel = "Free 7-Page Audit",
   ctaLink = "/contact",
   imageSrc = "/images/hotels-1.png",
   imageAlt = "Dubai hotel and resort reputation management",

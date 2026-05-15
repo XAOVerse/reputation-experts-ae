@@ -1,67 +1,79 @@
 import type { Metadata } from "next";
 import { DentalHeroSection } from "./sections/DentalHeroSection";
+import { TrustStripSection } from "./sections/TrustStripSection";
 import { ProblemStatementSection } from "./sections/ProblemStatementSection";
+import { DubaiInsightSection } from "./sections/DubaiInsightSection";
 import { ReputationManagementSection } from "./sections/ReputationManagementSection";
 import { DentalServicesSection } from "./sections/DentalServicesSection";
 import { DigitalReputationSection } from "./sections/DigitalReputationSection";
 import { IndustryAuthoritySection } from "./sections/IndustryAuthoritySection";
 import { GoogleAIOverviewSection } from "./sections/GoogleAIOverviewSection";
 import { PlatformsMediaSection } from "./sections/PlatformsMediaSection";
-import { DentalCaseStudiesSection } from "./sections/DentalCaseStudiesSection";
+// import { DentalCaseStudiesSection } from "./sections/DentalCaseStudiesSection"; // Hidden until real Dubai cases ready
 import { DentalFAQSection } from "./sections/DentalFAQSection";
+// import { PricingSection } from "./sections/PricingSection"; // Pricing hidden per request 2026-05-15
 import { DentalCTASection } from "./sections/DentalCTASection";
 import { DentalContactSection } from "./sections/DentalContactSection";
 
 export const metadata: Metadata = {
-  title: "Dubai Hotels & Resorts — Online Reputation Management for Luxury Hospitality",
+  title: "Dubai Hotels & Resorts | Multilingual Reputation Management with 90-Day Money-Back Guarantee",
   description:
-    "We protect and grow the online reputations of Dubai hotels and resorts. Remove damaging reviews, generate authentic multilingual 5-star reviews, and position your property at the top of Google, Booking.com, TripAdvisor, Agoda, and AI-driven search.",
+    "Dubai's only multilingual reputation team built for hotels and resorts. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your property at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee.",
 };
 
-export default function Home2Page() {
+export default function HotelsResortsPage() {
   return (
     <main>
-      {/* ── 1. Hero ──────────────────────────────────────────────── */}
+      {/* 1. Hero */}
       <DentalHeroSection
-        headline="We protect and grow Dubai hotels and resorts' online reputations."
-        subtitle="Before guests book a Dubai hotel, they read dozens of reviews and compare every option side by side — in their own language. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Chinese, German and French, and position your property at the top of Google, Booking.com, TripAdvisor, Agoda and AI-driven search."
-        ctaLabel="Free Assessment"
+        headline="Dubai’s only multilingual reputation team built for hotels and resorts."
+        subtitle="We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your property at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
+        ctaLabel="Get Your Free 7-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/hotels-1.png"
         imageAlt="Dubai hotel and resort reputation management"
       />
 
-      {/* ── 2. Problem Statement + Platform Cards ────────────────── */}
+      {/* 2. Trust Strip (press logos) */}
+      <TrustStripSection />
+
+      {/* 3. Problem Statement + Platform Cards */}
       <ProblemStatementSection />
 
-      {/* ── 3. Reputation Management Services ────────────────────── */}
+      {/* 4. Dubai-specific market insight */}
+      <DubaiInsightSection />
+
+      {/* 5. Reputation Management Services */}
       <ReputationManagementSection />
 
-      {/* ── 4. Services (accordion + detail panel) ───────────────── */}
+      {/* 6. Services accordion + detail panel */}
       <DentalServicesSection />
 
-      {/* ── 5. Digital Reputation Management ──────────────────────── */}
+      {/* 7. Digital Reputation Management */}
       <DigitalReputationSection />
 
-      {/* ── 6. Industry Authority Brand in 6 Months ──────────────── */}
+      {/* 8. Industry Authority Brand in 6 Months */}
       <IndustryAuthoritySection />
 
-      {/* ── 7. Google AI Overview ─────────────────────────────────── */}
+      {/* 9. Google AI Overview */}
       <GoogleAIOverviewSection />
 
-      {/* ── 8. Platforms & Media Outlets ──────────────────────────── */}
+      {/* 10. Platforms & Media Outlets */}
       <PlatformsMediaSection />
 
-      {/* ── 9. Case Studies ─────────────────────────────────────── */}
-      <DentalCaseStudiesSection />
+      {/* 11. Case Studies (hidden until real Dubai cases ready) */}
+      {/* <DentalCaseStudiesSection /> */}
 
-      {/* ── 10. FAQ ────────────────────────────────────────────── */}
+      {/* 12. FAQ */}
       <DentalFAQSection />
 
-      {/* ── 11. CTA ────────────────────────────────────────────── */}
+      {/* 13. Pricing (hidden per request 2026-05-15) */}
+      {/* <PricingSection /> */}
+
+      {/* 14. CTA */}
       <DentalCTASection />
 
-      {/* ── 12. Get in Touch ───────────────────────────────────── */}
+      {/* 15. Get in Touch */}
       <DentalContactSection />
     </main>
   );
