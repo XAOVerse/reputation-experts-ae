@@ -19,7 +19,7 @@ export function DentalCTASection() {
             className="text-white font-normal leading-[1.15] tracking-[-0.02em] mb-14 lg:mb-16 max-w-[560px]"
             style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}
           >
-            Let&apos;s build a reputation your dealership deserves.
+            Let&apos;s build a reputation your fleet deserves.
           </h2>
 
           {/* ── "Write us on" ─────────────────────────────────────── */}
@@ -64,7 +64,7 @@ export function DentalCTASection() {
           {/* ── Bottom row ───────────────────────────────────────── */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
             <div className="flex flex-row items-center gap-3 sm:contents">
-              {/* Talk To Expert button — first */}
+              {/* Talk To Expert button, first */}
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-[#FF461E] text-white text-[14px] font-medium hover:bg-[#e63b15] transition-colors whitespace-nowrap"
@@ -75,7 +75,7 @@ export function DentalCTASection() {
 
             {/* Tagline */}
             <p className="text-white/35 text-[13px] sm:ml-4 leading-snug">
-              Join automotive dealerships across the UAE who trust us to protect and grow their online presence.
+              Join car rental operators across the UAE who trust us to protect and grow their online presence.
             </p>
           </div>
 

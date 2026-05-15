@@ -14,7 +14,7 @@ export interface CaseStudyItem {
 const CASE_STUDIES: CaseStudyItem[] = [
   {
     quote:
-      "A private automotive dealership came to us with a 3.6-star rating, several damaging fake reviews, and an online reputation that was undermining customer trust. Within just under four months, we helped remove 8 fake and policy-violating reviews, implemented a consistent customer review strategy, and increased the clinic’s rating to 4.7 stars. Customer enquiries rose by 40%, with the clinic benefiting from stronger trust, better visibility, and a much healthier flow of new enquiries.",
+      "A private car rental company in Business Bay came to us with a 3.6-star rating, several damaging fake reviews, and an online reputation that was undermining customer trust. Within just under four months, we helped remove 8 fake and policy-violating reviews, implemented a consistent customer review strategy, and increased the clinic’s rating to 4.7 stars. Customer enquiries rose by 40%, with the clinic benefiting from stronger trust, better visibility, and a much healthier flow of new enquiries.",
     avatar: { src: "/images/dental-case-study-1.png", alt: "Automotive Dealership Case Study" },
     name: "Automotive Dealership Case Study",
     title: "Reputation Recovery for a Automotive Dealership in Midlands",
