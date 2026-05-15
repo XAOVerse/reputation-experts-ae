@@ -1,67 +1,78 @@
 import type { Metadata } from "next";
 import { DentalHeroSection } from "./sections/DentalHeroSection";
+import { TrustStripSection } from "./sections/TrustStripSection";
 import { ProblemStatementSection } from "./sections/ProblemStatementSection";
+import { DubaiInsightSection } from "./sections/DubaiInsightSection";
 import { ReputationManagementSection } from "./sections/ReputationManagementSection";
 import { DentalServicesSection } from "./sections/DentalServicesSection";
 import { DigitalReputationSection } from "./sections/DigitalReputationSection";
 import { IndustryAuthoritySection } from "./sections/IndustryAuthoritySection";
 import { GoogleAIOverviewSection } from "./sections/GoogleAIOverviewSection";
 import { PlatformsMediaSection } from "./sections/PlatformsMediaSection";
-import { DentalCaseStudiesSection } from "./sections/DentalCaseStudiesSection";
+// import { DentalCaseStudiesSection } from "./sections/DentalCaseStudiesSection"; // Hidden until real Dubai cases ready
 import { DentalFAQSection } from "./sections/DentalFAQSection";
+// Pricing intentionally hidden per request 2026-05-15
 import { DentalCTASection } from "./sections/DentalCTASection";
 import { DentalContactSection } from "./sections/DentalContactSection";
 
 export const metadata: Metadata = {
-  title: "Fitness & Wellness - Reputation Management for Gyms, Studios & Personal Trainers",
+  title: "Dubai Fitness, Spa & Wellness | Multilingual Reputation Management with 90-Day Money-Back Guarantee",
   description:
-    "We protect and grow the online reputations of fitness and wellness businesses: gyms, yoga studios, pilates studios, personal trainers, and sports clubs. Remove damaging reviews, strengthen your ratings, and win more members.",
+    "Dubai's only multilingual reputation team built for gyms, boutique studios, yoga and pilates studios, day spas, wellness centres and personal trainers. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your business at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee.",
 };
 
-export default function Home2Page() {
+export default function FitnessSpaWellnessPage() {
   return (
     <main>
-      {/* ── 1. Hero ──────────────────────────────────────────────── */}
+      {/* 1. Hero */}
       <DentalHeroSection
-        headline="We protect and grow Fitness & Wellness professionals' online reputations."
-        subtitle="Members check reviews before joining a gym, yoga studio, pilates class, or personal trainer. We remove damaging reviews, strengthen your ratings, and position your business where members are searching, including in AI-driven search."
-        ctaLabel="Free Assessment"
+        headline="Dubai’s only multilingual reputation team built for fitness, spa and wellness."
+        subtitle="From gyms and boutique studios to yoga, pilates, day spas and personal trainers. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your business at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
+        ctaLabel="Get Your Free 7-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/health-1.png"
-        imageAlt="Fitness and wellness studio"
+        imageAlt="Dubai fitness, spa and wellness reputation management"
       />
 
-      {/* ── 2. Problem Statement + Platform Cards ────────────────── */}
+      {/* 2. Trust Strip (press logos) */}
+      <TrustStripSection />
+
+      {/* 3. Problem Statement + Platform Cards */}
       <ProblemStatementSection />
 
-      {/* ── 3. Reputation Management Services ────────────────────── */}
+      {/* 4. Dubai-specific market insight */}
+      <DubaiInsightSection />
+
+      {/* 5. Reputation Management Services */}
       <ReputationManagementSection />
 
-      {/* ── 4. Services (accordion + detail panel) ───────────────── */}
+      {/* 6. Services accordion + detail panel */}
       <DentalServicesSection />
 
-      {/* ── 5. Digital Reputation Management ──────────────────────── */}
+      {/* 7. Digital Reputation Management */}
       <DigitalReputationSection />
 
-      {/* ── 6. Industry Authority Brand in 6 Months ──────────────── */}
+      {/* 8. Industry Authority Brand in 6 Months */}
       <IndustryAuthoritySection />
 
-      {/* ── 7. Google AI Overview ─────────────────────────────────── */}
+      {/* 9. Google AI Overview */}
       <GoogleAIOverviewSection />
 
-      {/* ── 8. Platforms & Media Outlets ──────────────────────────── */}
+      {/* 10. Platforms & Media Outlets */}
       <PlatformsMediaSection />
 
-      {/* ── 9. Case Studies ─────────────────────────────────────── */}
-      <DentalCaseStudiesSection />
+      {/* 11. Case Studies (hidden until real Dubai cases ready) */}
+      {/* <DentalCaseStudiesSection /> */}
 
-      {/* ── 10. FAQ ────────────────────────────────────────────── */}
+      {/* 12. FAQ */}
       <DentalFAQSection />
 
-      {/* ── 11. CTA ────────────────────────────────────────────── */}
+      {/* 13. Pricing (hidden per request 2026-05-15) */}
+
+      {/* 14. CTA */}
       <DentalCTASection />
 
-      {/* ── 12. Get in Touch ───────────────────────────────────── */}
+      {/* 15. Get in Touch */}
       <DentalContactSection />
     </main>
   );
