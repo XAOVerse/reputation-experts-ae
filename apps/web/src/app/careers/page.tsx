@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Careers",
   description:
     "Join Reputation Experts. We're building the future of online reputation management — and we're looking for talented people to join our team.",
+  robots: { index: false, follow: false },
 };
 
 const PERKS = [

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "About Us",
   description:
     "Reputation Experts is a UK-based online reputation management firm helping individuals and businesses take control of their digital presence.",
+  robots: { index: false, follow: false },
 };
 
 const MILESTONES = [

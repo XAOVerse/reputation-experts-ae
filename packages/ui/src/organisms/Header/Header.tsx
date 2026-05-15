@@ -24,8 +24,6 @@ const SOLUTIONS: { label: string; href: string }[] = [
 ];
 
 const DEFAULT_NAV: import("../../types").NavItem[] = [
-  { label: "About", href: "/about" },
-  { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
 ];
 
