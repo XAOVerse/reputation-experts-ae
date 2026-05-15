@@ -55,7 +55,7 @@ export default function AISearchPage() {
       <FeatureSplitSection
         eyebrow="Sentiment"
         heading="Understand how AI describes you, and why."
-        body="See review sentiment, strengths, weaknesses and recurring themes across every location and every AI search platform. Identify the patterns that drive trust and the ones that erode it, then prioritise the operational fixes that move both your AI visibility and your reviews."
+        body="A live SWOT view of how each AI search engine sees you per location: the strengths it consistently praises, the weaknesses it flags, the market opportunities it surfaces, and the competitive threats emerging in your category. Drill into the underlying reviews and citations driving each quadrant, then prioritise the operational fixes that move both your AI visibility and your reviews."
         illustration={<SentimentIllustration />}
         reverse
       />

@@ -158,43 +158,18 @@ export function AccuracyIllustration() {
   );
 }
 
-/* Sentiment — themes with positive/negative bars */
+/* Sentiment — SWOT view of how AI describes a business per location */
 export function SentimentIllustration() {
-  const themes = [
-    { name: "Multilingual staff", positive: 92 },
-    { name: "Treatment outcomes", positive: 88 },
-    { name: "Booking speed", positive: 74 },
-    { name: "Pricing clarity", positive: 53 },
-    { name: "Parking", positive: 34 },
-  ];
   return (
-    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-7 lg:p-9">
-      <p className="text-[11px] tracking-[0.18em] uppercase font-semibold text-[#5f6368] mb-1">
-        How AI describes you
-      </p>
-      <h3 className="text-[18px] font-semibold text-[#0f0f0f] mb-6">
-        Recurring themes across reviews and citations
-      </h3>
-      <ul className="space-y-4">
-        {themes.map((t) => (
-          <li key={t.name}>
-            <div className="flex items-center justify-between mb-1.5">
-              <span className="text-[13.5px] text-[#0f0f0f] font-medium">
-                {t.name}
-              </span>
-              <span className="text-[12px] text-[#5f6368] tabular-nums">
-                {t.positive}% positive
-              </span>
-            </div>
-            <div className="relative h-2.5 bg-[#fce8e6] rounded-full overflow-hidden">
-              <div
-                className="absolute inset-y-0 left-0 bg-[#2e7d32] rounded-full"
-                style={{ width: `${t.positive}%` }}
-              />
-            </div>
-          </li>
-        ))}
-      </ul>
+    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-4 sm:p-6 lg:p-8">
+      <img
+        src="/images/sentiment-swot.png"
+        alt="SWOT view of how AI describes a Dubai Marina business across strengths, weaknesses, opportunities and threats."
+        width={1504}
+        height={976}
+        className="w-full h-auto rounded-2xl"
+        loading="lazy"
+      />
     </div>
   );
 }
