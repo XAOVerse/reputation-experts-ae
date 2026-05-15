@@ -24,7 +24,7 @@ const DEFAULT_SERVICES: DentalServiceItem[] = [
   {
     name: "Online Reputation Audit",
     description:
-      "We start with a comprehensive reputation audit of your business, reviewing your Google rating, Trustpilot score, Instagram and Facebook sentiment, competitor positioning, how Google AI Overviews and ChatGPT present your business, how you rank against competitors across both traditional and AI-driven search, and any reviews that violate platform guidelines. This gives us a clear action plan to improve your online presence within 60–90 days.",
+      "We start with a comprehensive reputation audit of your business, reviewing your Google rating, Instagram and Facebook sentiment, competitor positioning, how Google AI Overviews and ChatGPT present your business, how you rank against competitors across both traditional and AI-driven search, and any reviews that violate platform guidelines. This gives us a clear action plan to improve your online presence within 60–90 days.",
     category: "All Services",
   },
   {
@@ -36,7 +36,7 @@ const DEFAULT_SERVICES: DentalServiceItem[] = [
   {
     name: "Review Generation",
     description:
-      "Consistent positive reviews increase trust, strengthen your online reputation, and influence buying decisions before a customer ever contacts your business. We help brands build a healthier review profile across the platforms that matter most — increasing review quality, improving rating strength, and supporting stronger commercial performance over time.",
+      "Consistent positive reviews increase trust, strengthen your online reputation, and influence buying decisions before a customer ever contacts your business. We help brands build a healthier review profile across the platforms that matter most, increasing review quality, improving rating strength, and supporting stronger commercial performance over time.",
     category: "Reviews",
   },
   {
@@ -184,7 +184,7 @@ export function DentalServicesSection({
 
           {/* ── DESKTOP: Two-column layout ──────────────────────── */}
           <div className="hidden lg:grid grid-cols-[1fr_1.2fr] gap-0 rounded-2xl overflow-hidden">
-            {/* Left — service list */}
+            {/* Left, service list */}
             <div>
               {filtered.map((service, i) => (
                 <button
@@ -238,7 +238,7 @@ export function DentalServicesSection({
               ))}
             </div>
 
-            {/* Right — detail panel */}
+            {/* Right, detail panel */}
             <div className="p-8 lg:p-10 flex flex-col min-h-[320px]">
               <div className="flex items-start justify-between gap-4 mb-5">
                 <h3 className="text-white font-semibold text-[clamp(1.1rem,2vw,1.45rem)] leading-[1.3] tracking-[-0.01em]">

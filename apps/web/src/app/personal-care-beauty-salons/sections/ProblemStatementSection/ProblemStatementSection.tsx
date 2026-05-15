@@ -61,7 +61,7 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
         className="absolute inset-0 rounded-2xl bg-black/50 pointer-events-none z-10 transition-opacity duration-300"
         style={{ opacity: hovered ? 1 : 0 }}
       />
-      {/* Card content — text anchored to bottom */}
+      {/* Card content, text anchored to bottom */}
       <div
         className="relative z-20 flex items-end w-full p-[18px_20px] md:p-[26px_30px] transition-colors duration-300"
         style={{ color: hovered ? "#ffffff" : "#1a1a1a" }}
@@ -92,17 +92,17 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
 
 const DEFAULT_PLATFORMS: PlatformCard[] = [
   { name: "Google Maps", hoverImage: "/images/image-1.webp" },
-  { name: "Trust Pilot", hoverImage: "/images/image-2.webp" },
+  { name: "ChatGPT", hoverImage: "/images/image-2.webp" },
   { name: "Google AI Overview", hoverImage: "/images/image-3.webp" },
-  { name: "Facebook", hoverImage: "/images/image-4.webp" },
+  { name: "Instagram", hoverImage: "/images/image-4.webp" },
 ];
 
 /* ─── Component ───────────────────────────────────────────────────────── */
 
 export function ProblemStatementSection({
   heading,
-  bodyLeft = "In 2026, Over 85% of clients read online reviews before booking a salon, barber, or beauty treatment. Reputation directly drives revenue. A practice with a poor online reputation loses clients to competitors every single day, even when the clinical care is identical. We close that gap by removing damaging reviews that drag your rating down and generating a consistent flow of new 5-star reviews that strengthen trust and push your rating up.",
-  bodyRight = "We also help ensure your business appears prominently when potential clients search on Google, ask ChatGPT, or browse AI Overviews. The result is more visibility, more clicks, more calls, and more booked appointments. Clients typically see a 30\u201350% increase in new client enquiries within the first three months.",
+  bodyLeft = "In 2026, over 90% of Dubai clients check Google reviews before booking a salon, barber, nail bar or beauty treatment. Reputation directly drives revenue. A salon with a poor online reputation loses clients to the studio next door every single day, even when the stylists, the products and the location are equally strong. We close that gap by removing damaging reviews that drag your rating down and generating a consistent stream of authentic multilingual 5-star reviews that strengthen trust and push your rating up.",
+  bodyRight = "We also ensure your salon appears prominently when clients search on Google or ask ChatGPT for salon recommendations in Dubai, including in Google AI Overviews. The result is more visibility in the markets that matter: GCC, UK, Russia, India, China and Europe. More new-client bookings, more package upgrades, and more repeat visits. Dubai salons typically see a 30 to 50% increase in new-client enquiries within the first three months.",
   platforms = DEFAULT_PLATFORMS,
 }: ProblemStatementSectionProps) {
   return (
@@ -118,7 +118,7 @@ export function ProblemStatementSection({
         >
           {heading ?? (
             <>
-              For many UK personal care and beauty businesses,{" "}
+              For many Dubai salons and beauty professionals,{" "}
               <strong className="font-bold">
                 poor reviews mean losing £3,000 to £30,000+ per year
               </strong>{" "}
