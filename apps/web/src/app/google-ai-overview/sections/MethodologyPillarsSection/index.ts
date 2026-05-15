@@ -1,0 +1,1 @@
+export { MethodologyPillarsSection } from "./MethodologyPillarsSection";

@@ -26,6 +26,17 @@ const nextConfig: NextConfig = {
         destination: "/bars-lounges-entertainment/:path*",
         permanent: true,
       },
+      // Short URL → canonical URL for the AI Overview page.
+      {
+        source: "/ai-overview",
+        destination: "/google-ai-overview",
+        permanent: true,
+      },
+      {
+        source: "/search-ai",
+        destination: "/google-ai-overview",
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
