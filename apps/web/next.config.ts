@@ -34,7 +34,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/search-ai",
-        destination: "/google-ai-overview",
+        destination: "/ai-search",
         permanent: true,
       },
     ];

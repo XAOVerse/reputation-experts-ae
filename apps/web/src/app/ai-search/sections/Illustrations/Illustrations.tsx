@@ -1,0 +1,242 @@
+"use client";
+
+import React from "react";
+
+/* Visibility — bar chart per AI engine showing rank share */
+export function VisibilityIllustration() {
+  const data = [
+    { engine: "Google AI Overview", you: 78, comp: 54 },
+    { engine: "ChatGPT", you: 64, comp: 71 },
+    { engine: "Perplexity", you: 56, comp: 39 },
+    { engine: "Gemini", you: 52, comp: 33 },
+  ];
+  return (
+    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-7 lg:p-9">
+      <div className="flex items-center justify-between mb-6">
+        <div>
+          <p className="text-[11px] tracking-[0.18em] uppercase font-semibold text-[#5f6368] mb-1">
+            AI visibility share
+          </p>
+          <h3 className="text-[18px] font-semibold text-[#0f0f0f]">
+            Your brand vs Dubai competitors
+          </h3>
+        </div>
+        <div className="hidden sm:flex gap-3 text-[12px]">
+          <span className="flex items-center gap-1.5">
+            <span className="w-3 h-3 rounded-sm bg-[#e8503a]" />
+            <span className="text-[#444]">You</span>
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-3 h-3 rounded-sm bg-[#e5e5e5]" />
+            <span className="text-[#444]">Competitor avg</span>
+          </span>
+        </div>
+      </div>
+      <ul className="space-y-4">
+        {data.map((row) => (
+          <li key={row.engine}>
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="text-[13.5px] text-[#0f0f0f] font-medium">
+                {row.engine}
+              </span>
+              <span className="text-[12px] text-[#5f6368]">{row.you}%</span>
+            </div>
+            <div className="relative h-2.5 bg-[#f5f5f5] rounded-full overflow-hidden">
+              <div
+                className="absolute inset-y-0 left-0 bg-[#e5e5e5] rounded-full"
+                style={{ width: `${row.comp}%` }}
+              />
+              <div
+                className="absolute inset-y-0 left-0 bg-[#e8503a] rounded-full"
+                style={{ width: `${row.you}%` }}
+              />
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+/* Citations — list of source websites */
+export function CitationsIllustration() {
+  const sites = [
+    { name: "Khaleej Times", cites: 142, you: true },
+    { name: "Time Out Dubai", cites: 128, you: true },
+    { name: "Condé Nast Traveller ME", cites: 96, you: true },
+    { name: "Gulf News", cites: 71, you: false },
+    { name: "The National", cites: 54, you: true },
+    { name: "Hotelier Middle East", cites: 38, you: false },
+  ];
+  return (
+    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-7 lg:p-9">
+      <p className="text-[11px] tracking-[0.18em] uppercase font-semibold text-[#5f6368] mb-1">
+        Top citation sources
+      </p>
+      <h3 className="text-[18px] font-semibold text-[#0f0f0f] mb-6">
+        Sites shaping AI answers about Dubai businesses
+      </h3>
+      <ul className="divide-y divide-[#f0f0f0]">
+        {sites.map((s) => (
+          <li key={s.name} className="flex items-center justify-between py-3">
+            <div className="flex items-center gap-3">
+              <span className="w-8 h-8 rounded-lg bg-[#f5f5f5] flex items-center justify-center text-[12px] font-semibold text-[#5f6368]">
+                {s.name[0]}
+              </span>
+              <span className="text-[14px] text-[#0f0f0f] font-medium">
+                {s.name}
+              </span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-[12px] text-[#5f6368] tabular-nums">
+                {s.cites} citations
+              </span>
+              {s.you ? (
+                <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-[#e8f5e9] text-[#2e7d32] font-semibold">
+                  You appear
+                </span>
+              ) : (
+                <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-[#fce8e6] text-[#c5221f] font-semibold">
+                  Gap
+                </span>
+              )}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+/* Accuracy — business profile fields with status */
+export function AccuracyIllustration() {
+  const fields = [
+    { name: "Business name", status: "ok", value: "Consistent" },
+    { name: "Categories", status: "warn", value: "Outdated on Gemini" },
+    { name: "Opening hours", status: "ok", value: "Synced everywhere" },
+    { name: "Phone number", status: "ok", value: "Verified" },
+    { name: "Languages served", status: "warn", value: "Missing Russian + Arabic" },
+    { name: "Service area", status: "err", value: "ChatGPT wrong" },
+  ];
+  return (
+    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-7 lg:p-9">
+      <p className="text-[11px] tracking-[0.18em] uppercase font-semibold text-[#5f6368] mb-1">
+        Profile accuracy
+      </p>
+      <h3 className="text-[18px] font-semibold text-[#0f0f0f] mb-6">
+        How AI engines currently describe you
+      </h3>
+      <ul className="space-y-3">
+        {fields.map((f) => {
+          const colors = {
+            ok: ["bg-[#e8f5e9]", "text-[#2e7d32]", "✓"],
+            warn: ["bg-[#fff4e0]", "text-[#b06000]", "!"],
+            err: ["bg-[#fce8e6]", "text-[#c5221f]", "✗"],
+          } as const;
+          const [bg, fg, icon] = colors[f.status as "ok" | "warn" | "err"];
+          return (
+            <li
+              key={f.name}
+              className="flex items-center justify-between bg-[#f7f5f1] rounded-xl px-4 py-3"
+            >
+              <div className="flex items-center gap-3">
+                <span
+                  className={`w-7 h-7 rounded-full flex items-center justify-center text-[14px] font-semibold ${bg} ${fg}`}
+                >
+                  {icon}
+                </span>
+                <span className="text-[14px] text-[#0f0f0f] font-medium">
+                  {f.name}
+                </span>
+              </div>
+              <span className="text-[12.5px] text-[#5f6368]">{f.value}</span>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
+
+/* Sentiment — themes with positive/negative bars */
+export function SentimentIllustration() {
+  const themes = [
+    { name: "Multilingual staff", positive: 92 },
+    { name: "Treatment outcomes", positive: 88 },
+    { name: "Booking speed", positive: 74 },
+    { name: "Pricing clarity", positive: 53 },
+    { name: "Parking", positive: 34 },
+  ];
+  return (
+    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-7 lg:p-9">
+      <p className="text-[11px] tracking-[0.18em] uppercase font-semibold text-[#5f6368] mb-1">
+        How AI describes you
+      </p>
+      <h3 className="text-[18px] font-semibold text-[#0f0f0f] mb-6">
+        Recurring themes across reviews and citations
+      </h3>
+      <ul className="space-y-4">
+        {themes.map((t) => (
+          <li key={t.name}>
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="text-[13.5px] text-[#0f0f0f] font-medium">
+                {t.name}
+              </span>
+              <span className="text-[12px] text-[#5f6368] tabular-nums">
+                {t.positive}% positive
+              </span>
+            </div>
+            <div className="relative h-2.5 bg-[#fce8e6] rounded-full overflow-hidden">
+              <div
+                className="absolute inset-y-0 left-0 bg-[#2e7d32] rounded-full"
+                style={{ width: `${t.positive}%` }}
+              />
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+/* AI agents — workflow with three steps */
+export function AIAgentsIllustration() {
+  const steps = [
+    { title: "Listings refresh", body: "Agents push Arabic + English copy to Google Business Profile, Apple Business Connect and Bing Places." },
+    { title: "Review generation", body: "Agents send multilingual review requests timed to checkout, treatment completion or project handover." },
+    { title: "Content updates", body: "Agents publish location-specific FAQs and service pages that AI engines cite." },
+  ];
+  return (
+    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-7 lg:p-9">
+      <p className="text-[11px] tracking-[0.18em] uppercase font-semibold text-[#5f6368] mb-1">
+        Agent activity, last 7 days
+      </p>
+      <h3 className="text-[18px] font-semibold text-[#0f0f0f] mb-6">
+        Tasks Search AI executed automatically
+      </h3>
+      <ul className="space-y-4">
+        {steps.map((s, i) => (
+          <li
+            key={s.title}
+            className="flex gap-4 items-start p-4 bg-[#f7f5f1] rounded-2xl"
+          >
+            <span className="flex-shrink-0 w-9 h-9 rounded-full bg-[#0f0f0f] text-white flex items-center justify-center text-[14px] font-semibold">
+              {i + 1}
+            </span>
+            <div>
+              <p className="text-[14.5px] font-semibold text-[#0f0f0f] mb-1">
+                {s.title}
+              </p>
+              <p className="text-[13px] text-[#5f6368] leading-[1.55]">
+                {s.body}
+              </p>
+            </div>
+            <span className="ml-auto text-[11px] px-2.5 py-0.5 rounded-full bg-[#e8f5e9] text-[#2e7d32] font-semibold whitespace-nowrap">
+              Live
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
