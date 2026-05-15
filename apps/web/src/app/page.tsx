@@ -27,8 +27,8 @@ export default function HomePage() {
       {/* ── 0. Main Hero ─────────────────────────────────────────── */}
       <MainHeroSection />
 
-      {/* Press logo strip */}
-      <TrustStripSection />
+      {/* Press logo strip — hidden per request 2026-05-15 */}
+      {/* <TrustStripSection /> */}
 
       {/* ── 0b. Online Reputation Experts ───────────────────────── */}
       <OnlineReputationExpertsSection />
