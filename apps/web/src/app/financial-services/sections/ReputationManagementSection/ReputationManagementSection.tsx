@@ -46,14 +46,14 @@ const DEFAULT_SERVICES: ServiceCard[] = [
   {
     title: "Reputation Protection",
     description:
-      "Real-time alerts whenever your practice is mentioned online. New review? We notify you. Negative article? We flag it. So you\u2019re never caught off guard again.",
+      "Real-time alerts whenever your firm is mentioned online. New review? We notify you. Negative article? We flag it. So you\u2019re never caught off guard again.",
   },
 ];
 
 /* ─── Component ───────────────────────────────────────────────────────── */
 
 export function ReputationManagementSection({
-  heading = "Reputation Management for Dental Clinics",
+  heading = "Reputation Management for Dubai Financial & Professional Services",
   services = DEFAULT_SERVICES,
 }: ReputationManagementSectionProps) {
   return (
