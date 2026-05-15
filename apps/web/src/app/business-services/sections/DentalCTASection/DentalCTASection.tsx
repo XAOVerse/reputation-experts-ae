@@ -75,7 +75,7 @@ export function DentalCTASection() {
 
             {/* Tagline */}
             <p className="text-white/35 text-[13px] sm:ml-4 leading-snug">
-              Join Dubai brokerages, investment firms, family offices and wealth managers who trust us to protect and grow their online presence.
+              Join Dubai company formation, PRO, visa, accounting and business setup firms who trust us to protect and grow their online presence.
             </p>
           </div>
 

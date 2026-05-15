@@ -21,7 +21,7 @@ const INDUSTRIES = [
   { label: "Retail",           image: "/images/industry-11.png", href: "/contact" },
   { label: "Entertainment",    image: "/images/industry-12.png", href: "/contact" },
   { label: "Contractors",      image: "/images/industry-13.png", href: "/contact" },
-  { label: "Business Services",image: "/images/industry-14.png", href: "/contact" },
+  { label: "Business Services",image: "/images/industry-14.png", href: "/business-services" },
   { label: "Automotive",       image: "/images/industry-15.png", href: "/contact" },
 ];
 

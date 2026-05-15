@@ -53,7 +53,7 @@ const DEFAULT_SERVICES: ServiceCard[] = [
 /* ─── Component ───────────────────────────────────────────────────────── */
 
 export function ReputationManagementSection({
-  heading = "Reputation Management for Dubai Financial Firms",
+  heading = "Reputation Management for Dubai Company Formation & Business Services",
   services = DEFAULT_SERVICES,
 }: ReputationManagementSectionProps) {
   return (

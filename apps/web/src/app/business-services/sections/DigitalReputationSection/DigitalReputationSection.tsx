@@ -32,7 +32,7 @@ const DEFAULT_TAGS = [
 
 export function DigitalReputationSection({
   heading = "Digital reputation management that covers every angle",
-  description = "Our approach brings together review management, reputation building, Google AI Overview optimisation, ChatGPT recommendation positioning, and major online media publications - all in one integrated service built specifically for Dubai brokerages, investment companies, family offices, wealth managers, financial advisors and insurance brokers. Every strategy is shaped around how Dubai investors and HNW clients actually search for and choose a financial firm online.",
+  description = "Our approach brings together review management, reputation building, Google AI Overview optimisation, ChatGPT recommendation positioning, and major online media publications - all in one integrated service built specifically for Dubai company formation specialists, business setup consultants, PRO services, visa and immigration consultants, business licensing agents, accountants, auditors and tax planners. Every strategy is shaped around how international founders actually search for and choose a Dubai business setup or PRO firm online.",
   tags = DEFAULT_TAGS,
   imageSrc = "/images/dental-2.png",
   imageAlt = "Reputation management wheel showing all service areas",

@@ -6,15 +6,15 @@ const DENTAL_FAQ = [
   {
     question: "How can Reputation Experts protect your business from harmful new reviews?",
     answer:
-      "We monitor your Google Business Profile and other platforms around the clock. The moment a new harmful review appears, our team is alerted and processes the removal, if the review can not be taken down, we craft a professional response on your behalf in the right language, showing prospective investors and HNW clients that your firm takes feedback seriously. You're never caught off guard by a review again.",
+      "We monitor your Google Business Profile and other platforms around the clock. The moment a new harmful review appears, our team is alerted and processes the removal, if the review can not be taken down, we craft a professional response on your behalf in the right language, showing prospective international founders that your firm takes feedback seriously. You're never caught off guard by a review again.",
   },
   {
-    question: "How long does it take to see results for my Dubai firm?",
+    question: "How long does it take to see results for my Dubai business setup or PRO firm?",
     answer:
       "Most practices see measurable improvement within 30 to 60 days. Review removal cases typically resolve in 1–3 weeks, depending on the platform, and our review generation system starts delivering new 5-star reviews within the first fortnight. By month three, you'll typically see a noticeable rating increase and a stronger first page on Google. Full reputation transformation - including AI Overview positioning and authority building - is a 4–6 month process.",
   },
   {
-    question: "How does Google's AI Overview affect my Dubai firm?",
+    question: "How does Google's AI Overview affect my Dubai business setup or PRO firm?",
     answer:
       "Google's AI Overviews now pull together information from reviews, your website, and third-party sources into a single AI-generated answer at the top of the search results. When someone searches for terms like \"best dentist near me\", Google no longer just shows a list of websites; it increasingly highlights and recommends specific practices. Reputation Experts strengthens your entire digital presence so your practice is in a far better position to be trusted and recommended by Google's AI. This includes improving your review profile, increasing rating strength and review volume, optimising trust signals across your web presence, and building authority through high-quality third-party coverage. When your firm is featured in trusted financial, business and lifestyle publications and reputable publications, something we specialise in, it creates the kind of authority signals that naturally improve how your firm is understood and recommended by Google AI Overviews, ChatGPT, and other AI-driven discovery platforms.",
   },
@@ -24,9 +24,9 @@ const DENTAL_FAQ = [
       "We work across three phases. First, we clean up, removing policy-violating reviews, suppressing negative search results, and fixing gaps in your Google Business Profile. Second, we strengthen, building a steady flow of genuine 5-star reviews from your existing patients using follow-up systems timed around mandate completion and onboarding, and publishing authoritative content that positions your firm as a trusted Dubai name online. Third, we establish long-term authority, securing press coverage, optimising for Google AI Overviews and ChatGPT recommendations, and providing ongoing monitoring so your reputation stays protected month after month.",
   },
   {
-    question: "How does Reputation Experts help my firm win more mandates and increase fee revenue?",
+    question: "How does Reputation Experts help my firm win more setup enquiries and increase fee revenue?",
     answer:
-      "In Dubai's financial and professional services market, reputation directly drives revenue. Over 80% of investors and founders check Google reviews before retaining a firm (unless existing clients). A firm sitting at lower star ratings loses mandates to a competitor at a higher score every single day, even when the partners, the track record and the fees are equally strong. We close that gap by removing unfair reviews that drag your rating down, generating a consistent stream of new 5-star reviews that push it up, and ensuring your practice appears prominently when potential patients search on Google, ask ChatGPT, or browse AI Overviews. The result is more clicks, more calls, and more booked appointments, clients typically see a 30–50% increase in new patient enquiries within the first three months.",
+      "In Dubai's business setup and company formation market, reputation directly drives revenue. Over 80% of investors and founders check Google reviews before retaining a firm (unless existing clients). A firm sitting at lower star ratings loses mandates to a competitor at a higher score every single day, even when the packages, the turnaround times and the free zone partnerships are equally strong. We close that gap by removing unfair reviews that drag your rating down, generating a consistent stream of new 5-star reviews that push it up, and ensuring your practice appears prominently when potential patients search on Google, ask ChatGPT, or browse AI Overviews. The result is more clicks, more calls, and more booked appointments, clients typically see a 30–50% increase in new patient enquiries within the first three months.",
   },
 ];
 

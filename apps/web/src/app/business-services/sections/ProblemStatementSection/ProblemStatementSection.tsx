@@ -101,8 +101,8 @@ const DEFAULT_PLATFORMS: PlatformCard[] = [
 
 export function ProblemStatementSection({
   heading,
-  bodyLeft = "In 2026, over 80% of Dubai investors and HNW clients check Google reviews before retaining a brokerage, family office, wealth manager or financial advisor. Reputation directly drives revenue. A firm with a poor online reputation loses mandates to the firm next door every single week, even when the partners, the track record and the licences are equally strong. We close that gap by removing damaging reviews that drag your rating down and generating a consistent stream of authentic multilingual 5-star reviews that strengthen trust and push your rating up.",
-  bodyRight = "We also ensure your firm appears prominently when investors, founders and corporate clients search on Google or ask ChatGPT for advisor recommendations in Dubai, including in Google AI Overviews. The result is more visibility in the markets that matter: GCC, UK, Russia, India, China and Europe. More qualified enquiries, more signed mandates, and more long-term client relationships. Dubai firms typically see a 30 to 50% increase in new client enquiries within the first three months.",
+  bodyLeft = "In 2026, international founders open businesses in Dubai from London, Mumbai, Moscow, Riyadh, Shanghai, Berlin and Paris, often before they have ever set foot in the UAE. They cannot visit your office. They cannot meet your team. They open Google Maps, compare a dozen company formation and PRO firms side by side, and pick the one with the most trustworthy review profile. A weak rating loses them every single day, even when your package, your free zone partnerships and your turnaround time are equally strong. We close that gap by removing damaging reviews that drag your rating down and generating a consistent stream of authentic multilingual 5-star reviews that strengthen trust and push your rating up.",
+  bodyRight = "We also ensure your firm appears prominently when international founders search on Google or ask ChatGPT for company formation, PRO, visa and business setup recommendations in Dubai, including in Google AI Overviews. The result is more visibility in the markets that matter: GCC, UK, Russia, India, China and Europe. More qualified setup enquiries, more signed packages, and more annual renewal and PRO retainer revenue. Dubai firms typically see a 30 to 50% increase in new setup enquiries within the first three months.",
   platforms = DEFAULT_PLATFORMS,
 }: ProblemStatementSectionProps) {
   return (
@@ -118,7 +118,7 @@ export function ProblemStatementSection({
         >
           {heading ?? (
             <>
-              For many Dubai brokerages and investment firms,{" "}
+              For many Dubai business setup and PRO firms,{" "}
               <strong className="font-bold">
                 poor reviews mean losing £60,000 to £180,000+ per year
               </strong>{" "}

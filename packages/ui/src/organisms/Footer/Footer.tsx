@@ -69,6 +69,7 @@ const DEFAULT_SOLUTIONS: { label: string; href: string }[] = [
   { label: "Solutions for Cleaning Services", href: "/cleaning-services" },
   { label: "Solutions for Auto Service Centres", href: "/auto-service-centres" },
   { label: "Solutions for Financial Services", href: "/financial-services" },
+  { label: "Solutions for Business Services", href: "/business-services" },
 ];
 
 const DEFAULT_SOCIALS: SocialLink[] = [];

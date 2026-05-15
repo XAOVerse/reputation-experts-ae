@@ -16,22 +16,22 @@ import { DentalCTASection } from "./sections/DentalCTASection";
 import { DentalContactSection } from "./sections/DentalContactSection";
 
 export const metadata: Metadata = {
-  title: "Dubai Financial Services | Brokerages, Investment Firms, Wealth Managers, Family Offices, Financial Advisors & Insurance Brokers | Multilingual Reputation Management",
+  title: "Dubai Business Services | Company Formation, PRO Services, Visa & Immigration, Business Licences, Accountants, Auditors & Tax Planners | Multilingual Reputation Management",
   description:
-    "Dubai's only multilingual reputation team built for brokerages, investment companies, family offices, wealth managers, financial advisors and insurance brokers. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your firm at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. For accountants, tax planners, company formation and business setup, see /business-services.",
+    "Dubai's only multilingual reputation team built for company formation specialists, business setup consultants, PRO services, visa and immigration consultants, business licensing agents, accountants, auditors and tax planners. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your firm at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee.",
 };
 
-export default function FinancialServicesPage() {
+export default function BusinessServicesPage() {
   return (
     <main>
       {/* 1. Hero */}
       <DentalHeroSection
-        headline="Dubai’s only multilingual reputation team built for financial firms."
-        subtitle="From brokerages and investment companies to family offices, wealth managers, financial advisors and insurance brokers. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your firm at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
+        headline="Dubai’s only multilingual reputation team built for company formation and business services."
+        subtitle="From company formation, business setup consultants and PRO services to visa and immigration consultants, business licensing agents, accountants, auditors and tax planners. International founders compare a dozen firms on Google Maps before they pick one, so a trustworthy review profile is the difference between closing the lead and losing it. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your firm at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
         ctaLabel="Get Your Free 7-Page Audit"
         ctaLink="/contact"
-        imageSrc="/images/financial-1.png"
-        imageAlt="Dubai financial services reputation management"
+        imageSrc="/images/business-services-1.png"
+        imageAlt="Dubai business services and company formation reputation management"
       />
 
       <TrustStripSection />
