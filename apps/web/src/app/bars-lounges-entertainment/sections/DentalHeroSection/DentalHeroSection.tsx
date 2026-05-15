@@ -15,12 +15,12 @@ export interface DentalHeroSectionProps {
 }
 
 export function DentalHeroSection({
-  headline = "We protect and grow Dental Clinics\u2019 online reputations.",
-  subtitle = "Improving online reputation directly affects clinics by helping them gain more bookings, build trust, and increase sales.",
+  headline = "Dubai\u2019s only multilingual reputation team built for entertainment venues.",
+  subtitle = "From bars, lounges, beach clubs and rooftops to cabarets, live venues and bowling. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your venue at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions.",
   ctaLabel = "Free Assessment",
   ctaLink = "/contact",
   imageSrc = "/images/bars-entertainment-1.png",
-  imageAlt = "Bar and lounge reputation",
+  imageAlt = "Dubai entertainment venue reputation",
 }: DentalHeroSectionProps) {
   return (
     <section

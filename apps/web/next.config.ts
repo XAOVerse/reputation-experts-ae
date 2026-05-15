@@ -13,6 +13,21 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "**.cloudinary.com" },
     ],
   },
+  async redirects() {
+    return [
+      // Legacy slug from Dubai menu re-launch (renamed 2026-05-15).
+      {
+        source: "/bars-lounges-nightlife",
+        destination: "/bars-lounges-entertainment",
+        permanent: true,
+      },
+      {
+        source: "/bars-lounges-nightlife/:path*",
+        destination: "/bars-lounges-entertainment/:path*",
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       {

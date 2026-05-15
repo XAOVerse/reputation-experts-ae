@@ -13,7 +13,7 @@ const SOLUTIONS: { label: string; href: string }[] = [
   { label: "Solutions for Car Rental Companies", href: "/car-rental" },
   { label: "Solutions for Automotive Showrooms", href: "/automotive-showrooms" },
   { label: "Solutions for Fit-Out Contractors", href: "/fit-out-contractors" },
-  { label: "Solutions for Bars, Lounges & Nightlife", href: "/bars-lounges-nightlife" },
+  { label: "Solutions for Bars, Lounges & Entertainment", href: "/bars-lounges-entertainment" },
   { label: "Solutions for Fitness, Spa & Wellness", href: "/fitness-spa-wellness" },
   { label: "Solutions for Personal Care & Beauty Salons", href: "/personal-care-beauty-salons" },
   { label: "Solutions for Home Services", href: "/home-services" },
