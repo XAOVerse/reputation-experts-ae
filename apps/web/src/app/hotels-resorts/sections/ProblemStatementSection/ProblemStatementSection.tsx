@@ -92,17 +92,17 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
 
 const DEFAULT_PLATFORMS: PlatformCard[] = [
   { name: "Google Maps", hoverImage: "/images/image-1.webp" },
-  { name: "Trust Pilot", hoverImage: "/images/image-2.webp" },
+  { name: "ChatGPT", hoverImage: "/images/image-2.webp" },
   { name: "Google AI Overview", hoverImage: "/images/image-3.webp" },
-  { name: "Facebook", hoverImage: "/images/image-4.webp" },
+  { name: "Instagram", hoverImage: "/images/image-4.webp" },
 ];
 
 /* ─── Component ───────────────────────────────────────────────────────── */
 
 export function ProblemStatementSection({
   heading,
-  bodyLeft = "In 2026, over 95% of international travellers read online reviews before booking a Dubai hotel , and most read between 7 and 10 reviews across multiple languages before deciding where to stay. With global travel sentiment softer and arrivals more sensitive than ever to regional headlines, every booking matters. Dubai properties with weak review profiles lose guests to the resort next door every single day , even when the rooms, the location and the service are identical. We close that gap by removing damaging reviews that drag your rating down and generating a steady flow of authentic 5-star reviews , in every language your guests speak , that strengthen trust and push your rating up.",
-  bodyRight = "We also ensure your property appears prominently when travellers search on Google or ask ChatGPT for hotel recommendations in Dubai, including in Google AI Overviews. The result is more visibility in the markets that matter , GCC, UK, Russia, India, China, Europe , more direct enquiries, and more confirmed bookings. Dubai clients typically see a 30\u201350% increase in new booking enquiries within the first three months.",
+  bodyLeft = "In 2026, over 95% of international travellers read online reviews before booking a Dubai hotel, and most read between 7 and 10 reviews across multiple languages before deciding where to stay. With global travel sentiment softer and arrivals more sensitive than ever to regional headlines, every booking matters. Dubai properties with weak review profiles lose guests to the resort next door every single day, even when the rooms, the location and the service are identical. We close that gap by removing damaging reviews that drag your rating down and generating a steady flow of authentic 5-star reviews, in every language your guests speak, that strengthen trust and push your rating up.",
+  bodyRight = "We also ensure your property appears prominently when travellers search on Google or ask ChatGPT for hotel recommendations in Dubai, including in Google AI Overviews. The result is more visibility in the markets that matter: GCC, UK, Russia, India, China and Europe. More direct enquiries, and more confirmed bookings. Dubai clients typically see a 30\u201350% increase in new booking enquiries within the first three months.",
   platforms = DEFAULT_PLATFORMS,
 }: ProblemStatementSectionProps) {
   return (

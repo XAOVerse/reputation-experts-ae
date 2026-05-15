@@ -32,7 +32,7 @@ const DEFAULT_TAGS = [
 
 export function DigitalReputationSection({
   heading = "Digital reputation management that covers every angle",
-  description = "Our approach brings together review management, reputation building, Google AI Overview optimisation, ChatGPT recommendation positioning, and coverage in major international travel media , all in one integrated service built specifically for Dubai hotels and resorts. Every strategy is shaped around how international travellers actually search for, compare, and book a Dubai hotel , in every language they speak.",
+  description = "Our approach brings together review management, reputation building, Google AI Overview optimisation, ChatGPT recommendation positioning, and coverage in major international travel media, all in one integrated service built specifically for Dubai hotels and resorts. Every strategy is shaped around how international travellers actually search for, compare, and book a Dubai hotel, in every language they speak.",
   tags = DEFAULT_TAGS,
   imageSrc = "/images/dental-2.png",
   imageAlt = "Reputation management wheel showing all service areas",

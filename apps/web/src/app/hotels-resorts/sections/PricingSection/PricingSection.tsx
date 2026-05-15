@@ -29,18 +29,18 @@ const TIERS: Tier[] = [
     tagline: "Protect what you have built.",
     price: "AED 4,950",
     priceSuffix: "/ month",
-    ideal: "Best for boutique hotels, guest houses and 4-star properties up to 100 rooms , single location.",
+    ideal: "Best for boutique hotels, guest houses and 4-star properties up to 100 rooms, single location.",
     cta: "Start with Foundation",
     ctaHref: "/contact",
     features: [
-      "24/7 monitoring across Google, Booking.com, TripAdvisor, Trustpilot",
+      "24/7 monitoring across Google Business Profile, Google AI Overviews and ChatGPT recommendations",
       "Up to 5 review removal cases per month",
       "Multilingual review responses in English and Arabic",
-      "Authentic 5-star review generation campaign , target +20 verified reviews per month",
+      "Authentic 5-star review generation campaign, target +20 verified reviews per month",
       "Google Business Profile optimisation",
       "Monthly performance dashboard and reporting",
       "Direct WhatsApp support, replies within 4 working hours",
-      "90-day money-back guarantee , hit your written goals or full refund, no questions",
+      "90-day money-back guarantee, hit your written goals or full refund, no questions",
     ],
   },
   {
@@ -48,22 +48,22 @@ const TIERS: Tier[] = [
     tagline: "Outrank the resort next door.",
     price: "AED 11,500",
     priceSuffix: "/ month",
-    ideal: "Best for established 4 and 5-star hotels with 100\u2013300 rooms competing for direct bookings , single location.",
+    ideal: "Best for established 4 and 5-star hotels with 100\u2013300 rooms competing for direct bookings, single location.",
     cta: "Start with Growth",
     ctaHref: "/contact",
     highlight: true,
     highlightLabel: "Most chosen by Dubai hotels",
     features: [
       "Everything in Foundation",
-      "Unlimited review removal cases , no monthly cap",
+      "Unlimited review removal cases, no monthly cap",
       "Multilingual review responses in 5 languages: English, Arabic, Russian, Mandarin, German or French",
-      "Multilingual review generation campaign , target +50 verified reviews per month",
+      "Multilingual review generation campaign, target +50 verified reviews per month",
       "Google AI Overview optimisation for high-intent Dubai search queries",
       "ChatGPT and Perplexity citation positioning",
       "Schema markup and structured data implementation",
       "One PR placement per quarter in international travel or lifestyle media",
       "Bi-weekly strategy call with a dedicated reputation manager",
-      "90-day money-back guarantee , hit your written goals or full refund, no questions",
+      "90-day money-back guarantee, hit your written goals or full refund, no questions",
     ],
   },
   {
@@ -71,20 +71,20 @@ const TIERS: Tier[] = [
     tagline: "Become the obvious recommendation.",
     price: "AED 22,500",
     priceSuffix: "/ month",
-    ideal: "Best for 5-star resorts and luxury properties , single flagship location, white-glove engagement.",
+    ideal: "Best for 5-star resorts and luxury properties, single flagship location, white-glove engagement.",
     cta: "Speak to a director",
     ctaHref: "/contact",
     features: [
       "Everything in Growth",
       "Monthly PR placement in international travel and luxury publications (Cond\u00e9 Nast Traveller, Travel + Leisure, TimeOut, Skift, Hotelier Middle East)",
       "Booking.com Genius and Preferred Partner status acceleration",
-      "24/7 crisis response hotline , first response within 60 minutes, in any language",
+      "24/7 crisis response hotline, first response within 60 minutes, in any language",
       "One verified influencer partnership per quarter (luxury and Dubai-resident creators)",
       "Authentic review generation in 8 languages, including Spanish, Italian and Korean",
       "Dedicated account director with hospitality background",
       "Quarterly executive review presented to GM and ownership",
       "Custom luxury reputation strategy tailored to your property\u2019s positioning",
-      "90-day money-back guarantee , hit your written goals or full refund, no questions",
+      "90-day money-back guarantee, hit your written goals or full refund, no questions",
     ],
   },
 ];
@@ -109,7 +109,7 @@ export function PricingSection() {
             Transparent pricing. 100% money-back guarantee. No long-term lock-in.
           </h2>
           <p className="text-[#555] text-[15px] leading-[1.7]">
-            Three engagement tiers built around the realities of Dubai hospitality. All plans bill monthly, cancel anytime, and come with a written 90-day money-back guarantee , if we don\u2019t hit the agreed targets, you receive a full refund of every dirham paid.
+            Three engagement tiers built around the realities of Dubai hospitality. All plans bill monthly, cancel anytime, and come with a written 90-day money-back guarantee. If we don\u2019t hit the agreed targets, you receive a full refund of every dirham paid.
           </p>
         </div>
 
