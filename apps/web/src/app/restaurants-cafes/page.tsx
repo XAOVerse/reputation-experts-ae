@@ -1,67 +1,78 @@
 import type { Metadata } from "next";
 import { DentalHeroSection } from "./sections/DentalHeroSection";
+import { TrustStripSection } from "./sections/TrustStripSection";
 import { ProblemStatementSection } from "./sections/ProblemStatementSection";
+import { DubaiInsightSection } from "./sections/DubaiInsightSection";
 import { ReputationManagementSection } from "./sections/ReputationManagementSection";
 import { DentalServicesSection } from "./sections/DentalServicesSection";
 import { DigitalReputationSection } from "./sections/DigitalReputationSection";
 import { IndustryAuthoritySection } from "./sections/IndustryAuthoritySection";
 import { GoogleAIOverviewSection } from "./sections/GoogleAIOverviewSection";
 import { PlatformsMediaSection } from "./sections/PlatformsMediaSection";
-import { DentalCaseStudiesSection } from "./sections/DentalCaseStudiesSection";
+// import { DentalCaseStudiesSection } from "./sections/DentalCaseStudiesSection"; // Hidden until real Dubai cases ready
 import { DentalFAQSection } from "./sections/DentalFAQSection";
+// Pricing intentionally hidden per request 2026-05-15
 import { DentalCTASection } from "./sections/DentalCTASection";
 import { DentalContactSection } from "./sections/DentalContactSection";
 
 export const metadata: Metadata = {
-  title: "Restaurants & Cafes - Reputation Management for Restaurants & Cafes",
+  title: "Dubai Restaurants & Cafés | Multilingual Reputation Management with 90-Day Money-Back Guarantee",
   description:
-    "We protect, repair, and grow the online reputations of restaurants and cafes. Deal with damaging reviews, strengthen your score across Google, TripAdvisor, OpenTable, Facebook, Yelp and turn trust into more bookings.",
+    "Dubai's only multilingual reputation team built for restaurants and cafés. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your venue at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee.",
 };
 
-export default function Home2Page() {
+export default function RestaurantsCafesPage() {
   return (
     <main>
-      {/* ── 1. Hero ──────────────────────────────────────────────── */}
+      {/* 1. Hero */}
       <DentalHeroSection
-        headline="We protect, repair, and grow the online reputations of restaurants and cafes."
-        subtitle="Your online reputation can be the difference between a full restaurant and empty tables. We help restaurants deal with damaging reviews, strengthen score across Google, TripAdvisor, OpenTable, Facebook, Yelp and turn that trust into more bookings."
-        ctaLabel="Free Assessment"
+        headline="Dubai’s only multilingual reputation team built for restaurants and cafés."
+        subtitle="We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your venue at the top of Google Maps and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
+        ctaLabel="Get Your Free 7-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/restaurant-1.png"
-        imageAlt="Restaurant reputation management"
+        imageAlt="Dubai restaurant and café reputation management"
       />
 
-      {/* ── 2. Problem Statement + Platform Cards ────────────────── */}
+      {/* 2. Trust Strip (press logos) */}
+      <TrustStripSection />
+
+      {/* 3. Problem Statement + Platform Cards */}
       <ProblemStatementSection />
 
-      {/* ── 3. Reputation Management Services ────────────────────── */}
+      {/* 4. Dubai-specific market insight */}
+      <DubaiInsightSection />
+
+      {/* 5. Reputation Management Services */}
       <ReputationManagementSection />
 
-      {/* ── 4. Services (accordion + detail panel) ───────────────── */}
+      {/* 6. Services accordion + detail panel */}
       <DentalServicesSection />
 
-      {/* ── 5. Digital Reputation Management ──────────────────────── */}
+      {/* 7. Digital Reputation Management */}
       <DigitalReputationSection />
 
-      {/* ── 6. Industry Authority Brand in 6 Months ──────────────── */}
+      {/* 8. Industry Authority Brand in 6 Months */}
       <IndustryAuthoritySection />
 
-      {/* ── 7. Google AI Overview ─────────────────────────────────── */}
+      {/* 9. Google AI Overview */}
       <GoogleAIOverviewSection />
 
-      {/* ── 8. Platforms & Media Outlets ──────────────────────────── */}
+      {/* 10. Platforms & Media Outlets */}
       <PlatformsMediaSection />
 
-      {/* ── 9. Case Studies ─────────────────────────────────────── */}
-      <DentalCaseStudiesSection />
+      {/* 11. Case Studies (hidden until real Dubai cases ready) */}
+      {/* <DentalCaseStudiesSection /> */}
 
-      {/* ── 10. FAQ ────────────────────────────────────────────── */}
+      {/* 12. FAQ */}
       <DentalFAQSection />
 
-      {/* ── 11. CTA ────────────────────────────────────────────── */}
+      {/* 13. Pricing (hidden per request 2026-05-15) */}
+
+      {/* 14. CTA */}
       <DentalCTASection />
 
-      {/* ── 12. Get in Touch ───────────────────────────────────── */}
+      {/* 15. Get in Touch */}
       <DentalContactSection />
     </main>
   );

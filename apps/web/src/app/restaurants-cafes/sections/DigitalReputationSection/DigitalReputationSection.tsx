@@ -18,7 +18,7 @@ export interface DigitalReputationSectionProps {
 const DEFAULT_TAGS = [
   "Harmful Review Removal",
   "Google Review Growth",
-  "Trustpilot Review Growth",
+  "Google AI Overview Visibility",
   "Authority Content Publishing",
   "National Press Features",
   "Negative Content Suspension",
