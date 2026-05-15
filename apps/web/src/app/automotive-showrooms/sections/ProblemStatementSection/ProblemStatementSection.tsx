@@ -61,7 +61,7 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
         className="absolute inset-0 rounded-2xl bg-black/50 pointer-events-none z-10 transition-opacity duration-300"
         style={{ opacity: hovered ? 1 : 0 }}
       />
-      {/* Card content — text anchored to bottom */}
+      {/* Card content, text anchored to bottom */}
       <div
         className="relative z-20 flex items-end w-full p-[18px_20px] md:p-[26px_30px] transition-colors duration-300"
         style={{ color: hovered ? "#ffffff" : "#1a1a1a" }}
@@ -92,17 +92,17 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
 
 const DEFAULT_PLATFORMS: PlatformCard[] = [
   { name: "Google Maps", hoverImage: "/images/image-1.webp" },
-  { name: "Trust Pilot", hoverImage: "/images/image-2.webp" },
+  { name: "ChatGPT", hoverImage: "/images/image-2.webp" },
   { name: "Google AI Overview", hoverImage: "/images/image-3.webp" },
-  { name: "Facebook", hoverImage: "/images/image-4.webp" },
+  { name: "Instagram", hoverImage: "/images/image-4.webp" },
 ];
 
 /* ─── Component ───────────────────────────────────────────────────────── */
 
 export function ProblemStatementSection({
   heading,
-  bodyLeft = "In 2026, Over 95% of car buyers read online reviews before visiting a dealership. Reputation directly drives revenue. A practice with a poor online reputation loses customers to competitors every single day, even when the clinical care is identical. We close that gap by removing damaging reviews that drag your rating down and generating a consistent flow of new 5-star reviews that strengthen trust and push your rating up.",
-  bodyRight = "We also help ensure your dealership appears prominently when potential customers search on Google, ask ChatGPT, or browse AI Overviews. The result is more visibility, more clicks, more calls, and more booked appointments. Clients typically see a 30\u201350% increase in new customer enquiries within the first three months.",
+  bodyLeft = "In 2026, over 95% of Dubai car buyers and international exporters check Google reviews before walking into a showroom or wiring a deposit. Reputation directly drives revenue. A showroom or dealer with a poor online reputation loses customers to the brand next door every single day, even when the inventory, the pricing and the after-sales are identical. We close that gap by removing damaging reviews that drag your rating down and generating a consistent stream of authentic multilingual 5-star reviews that strengthen trust and push your rating up.",
+  bodyRight = "We also ensure your showroom appears prominently when buyers, exporters and importers search on Google or ask ChatGPT for car recommendations in Dubai, including in Google AI Overviews. The result is more visibility in the markets that matter: GCC, UK, Russia, India, China, Africa and Europe. More showroom visits, more direct enquiries, and more confirmed export orders. Dubai showrooms typically see a 30 to 50% increase in new buyer enquiries within the first three months.",
   platforms = DEFAULT_PLATFORMS,
 }: ProblemStatementSectionProps) {
   return (
@@ -118,7 +118,7 @@ export function ProblemStatementSection({
         >
           {heading ?? (
             <>
-              For many UK dealerships & garages,{" "}
+              For many Dubai auto showrooms, dealers and exporters,{" "}
               <strong className="font-bold">
                 poor reviews mean losing £500 on a service to £50,000+ per year
               </strong>{" "}

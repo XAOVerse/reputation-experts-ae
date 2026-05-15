@@ -3,7 +3,7 @@
 import React from "react";
 import styles from "./PlatformsMediaSection.module.css";
 
-/* ——— SVG Logos ———————————————————————————————————————————————————————— */
+/*,,, SVG Logos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
 
 const CBSLogo = () => (
   <img src="/images/cbs-logo.svg" alt="CBS" style={{ width: 51, height: 15, objectFit: "contain" }} />
@@ -57,7 +57,7 @@ const ArrowUpRight = () => (
   </svg>
 );
 
-/* ——— Card overlay content (same as AwardsStrip homepage) ————————————— */
+/*,,, Card overlay content (same as AwardsStrip homepage),,,,,,,,,,,,, */
 
 const APOverlay = () => (
   <div className="flex items-center justify-center w-full h-full" style={{ position: "relative" }}>
@@ -86,7 +86,7 @@ const YahooFinanceOverlay = () => (
   </div>
 );
 
-/* ——— Data ————————————————————————————————————————————————————————————— */
+/*,,, Data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
 
 const MENTIONS = [
   { logo: <CBSLogo />, name: "CBS", url: "#" },
@@ -112,7 +112,7 @@ const MEDIA_IMAGES = [
   { src: "/images/media-11.png", alt: "Media partner 11" },
 ];
 
-/* ——— Media card — white bg + dark overlay by default, image + white overlay on hover ——— */
+/*,,, Media card, white bg + dark overlay by default, image + white overlay on hover,,, */
 
 function MediaCardItem({ image, overlay, url }: { image?: string; overlay: React.ReactNode; url: string }) {
   const [hovered, setHovered] = React.useState(false);
@@ -141,7 +141,7 @@ function MediaCardItem({ image, overlay, url }: { image?: string; overlay: React
   );
 }
 
-/* ——— Component ———————————————————————————————————————————————————————— */
+/*,,, Component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
 
 export function PlatformsMediaSection() {
   return (
@@ -152,14 +152,14 @@ export function PlatformsMediaSection() {
     >
       <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10">
 
-        {/* —— Heading ————————————————————————————————————————————————————— */}
+        {/*,, Heading,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */}
         <h2
           className="text-[#1a1a1a] font-medium text-[clamp(1.75rem,3.2vw,2.5rem)] leading-[1.15] tracking-[-0.02em] mb-8 lg:mb-10"
         >
           Platforms &amp; Media Outlets
         </h2>
 
-        {/* —— 3-column grid (mentions + 2 card cols) ————————————————————— */}
+        {/*,, 3-column grid (mentions + 2 card cols),,,,,,,,,,,,,,,,,,,,, */}
         <div className={styles.grid}>
 
           {/* Left: mention list */}
@@ -186,7 +186,7 @@ export function PlatformsMediaSection() {
           </div>
         </div>
 
-        {/* —— Media Partners carousel ———————————————————————————————————— */}
+        {/*,, Media Partners carousel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */}
         <div className="mt-14 lg:mt-16">
           <h3 className="text-[#1a1a1a] text-[clamp(1.75rem,3.2vw,2.5rem)] font-medium tracking-[-0.02em] mb-6">
             Media Partners
