@@ -18,7 +18,7 @@ export interface DigitalReputationSectionProps {
 const DEFAULT_TAGS = [
   "Harmful Review Removal",
   "Google Review Growth",
-  "Trustpilot Review Growth",
+  "Google AI Overview Visibility",
   "Authority Content Publishing",
   "National Press Features",
   "Negative Content Suspension",
@@ -32,7 +32,7 @@ const DEFAULT_TAGS = [
 
 export function DigitalReputationSection({
   heading = "Digital reputation management that covers every angle",
-  description = "Our approach brings together review management, reputation building, Google AI Overview optimisation, ChatGPT recommendation positioning, and major online media publications - all in one integrated service built specifically for UK construction companies and contractors. Every strategy is shaped around how homeowners actually search for and choose their builder or contractor online.",
+  description = "Our approach brings together review management, reputation building, Google AI Overview optimisation, ChatGPT recommendation positioning, and major online media publications, all in one integrated service built specifically for Dubai fit-out contractors and interior contracting firms. Every strategy is shaped around how Dubai developers and consultants actually search for and choose a contractor online.",
   tags = DEFAULT_TAGS,
   imageSrc = "/images/dental-2.png",
   imageAlt = "Reputation management wheel showing all service areas",

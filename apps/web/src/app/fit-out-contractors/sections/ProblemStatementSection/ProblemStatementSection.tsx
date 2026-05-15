@@ -61,7 +61,7 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
         className="absolute inset-0 rounded-2xl bg-black/50 pointer-events-none z-10 transition-opacity duration-300"
         style={{ opacity: hovered ? 1 : 0 }}
       />
-      {/* Card content — text anchored to bottom */}
+      {/* Card content, text anchored to bottom */}
       <div
         className="relative z-20 flex items-end w-full p-[18px_20px] md:p-[26px_30px] transition-colors duration-300"
         style={{ color: hovered ? "#ffffff" : "#1a1a1a" }}
@@ -92,17 +92,17 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
 
 const DEFAULT_PLATFORMS: PlatformCard[] = [
   { name: "Google Maps", hoverImage: "/images/image-1.webp" },
-  { name: "Trust Pilot", hoverImage: "/images/image-2.webp" },
+  { name: "ChatGPT", hoverImage: "/images/image-2.webp" },
   { name: "Google AI Overview", hoverImage: "/images/image-3.webp" },
-  { name: "Facebook", hoverImage: "/images/image-4.webp" },
+  { name: "Instagram", hoverImage: "/images/image-4.webp" },
 ];
 
 /* ─── Component ───────────────────────────────────────────────────────── */
 
 export function ProblemStatementSection({
   heading,
-  bodyLeft = "In 2026, Over 85% of homeowners check online reviews before hiring a builder or contractor. Reputation directly drives revenue. A practice with a poor online reputation loses clients to competitors every single day, even when the clinical care is identical. We close that gap by removing damaging reviews that drag your rating down and generating a consistent flow of new 5-star reviews that strengthen trust and push your rating up.",
-  bodyRight = "We also help ensure your business appears prominently when potential clients search on Google, ask ChatGPT, or browse AI Overviews. The result is more visibility, more clicks, more calls, and more booked appointments. Clients typically see a 30\u201350% increase in new client enquiries within the first three months.",
+  bodyLeft = "In 2026, over 85% of Dubai developers, consultants and end-clients check Google reviews before inviting a fit-out contractor to tender. Reputation directly drives revenue. A contracting firm with a poor online reputation loses tender invitations to the company next door every single day, even when the technical capability, the team and the track record are equally strong. We close that gap by removing damaging reviews that drag your rating down and generating a consistent stream of authentic multilingual 5-star reviews that strengthen trust and push your rating up.",
+  bodyRight = "We also ensure your firm appears prominently when developers, consultants and end-clients search on Google or ask ChatGPT for contractor recommendations in Dubai, including in Google AI Overviews. The result is more visibility in the markets that matter: hospitality, retail, F&B, residential, commercial offices and government projects. More tender invitations, more shortlists, and more awarded contracts. Dubai contractors typically see a 30 to 50% increase in new client enquiries within the first three months.",
   platforms = DEFAULT_PLATFORMS,
 }: ProblemStatementSectionProps) {
   return (
@@ -118,7 +118,7 @@ export function ProblemStatementSection({
         >
           {heading ?? (
             <>
-              For many UK construction businesses,{" "}
+              For many Dubai fit-out contractors,{" "}
               <strong className="font-bold">
                 poor reviews mean losing £5,000 to £500,000+ per year
               </strong>{" "}
