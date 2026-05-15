@@ -153,10 +153,10 @@ export function DentalContactSection() {
                   </div>
                 </div>
 
-                {/* Google Maps / Trustpilot Link */}
+                {/* Google Maps Link */}
                 <div>
                   <label className="block text-[#0f0f0f] text-[14px] font-medium mb-1.5">
-                    Google Maps / Trustpilot Link
+                    Google Maps Link
                   </label>
                   <textarea
                     placeholder="Something about your great idea"
@@ -280,7 +280,7 @@ export function DentalContactSection() {
                 <div>
                   <p className="text-[#0f0f0f] font-semibold text-[15px] mb-1.5">Free Reputation Audit</p>
                   <p className="text-[#666] text-[13px] leading-[1.65]">
-                    We review your Google, Trustpilot, and social profiles within 24 hours and identify every review that can be challenged.
+                    We review your Google Business Profile and social profiles within 24 hours and identify every review that can be challenged.
                   </p>
                 </div>
               </div>

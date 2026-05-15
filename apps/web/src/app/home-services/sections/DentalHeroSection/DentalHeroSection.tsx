@@ -15,12 +15,12 @@ export interface DentalHeroSectionProps {
 }
 
 export function DentalHeroSection({
-  headline = "We protect and grow Dental Clinics\u2019 online reputations.",
-  subtitle = "Improving online reputation directly affects clinics by helping them gain more bookings, build trust, and increase sales.",
+  headline = "Dubai\u2019s only multilingual reputation team built for home services companies.",
+  subtitle = "From AC servicing and plumbing to electrical, handyman, painting, carpentry, pest control, moving, landscaping, gardening and pool maintenance. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your business at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions.",
   ctaLabel = "Free Assessment",
   ctaLink = "/contact",
   imageSrc = "/images/home-services-1.png",
-  imageAlt = "Home services professional reputation",
+  imageAlt = "Dubai home services reputation",
 }: DentalHeroSectionProps) {
   return (
     <section

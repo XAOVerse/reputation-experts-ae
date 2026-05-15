@@ -61,7 +61,7 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
         className="absolute inset-0 rounded-2xl bg-black/50 pointer-events-none z-10 transition-opacity duration-300"
         style={{ opacity: hovered ? 1 : 0 }}
       />
-      {/* Card content — text anchored to bottom */}
+      {/* Card content, text anchored to bottom */}
       <div
         className="relative z-20 flex items-end w-full p-[18px_20px] md:p-[26px_30px] transition-colors duration-300"
         style={{ color: hovered ? "#ffffff" : "#1a1a1a" }}
@@ -92,17 +92,17 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
 
 const DEFAULT_PLATFORMS: PlatformCard[] = [
   { name: "Google Maps", hoverImage: "/images/image-1.webp" },
-  { name: "Trust Pilot", hoverImage: "/images/image-2.webp" },
+  { name: "ChatGPT", hoverImage: "/images/image-2.webp" },
   { name: "Google AI Overview", hoverImage: "/images/image-3.webp" },
-  { name: "Facebook", hoverImage: "/images/image-4.webp" },
+  { name: "Instagram", hoverImage: "/images/image-4.webp" },
 ];
 
 /* ─── Component ───────────────────────────────────────────────────────── */
 
 export function ProblemStatementSection({
   heading,
-  bodyLeft = "In 2026, Over 80% of customers read online reviews before hiring a deep cleaning company or cleaning service. Reputation directly drives revenue. A business with a poor online reputation loses customers to competitors every single day, even when the companyal care is identical. We close that gap by removing damaging reviews that drag your rating down and generating a consistent flow of new 5-star reviews that strengthen trust and push your rating up.",
-  bodyRight = "We also help ensure your business appears prominently when potential customers search on Google, ask ChatGPT, or browse AI Overviews. The result is more visibility, more clicks, more calls, and more booked appointments. Clients typically see a 30\u201350% increase in new customer enquiries within the first three months.",
+  bodyLeft = "In 2026, over 90% of Dubai residents and property managers check Google reviews before booking a cleaning company, maid service or end-of-tenancy clean. Reputation directly drives revenue. A cleaning company with a poor online reputation loses jobs to the company next door every single day, even when the staff, the equipment and the pricing are equally strong. We close that gap by removing damaging reviews that drag your rating down and generating a consistent stream of authentic multilingual 5-star reviews that strengthen trust and push your rating up.",
+  bodyRight = "We also ensure your company appears prominently when residents and property managers search on Google or ask ChatGPT for cleaning recommendations in Dubai, including in Google AI Overviews. The result is more visibility in the neighbourhoods that matter: Marina, JBR, Downtown, Business Bay, Palm Jumeirah, Arabian Ranches, Damac Hills, JVC and beyond. More one-off jobs, more monthly cleaning retainers, and more end-of-tenancy contracts. Dubai cleaning companies typically see a 30 to 50% increase in new customer enquiries within the first three months.",
   platforms = DEFAULT_PLATFORMS,
 }: ProblemStatementSectionProps) {
   return (
@@ -118,7 +118,7 @@ export function ProblemStatementSection({
         >
           {heading ?? (
             <>
-              For many UK cleaning businesses,{" "}
+              For many Dubai cleaning and maid service companies,{" "}
               <strong className="font-bold">
                 poor reviews mean losing £2,000 to £20,000+ per year
               </strong>{" "}

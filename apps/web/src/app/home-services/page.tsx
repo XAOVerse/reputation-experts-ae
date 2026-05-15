@@ -1,67 +1,51 @@
 import type { Metadata } from "next";
 import { DentalHeroSection } from "./sections/DentalHeroSection";
+import { TrustStripSection } from "./sections/TrustStripSection";
 import { ProblemStatementSection } from "./sections/ProblemStatementSection";
+import { DubaiInsightSection } from "./sections/DubaiInsightSection";
 import { ReputationManagementSection } from "./sections/ReputationManagementSection";
 import { DentalServicesSection } from "./sections/DentalServicesSection";
 import { DigitalReputationSection } from "./sections/DigitalReputationSection";
 import { IndustryAuthoritySection } from "./sections/IndustryAuthoritySection";
 import { GoogleAIOverviewSection } from "./sections/GoogleAIOverviewSection";
 import { PlatformsMediaSection } from "./sections/PlatformsMediaSection";
-import { DentalCaseStudiesSection } from "./sections/DentalCaseStudiesSection";
+// import { DentalCaseStudiesSection } from "./sections/DentalCaseStudiesSection"; // Hidden until real Dubai cases ready
 import { DentalFAQSection } from "./sections/DentalFAQSection";
+// Pricing intentionally hidden per request 2026-05-15
 import { DentalCTASection } from "./sections/DentalCTASection";
 import { DentalContactSection } from "./sections/DentalContactSection";
 
 export const metadata: Metadata = {
-  title: "Home Services - Reputation Management for Plumbers, Electricians, Heating Engineers & Tradespeople",
+  title: "Dubai Home Services | AC, Plumbing, Electrical, Handyman, Painting, Carpentry, Pest Control & Pool Maintenance | Multilingual Reputation Management",
   description:
-    "We protect and grow the online reputations of home service professionals: plumbers, electricians, heating engineers, roofers, landscapers, locksmiths, and more. Remove damaging reviews, strengthen your ratings, and win more jobs.",
+    "Dubai's only multilingual reputation team built for home services companies: AC servicing, plumbing, electrical, handyman, painting, carpentry, pest control, moving, landscaping, gardening and pool maintenance. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your business at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee.",
 };
 
-export default function Home2Page() {
+export default function HomeServicesPage() {
   return (
     <main>
-      {/* ── 1. Hero ──────────────────────────────────────────────── */}
       <DentalHeroSection
-        headline="We protect and grow Home Service professionals' online reputations."
-        subtitle="Homeowners check reviews before hiring anyone. We remove damaging reviews, strengthen your ratings, and position your trade business where customers are searching, including in AI-driven search."
-        ctaLabel="Free Assessment"
+        headline="Dubai’s only multilingual reputation team built for home services companies."
+        subtitle="From AC servicing and plumbing to electrical, handyman, painting, carpentry, pest control, moving, landscaping, gardening and pool maintenance. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your business at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
+        ctaLabel="Get Your Free 7-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/home-services-1.png"
-        imageAlt="Home services professional reputation"
+        imageAlt="Dubai home services reputation management"
       />
 
-      {/* ── 2. Problem Statement + Platform Cards ────────────────── */}
+      <TrustStripSection />
       <ProblemStatementSection />
-
-      {/* ── 3. Reputation Management Services ────────────────────── */}
+      <DubaiInsightSection />
       <ReputationManagementSection />
-
-      {/* ── 4. Services (accordion + detail panel) ───────────────── */}
       <DentalServicesSection />
-
-      {/* ── 5. Digital Reputation Management ──────────────────────── */}
       <DigitalReputationSection />
-
-      {/* ── 6. Industry Authority Brand in 6 Months ──────────────── */}
       <IndustryAuthoritySection />
-
-      {/* ── 7. Google AI Overview ─────────────────────────────────── */}
       <GoogleAIOverviewSection />
-
-      {/* ── 8. Platforms & Media Outlets ──────────────────────────── */}
       <PlatformsMediaSection />
-
-      {/* ── 9. Case Studies ─────────────────────────────────────── */}
-      <DentalCaseStudiesSection />
-
-      {/* ── 10. FAQ ────────────────────────────────────────────── */}
+      {/* <DentalCaseStudiesSection /> hidden until real Dubai cases ready */}
       <DentalFAQSection />
-
-      {/* ── 11. CTA ────────────────────────────────────────────── */}
+      {/* Pricing hidden per request 2026-05-15 */}
       <DentalCTASection />
-
-      {/* ── 12. Get in Touch ───────────────────────────────────── */}
       <DentalContactSection />
     </main>
   );

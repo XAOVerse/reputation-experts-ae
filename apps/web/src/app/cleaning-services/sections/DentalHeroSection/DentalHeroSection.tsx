@@ -15,12 +15,12 @@ export interface DentalHeroSectionProps {
 }
 
 export function DentalHeroSection({
-  headline = "We protect and grow Cleaning Companys\u2019 online reputations.",
-  subtitle = "Improving online reputation directly affects companys by helping them gain more bookings, build trust, and increase sales.",
+  headline = "Dubai\u2019s only multilingual reputation team built for cleaning and maid service companies.",
+  subtitle = "From residential and commercial cleaning to deep cleaning, end-of-tenancy, maid services, carpet, window, disinfection, post-construction and AC duct cleaning. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your company at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions.",
   ctaLabel = "Free Assessment",
   ctaLink = "/contact",
   imageSrc = "/images/home-services-1.png",
-  imageAlt = "Cleaning service",
+  imageAlt = "Dubai cleaning services reputation",
 }: DentalHeroSectionProps) {
   return (
     <section
