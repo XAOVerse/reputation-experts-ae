@@ -2,58 +2,18 @@
 
 import React from "react";
 
-/* Visibility — bar chart per AI engine showing rank share */
+/* Visibility — user-provided panel showing AI visibility share per engine */
 export function VisibilityIllustration() {
-  const data = [
-    { engine: "Google AI Overview", you: 78, comp: 54 },
-    { engine: "ChatGPT", you: 64, comp: 71 },
-    { engine: "Perplexity", you: 56, comp: 39 },
-    { engine: "Gemini", you: 52, comp: 33 },
-  ];
   return (
-    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-7 lg:p-9">
-      <div className="flex items-center justify-between mb-6">
-        <div>
-          <p className="text-[11px] tracking-[0.18em] uppercase font-semibold text-[#5f6368] mb-1">
-            AI visibility share
-          </p>
-          <h3 className="text-[18px] font-semibold text-[#0f0f0f]">
-            Your brand vs Dubai competitors
-          </h3>
-        </div>
-        <div className="hidden sm:flex gap-3 text-[12px]">
-          <span className="flex items-center gap-1.5">
-            <span className="w-3 h-3 rounded-sm bg-[#e8503a]" />
-            <span className="text-[#444]">You</span>
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="w-3 h-3 rounded-sm bg-[#e5e5e5]" />
-            <span className="text-[#444]">Competitor avg</span>
-          </span>
-        </div>
-      </div>
-      <ul className="space-y-4">
-        {data.map((row) => (
-          <li key={row.engine}>
-            <div className="flex items-center justify-between mb-1.5">
-              <span className="text-[13.5px] text-[#0f0f0f] font-medium">
-                {row.engine}
-              </span>
-              <span className="text-[12px] text-[#5f6368]">{row.you}%</span>
-            </div>
-            <div className="relative h-2.5 bg-[#f5f5f5] rounded-full overflow-hidden">
-              <div
-                className="absolute inset-y-0 left-0 bg-[#e5e5e5] rounded-full"
-                style={{ width: `${row.comp}%` }}
-              />
-              <div
-                className="absolute inset-y-0 left-0 bg-[#e8503a] rounded-full"
-                style={{ width: `${row.you}%` }}
-              />
-            </div>
-          </li>
-        ))}
-      </ul>
+    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-4 sm:p-6 lg:p-8">
+      <img
+        src="/images/visibility-view.png"
+        alt="AI visibility share view: your brand vs Dubai competitors across Google AI Overview, ChatGPT, Perplexity and Gemini."
+        width={1639}
+        height={959}
+        className="w-full h-auto rounded-2xl"
+        loading="lazy"
+      />
     </div>
   );
 }
