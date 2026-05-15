@@ -108,52 +108,18 @@ export function CitationsIllustration() {
   );
 }
 
-/* Accuracy — business profile fields with status */
+/* Accuracy — image asset of how AI engines currently describe a Dubai business */
 export function AccuracyIllustration() {
-  const fields = [
-    { name: "Business name", status: "ok", value: "Consistent" },
-    { name: "Categories", status: "warn", value: "Outdated on Gemini" },
-    { name: "Opening hours", status: "ok", value: "Synced everywhere" },
-    { name: "Phone number", status: "ok", value: "Verified" },
-    { name: "Languages served", status: "warn", value: "Missing Russian + Arabic" },
-    { name: "Service area", status: "err", value: "ChatGPT wrong" },
-  ];
   return (
-    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-7 lg:p-9">
-      <p className="text-[11px] tracking-[0.18em] uppercase font-semibold text-[#5f6368] mb-1">
-        Profile accuracy
-      </p>
-      <h3 className="text-[18px] font-semibold text-[#0f0f0f] mb-6">
-        How AI engines currently describe you
-      </h3>
-      <ul className="space-y-3">
-        {fields.map((f) => {
-          const colors = {
-            ok: ["bg-[#e8f5e9]", "text-[#2e7d32]", "✓"],
-            warn: ["bg-[#fff4e0]", "text-[#b06000]", "!"],
-            err: ["bg-[#fce8e6]", "text-[#c5221f]", "✗"],
-          } as const;
-          const [bg, fg, icon] = colors[f.status as "ok" | "warn" | "err"];
-          return (
-            <li
-              key={f.name}
-              className="flex items-center justify-between bg-[#f7f5f1] rounded-xl px-4 py-3"
-            >
-              <div className="flex items-center gap-3">
-                <span
-                  className={`w-7 h-7 rounded-full flex items-center justify-center text-[14px] font-semibold ${bg} ${fg}`}
-                >
-                  {icon}
-                </span>
-                <span className="text-[14px] text-[#0f0f0f] font-medium">
-                  {f.name}
-                </span>
-              </div>
-              <span className="text-[12.5px] text-[#5f6368]">{f.value}</span>
-            </li>
-          );
-        })}
-      </ul>
+    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-4 sm:p-6 lg:p-8">
+      <img
+        src="/images/accuracy-ai-overview.png"
+        alt="Profile accuracy view: how AI engines currently describe a Dubai business across fields such as business name, categories, opening hours, phone number, languages served and service area."
+        width={1627}
+        height={967}
+        className="w-full h-auto rounded-2xl"
+        loading="lazy"
+      />
     </div>
   );
 }
