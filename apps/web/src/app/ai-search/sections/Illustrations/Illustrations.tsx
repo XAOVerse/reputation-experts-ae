@@ -58,52 +58,18 @@ export function VisibilityIllustration() {
   );
 }
 
-/* Citations — list of source websites */
+/* Citations — user-provided panel showing sites that shape AI answers */
 export function CitationsIllustration() {
-  const sites = [
-    { name: "Khaleej Times", cites: 142, you: true },
-    { name: "Time Out Dubai", cites: 128, you: true },
-    { name: "Condé Nast Traveller ME", cites: 96, you: true },
-    { name: "Gulf News", cites: 71, you: false },
-    { name: "The National", cites: 54, you: true },
-    { name: "Hotelier Middle East", cites: 38, you: false },
-  ];
   return (
-    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-7 lg:p-9">
-      <p className="text-[11px] tracking-[0.18em] uppercase font-semibold text-[#5f6368] mb-1">
-        Top citation sources
-      </p>
-      <h3 className="text-[18px] font-semibold text-[#0f0f0f] mb-6">
-        Sites shaping AI answers about Dubai businesses
-      </h3>
-      <ul className="divide-y divide-[#f0f0f0]">
-        {sites.map((s) => (
-          <li key={s.name} className="flex items-center justify-between py-3">
-            <div className="flex items-center gap-3">
-              <span className="w-8 h-8 rounded-lg bg-[#f5f5f5] flex items-center justify-center text-[12px] font-semibold text-[#5f6368]">
-                {s.name[0]}
-              </span>
-              <span className="text-[14px] text-[#0f0f0f] font-medium">
-                {s.name}
-              </span>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-[12px] text-[#5f6368] tabular-nums">
-                {s.cites} citations
-              </span>
-              {s.you ? (
-                <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-[#e8f5e9] text-[#2e7d32] font-semibold">
-                  You appear
-                </span>
-              ) : (
-                <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-[#fce8e6] text-[#c5221f] font-semibold">
-                  Gap
-                </span>
-              )}
-            </div>
-          </li>
-        ))}
-      </ul>
+    <div className="bg-white rounded-3xl border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)] p-4 sm:p-6 lg:p-8">
+      <img
+        src="/images/citations-view.png"
+        alt="Citations view: the top sites and publications shaping AI answers about Dubai businesses, with citation counts and which sources currently feature the brand."
+        width={1548}
+        height={1016}
+        className="w-full h-auto rounded-2xl"
+        loading="lazy"
+      />
     </div>
   );
 }
