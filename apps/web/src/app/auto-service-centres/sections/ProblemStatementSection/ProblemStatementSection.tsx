@@ -61,7 +61,7 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
         className="absolute inset-0 rounded-2xl bg-black/50 pointer-events-none z-10 transition-opacity duration-300"
         style={{ opacity: hovered ? 1 : 0 }}
       />
-      {/* Card content — text anchored to bottom */}
+      {/* Card content, text anchored to bottom */}
       <div
         className="relative z-20 flex items-end w-full p-[18px_20px] md:p-[26px_30px] transition-colors duration-300"
         style={{ color: hovered ? "#ffffff" : "#1a1a1a" }}
@@ -92,17 +92,17 @@ function PlatformCardItem({ card }: { card: PlatformCard }) {
 
 const DEFAULT_PLATFORMS: PlatformCard[] = [
   { name: "Google Maps", hoverImage: "/images/image-1.webp" },
-  { name: "Trust Pilot", hoverImage: "/images/image-2.webp" },
+  { name: "ChatGPT", hoverImage: "/images/image-2.webp" },
   { name: "Google AI Overview", hoverImage: "/images/image-3.webp" },
-  { name: "Facebook", hoverImage: "/images/image-4.webp" },
+  { name: "Instagram", hoverImage: "/images/image-4.webp" },
 ];
 
 /* ─── Component ───────────────────────────────────────────────────────── */
 
 export function ProblemStatementSection({
   heading,
-  bodyLeft = "In 2026, Over 80% of drivers read online reviews before choosing an MOT centre, tyre shop, or driving school. Reputation directly drives revenue. A practice with a poor online reputation loses customers to competitors every single day, even when the clinical care is identical. We close that gap by removing damaging reviews that drag your rating down and generating a consistent flow of new 5-star reviews that strengthen trust and push your rating up.",
-  bodyRight = "We also help ensure your business appears prominently when potential customers search on Google, ask ChatGPT, or browse AI Overviews. The result is more visibility, more clicks, more calls, and more booked appointments. Clients typically see a 30\u201350% increase in new customer enquiries within the first three months.",
+  bodyLeft = "In 2026, over 90% of Dubai drivers check Google reviews before choosing a garage, body shop, tyre centre, AC specialist, car wash, service station, oil change centre or diagnostics workshop. Reputation directly drives revenue. A workshop with a poor online reputation loses customers to the garage next door every single day, even when the technicians, the equipment and the pricing are equally strong. We close that gap by removing damaging reviews that drag your rating down and generating a consistent stream of authentic multilingual 5-star reviews that strengthen trust and push your rating up.",
+  bodyRight = "We also ensure your workshop appears prominently when drivers search on Google or ask ChatGPT for service centre recommendations in Dubai, including in Google AI Overviews. The result is more visibility in the markets that matter: GCC, UK, Russia, India, China and Europe. More walk-ins, more booked services, and more repeat customers who make you their default workshop. Dubai operators typically see a 30 to 50% increase in new booking enquiries within the first three months.",
   platforms = DEFAULT_PLATFORMS,
 }: ProblemStatementSectionProps) {
   return (
@@ -118,7 +118,7 @@ export function ProblemStatementSection({
         >
           {heading ?? (
             <>
-              For many UK MOT, tyres, and driving businesses,{" "}
+              For many Dubai auto service and repair workshops,{" "}
               <strong className="font-bold">
                 poor reviews mean losing £2,000 to £20,000+ per year
               </strong>{" "}
