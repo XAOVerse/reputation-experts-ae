@@ -54,7 +54,6 @@ const DEFAULT_NAV: NavItem[] = [
 ];
 
 const DEFAULT_SOLUTIONS: { label: string; href: string }[] = [
-  { label: "Search AI for Dubai Brands", href: "/ai-search" },
   { label: "Google AI Overview & ChatGPT Optimisation", href: "/google-ai-overview" },
   { label: "Solutions for Hotels & Resorts", href: "/hotels-resorts" },
   { label: "Solutions for Restaurants & Cafés", href: "/restaurants-cafes" },
