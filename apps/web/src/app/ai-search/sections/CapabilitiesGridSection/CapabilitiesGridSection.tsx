@@ -74,7 +74,7 @@ export function CapabilitiesGridSection() {
           {CARDS.map((card) => (
             <div
               key={card.title}
-              className="bg-[#f7f5f1] rounded-3xl p-8 lg:p-10 flex flex-col items-center text-center"
+              className="bg-white border border-[#eee] rounded-3xl p-8 lg:p-10 flex flex-col items-center text-center shadow-[0_2px_12px_rgba(0,0,0,0.03)]"
             >
               <div className="mb-6 w-14 h-14 rounded-full bg-white border border-[#eee] flex items-center justify-center">
                 {card.icon}

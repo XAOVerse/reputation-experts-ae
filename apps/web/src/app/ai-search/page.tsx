@@ -36,7 +36,6 @@ export default function AISearchPage() {
         heading="See how you rank against competitors on ChatGPT and every AI engine."
         body="Benchmark your AI visibility across local and brand-level competitors on Google AI Overview, ChatGPT, Perplexity and Gemini. Drill down by theme, prompt and location to see exactly where you lead and where you lag, then route the gaps straight to the agent that fixes them."
         illustration={<VisibilityIllustration />}
-        background="cream"
       />
       <FeatureSplitSection
         eyebrow="Citations"
@@ -50,7 +49,6 @@ export default function AISearchPage() {
         heading="Fix how AI engines describe your business across every location."
         body="Track how accurately each AI engine presents your business information, in every language and at every location. When ChatGPT names the wrong service area or Gemini misses your Russian-speaking clinicians, you see it the day it happens, and an agent corrects the underlying source the AI is reading from."
         illustration={<AccuracyIllustration />}
-        background="cream"
       />
       <FeatureSplitSection
         eyebrow="Sentiment"
@@ -64,7 +62,6 @@ export default function AISearchPage() {
         heading="Fix what matters most automatically, with AI agents."
         body="Search AI agents recommend improvements and execute the structured work that AI engines re-read on every crawl: updating listings on Google, Apple and Bing, generating multilingual reviews timed to your operational rhythm, and publishing on-site content the AI cites. You stay in control of approvals. The agents handle the work."
         illustration={<AIAgentsIllustration />}
-        background="cream"
       />
 
       <FAQSection />

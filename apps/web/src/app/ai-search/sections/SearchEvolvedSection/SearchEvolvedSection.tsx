@@ -5,7 +5,7 @@ import React from "react";
 export function SearchEvolvedSection() {
   return (
     <section
-      className="bg-[#f7f5f1] py-16 lg:py-24"
+      className="bg-white py-16 lg:py-24"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="Search has evolved"
     >
@@ -34,7 +34,7 @@ export function SearchEvolvedSection() {
             </div>
 
             {/* Right: stylised illustration of an AI conversation */}
-            <div className="bg-gradient-to-br from-[#fff5f1] to-[#f5f0ff] p-8 lg:p-12 flex items-center justify-center min-h-[320px]">
+            <div className="bg-white border-l border-[#eee] p-8 lg:p-12 flex items-center justify-center min-h-[320px]">
               <div className="w-full max-w-[420px] space-y-3">
                 <div className="bg-white rounded-2xl rounded-bl-md border border-[#eee] px-4 py-3 max-w-[80%] shadow-sm">
                   <p className="text-[13px] text-[#5f6368] mb-1 font-semibold uppercase tracking-[0.1em]">

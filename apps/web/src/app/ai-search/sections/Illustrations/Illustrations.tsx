@@ -85,7 +85,7 @@ export function AIAgentsIllustration() {
         {steps.map((s, i) => (
           <li
             key={s.title}
-            className="flex gap-4 items-start p-4 bg-[#f7f5f1] rounded-2xl"
+            className="flex gap-4 items-start p-4 bg-white border border-[#eee] rounded-2xl"
           >
             <span className="flex-shrink-0 w-9 h-9 rounded-full bg-[#0f0f0f] text-white flex items-center justify-center text-[14px] font-semibold">
               {i + 1}
