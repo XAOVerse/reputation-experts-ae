@@ -52,26 +52,26 @@ export function CapabilitiesGridSection() {
           {CARDS.map((card) => (
             <div
               key={card.title}
-              className="bg-white border border-[#eee] rounded-3xl p-8 lg:p-10 flex flex-col items-center text-center shadow-[0_2px_12px_rgba(0,0,0,0.03)]"
+              className="bg-white border border-[#eee] rounded-3xl p-6 lg:p-7 flex flex-col items-center text-center shadow-[0_2px_12px_rgba(0,0,0,0.03)]"
             >
-              <div className="mb-6 w-16 h-16 flex items-center justify-center">
+              <div className="mb-4 w-[52px] h-[52px] flex items-center justify-center">
                 <img
                   src={card.iconSrc}
                   alt={card.iconAlt}
-                  width={64}
-                  height={64}
+                  width={52}
+                  height={52}
                   className="w-full h-full object-contain"
                   loading="lazy"
                 />
               </div>
-              <h3 className="text-[#0f0f0f] text-[22px] lg:text-[24px] font-medium tracking-[-0.01em] mb-5">
+              <h3 className="text-[#0f0f0f] text-[18px] lg:text-[20px] font-medium tracking-[-0.01em] mb-3">
                 {card.title}
               </h3>
-              <ul className="space-y-3 text-left max-w-[300px] mx-auto w-full">
+              <ul className="space-y-2 text-left max-w-[280px] mx-auto w-full">
                 {card.bullets.map((b) => (
                   <li
                     key={b}
-                    className="flex items-start gap-3 text-[14.5px] text-[#444] leading-[1.5]"
+                    className="flex items-start gap-2.5 text-[13.5px] text-[#444] leading-[1.45]"
                   >
                     <span
                       aria-hidden="true"
