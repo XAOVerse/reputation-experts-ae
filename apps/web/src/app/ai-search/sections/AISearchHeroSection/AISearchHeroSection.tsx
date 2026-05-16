@@ -13,32 +13,18 @@ import Link from "next/link";
 type Engine = {
   name: string;
   color: string;
-  icon: React.ReactNode;
+  icon: React.ReactNode | null;
 };
 
 const ENGINES: Engine[] = [
   {
     name: "Perplexity",
-    color: "#1B998B",
-    icon: (
-      <svg viewBox="0 0 24 24" className="w-[0.85em] h-[0.85em]" aria-hidden="true">
-        <g
-          stroke="currentColor"
-          strokeWidth="1.6"
-          strokeLinecap="round"
-          fill="none"
-        >
-          <path d="M12 3v18" />
-          <path d="M3 12h18" />
-          <path d="M5.6 5.6l12.8 12.8" />
-          <path d="M18.4 5.6L5.6 18.4" />
-        </g>
-      </svg>
-    ),
+    color: "#0f0f0f",
+    icon: null,
   },
   {
     name: "Gemini",
-    color: "#8e6bff",
+    color: "#0f0f0f",
     icon: (
       <svg viewBox="0 0 24 24" className="w-[0.85em] h-[0.85em]" aria-hidden="true">
         <path
@@ -50,29 +36,13 @@ const ENGINES: Engine[] = [
   },
   {
     name: "ChatGPT",
-    color: "#10A37F",
-    icon: (
-      <svg viewBox="0 0 24 24" className="w-[0.85em] h-[0.85em]" aria-hidden="true">
-        <g stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinejoin="round">
-          <path d="M12 4 L18 7.5 L18 16.5 L12 20 L6 16.5 L6 7.5 Z" />
-          <path d="M12 4 L12 20" opacity="0.4" />
-          <path d="M6 7.5 L18 16.5" opacity="0.4" />
-          <path d="M18 7.5 L6 16.5" opacity="0.4" />
-        </g>
-      </svg>
-    ),
+    color: "#0f0f0f",
+    icon: null,
   },
   {
     name: "AI",
     color: "#0f0f0f",
-    icon: (
-      <svg viewBox="0 0 24 24" className="w-[0.85em] h-[0.85em]" aria-hidden="true">
-        <path
-          d="M12 2 L13.6 9 L20 10.4 L13.6 11.8 L12 19 L10.4 11.8 L4 10.4 L10.4 9 Z"
-          fill="currentColor"
-        />
-      </svg>
-    ),
+    icon: null,
   },
 ];
 
@@ -116,12 +86,14 @@ export function AISearchHeroSection() {
                 className="inline-flex items-baseline gap-2 align-baseline transition-opacity duration-200"
                 style={{ opacity: visible ? 1 : 0, color: engine.color }}
               >
-                <span
-                  aria-hidden="true"
-                  className="inline-flex items-center justify-center"
-                >
-                  {engine.icon}
-                </span>
+                {engine.icon && (
+                  <span
+                    aria-hidden="true"
+                    className="inline-flex items-center justify-center"
+                  >
+                    {engine.icon}
+                  </span>
+                )}
                 <span className="font-semibold">{engine.name}</span>
               </span>
             </h1>
@@ -154,9 +126,9 @@ export function AISearchHeroSection() {
               <div className="space-y-2">
                 {[
                   { engine: "Google AI Overview", color: "#4285F4", initial: "G" },
-                  { engine: "ChatGPT", color: "#10A37F", initial: "✦" },
-                  { engine: "Perplexity", color: "#1B998B", initial: "✺" },
-                  { engine: "Gemini", color: "#8e6bff", initial: "✧" },
+                  { engine: "ChatGPT", color: "#0f0f0f", initial: "✦" },
+                  { engine: "Perplexity", color: "#0f0f0f", initial: "✺" },
+                  { engine: "Gemini", color: "#0f0f0f", initial: "✧" },
                 ].map((row) => (
                   <div
                     key={row.engine}
