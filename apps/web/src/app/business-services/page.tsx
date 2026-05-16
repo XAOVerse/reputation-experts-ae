@@ -28,7 +28,7 @@ export default function BusinessServicesPage() {
       <DentalHeroSection
         headline="Dubai’s only multilingual reputation team built for company formation and business services."
         subtitle="From company formation, business setup consultants and PRO services to visa and immigration consultants, business licensing agents, accountants, auditors and tax planners. International founders compare a dozen firms on Google Maps before they pick one, so a trustworthy review profile is the difference between closing the lead and losing it. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your firm at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
-        ctaLabel="Get Your Free 5-Page Audit"
+        ctaLabel="Get Your Free 7-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/business-services-1.png"
         imageAlt="Dubai business services and company formation reputation management"

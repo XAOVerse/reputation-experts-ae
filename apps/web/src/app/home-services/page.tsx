@@ -27,7 +27,7 @@ export default function HomeServicesPage() {
       <DentalHeroSection
         headline="Dubai’s only multilingual reputation team built for home services companies."
         subtitle="From AC servicing and plumbing to electrical, handyman, painting, carpentry, pest control, moving, landscaping, gardening and pool maintenance. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your business at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
-        ctaLabel="Get Your Free 5-Page Audit"
+        ctaLabel="Get Your Free 7-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/home-services-1.png"
         imageAlt="Dubai home services reputation management"

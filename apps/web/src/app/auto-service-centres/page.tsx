@@ -28,7 +28,7 @@ export default function AutoServiceCentresPage() {
       <DentalHeroSection
         headline="Dubai’s only multilingual reputation team built for auto service and repair workshops."
         subtitle="From garages and body shops to tyre centres, car air-conditioning specialists, car washes, service stations, oil change centres and diagnostics workshops. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your workshop at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
-        ctaLabel="Get Your Free 5-Page Audit"
+        ctaLabel="Get Your Free 7-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/auto-service-1.png"
         imageAlt="Dubai auto service and repair workshop reputation management"

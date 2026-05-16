@@ -75,7 +75,7 @@ export function DentalCTASection() {
 
             {/* Tagline */}
             <p className="text-white/35 text-[13px] sm:ml-4 leading-snug">
-              Every engagement starts with a free 5-page audit of how Google AI Overview, ChatGPT, Perplexity and Gemini currently see your business in every language your customers search in. Every engagement is backed by a 90-day money-back guarantee. Hit the goals we agreed, or full refund. No questions.
+              Every engagement starts with a free 7-page audit of how Google AI Overview, ChatGPT, Perplexity and Gemini currently see your business in every language your customers search in. Every engagement is backed by a 90-day money-back guarantee. Hit the goals we agreed, or full refund. No questions.
             </p>
           </div>
 

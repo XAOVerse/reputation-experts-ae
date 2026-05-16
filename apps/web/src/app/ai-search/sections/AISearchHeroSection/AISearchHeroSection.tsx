@@ -43,18 +43,12 @@ export function AISearchHeroSection() {
               ChatGPT, Perplexity and Gemini, then act on what is missing,
               across every location and every language your customers search in.
             </p>
-            <div className="flex flex-wrap gap-3">
+            <div>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-[#e8503a] text-white text-[14px] font-semibold tracking-[0.01em] hover:bg-[#d24330] transition-colors"
+                className="inline-flex items-center justify-center px-7 py-3 rounded-full bg-[#FF461E] text-white text-[14px] font-semibold tracking-[0.01em] hover:bg-[#e63b15] transition-colors"
               >
-                Schedule a demo
-              </Link>
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-full border border-[#0f0f0f] text-[#0f0f0f] text-[14px] font-semibold tracking-[0.01em] hover:bg-[#0f0f0f] hover:text-white transition-colors"
-              >
-                Check your AI visibility
+                Get Your Free 7-Page Audit
               </Link>
             </div>
           </div>
