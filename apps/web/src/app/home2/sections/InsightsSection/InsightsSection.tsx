@@ -50,7 +50,7 @@ export function InsightsSection() {
           </h2>
           <Link
             href="/blog"
-            className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#FF461E] text-white text-[14px] font-medium hover:bg-[#e63b15] transition-colors whitespace-nowrap"
+            className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#e8503a] text-white text-[14px] font-medium hover:bg-[#d04330] transition-colors whitespace-nowrap"
           >
             All Posts
           </Link>
@@ -81,7 +81,7 @@ export function InsightsSection() {
               </p>
 
               {/* Title */}
-              <h3 className="text-[#1a1a1a] text-[16px] font-normal leading-[1.45] tracking-[-0.01em] group-hover:text-[#FF461E] transition-colors duration-200">
+              <h3 className="text-[#1a1a1a] text-[16px] font-normal leading-[1.45] tracking-[-0.01em] group-hover:text-[#e8503a] transition-colors duration-200">
                 {post.title}
               </h3>
 
