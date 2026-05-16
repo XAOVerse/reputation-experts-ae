@@ -9,8 +9,8 @@ export function StatBannerSection() {
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="AI visibility outcome"
     >
-      <div className="max-w-[1499px] mx-auto px-5 sm:px-6 lg:px-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+      <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
           {/* Text (first on mobile via source order; right column on desktop via order) */}
           <div className="lg:order-2">
             <p className="text-[#e8503a] text-[12px] tracking-[0.22em] uppercase font-semibold mb-5">

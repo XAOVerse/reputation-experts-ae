@@ -27,7 +27,7 @@ export function LeadershipOpportunitySection() {
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="The leadership opportunity: build authority, not just awareness"
     >
-      <div className="max-w-[1499px] mx-auto px-5 sm:px-6 lg:px-10">
+      <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10">
         <div className="mb-12 lg:mb-16">
           <div
             aria-hidden="true"

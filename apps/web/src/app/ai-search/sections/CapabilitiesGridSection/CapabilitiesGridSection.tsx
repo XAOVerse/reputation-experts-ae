@@ -40,7 +40,7 @@ export function CapabilitiesGridSection() {
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="What Search AI does"
     >
-      <div className="max-w-[1499px] mx-auto px-5 sm:px-6 lg:px-10">
+      <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10">
         <h2
           className="text-center text-[#0f0f0f] font-medium leading-[1.15] tracking-[-0.02em] mb-12 lg:mb-16 max-w-[1100px] mx-auto"
           style={{ fontSize: "clamp(1.75rem, 3.6vw, 2.75rem)" }}

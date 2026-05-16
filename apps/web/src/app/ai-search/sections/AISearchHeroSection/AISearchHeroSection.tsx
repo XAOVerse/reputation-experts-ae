@@ -15,7 +15,7 @@ export function AISearchHeroSection() {
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="AI Search hero"
     >
-      <div className="max-w-[1499px] mx-auto px-5 sm:px-6 lg:px-10">
+      <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Left: copy */}
           <div className="lg:col-span-5">

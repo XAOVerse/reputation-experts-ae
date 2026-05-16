@@ -25,9 +25,9 @@ export function FeatureSplitSection({
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label={eyebrow}
     >
-      <div className="max-w-[1499px] mx-auto px-5 sm:px-6 lg:px-10">
+      <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10">
         <div
-          className={`grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center ${
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center ${
             reverse ? "lg:[&>*:first-child]:order-2" : ""
           }`}
         >
