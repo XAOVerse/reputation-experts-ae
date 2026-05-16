@@ -27,7 +27,7 @@ export function SearchEvolvedSection() {
               >
                 Roughly half of Dubai consumers
               </p>
-              <p className="text-[#444] text-[18px] leading-[1.55]">
+              <p className="text-[#444] text-[18px] leading-[1.55] text-justify lg:text-left">
                 now use AI-powered search at least once a week when deciding
                 which business to buy from, book with, or visit.
               </p>

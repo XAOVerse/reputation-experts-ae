@@ -42,7 +42,7 @@ export function LeadershipOpportunitySection() {
           >
             Build authority, not just awareness.
           </h2>
-          <p className="text-[#444] text-[15px] sm:text-[16px] leading-[1.7]">
+          <p className="text-[#444] text-[15px] sm:text-[16px] leading-[1.7] text-justify lg:text-left">
             In a zero-click world, better visibility belongs to the brands that
             are recognised as credible, consistent and easy to understand by
             both people and AI systems. For multi-location businesses, that
@@ -59,7 +59,7 @@ export function LeadershipOpportunitySection() {
               <h3 className="text-[#0f0f0f] text-[20px] sm:text-[22px] font-medium leading-[1.25] tracking-[-0.01em] mb-3">
                 {p.title}
               </h3>
-              <p className="text-[#444] text-[14.5px] sm:text-[15px] leading-[1.7]">
+              <p className="text-[#444] text-[14.5px] sm:text-[15px] leading-[1.7] text-justify lg:text-left">
                 {p.body}
               </p>
             </div>

@@ -38,7 +38,7 @@ export function AISearchHeroSection() {
               </span>
               {" "}for an answer.
             </h1>
-            <p className="text-[#444] text-[16px] lg:text-[17px] leading-[1.65] mb-8 max-w-[440px]">
+            <p className="text-[#444] text-[16px] lg:text-[17px] leading-[1.65] mb-8 max-w-[440px] text-justify lg:text-left">
               AI agents that track your visibility across Google AI Overviews,
               ChatGPT, Perplexity and Gemini, then act on what is missing,
               across every location and every language your customers search in.

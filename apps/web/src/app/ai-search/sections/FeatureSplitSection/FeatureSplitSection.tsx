@@ -42,7 +42,7 @@ export function FeatureSplitSection({
             >
               {heading}
             </h2>
-            <p className="text-[#444] text-[16px] leading-[1.65]">{body}</p>
+            <p className="text-[#444] text-[16px] leading-[1.65] text-justify lg:text-left">{body}</p>
           </div>
 
           {/* Illustration column */}

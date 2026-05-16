@@ -103,7 +103,7 @@ export function FAQSection() {
                 </button>
                 {isOpen && (
                   <div className="pb-7 lg:pb-8 pr-12">
-                    <p className="text-[#444] text-[15px] sm:text-[16px] leading-[1.7]">
+                    <p className="text-[#444] text-[15px] sm:text-[16px] leading-[1.7] text-justify lg:text-left">
                       {item.a}
                     </p>
                   </div>
