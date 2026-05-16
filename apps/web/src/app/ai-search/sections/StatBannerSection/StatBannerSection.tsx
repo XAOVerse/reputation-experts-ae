@@ -36,6 +36,7 @@ export function StatBannerSection() {
               loading="lazy"
             />
           </div>
+        </div>
       </div>
     </section>
   );
