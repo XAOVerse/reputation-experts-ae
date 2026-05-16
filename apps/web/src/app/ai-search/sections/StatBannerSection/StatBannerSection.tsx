@@ -26,44 +26,16 @@ export function StatBannerSection() {
           </div>
 
           {/* Stylised before/after bar chart */}
-          <div className="bg-[#f7f5f1] rounded-3xl p-8 lg:p-10 border border-[#eee]">
-            <div className="flex items-end justify-around gap-6 h-[240px]">
-              {[
-                { label: "Day 0", value: 38, color: "#bdbdbd" },
-                { label: "Day 30", value: 71, color: "#e8503a" },
-                { label: "Day 60", value: 100, color: "#ff9b6b" },
-              ].map((bar) => (
-                <div
-                  key={bar.label}
-                  className="flex flex-col items-center justify-end h-full flex-1"
-                >
-                  <p
-                    className="text-[20px] font-semibold mb-2"
-                    style={{ color: bar.color }}
-                  >
-                    {bar.value === 38
-                      ? "Baseline"
-                      : `+${Math.round(((bar.value - 38) / 38) * 100)}%`}
-                  </p>
-                  <div
-                    className="w-full max-w-[80px] rounded-t-xl"
-                    style={{
-                      height: `${bar.value}%`,
-                      backgroundColor: bar.color,
-                    }}
-                  />
-                  <p className="text-[12px] text-[#5f6368] mt-3 tracking-[0.1em] uppercase">
-                    {bar.label}
-                  </p>
-                </div>
-              ))}
-            </div>
-            <p className="text-[11px] text-[#5f6368] mt-6 leading-[1.5]">
-              Average lift across Dubai multi-location brands enrolled in
-              Search AI, measured against AI Overview citation share and ChatGPT recommendation surface, 2025 cohort.
-            </p>
+          <div className="rounded-3xl overflow-hidden border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)]">
+            <img
+              src="/images/outcome-chart.png"
+              alt="Search AI outcome chart: AI overview accuracy lift over a 12-week period across Google AI Overview, ChatGPT, Gemini and Perplexity for Dubai multi-location brands."
+              width={1625}
+              height={968}
+              className="w-full h-auto block"
+              loading="lazy"
+            />
           </div>
-        </div>
       </div>
     </section>
   );
