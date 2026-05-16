@@ -47,6 +47,7 @@ const DEFAULT_OFFICES = [
 
 const DEFAULT_NAV: NavItem[] = [
   { label: "AI Search", href: "/ai-search" },
+  { label: "Reviews", href: "/reviews" },
   { label: "Services", href: "/services" },
   { label: "Contact", href: "/contact" },
   { label: "Privacy Policy", href: "/privacy" },
