@@ -75,7 +75,7 @@ export function MainHeroSection({
                 {/* CTA Button */}
                 <Link
                   href={ctaLink}
-                  className={`${styles.fadeUp} inline-flex items-center justify-center px-5 sm:px-7 py-2.5 sm:py-3 rounded-full bg-[#e8503a] text-white text-[13px] sm:text-[15px] font-medium hover:bg-[#d04330] transition-colors`}
+                  className={`${styles.fadeUp} inline-flex items-center justify-center px-5 sm:px-7 py-2.5 sm:py-3 rounded-full bg-[#FF461E] text-white text-[13px] sm:text-[15px] font-medium hover:bg-[#e63b15] transition-colors`}
                   style={{ animationDelay: "0.25s" }}
                 >
                   {ctaLabel}

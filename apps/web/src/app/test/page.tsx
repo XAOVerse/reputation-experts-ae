@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   robots: 'noindex, nofollow',
 };
 
-const ACCENT_COLOR = '#e8503a';
+const ACCENT_COLOR = '#FF461E';
 const FONT_FAMILY = "'Inter', 'Helvetica Neue', Arial, sans-serif";
 
 export default function DentalClinicPage() {

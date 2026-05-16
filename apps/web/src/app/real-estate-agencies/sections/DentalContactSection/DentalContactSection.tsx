@@ -247,7 +247,7 @@ export function DentalContactSection() {
                       type="submit"
                       disabled={loading}
                       className="ml-auto inline-flex items-center justify-center px-8 py-3 rounded-full text-white text-[14px] font-medium transition-colors whitespace-nowrap disabled:opacity-60"
-                      style={{ background: Object.keys(validate()).length === 0 ? "#e8503a" : "#c0c0c0" }}
+                      style={{ background: Object.keys(validate()).length === 0 ? "#FF461E" : "#c0c0c0" }}
                     >
                       {loading ? "Sending…" : "Submit"}
                     </button>
@@ -304,7 +304,7 @@ export function DentalContactSection() {
             {/* Step 03 */}
             <div className="pt-6">
               <div className="flex items-start gap-4">
-                <div className="w-9 h-9 rounded-full bg-[#e8503a] flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-9 h-9 rounded-full bg-[#FF461E] flex items-center justify-center shrink-0 mt-0.5">
                   <span className="text-white text-[12px] font-semibold">03</span>
                 </div>
                 <div>

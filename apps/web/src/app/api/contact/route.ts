@@ -55,7 +55,7 @@ export async function POST(req: NextRequest) {
     .row { margin-bottom: 20px; }
     .label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #999; margin-bottom: 4px; }
     .value { font-size: 14px; color: #222; line-height: 1.6; }
-    .value a { color: #e8503a; text-decoration: none; }
+    .value a { color: #FF461E; text-decoration: none; }
     .divider { border: none; border-top: 1px solid #eee; margin: 20px 0; }
     .footer { background: #f7f7f7; padding: 16px 32px; font-size: 11px; color: #bbb; text-align: center; }
   </style>

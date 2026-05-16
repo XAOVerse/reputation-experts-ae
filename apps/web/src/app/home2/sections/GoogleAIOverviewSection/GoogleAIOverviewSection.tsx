@@ -63,7 +63,7 @@ export function GoogleAIOverviewSection() {
         <div className="flex flex-row flex-wrap items-center justify-center gap-4 mt-12">
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-[#e8503a] text-white text-[15px] font-medium tracking-wide hover:bg-[#d04330] transition-colors duration-200"
+            className="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-[#FF461E] text-white text-[15px] font-medium tracking-wide hover:bg-[#e63b15] transition-colors duration-200"
           >
             Talk To Expert
           </Link>
