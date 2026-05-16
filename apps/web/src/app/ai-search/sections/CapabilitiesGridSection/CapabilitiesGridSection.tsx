@@ -36,7 +36,7 @@ const CARDS = [
 export function CapabilitiesGridSection() {
   return (
     <section
-      className="bg-white py-16 lg:py-24"
+      className="bg-white py-8 lg:py-12"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="What Search AI does"
     >

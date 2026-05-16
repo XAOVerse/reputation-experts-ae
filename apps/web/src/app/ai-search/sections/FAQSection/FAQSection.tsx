@@ -70,7 +70,7 @@ export function FAQSection() {
 
   return (
     <section
-      className="bg-white pt-6 pb-14 lg:pt-8 lg:pb-20"
+      className="bg-white pt-3 pb-7 lg:pt-4 lg:pb-10"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="Frequently Asked Questions"
     >

@@ -6,7 +6,7 @@ import Link from "next/link";
 export function AISearchCTASection() {
   return (
     <section
-      className="bg-white py-10 lg:py-16 px-5 sm:px-6 lg:px-10"
+      className="bg-white py-5 lg:py-8 px-5 sm:px-6 lg:px-10"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="Final call to action"
     >
