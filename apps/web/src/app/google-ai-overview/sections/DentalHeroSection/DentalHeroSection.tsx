@@ -17,7 +17,7 @@ export interface DentalHeroSectionProps {
 export function DentalHeroSection({
   headline = "When AI is asked who is best in Dubai, will it name you?",
   subtitle = "Google AI Overview, ChatGPT, Perplexity and Gemini have replaced the search result page with a generated answer that names two or three businesses. Be one of them, in every language your customers search in, or the rest of search no longer matters. We engineer the review depth, the multilingual coverage, the press citations and the structured data that AI search engines use to choose what to recommend.",
-  ctaLabel = "Free 7-Page Audit",
+  ctaLabel = "Free 5-Page Audit",
   ctaLink = "/contact",
   imageSrc = "/images/hotels-1.png",
   imageAlt = "Dubai business named in a Google AI Overview answer",

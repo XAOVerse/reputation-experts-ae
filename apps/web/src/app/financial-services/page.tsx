@@ -28,7 +28,7 @@ export default function FinancialServicesPage() {
       <DentalHeroSection
         headline="Dubai’s only multilingual reputation team built for financial firms."
         subtitle="From brokerages and investment companies to family offices, wealth managers, financial advisors and insurance brokers. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your firm at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
-        ctaLabel="Get Your Free 7-Page Audit"
+        ctaLabel="Get Your Free 5-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/financial-1.png"
         imageAlt="Dubai financial services reputation management"

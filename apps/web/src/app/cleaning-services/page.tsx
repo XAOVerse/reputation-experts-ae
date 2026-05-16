@@ -27,7 +27,7 @@ export default function CleaningServicesPage() {
       <DentalHeroSection
         headline="Dubai’s only multilingual reputation team built for cleaning and maid service companies."
         subtitle="From residential and commercial cleaning to deep cleaning, end-of-tenancy cleaning, maid services, carpet and sofa cleaning, window cleaning, disinfection, post-construction cleaning and AC duct cleaning. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your company at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
-        ctaLabel="Get Your Free 7-Page Audit"
+        ctaLabel="Get Your Free 5-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/cleaning-1.png"
         imageAlt="Dubai cleaning services reputation management"

@@ -212,7 +212,7 @@ export function PricingSection() {
         {/* Footer note */}
         <div className="mt-10 lg:mt-14 text-center">
           <p className="text-[#666] text-[13px] leading-[1.7] max-w-[820px] mx-auto">
-            Larger groups, branded residences, multi-property portfolios and ultra-luxury operators are priced on request. Every engagement begins with a free <strong className="text-[#0f0f0f]">7-page Dubai Hotel Reputation Audit</strong> delivered within 24 hours — no commitment, no card required.
+            Larger groups, branded residences, multi-property portfolios and ultra-luxury operators are priced on request. Every engagement begins with a free <strong className="text-[#0f0f0f]">5-page Dubai Hotel Reputation Audit</strong> delivered within 24 hours — no commitment, no card required.
           </p>
         </div>
       </div>

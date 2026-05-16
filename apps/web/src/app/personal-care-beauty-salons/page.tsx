@@ -28,7 +28,7 @@ export default function PersonalCareBeautySalonsPage() {
       <DentalHeroSection
         headline="Dubai’s only multilingual reputation team built for salons and beauty professionals."
         subtitle="From hair salons and barbers to beauty salons, nail bars, brow and lash studios and tattoo studios. We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your salon at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
-        ctaLabel="Get Your Free 7-Page Audit"
+        ctaLabel="Get Your Free 5-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/salons-1.png"
         imageAlt="Dubai personal care and beauty salon reputation management"

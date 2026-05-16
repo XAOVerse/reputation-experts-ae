@@ -28,7 +28,7 @@ export default function HotelsResortsPage() {
       <DentalHeroSection
         headline="Dubai’s only multilingual reputation team built for hotels and resorts."
         subtitle="We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your property at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
-        ctaLabel="Get Your Free 7-Page Audit"
+        ctaLabel="Get Your Free 5-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/hotels-1.png"
         imageAlt="Dubai hotel and resort reputation management"

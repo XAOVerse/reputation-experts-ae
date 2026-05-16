@@ -28,7 +28,7 @@ export default function AutomotiveShowroomsPage() {
       <DentalHeroSection
         headline="Dubai’s only multilingual reputation team built for auto showrooms, dealers, exporters and importers."
         subtitle="We remove damaging reviews, generate authentic 5-star feedback in Arabic, English, Russian, Mandarin, German and French, and position your brand at the top of Google and AI-driven search (Google AI Overviews and ChatGPT). Backed by a 90-day money-back guarantee. Hit your goals, or full refund, no questions."
-        ctaLabel="Get Your Free 7-Page Audit"
+        ctaLabel="Get Your Free 5-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/auto-showrooms-1.png"
         imageAlt="Dubai auto showroom reputation management"

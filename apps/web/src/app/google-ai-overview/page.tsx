@@ -25,7 +25,7 @@ export default function GoogleAIOverviewPage() {
     <main>
       {/* 1. Hero */}
       <DentalHeroSection
-        ctaLabel="Get Your Free 7-Page Audit"
+        ctaLabel="Get Your Free 5-Page Audit"
         ctaLink="/contact"
         imageSrc="/images/hero-laptop.jpg"
         imageAlt="Dubai business named in a Google AI Overview answer"
