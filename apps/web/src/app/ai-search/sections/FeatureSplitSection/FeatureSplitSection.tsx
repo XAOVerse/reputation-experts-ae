@@ -21,7 +21,7 @@ export function FeatureSplitSection({
 }: FeatureSplitSectionProps) {
   return (
     <section
-      className="bg-white py-8 lg:py-12"
+      className="bg-white py-10 lg:py-16"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label={eyebrow}
     >

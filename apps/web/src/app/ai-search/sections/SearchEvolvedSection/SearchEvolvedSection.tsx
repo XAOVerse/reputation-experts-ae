@@ -5,7 +5,7 @@ import React from "react";
 export function SearchEvolvedSection() {
   return (
     <section
-      className="bg-white py-8 lg:py-12"
+      className="bg-white py-10 lg:py-16"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="Search has evolved"
     >

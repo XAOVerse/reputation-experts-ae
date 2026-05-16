@@ -30,7 +30,7 @@ const INDUSTRIES = [
 export function IndustriesSection() {
   return (
     <section
-      className="bg-white py-7 lg:py-10"
+      className="bg-white py-9 lg:py-14"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="Industries"
     >
