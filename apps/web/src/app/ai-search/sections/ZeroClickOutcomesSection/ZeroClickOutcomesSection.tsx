@@ -38,7 +38,7 @@ export function ZeroClickOutcomesSection() {
       aria-label="How Reputation Experts converts zero-click search into real-world outcomes"
     >
       <div className="max-w-[1499px] mx-auto px-5 sm:px-6 lg:px-10">
-        <div className="max-w-[820px] mb-12 lg:mb-16">
+        <div className="mb-12 lg:mb-16">
           <div
             aria-hidden="true"
             className="h-[2px] w-10 bg-[#e8503a] mb-6"
@@ -77,7 +77,7 @@ export function ZeroClickOutcomesSection() {
         </div>
 
         {/* Final-thought block */}
-        <div className="border-t border-[#0f0f0f] pt-8 lg:pt-10 max-w-[820px]">
+        <div className="border-t border-[#0f0f0f] pt-8 lg:pt-10">
           <p className="text-[#e8503a] text-[12px] tracking-[0.22em] uppercase font-semibold mb-4">
             Final thought
           </p>

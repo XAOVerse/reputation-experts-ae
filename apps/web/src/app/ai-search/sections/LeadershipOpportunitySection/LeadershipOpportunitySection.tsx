@@ -28,7 +28,7 @@ export function LeadershipOpportunitySection() {
       aria-label="The leadership opportunity: build authority, not just awareness"
     >
       <div className="max-w-[1499px] mx-auto px-5 sm:px-6 lg:px-10">
-        <div className="max-w-[820px] mb-12 lg:mb-16">
+        <div className="mb-12 lg:mb-16">
           <div
             aria-hidden="true"
             className="h-[2px] w-10 bg-[#e8503a] mb-6"
@@ -66,7 +66,7 @@ export function LeadershipOpportunitySection() {
           ))}
         </div>
 
-        <p className="text-[#0f0f0f] text-[16px] sm:text-[18px] leading-[1.6] font-medium mt-14 lg:mt-16 max-w-[820px]">
+        <p className="text-[#0f0f0f] text-[16px] sm:text-[18px] leading-[1.6] font-medium mt-14 lg:mt-16">
           The good news is that zero-click does not mean zero influence. It
           means meeting customers where decisions are made, even if they never
           land on your homepage.
