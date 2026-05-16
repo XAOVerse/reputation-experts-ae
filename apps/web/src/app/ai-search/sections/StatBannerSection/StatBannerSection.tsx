@@ -11,6 +11,19 @@ export function StatBannerSection() {
     >
       <div className="max-w-[1499px] mx-auto px-5 sm:px-6 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+          {/* Image (left column) */}
+          <div>
+            <img
+              src="/images/outcome-chart.png"
+              alt="Search AI outcome chart: AI overview accuracy lift over a 12-week period across Google AI Overview, ChatGPT, Gemini and Perplexity for Dubai multi-location brands."
+              width={1625}
+              height={968}
+              className="w-full h-auto block"
+              loading="lazy"
+            />
+          </div>
+
+          {/* Text (right column) */}
           <div>
             <p className="text-[#e8503a] text-[12px] tracking-[0.22em] uppercase font-semibold mb-5">
               The outcome
@@ -23,18 +36,6 @@ export function StatBannerSection() {
               <span className="text-[#e8503a]">61% within 60 days</span>{" "}
               of switching on Search AI.
             </h2>
-          </div>
-
-          {/* Stylised before/after bar chart */}
-          <div className="rounded-3xl overflow-hidden border border-[#eee] shadow-[0_8px_40px_rgba(0,0,0,0.05)]">
-            <img
-              src="/images/outcome-chart.png"
-              alt="Search AI outcome chart: AI overview accuracy lift over a 12-week period across Google AI Overview, ChatGPT, Gemini and Perplexity for Dubai multi-location brands."
-              width={1625}
-              height={968}
-              className="w-full h-auto block"
-              loading="lazy"
-            />
           </div>
         </div>
       </div>
