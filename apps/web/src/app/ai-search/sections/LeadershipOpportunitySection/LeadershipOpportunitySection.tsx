@@ -65,12 +65,6 @@ export function LeadershipOpportunitySection() {
             </div>
           ))}
         </div>
-
-        <p className="text-[#0f0f0f] text-[16px] sm:text-[18px] leading-[1.6] font-medium mt-14 lg:mt-16">
-          The good news is that zero-click does not mean zero influence. It
-          means meeting customers where decisions are made, even if they never
-          land on your homepage.
-        </p>
       </div>
     </section>
   );
