@@ -10,12 +10,8 @@ const CARDS = [
       "How do you rank across locations?",
       "How does AI describe you?",
     ],
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7">
-        <circle cx="12" cy="12" r="9" stroke="#0f0f0f" strokeWidth="1.5" />
-        <path d="M3 12h18M12 3v18" stroke="#0f0f0f" strokeWidth="1.5" />
-      </svg>
-    ),
+    iconSrc: "/images/icon-visibility.png",
+    iconAlt: "Visibility insights icon",
   },
   {
     title: "Citations intelligence",
@@ -23,16 +19,8 @@ const CARDS = [
       "What sites shape AI answers?",
       "Does your brand feature there?",
     ],
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7">
-        <path
-          d="M5 7h14M5 12h14M5 17h9"
-          stroke="#0f0f0f"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-        />
-      </svg>
-    ),
+    iconSrc: "/images/icon-citations.png",
+    iconAlt: "Citations intelligence icon",
   },
   {
     title: "Agent-led execution",
@@ -40,18 +28,8 @@ const CARDS = [
       "Agents create and update website content.",
       "Agents generate reviews and fix your listings.",
     ],
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7">
-        <circle cx="12" cy="9" r="3" stroke="#0f0f0f" strokeWidth="1.5" />
-        <path
-          d="M6 20c0-3 2.7-5 6-5s6 2 6 5"
-          stroke="#0f0f0f"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-        />
-        <path d="M18 4l1 2 2 1-2 1-1 2-1-2-2-1 2-1z" fill="#e8503a" />
-      </svg>
-    ),
+    iconSrc: "/images/icon-agents.png",
+    iconAlt: "Agent-led execution icon",
   },
 ];
 
@@ -76,8 +54,15 @@ export function CapabilitiesGridSection() {
               key={card.title}
               className="bg-white border border-[#eee] rounded-3xl p-8 lg:p-10 flex flex-col items-center text-center shadow-[0_2px_12px_rgba(0,0,0,0.03)]"
             >
-              <div className="mb-6 w-14 h-14 rounded-full bg-white border border-[#eee] flex items-center justify-center">
-                {card.icon}
+              <div className="mb-6 w-16 h-16 flex items-center justify-center">
+                <img
+                  src={card.iconSrc}
+                  alt={card.iconAlt}
+                  width={64}
+                  height={64}
+                  className="w-full h-full object-contain"
+                  loading="lazy"
+                />
               </div>
               <h3 className="text-[#0f0f0f] text-[22px] lg:text-[24px] font-medium tracking-[-0.01em] mb-5">
                 {card.title}
