@@ -31,7 +31,7 @@ export function AISearchCTASection() {
               </Link>
             </div>
 
-            <p className="text-white/35 text-[13px] sm:ml-4 leading-snug">
+            <p className="text-white text-[13px] sm:ml-4 leading-snug">
               Every engagement starts with a free 7-page audit of how Google AI Overview, ChatGPT, Perplexity and Gemini currently see your business, in every language your customers search in. Backed by a 90-day money-back guarantee.
             </p>
           </div>
