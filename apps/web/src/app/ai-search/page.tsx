@@ -12,6 +12,8 @@ import {
   SentimentIllustration,
   AIAgentsIllustration,
 } from "./sections/Illustrations";
+import { LeadershipOpportunitySection } from "./sections/LeadershipOpportunitySection";
+import { ZeroClickOutcomesSection } from "./sections/ZeroClickOutcomesSection";
 import { FAQSection } from "./sections/FAQSection";
 import { AISearchCTASection } from "./sections/AISearchCTASection";
 import { DentalContactSection } from "./sections/DentalContactSection";
@@ -28,6 +30,7 @@ export default function AISearchPage() {
       <AISearchHeroSection />
       <SearchEvolvedSection />
       <CapabilitiesGridSection />
+      <LeadershipOpportunitySection />
       <TrustStripSection />
       <StatBannerSection />
 
@@ -64,6 +67,7 @@ export default function AISearchPage() {
         illustration={<AIAgentsIllustration />}
       />
 
+      <ZeroClickOutcomesSection />
       <FAQSection />
       <AISearchCTASection />
       <DentalContactSection />
