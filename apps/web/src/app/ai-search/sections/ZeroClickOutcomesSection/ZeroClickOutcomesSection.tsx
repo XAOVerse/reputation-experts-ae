@@ -77,7 +77,7 @@ export function ZeroClickOutcomesSection() {
         </div>
 
         {/* Final-thought block */}
-        <div className="border-t border-[#0f0f0f] pt-8 lg:pt-10">
+        <div className="border-t border-[#e5e5e5] pt-8 lg:pt-10">
           <p className="text-[#e8503a] text-[12px] tracking-[0.22em] uppercase font-semibold mb-4">
             Final thought
           </p>
