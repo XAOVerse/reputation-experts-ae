@@ -66,48 +66,50 @@ const FAQ = [
 ];
 
 export function FAQSection() {
-  const [open, setOpen] = useState<number | null>(null);
+  const [openItem, setOpenItem] = useState<number | null>(null);
+
   return (
     <section
-      className="bg-white py-16 lg:py-24"
+      className="bg-white pt-6 pb-14 lg:pt-8 lg:pb-20"
       style={{ fontFamily: "'Roboto', sans-serif" }}
-      aria-label="Frequently asked questions"
+      aria-label="Frequently Asked Questions"
     >
       <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10">
-        <h2
-          className="text-[#0f0f0f] font-medium leading-[1.15] tracking-[-0.02em] mb-12 lg:mb-16"
-          style={{ fontSize: "clamp(1.75rem, 3.4vw, 2.75rem)" }}
-        >
-          Frequently asked questions
+        <h2 className="text-[#1a1a1a] font-medium text-[clamp(1.75rem,3.2vw,2.5rem)] leading-[1.15] tracking-[-0.02em] mb-10 lg:mb-12">
+          FAQ
         </h2>
+
         <div>
           {FAQ.map((item, i) => {
-            const isOpen = open === i;
+            const isOpen = openItem === i;
             return (
-              <div key={i} className="border-b border-[#e5e5e5]">
+              <div key={i} className="border-t border-[#e0e0e0] last:border-b">
                 <button
-                  type="button"
-                  onClick={() => setOpen(isOpen ? null : i)}
-                  className="w-full flex items-start justify-between gap-6 py-6 lg:py-7 text-left"
+                  onClick={() => setOpenItem(isOpen ? null : i)}
+                  className="w-full flex items-center justify-between gap-6 py-6 lg:py-7 text-left group focus-visible:outline-none"
                   aria-expanded={isOpen}
                 >
-                  <span className="text-[#0f0f0f] text-[16px] sm:text-[18px] font-medium leading-[1.45] tracking-[-0.01em]">
+                  <span className="text-[#1a1a1a] text-[15px] lg:text-[16px] font-normal leading-snug group-hover:text-[#444] transition-colors">
                     {item.q}
                   </span>
                   <span
-                    className="flex-shrink-0 w-7 h-7 rounded-full border border-[#0f0f0f] flex items-center justify-center text-[16px] leading-none"
+                    className={`shrink-0 text-[#e8502a] text-[22px] leading-none font-light transition-transform duration-200 ${
+                      isOpen ? "rotate-45" : ""
+                    }`}
                     aria-hidden="true"
                   >
-                    {isOpen ? "–" : "+"}
+                    +
                   </span>
                 </button>
-                {isOpen && (
-                  <div className="pb-7 lg:pb-8 pr-12">
-                    <p className="text-[#444] text-[15px] sm:text-[16px] leading-[1.7] text-justify lg:text-left">
-                      {item.a}
-                    </p>
-                  </div>
-                )}
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${
+                    isOpen ? "max-h-[2000px] pb-6" : "max-h-0"
+                  }`}
+                >
+                  <p className="text-[#666] text-[14px] leading-relaxed max-w-3xl text-justify lg:text-left">
+                    {item.a}
+                  </p>
+                </div>
               </div>
             );
           })}
