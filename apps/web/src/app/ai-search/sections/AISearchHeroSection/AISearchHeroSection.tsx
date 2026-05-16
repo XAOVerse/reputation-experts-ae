@@ -86,7 +86,7 @@ export function AISearchHeroSection() {
               className="text-[#0f0f0f] font-medium leading-[1.05] tracking-[-0.025em] mb-7"
               style={{ fontSize: "clamp(2rem, 4.4vw, 3.5rem)" }}
             >
-              Be the #1 Answer for every location on{" "}
+              Be the #1 Answer on{" "}
               <span
                 className="inline-flex items-baseline gap-2 align-baseline transition-opacity duration-200"
                 style={{ opacity: visible ? 1 : 0, color: engine.color }}
