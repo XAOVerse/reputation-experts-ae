@@ -49,6 +49,7 @@ const DEFAULT_NAV: NavItem[] = [
   { label: "AI Search", href: "/ai-search" },
   { label: "Reviews", href: "/reviews" },
   { label: "Services", href: "/services" },
+  { label: "Insights", href: "/insights" },
   { label: "Contact", href: "/contact" },
   { label: "Privacy Policy", href: "/privacy" },
   { label: "Terms of Service", href: "/terms" },

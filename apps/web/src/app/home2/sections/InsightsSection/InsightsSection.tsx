@@ -8,8 +8,8 @@ const INSIGHTS = [
   {
     image: "/images/blog-1.png",
     category: "INSIGHTS - CONSUMER STUDY",
-    title: "70% Of Consumers Read Online Reviews Before Booking A Restaurant Or Hotel",
-    href: "/blog/online-reputation-most-valuable-business-asset",
+    title: "82% Of Consumers Read Online Reviews Before Booking A Restaurant Or Hotel",
+    href: "/insights/82-percent-consumers-read-reviews-before-booking",
   },
   {
     image: "/images/blog-2.png",
@@ -49,7 +49,7 @@ export function InsightsSection() {
             Insights
           </h2>
           <Link
-            href="/blog"
+            href="/insights"
             className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#FF461E] text-white text-[14px] font-medium hover:bg-[#e63b15] transition-colors whitespace-nowrap"
           >
             All Posts
