@@ -27,7 +27,7 @@ const INSIGHTS = [
     image: "/images/blog-4.png",
     category: "INSIGHTS - AI IS REDEFINING SEARCH",
     title: 'University Of Virginia - "Nearly 60% Of Consumers Say They\'ve Used AI To Help Them Shop."',
-    href: "/blog/building-authority-strategic-content-placement",
+    href: "/insights/60-percent-customers-use-ai-to-shop",
   },
 ];
 
