@@ -670,6 +670,150 @@ export const ARTICLES: InsightsArticle[] = [
       },
     ],
   },
+  // ─── Podium online review statistics ────────────────────────────────
+  {
+    slug: "the-data-on-why-reviews-decide-revenue",
+    category: "Consumer Study",
+    categoryEyebrow: "INSIGHTS — CONSUMER STUDY",
+    title:
+      "93% of customers say reviews decide what they buy. Here is what the rest of the data shows about how reviews now run your business.",
+    excerpt:
+      "Across more than twenty independent industry studies, the conclusion is the same — reviews now decide spend, pricing, hiring and brand. Here is what the numbers actually say, and what they mean for a UAE business.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "7 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      {
+        type: "p",
+        text:
+          "Operators sometimes argue about whether reviews really move revenue. The honest answer is that the argument was settled by the data a long time ago. Across more than twenty independent industry studies, the headline statistic does not move: roughly 93% of consumers now say online reviews directly influence their purchasing decisions, and 94% have avoided a business outright because of negative reviews. The remaining 6% are not a quiet minority — they are, in the language of survey research, statistical noise.",
+      },
+      {
+        type: "p",
+        text:
+          "What is interesting is what the rest of the data says. Read together, the numbers describe a market in which reviews are no longer one input into the buying decision. They are the buying decision — and increasingly, the pricing decision, the hiring decision, and the survival decision too.",
+      },
+    ],
+    keyTakeaways: [
+      "93% of consumers say online reviews influence their purchase decisions. 94% have avoided a business because of negative reviews.",
+      "88% trust online reviews as much as a personal recommendation. Among 18–34 year-olds, the figure rises to 91%.",
+      "57% will only use a business with a four-star rating or higher. Only 9% would engage with a business at one or two stars.",
+      "85% of consumers consider a review older than three months irrelevant. 40% don't trust reviews older than two weeks.",
+      "31% will pay more at a business with excellent reviews. Products with a 4.5+ rating sell roughly four times more than those below.",
+      "It takes about 40 positive reviews to outweigh a single negative one — and only 24% of businesses respond to negative reviews consistently.",
+      "86% of job seekers read a business's reviews before applying. Reviews now affect talent acquisition, not just sales.",
+    ],
+    sections: [
+      {
+        id: "reviews-run-the-purchase-decision",
+        title: "Reviews now run the purchase decision — the numbers leave no room",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "Start with the headline. 93% of consumers say online reviews influence their purchasing decisions. 94% have avoided a business outright because of negative reviews. 88% say they trust online reviews as much as a personal recommendation — a number that climbs to 91% among the 18-34 segment most service businesses spend the bulk of their marketing budget trying to reach.",
+          },
+          {
+            type: "p",
+            text:
+              "Taken alone, any one of those numbers would already be enough to reorganise a marketing plan. Taken together, they describe an information landscape in which the customer has effectively outsourced the early stages of every purchase decision to other customers. They are not arriving on your site to be persuaded. They are arriving — if they arrive at all — having already been persuaded somewhere else.",
+          },
+          {
+            type: "p",
+            text:
+              "And the place where the persuasion is happening is, increasingly, the review feed under your name on Google. The behaviour is not a phase. It is the new default.",
+          },
+        ],
+      },
+      {
+        id: "star-ratings-are-hard-filters",
+        title: "Star ratings are hard filters now, not soft signals",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "Most operators still think of their average rating as a directional summary — a soft signal that combines with price, location and reputation in the customer's mind. The data says otherwise. 57% of customers will only consider a business with a rating of four stars or higher. 49% need at least a four-star rating before they choose. At one or two stars, only 9% of customers will engage at all.",
+          },
+          {
+            type: "p",
+            text:
+              "Those are not preferences. They are filters. Seven in ten consumers now use rating filters when searching on Google or category platforms. A 3.6 average is not a slightly weaker version of a 4.6 — it is, mechanically, a filter that removes your business from most of the searches it would otherwise have shown up in.",
+          },
+          {
+            type: "p",
+            text:
+              "Volume matters in the same hard way. 60% of consumers explicitly weigh how many reviews a business has, and 43% want to see at least 100 before they trust a product or service. A perfect 5.0 with seven reviews looks less credible to the modern buyer than a 4.5 with 800 — and the data shows it converts worse.",
+          },
+        ],
+      },
+      {
+        id: "recency-response-and-the-40-to-1-rule",
+        title: "Recency, response rate, and the 40-to-1 rule",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "Two further findings reshape what 'reputation management' actually has to deliver to work. The first is recency. 85% of consumers consider a review older than three months no longer relevant. 40% will discount reviews older than two weeks. A profile that filled up two years ago and has not moved since reads, to today's buyer, as a brand that has stopped operating — or at least stopped caring whether its customers come back.",
+          },
+          {
+            type: "p",
+            text:
+              "The second is response rate. Only 24% of businesses respond to negative reviews consistently — meaning the easiest competitive move available to any operator who actually does is to respond to every review professionally inside 48 hours. The data also gives a useful rule of thumb for the underlying maths: it takes roughly 40 positive reviews to outweigh the demand impact of a single negative one. The arithmetic is unforgiving in only one direction.",
+          },
+          {
+            type: "p",
+            text:
+              "Put recency and response together and the same conclusion shows up in different forms across every study. Profiles that look alive — recent, responded-to, evolving — win. Profiles that look static lose, regardless of how good the underlying rating is.",
+          },
+        ],
+      },
+      {
+        id: "reviews-decide-pricing-and-hiring",
+        title: "Reviews now decide pricing and recruitment too",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "Two final data points are worth holding side by side. 31% of consumers say they will pay more at a business with excellent reviews — and businesses with positive review profiles earn, on average, 22% more revenue than those without. Products with a 4.5+ rating sell roughly four times more than equivalent products below 4.5. Reviews do not just influence whether the customer buys. They influence how much the customer is willing to pay.",
+          },
+          {
+            type: "p",
+            text:
+              "And the effect is no longer confined to the sales funnel. 86% of job seekers now read a business's reviews before applying. Reputation has become a recruitment input. A weak review profile does not just cost an operator new customers — it costs them the next round of hires, the next twelve months of bench strength, and the ability to staff the very service experience that would have repaired the reviews in the first place.",
+          },
+          {
+            type: "p",
+            text:
+              "Pulled together, the numbers describe a single, simple system. Reviews decide how much demand reaches you, how much of that demand converts, how much each converted customer will pay, and how good the team you can hire to serve them is. There is no functional area of the business they do not now run.",
+          },
+        ],
+      },
+      {
+        id: "running-this-as-a-discipline-is-our-expertise",
+        title: "Running this as a discipline is our expertise",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "The reason this turns into a problem rather than an opportunity for most businesses is that the work of running a reputation properly is genuinely operational. It has to happen weekly, in every language your customers leave reviews in, across every platform that the AI and the search engines actually weight, with a 48-hour response SLA against every new review, and with active citation work in the third-party publications that influence both AI Overviews and human readers. No part of that is glamorous. All of it moves the curve.",
+          },
+          {
+            type: "p",
+            text:
+              "We run this end-to-end for UAE operators across hospitality, healthcare, automotive, professional services and the wider service economy. The platform tracks; the team executes. Multilingual review-request workflows timed to your operational rhythm. Professional, on-brand responses to every review in the languages your customers use. Citation and editorial placements in the publications AI engines treat as authoritative. And weekly visibility against the three competitors that matter most in your specific market.",
+          },
+          {
+            type: "p",
+            text:
+              "Every engagement starts with a free 7-page audit of how your reputation currently looks across the platforms that decide whether the customer ever finds you. Every engagement is backed by a 90-day money-back guarantee tied to the metrics we agree at the start. The data is unambiguous about what reviews do. Our job is to make sure the data starts working in your direction.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): InsightsArticle | undefined {
