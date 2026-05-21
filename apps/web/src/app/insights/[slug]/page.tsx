@@ -166,7 +166,7 @@ export default async function InsightsArticlePage({ params }: Props) {
               <p className="text-[#1a1a1a] text-[14px] font-medium mb-4">Share:</p>
               <div className="flex gap-5 text-[14px]">
                 <a
-                  href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(article.slug)}`}
+                  href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#1a1a1a] underline underline-offset-[3px] decoration-1 hover:text-[#FF461E] hover:decoration-[#FF461E] transition-colors"
@@ -174,7 +174,7 @@ export default async function InsightsArticlePage({ params }: Props) {
                   Facebook
                 </a>
                 <a
-                  href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(article.slug)}`}
+                  href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#1a1a1a] underline underline-offset-[3px] decoration-1 hover:text-[#FF461E] hover:decoration-[#FF461E] transition-colors"
@@ -182,7 +182,7 @@ export default async function InsightsArticlePage({ params }: Props) {
                   LinkedIn
                 </a>
                 <a
-                  href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}`}
+                  href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#1a1a1a] underline underline-offset-[3px] decoration-1 hover:text-[#FF461E] hover:decoration-[#FF461E] transition-colors"
