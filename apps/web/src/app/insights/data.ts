@@ -548,6 +548,128 @@ export const ARTICLES: InsightsArticle[] = [
       },
     ],
   },
+  // ─── Hotel reviews + competitive analysis ───────────────────────────
+  {
+    slug: "your-competitors-reviews-are-costing-you-bookings",
+    category: "Hospitality",
+    categoryEyebrow: "INSIGHTS — HOSPITALITY",
+    title:
+      "Your competitors' reviews are quietly costing you bookings. New research shows by exactly how much.",
+    excerpt:
+      "Peer-reviewed research on US hotel bookings shows your competitors' review scores move your own demand almost as much as your own scores do. Here is what the gap costs a UAE hotel — and how we close it.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/hotels-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      {
+        type: "p",
+        text:
+          "Hoteliers have spent two decades treating online reviews as their own problem. Peer-reviewed research published in the Journal of Marketing now says it is just as much a competitor problem. Analysing three years of booking data from six US upscale hotels alongside TripAdvisor sentiment scores, the authors find that a 1% lift in a competitor's sentiment score quietly removes roughly 0.25% of your bookings at the average price point — and 0.34% at premium price points.",
+      },
+      {
+        type: "p",
+        text:
+          "Which means the question is no longer 'how strong is our review profile?' The question is 'how strong is our review profile compared to the property across the road, the one that pulled an extra ten basis points of sentiment last quarter and is now siphoning room nights from us every weekend?'",
+      },
+    ],
+    keyTakeaways: [
+      "81% of travellers usually or always read reviews before booking a hotel; 52% will not book a property with no reviews at all.",
+      "A 1% lift in your own sentiment score is worth about a 0.38% increase in bookings at average price — and 0.54% at premium price points.",
+      "A 1% lift in a competitor's sentiment score removes about 0.25% of your bookings at average price, and 0.34% at premium prices.",
+      "Pricing decisions made without watching competitor review movement are systematically wrong. The reviews are doing half of the pricing work.",
+      "Business travellers respond more strongly to reviews than to price. Leisure travellers are the opposite. Both segments must be planned for separately.",
+      "Closing the gap is operational work — done across your property and against the comp set — not a marketing campaign.",
+    ],
+    sections: [
+      {
+        id: "decided-by-reviews-you-do-not-own",
+        title: "Your bookings are decided by reviews you do not own",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "The traditional model in hospitality has treated reviews as a self-contained scoreboard: every property worries about its own rating, its own response rate, its own monthly review volume. The Journal of Marketing study takes that view apart. Demand for a hotel does not just respond to its own sentiment. It responds to the relative position of its sentiment against the directly competing properties in the same market.",
+          },
+          {
+            type: "p",
+            text:
+              "The effect is bigger than most pricing teams realise. A 1% improvement in your own sentiment score is worth roughly a 0.38% lift in bookings at the average price point. But a 1% improvement in the sentiment score of the property next door costs you about 0.25% of those same bookings. The two effects compound. A competitor that quietly pulls ahead by ten or twenty basis points of sentiment is not just winning their own room nights — they are taking yours.",
+          },
+          {
+            type: "p",
+            text:
+              "In a Dubai market where any leisure traveller comparing two beach resorts in JBR, or any business traveller comparing two Downtown five-stars, is reading both review profiles in the same five minutes, the relative gap is the lever. The property with the better recent sentiment wins the booking. The property with the equivalent average rating but stale, unanswered reviews loses it — and the operator never sees the booking in their own report at all.",
+          },
+        ],
+      },
+      {
+        id: "premium-price-makes-the-gap-bigger",
+        title: "When you charge premium, the gap hits harder",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "The research finds the effect amplifies at premium price points. A property positioned at the high end of its market sees a 0.54% lift in bookings from a 1% sentiment improvement of its own, and a 0.34% drop from a 1% sentiment improvement at a competitor. In simple language: the more you charge, the more aggressively reviews swing demand in both directions.",
+          },
+          {
+            type: "p",
+            text:
+              "For a premium UAE property charging above category average, the operational reality is uncomfortable. The market is forgiving of price as long as the review profile justifies it. The moment the reviews soften — three credible-looking complaints about cleanliness, two about slow check-in, one about a billing surprise — the premium becomes indefensible to the customer reading the profile. They book the competitor at a similar rate with the stronger profile, and the operator is left with two equally bad options: drop the rate to recover the booking, or hold the rate and watch occupancy fall.",
+          },
+          {
+            type: "p",
+            text:
+              "Neither is sustainable. Reputation is doing the pricing work the revenue team thinks the revenue team is doing.",
+          },
+        ],
+      },
+      {
+        id: "segment-and-content-differences",
+        title: "The segment and content differences nobody talks about",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "Two more findings from the study are particularly useful for any property running a mixed-segment business. First, the segments behave differently. Leisure travellers are more sensitive to price than to reviews. Business travellers are the opposite — they are far more sensitive to reviews than to price, because comfort, service quality and reliability are non-negotiable when the trip is on the company card.",
+          },
+          {
+            type: "p",
+            text:
+              "Second, the type of review content matters. Reviews about attributes the traveller cannot independently verify before arriving — service, cleanliness, comfort, the feel of the property — move bookings significantly more than reviews about attributes that are visible from the hotel's own website, like location or the photos of the suite. Reviews carry exactly the weight that the customer cannot verify any other way.",
+          },
+          {
+            type: "p",
+            text:
+              "For an operator, that has direct implications. Responding well to a comment about service quality moves more demand than responding to a comment about distance to the airport. Investing in cleanliness or check-in speed and making sure those operational gains land in the next month's reviews moves more demand than a refurb of an already-photogenic lobby.",
+          },
+        ],
+      },
+      {
+        id: "competitive-reputation-is-our-expertise",
+        title: "Competitive hospitality reputation is our expertise",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "We run reputation programmes for hotels, resorts, serviced apartments and hospitality groups in the UAE that explicitly include the comp set. We do not just track your property's reviews and sentiment across Google, TripAdvisor, Booking.com and the OTAs your buyers actually use. We track the same metrics for the three to five properties you genuinely compete with, weekly, in every language your guests are reviewing in, and we tell you exactly where the gap is widening or narrowing month over month.",
+          },
+          {
+            type: "p",
+            text:
+              "We run the multilingual review-request workflow that fills your profile with recent, authentic feedback at the moment guests are happiest — post-stay, post-dining, post-spa, post-event. Our team responds to every review on your behalf in the languages your guests use, within the SLA the platforms reward. And we work the citation and press placements that influence the AI engines now writing the recommendation answers travellers read before they ever open Booking.com.",
+          },
+          {
+            type: "p",
+            text:
+              "Every engagement starts with a free 7-page audit comparing your property to its three closest competitors across the metrics that move demand. Every engagement is backed by a 90-day money-back guarantee tied to the metrics we agree at the start. The gap your competitor's review profile is opening up against you is not a soft brand issue. It is room nights. We close it.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): InsightsArticle | undefined {
