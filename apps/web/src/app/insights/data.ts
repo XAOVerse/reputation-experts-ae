@@ -35,184 +35,119 @@ export const ARTICLES: InsightsArticle[] = [
     category: "Consumer Study",
     categoryEyebrow: "INSIGHTS — CONSUMER STUDY",
     title:
-      "82% of UAE consumers read online reviews before booking a restaurant, hotel or service",
+      "82% of customers read your reviews before booking. What they see decides whether they call.",
     excerpt:
-      "What the latest review-behaviour data means for hospitality, clinics, and service businesses across Dubai, Abu Dhabi and the wider GCC — and the operational steps that actually move the needle.",
+      "Reviews are no longer a marketing detail. They are the deciding factor between a booking and a competitor taking that booking. Here is what poor reviews actually cost a business — and what a reputation turnaround looks like in practice.",
     date: "May 2026",
     lastUpdated: "May 21, 2026",
-    readTime: "7 min read",
+    readTime: "6 min read",
     heroImage: "/images/blog-1.png",
     heroImageAlt:
-      "Group of guests reviewing a menu and discussing a restaurant with a server in a modern Dubai café",
+      "A reputation manager reviewing customer feedback dashboards",
     author: { name: "Reputation Experts", role: "Editorial team" },
     featured: true,
     intro: [
       {
         type: "p",
         text:
-          "Before a guest walks through your door, books a table, or pays a deposit, they're already deciding whether to trust you — and they're doing it by reading what other people have written about you online. The latest consumer research puts a number on it: 82% of consumers always read online reviews before booking a restaurant, hotel, clinic or service provider. For UAE operators, where word travels fast on Google, TripAdvisor, Talabat and WhatsApp groups alike, that number is not a marketing metric. It's the front door.",
+          "Before a single customer ever calls your business, walks through your door, or fills out an enquiry form, they have already made up their mind about you — by reading what other customers have written about you online. The latest research is unambiguous: 82% of buyers read reviews before booking. What they see in those reviews is the single biggest factor between a booking for you and a booking for your competitor.",
       },
       {
         type: "p",
         text:
-          "This piece breaks down what the data actually says, why it hits UAE businesses harder than most, and the operational moves that move bookings, covers, and revenue — not just star ratings.",
+          "This is not a marketing problem. It is a revenue problem, and in a competitive market like the UAE, it is rapidly becoming a survival problem.",
       },
     ],
     keyTakeaways: [
-      "82% of consumers read reviews before booking, and 96% say reviews are important in the research stage.",
-      "52% will not book at a property or service with zero reviews — silence reads as risk.",
-      "UAE buyers compare you against international standards on global platforms (Google, Booking.com, TripAdvisor) and on Arabic-first channels at the same time.",
-      "Volume, freshness, and your response rate matter more than chasing a perfect 5.0 average.",
-      "A structured review programme reliably lifts conversion — but only if it's compliant with platform rules and never asks for review-gating.",
+      "82% of customers read reviews before booking. Your review profile is the front door to your business.",
+      "A single visible negative review, in a competitive category, can cost a service business hundreds of thousands of dirhams in lost annual revenue.",
+      "Several visible negative reviews can end an otherwise healthy business inside twelve months.",
+      "Customers do not weigh 50 positive reviews against 5 negative ones. They focus on the negatives, draw their conclusion, and book the competitor.",
+      "Ad spend, renovations, equipment upgrades, website redesigns and discounts cannot compensate for a damaged review profile.",
+      "Turn the reputation around and the business turns around with it.",
     ],
     sections: [
       {
-        id: "why-it-matters-uae",
-        title: "Why this number matters more in the UAE",
+        id: "front-door",
+        title: "Reviews are your front door — and the competition is vicious",
         blocks: [
           {
             type: "p",
             text:
-              "Dubai and Abu Dhabi are two of the most review-driven hospitality markets in the world. Tourists arrive with TripAdvisor and Google Maps open. Residents pick clinics, salons and contractors from Instagram and Google in the same scroll. And word-of-mouth — historically the most powerful sales channel in the region — has migrated almost entirely onto screens.",
+              "For a modern service business in Dubai or anywhere else in the UAE, the review profile is the front door. Customers do not arrive on your website cold. They arrive having already seen your Google star rating, scrolled the most recent comments, and compared you against the two or three competitors directly next to you on the map.",
           },
           {
             type: "p",
             text:
-              "The result is a market where a single visible negative review can quietly cost you bookings for months, and where a clinic or restaurant with a steady stream of recent, well-written reviews can out-book a better-known competitor down the road.",
+              "If what they see looks strong, they call. If what they see looks weak, they call the competitor instead. There is no third option. The hesitation that costs you the booking is invisible — the customer never tells you why they didn't pick up the phone.",
           },
           {
-            type: "stat",
-            value: "82%",
-            label: "of consumers always read online reviews before booking.",
-            source: "Consumer review behaviour study, 2024",
-          },
-          {
-            type: "stat",
-            value: "96%",
-            label: "say reviews are important during research.",
-          },
-          {
-            type: "stat",
-            value: "52%",
-            label:
-              "would never book with a provider that has zero reviews — even if the brand is well known.",
+            type: "p",
+            text:
+              "Every category in the country now has more capable competitors than there are customers willing to spend. Your review profile is the single tie-breaker. The 82% number is not abstract. It is the difference between a fully booked diary and an empty one.",
           },
         ],
       },
       {
-        id: "what-buyers-actually-read",
-        title: "What guests actually read (and what they ignore)",
+        id: "cost-of-bad-reviews",
+        title: "One bad review can cost hundreds of thousands of dirhams. Several can close the business.",
         blocks: [
           {
             type: "p",
             text:
-              "Buyers don't read every review. They skim. The research consistently shows the same pattern: they look at the average star rating first, then the total number of reviews, then the most recent reviews — and finally how the business has responded to negative ones.",
-          },
-          { type: "h3", text: "The four things they check, in order" },
-          {
-            type: "ul",
-            items: [
-              "Average star rating — but only as a filter. A 4.3 with 800 reviews beats a 5.0 with 7.",
-              "Volume of reviews — credibility comes from numbers.",
-              "Recency — reviews older than 3–6 months feel stale, especially after a refurb or menu change.",
-              "Owner responses — buyers want to see that you reply, especially to one- and two-star reviews.",
-            ],
+              "A single negative review is rarely a single problem. It is a permanent piece of marketing collateral that sits at the top of your Google profile, gets read by every prospect who looks you up, and quietly removes them from your funnel one by one. For a clinic, a salon, a restaurant, a hotel or any service business, a single visible one-star review in a competitive category can cost the business hundreds of thousands of dirhams in lost annual revenue.",
           },
           {
-            type: "quote",
+            type: "p",
             text:
-              "A measured, professional response to a bad review converts more prospects than a perfect review ever will. It tells the next reader, 'these people are accountable.'",
-            attribution: "Reputation Experts, UAE operations",
+              "Several visible negative reviews are not a marketing inconvenience. They are a business-ending event. We have seen otherwise viable businesses — strong service, good team, good location — close within twelve months because the review profile turned against them and they did not know how to recover.",
+          },
+          {
+            type: "p",
+            text:
+              "And here is the cruel part of the math: good reviews do not undo bad ones. A prospect reading your profile does not weigh fifty positive reviews against five negative ones. They zoom in on the five, draw their conclusion, and book the competitor. Those few reviews define the business in the customer's mind, and that definition is the verdict.",
           },
         ],
       },
       {
-        id: "platforms-that-matter",
-        title: "The platforms that actually drive UAE bookings",
+        id: "ad-spend-cannot-save-you",
+        title: "Your ad spend is not protecting you",
         blocks: [
           {
             type: "p",
             text:
-              "Reviews aren't all created equal. In the UAE, attention concentrates on a small number of high-traffic platforms, and the right priority order depends on what you sell.",
+              "This is the part most operators miss, and it is the most expensive blind spot in the business. You can spend tens of thousands of dirhams a month on Meta and Google ads. You can renovate the showroom. You can redesign the website. You can install million-dirham equipment. You can run a generous launch discount. None of it matters if the prospect, having clicked your ad, opens your Google Business Profile and sees four negative reviews.",
           },
-          { type: "h3", text: "Hospitality (hotels, resorts, F&B)" },
           {
-            type: "ul",
-            items: [
-              "Google Business Profile — the default first impression on mobile.",
-              "TripAdvisor — still decisive for international guests.",
-              "Booking.com — drives last-minute room nights and influences your displayed score.",
-              "Talabat / Deliveroo / Zomato — for F&B, the in-app rating is the menu.",
-            ],
+            type: "p",
+            text:
+              "Every dirham of your ad spend is now paying to send qualified prospects straight to your Google profile, where your review profile then decides whether the booking lands with you or with the competitor. If the profile is weak, you are paying — at premium rates — to feed customers to your competitors. The campaign metric looks like cost-per-click. The business reality is cost-per-customer-handed-to-someone-else.",
           },
-          { type: "h3", text: "Clinics, salons & wellness" },
           {
-            type: "ul",
-            items: [
-              "Google Business Profile — local intent searches dominate.",
-              "Instagram — not technically reviews, but tagged-photo social proof works the same way.",
-              "Specialist directories (e.g., Vezeeta, Carbon Free Dining) where applicable.",
-            ],
-          },
-          { type: "h3", text: "Real estate, automotive & professional services" },
-          {
-            type: "ul",
-            items: [
-              "Google Business Profile — buyers verify the firm before any meeting.",
-              "Property Finder, Bayut, dubizzle agent profiles — listing-platform reputation feeds your enquiries.",
-              "LinkedIn for B2B credibility on the decision-maker side.",
-            ],
+            type: "p",
+            text:
+              "This is the verdict, and it is the same verdict in every category: reviews decide. Reviews are the difference between a sale and no sale, a booking and no booking, a call picked up and a call ignored. Nothing else in your operation compensates for it.",
           },
         ],
       },
       {
-        id: "operational-playbook",
-        title: "An operational playbook that actually works",
+        id: "turnaround",
+        title: "Turn the reputation around. The business follows.",
         blocks: [
           {
             type: "p",
             text:
-              "The biggest mistake we see UAE operators make is treating reviews as a marketing problem. They aren't. They're an operations problem with a marketing surface. The businesses that consistently win run the same loop, week after week.",
-          },
-          { type: "h3", text: "1. Ask every happy guest, the same way, every time" },
-          {
-            type: "p",
-            text:
-              "A standardised, polite ask — at the moment the guest is happiest — typically triples organic review volume within 90 days. The mechanism (WhatsApp follow-up, table card, post-stay email) matters less than the consistency.",
-          },
-          { type: "h3", text: "2. Respond to every review, especially the bad ones" },
-          {
-            type: "p",
-            text:
-              "Set an internal SLA: every review answered inside 48 hours. Use the response to acknowledge specifics, never to argue. Future buyers are the audience, not the reviewer.",
-          },
-          { type: "h3", text: "3. Fix the operational cause, not the symptom" },
-          {
-            type: "p",
-            text:
-              "If three reviews mention slow check-in, the answer isn't a better reply template — it's a faster check-in. Reviews are the cheapest customer-research instrument you'll ever run.",
-          },
-          { type: "h3", text: "4. Never gate, never buy, never fake" },
-          {
-            type: "p",
-            text:
-              "Review-gating (asking only happy customers to post publicly), purchased reviews and incentivised reviews violate Google, TripAdvisor and Booking.com policies and trigger filters that suppress your legitimate reviews. The downside is permanent; the upside is short.",
-          },
-        ],
-      },
-      {
-        id: "how-we-help",
-        title: "How Reputation Experts helps UAE operators",
-        blocks: [
-          {
-            type: "p",
-            text:
-              "We run end-to-end review programmes for hospitality groups, clinics, salons and service businesses across the UAE. That means: setting up the right asking workflows on WhatsApp and email, monitoring every mention across the platforms that matter for your category, drafting on-brand responses in English and Arabic, and addressing problematic content through the legitimate platform channels.",
+              "What we do is not a tactical clean-up. It is a complete turnaround of how the business appears to every prospective customer, and by turning the reputation around, we turn the business around.",
           },
           {
             type: "p",
             text:
-              "Where appropriate, we also pursue review-removal where a post breaches platform policy (fake, off-topic, defamatory, or competitor-posted). We never gate, never buy, and never coach guests on what to write — we just make it easy for happy customers to be heard.",
+              "We remove the harmful reviews dragging the profile down. We build a steady, professional pipeline of positive feedback from your real customers. We move the business into the top 3% of its category on Google Maps. We change the answer prospects get when they look you up on Google, and we change the answer AI assistants like Google's AI Overview and ChatGPT give when buyers ask for recommendations in your category.",
+          },
+          {
+            type: "p",
+            text:
+              "The outcome is a business that finally converts the customers it was already paying to attract — and a category position that compounds month after month instead of decaying under negative content. Same operation, same team, same location. Different reputation. Different business.",
           },
         ],
       },

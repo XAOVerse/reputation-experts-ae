@@ -5,9 +5,11 @@ import { notFound } from "next/navigation";
 import { ARTICLES, getArticleBySlug, getAllSlugs } from "../data";
 import type { Block } from "../data";
 import ArticleTOC from "./ArticleTOC";
-import BackToTop from "./BackToTop";
 
 type Props = { params: Promise<{ slug: string }> };
+
+const ORANGE = "#FF461E";
+const BORDER = "#d2d2d5";
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -35,7 +37,8 @@ function renderBlock(block: Block, idx: number) {
       return (
         <p
           key={idx}
-          className="text-[#1a1a1a] text-[17px] lg:text-[18px] leading-[1.75] mb-6"
+          className="text-black"
+          style={{ fontSize: "17px", lineHeight: "26px", paddingTop: idx === 0 ? "0" : "20px" }}
         >
           {block.text}
         </p>
@@ -44,54 +47,26 @@ function renderBlock(block: Block, idx: number) {
       return (
         <h3
           key={idx}
-          className="text-[#1a1a1a] font-semibold text-[22px] lg:text-[24px] leading-tight mt-10 mb-4 tracking-[-0.01em]"
+          className="text-black font-semibold"
+          style={{ fontSize: "20px", lineHeight: "28px", paddingTop: "28px", paddingBottom: "4px" }}
         >
           {block.text}
         </h3>
       );
     case "ul":
       return (
-        <ul key={idx} className="mb-8 pl-6 space-y-3">
+        <ul key={idx} style={{ paddingTop: "12px", paddingBottom: "12px" }} className="space-y-2">
           {block.items.map((item, i) => (
             <li
               key={i}
-              className="text-[#1a1a1a] text-[17px] lg:text-[18px] leading-[1.75] list-disc marker:text-[#FF461E]"
+              className="text-black flex gap-3"
+              style={{ fontSize: "17px", lineHeight: "26px" }}
             >
-              {item}
+              <span aria-hidden style={{ paddingLeft: "1px" }}>•</span>
+              <span>{item}</span>
             </li>
           ))}
         </ul>
-      );
-    case "stat":
-      return (
-        <div
-          key={idx}
-          className="my-10 border-l-[3px] border-[#FF461E] pl-6"
-        >
-          <div className="text-[#FF461E] font-semibold text-[44px] lg:text-[56px] leading-none mb-3 tracking-[-0.02em]">
-            {block.value}
-          </div>
-          <div className="text-[#1a1a1a] text-[17px] leading-snug">
-            {block.label}
-          </div>
-          {block.source && (
-            <div className="text-[#888] text-[13px] mt-2">Source: {block.source}</div>
-          )}
-        </div>
-      );
-    case "quote":
-      return (
-        <blockquote
-          key={idx}
-          className="my-10 border-l-[3px] border-[#1a1a1a] pl-6 text-[#1a1a1a] text-[20px] lg:text-[22px] leading-[1.5] font-normal"
-        >
-          <p className="italic mb-3">"{block.text}"</p>
-          {block.attribution && (
-            <footer className="not-italic text-[#666] text-[14px] font-normal">
-              — {block.attribution}
-            </footer>
-          )}
-        </blockquote>
       );
     default:
       return null;
@@ -105,181 +80,226 @@ export default async function InsightsArticlePage({ params }: Props) {
 
   const otherArticles = ARTICLES.filter((a) => a.slug !== slug).slice(0, 3);
 
+  // Build TOC items from sections plus a final "Key takeaways" entry
+  const tocItems = [
+    ...article.sections.map((s) => ({ id: s.id, label: s.title })),
+    { id: "key-takeaways", label: "Key takeaways" },
+  ];
+
   return (
-    <main className="pt-[64px] bg-white">
-      {/* ── Two-col hero: image left, title right ───────────── */}
-      <section className="bg-white pt-10 lg:pt-16 pb-12 lg:pb-20">
-        <div className="max-w-[1280px] mx-auto px-5 lg:px-10 grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 lg:gap-16 items-center">
-          <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-[#f4f4f4] order-2 lg:order-1">
+    <main className="bg-white pt-[64px]">
+      {/* ── HERO ─────────────────────────────────────────── */}
+      <section
+        className="grid w-full"
+        style={{
+          gridTemplateColumns: "8fr 16fr",
+          borderBottom: `1px solid ${BORDER}`,
+        }}
+      >
+        <div
+          className="relative flex items-stretch"
+          style={{ borderBottom: `1px solid ${BORDER}`, padding: "28px" }}
+        >
+          <div className="relative w-full aspect-[4/3] overflow-hidden bg-[#d2d2d5]">
             <Image
               src={article.heroImage}
               alt={article.heroImageAlt}
               fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
               priority
+              sizes="(max-width: 1280px) 33vw, 640px"
+              className="object-cover"
             />
           </div>
-          <div className="order-1 lg:order-2">
-            <Link
-              href="/insights"
-              className="inline-flex items-center gap-2 text-[#FF461E] text-[12px] font-semibold tracking-[0.1em] uppercase mb-6 hover:opacity-80 transition-opacity"
-            >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M19 12H5M12 19l-7-7 7-7" />
-              </svg>
-              All Insights
-            </Link>
-            <h1
-              className="text-[#1a1a1a] font-semibold leading-[1.08] tracking-[-0.025em] mb-8"
-              style={{ fontSize: "clamp(2rem, 4.2vw, 3.5rem)" }}
-            >
-              {article.title}
-            </h1>
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-[#FF461E]/10 flex items-center justify-center shrink-0">
-                <span className="text-[#FF461E] font-semibold text-[15px]">RE</span>
+        </div>
+
+        <div
+          style={{
+            borderLeft: `1px solid ${BORDER}`,
+            padding: "56px 32px",
+          }}
+          className="flex flex-col gap-[36px]"
+        >
+          <Link
+            href="/insights"
+            className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
+            style={{ color: ORANGE, fontSize: "12px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase" }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
+            All Insights
+          </Link>
+          <h1
+            className="text-black font-normal"
+            style={{ fontSize: "40px", lineHeight: "46px", letterSpacing: "-0.01em" }}
+          >
+            {article.title}
+          </h1>
+
+          <div className="grid grid-cols-[4fr_12fr]">
+            <div className="flex flex-col justify-center text-black" style={{ fontSize: "14px", lineHeight: "20px" }}>
+              <p>Last updated:</p>
+              <p>{article.lastUpdated}</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <div
+                className="w-[38px] h-[38px] rounded-full overflow-hidden shrink-0 flex items-center justify-center"
+                style={{ background: ORANGE + "1a" }}
+                aria-hidden
+              >
+                <span style={{ color: ORANGE, fontWeight: 600, fontSize: 13 }}>RE</span>
               </div>
-              <div>
-                <p className="text-[#1a1a1a] text-[14px]">Last updated: {article.lastUpdated}</p>
-                <p className="text-[#1a1a1a] text-[15px] font-medium mt-1">
-                  {article.author.name}
-                </p>
-                <p className="text-[#888] text-[13px]">{article.author.role}</p>
+              <div className="flex flex-col text-black" style={{ fontSize: "14px", lineHeight: "20px" }}>
+                <p className="underline underline-offset-[3px] decoration-1">{article.author.role},</p>
+                <p>{article.author.name}</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── Body: TOC + content ────────────────────────────── */}
-      <section className="bg-white pb-16 lg:pb-24">
-        <div className="max-w-[1280px] mx-auto px-5 lg:px-10 grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-10 lg:gap-20">
+      {/* ── BODY ─────────────────────────────────────────── */}
+      <section
+        className="grid w-full"
+        style={{ gridTemplateColumns: "8fr 16fr" }}
+      >
+        {/* LEFT: sticky TOC */}
+        <aside className="relative">
+          <div className="sticky top-[80px]" style={{ borderBottom: `1px solid ${BORDER}` }}>
+            <div style={{ height: "100px", borderLeft: `1px solid ${BORDER}` }} />
 
-          {/* Left rail: TOC + share */}
-          <aside className="lg:sticky lg:top-[96px] lg:self-start">
-            <ArticleTOC
-              sections={article.sections.map((s) => ({ id: s.id, title: s.title }))}
-              extra={[{ id: "key-takeaways", title: "Key takeaways" }]}
-            />
-            <div className="mt-10">
-              <p className="text-[#1a1a1a] text-[14px] font-medium mb-4">Share:</p>
-              <div className="flex gap-5 text-[14px]">
-                <a
-                  href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#1a1a1a] underline underline-offset-[3px] decoration-1 hover:text-[#FF461E] hover:decoration-[#FF461E] transition-colors"
-                >
-                  Facebook
-                </a>
-                <a
-                  href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#1a1a1a] underline underline-offset-[3px] decoration-1 hover:text-[#FF461E] hover:decoration-[#FF461E] transition-colors"
-                >
-                  LinkedIn
-                </a>
-                <a
-                  href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#1a1a1a] underline underline-offset-[3px] decoration-1 hover:text-[#FF461E] hover:decoration-[#FF461E] transition-colors"
-                >
-                  X
-                </a>
+            <div style={{ borderLeft: `1px solid ${BORDER}` }}>
+              <div style={{ padding: "0 32px 16px 33px" }}>
+                <p className="text-black font-normal" style={{ fontSize: "18px", lineHeight: "26px" }}>
+                  What&apos;s inside
+                </p>
+              </div>
+              <ArticleTOC items={tocItems} borderColor={BORDER} activeColor={ORANGE} />
+            </div>
+
+            <div
+              className="grid"
+              style={{
+                borderTop: `1px solid ${BORDER}`,
+                borderLeft: `1px solid ${BORDER}`,
+                padding: "20px 32px 20px 33px",
+              }}
+            >
+              <div className="flex items-end gap-4">
+                <span className="text-black" style={{ fontSize: "14px", lineHeight: "20px" }}>Share:</span>
+                <a href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1" style={{ fontSize: "14px", lineHeight: "20px" }}>Facebook</a>
+                <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1" style={{ fontSize: "14px", lineHeight: "20px" }}>LinkedIn</a>
+                <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1" style={{ fontSize: "14px", lineHeight: "20px" }}>X</a>
               </div>
             </div>
-          </aside>
+          </div>
+        </aside>
 
-          {/* Right: article content */}
-          <article className="max-w-[760px]">
-            {/* Intro — large/bold */}
-            <div className="mb-12">
+        {/* RIGHT: article content */}
+        <article style={{ borderLeft: `1px solid ${BORDER}` }} className="relative">
+          <div style={{ padding: "0 32px" }}>
+            {/* Intro lead */}
+            <div style={{ paddingTop: "44px", paddingBottom: "12px" }}>
               {article.intro.map((b, i) => {
-                if (b.type === "p") {
+                if (b.type === "p" && i === 0) {
                   return (
                     <p
                       key={i}
-                      className="text-[#1a1a1a] text-[22px] lg:text-[26px] font-semibold leading-[1.35] tracking-[-0.015em] mb-6"
+                      className="text-black"
+                      style={{ fontSize: "22px", lineHeight: "30px", letterSpacing: "-0.003em" }}
                     >
                       {b.text}
                     </p>
                   );
                 }
-                return renderBlock(b, i);
+                return (
+                  <p
+                    key={i}
+                    className="text-black"
+                    style={{ fontSize: "17px", lineHeight: "26px", paddingTop: i === 0 ? "0" : "20px" }}
+                  >
+                    {b.type === "p" ? b.text : ""}
+                  </p>
+                );
               })}
             </div>
 
-            {/* Sections */}
-            {article.sections.map((section, sIdx) => {
-              const isFirst = sIdx === 0;
-              return (
-                <section
-                  key={section.id}
-                  id={section.id}
-                  className="scroll-mt-[96px] mb-14 lg:mb-20"
-                >
-                  <h2 className="text-[#FF461E] font-semibold text-[32px] lg:text-[44px] leading-[1.1] tracking-[-0.02em] mb-8">
+            {/* Sections + mid-CTA after section index 1 */}
+            {article.sections.map((section, sIdx) => (
+              <div key={section.id}>
+                <div style={{ paddingTop: sIdx === 0 ? "32px" : "44px" }} id={section.id} className="scroll-mt-[100px]">
+                  <h2 className="font-normal" style={{ color: ORANGE, fontSize: "30px", lineHeight: "38px" }}>
                     {section.title}
                   </h2>
+                </div>
+                <div style={{ paddingTop: "20px" }}>
                   {section.blocks.map((b, i) => renderBlock(b, i))}
+                </div>
 
-                  {/* Mid-page orange CTA after the second section */}
-                  {sIdx === 1 && (
-                    <div className="mt-14 -mx-5 lg:mx-0">
-                      <div className="bg-[#FF461E] rounded-none lg:rounded-2xl px-6 lg:px-14 py-12 lg:py-16">
-                        <h3
-                          className="text-white font-semibold leading-[1.1] tracking-[-0.02em] mb-10"
-                          style={{ fontSize: "clamp(1.75rem, 3vw, 2.5rem)" }}
-                        >
-                          Ready to take control of your online reputation?
-                        </h3>
+                {/* Mid-page CTA banner — after the SECOND section */}
+                {sIdx === 1 && (
+                  <div
+                    style={{
+                      background: ORANGE,
+                      padding: "56px 32px",
+                      marginTop: "56px",
+                    }}
+                  >
+                    <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+                      <h2 className="text-white font-normal" style={{ fontSize: "40px", lineHeight: "46px", letterSpacing: "-0.01em" }}>
+                        Ready to turn your reputation — and your business — around?
+                      </h2>
+                      <p className="text-white" style={{ fontSize: "17px", lineHeight: "26px" }}>
+                        Get a free, confidential audit of how your business appears to customers across Google, review platforms, and AI assistants — and a plain-language plan for what we will fix first.
+                      </p>
+                      <div style={{ paddingTop: "20px" }}>
                         <Link
                           href="/contact"
-                          className="inline-block text-white text-[17px] font-medium underline underline-offset-[6px] decoration-1 hover:decoration-2 transition-all"
+                          className="text-white underline underline-offset-[6px] decoration-1"
+                          style={{ fontSize: "20px", lineHeight: "28px" }}
                         >
                           Contact us
                         </Link>
                       </div>
                     </div>
-                  )}
-                </section>
-              );
-            })}
+                  </div>
+                )}
+              </div>
+            ))}
 
-            {/* Key takeaways at the end */}
+            {/* Key takeaways — black H2 */}
             {article.keyTakeaways.length > 0 && (
-              <section id="key-takeaways" className="scroll-mt-[96px] mb-14">
-                <h2 className="text-[#FF461E] font-semibold text-[32px] lg:text-[44px] leading-[1.1] tracking-[-0.02em] mb-8">
-                  Key takeaways
-                </h2>
-                <ul className="space-y-3 mb-6">
+              <>
+                <div style={{ paddingTop: "44px" }} id="key-takeaways" className="scroll-mt-[100px]">
+                  <h2 className="text-black font-normal" style={{ fontSize: "30px", lineHeight: "38px" }}>
+                    Key takeaways
+                  </h2>
+                </div>
+                <ul style={{ paddingTop: "20px", paddingBottom: "12px" }} className="space-y-2">
                   {article.keyTakeaways.map((t, i) => (
-                    <li
-                      key={i}
-                      className="text-[#1a1a1a] text-[17px] lg:text-[18px] leading-[1.75] pl-6 list-disc marker:text-[#FF461E]"
-                    >
-                      {t}
+                    <li key={i} className="text-black flex gap-3" style={{ fontSize: "17px", lineHeight: "26px" }}>
+                      <span aria-hidden style={{ paddingLeft: "1px" }}>•</span>
+                      <span>{t}</span>
                     </li>
                   ))}
                 </ul>
-              </section>
+                <div style={{ paddingBottom: "60px" }} />
+              </>
             )}
-          </article>
-        </div>
+          </div>
+        </article>
       </section>
 
-      {/* ── More Insights ──────────────────────────────────── */}
+      {/* ── More Insights ───────────────────────────────── */}
       {otherArticles.length > 0 && (
-        <section className="bg-white py-14 lg:py-20 border-t border-[#eee]">
-          <div className="max-w-[1280px] mx-auto px-5 lg:px-10">
-            <div className="flex items-end justify-between mb-8 lg:mb-10">
-              <h2 className="text-[#1a1a1a] font-semibold text-[28px] lg:text-[36px] tracking-[-0.02em]">More Insights</h2>
+        <section className="bg-white py-14 lg:py-20" style={{ borderTop: `1px solid ${BORDER}` }}>
+          <div style={{ padding: "0 32px", maxWidth: "1280px", marginLeft: "auto", marginRight: "auto" }}>
+            <div className="flex items-end justify-between mb-8">
+              <h2 className="text-black font-semibold" style={{ fontSize: "28px", lineHeight: "34px", letterSpacing: "-0.02em" }}>More Insights</h2>
               <Link
                 href="/insights"
-                className="inline-flex items-center gap-2 text-[#FF461E] text-[13px] font-semibold tracking-[0.06em] uppercase hover:opacity-80 transition-opacity"
+                className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
+                style={{ color: ORANGE, fontSize: "13px", fontWeight: 600, letterSpacing: "0.06em", textTransform: "uppercase" }}
               >
                 View all
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
@@ -288,26 +308,17 @@ export default async function InsightsArticlePage({ params }: Props) {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {otherArticles.map((a) => (
                 <Link key={a.slug} href={`/insights/${a.slug}`} className="group flex flex-col gap-4">
-                  <div className="relative w-full overflow-hidden rounded-xl aspect-[3/2] bg-[#f4f4f4]">
+                  <div className="relative w-full overflow-hidden aspect-[3/2] bg-[#d2d2d5]">
                     <Image src={a.heroImage} alt={a.heroImageAlt} fill className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-[1.03]" sizes="(max-width: 1024px) 50vw, 33vw" />
                   </div>
-                  <p className="text-[#1a1a1a] text-[11px] font-semibold tracking-[0.08em] uppercase leading-none">{a.categoryEyebrow}</p>
-                  <h3 className="text-[#1a1a1a] text-[18px] font-normal leading-[1.4] tracking-[-0.01em] group-hover:text-[#FF461E] transition-colors duration-200">{a.title}</h3>
-                  <div className="flex items-center gap-2 text-[#1a1a1a] text-[12px] font-semibold tracking-[0.06em] uppercase mt-auto">
-                    <span>Read more</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <circle cx="12" cy="12" r="10" />
-                      <path d="M12 8l4 4-4 4M8 12h8" />
-                    </svg>
-                  </div>
+                  <p className="text-black" style={{ fontSize: "11px", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", lineHeight: "16px" }}>{a.categoryEyebrow}</p>
+                  <h3 className="text-black group-hover:text-[#FF461E] transition-colors" style={{ fontSize: "17px", lineHeight: "24px" }}>{a.title}</h3>
                 </Link>
               ))}
             </div>
           </div>
         </section>
       )}
-
-      <BackToTop />
     </main>
   );
 }

@@ -2,24 +2,22 @@
 
 import { useEffect, useState } from "react";
 
-interface TOCItem {
-  id: string;
-  title: string;
-}
+interface Item { id: string; label: string }
 
 export default function ArticleTOC({
-  sections,
-  extra = [],
+  items,
+  borderColor,
+  activeColor,
 }: {
-  sections: TOCItem[];
-  extra?: TOCItem[];
+  items: Item[];
+  borderColor: string;
+  activeColor: string;
 }) {
-  const items = [...sections, ...extra];
-  const [activeId, setActiveId] = useState<string>(items[0]?.id ?? "");
+  const [activeId, setActiveId] = useState<string>("");
 
   useEffect(() => {
     const handler = () => {
-      const offset = 120;
+      const offset = 140;
       let current = items[0]?.id ?? "";
       for (const it of items) {
         const el = document.getElementById(it.id);
@@ -35,38 +33,36 @@ export default function ArticleTOC({
   }, [items]);
 
   return (
-    <nav aria-label="Article contents">
-      <p className="text-[#1a1a1a] text-[22px] font-semibold leading-tight mb-6 tracking-[-0.01em]">
-        What's inside
-      </p>
-      <ul className="border-t border-[#e4e4e4]">
-        {items.map((it) => {
-          const isActive = activeId === it.id;
-          return (
-            <li
-              key={it.id}
-              className="border-b border-[#e4e4e4] relative"
+    <ul style={{ borderTop: `1px solid ${borderColor}` }}>
+      {items.map((it) => {
+        const isActive = activeId === it.id;
+        return (
+          <li
+            key={it.id}
+            style={{ borderBottom: `1px solid ${borderColor}`, position: "relative" }}
+          >
+            <a
+              href={`#${it.id}`}
+              style={{
+                display: "block",
+                paddingTop: "12px",
+                paddingBottom: "12px",
+                paddingLeft: isActive ? "31px" : "33px",
+                paddingRight: "32px",
+                borderLeft: isActive ? `3px solid ${activeColor}` : "none",
+                color: isActive ? activeColor : "#000",
+                fontSize: "14px",
+                lineHeight: "20px",
+                textDecoration: "none",
+                fontWeight: 400,
+                transition: "color 0.15s",
+              }}
             >
-              {isActive && (
-                <span
-                  aria-hidden
-                  className="absolute left-0 top-0 bottom-0 w-[3px] bg-[#FF461E]"
-                />
-              )}
-              <a
-                href={`#${it.id}`}
-                className={`block py-4 pl-4 pr-2 text-[15px] leading-[1.45] transition-colors ${
-                  isActive
-                    ? "text-[#FF461E] font-medium"
-                    : "text-[#1a1a1a] hover:text-[#FF461E]"
-                }`}
-              >
-                {it.title}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
-    </nav>
+              {it.label}
+            </a>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
