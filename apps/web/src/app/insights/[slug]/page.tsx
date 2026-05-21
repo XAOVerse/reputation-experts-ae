@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(slug);
   if (!article) return {};
   return {
-    title: `${article.title} | Insights`,
+    title: article.title,
     description: article.excerpt,
     openGraph: {
       title: article.title,
@@ -103,7 +103,7 @@ export default async function InsightsArticlePage({ params }: Props) {
 
   const otherArticles = ARTICLES.filter((a) => a.slug !== slug).slice(0, 3);
 
-  const shareUrl = `https://${typeof process !== "undefined" && process.env.NEXT_PUBLIC_SITE_HOST ? process.env.NEXT_PUBLIC_SITE_HOST : ""}/insights/${article.slug}`;
+  const shareUrl = `https://www.reputationexperts.ae/insights/${article.slug}`;
 
   return (
     <main className="pt-[64px] bg-white" style={{ fontFamily: "'Roboto', sans-serif" }}>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ARTICLES } from "./data";
 
 export const metadata: Metadata = {
-  title: "Insights | Reputation Experts",
+  title: "Insights",
   description:
     "Consumer studies, industry research, and expert analysis on online reviews, search visibility, and digital reputation.",
 };
