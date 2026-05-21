@@ -814,6 +814,128 @@ export const ARTICLES: InsightsArticle[] = [
       },
     ],
   },
+  // ─── Aesthetic clinics — reputation is the first consultation ──────
+  {
+    slug: "in-aesthetics-reputation-is-the-first-consultation",
+    category: "Aesthetic Clinics",
+    categoryEyebrow: "INSIGHTS — AESTHETIC CLINICS",
+    title:
+      "In aesthetics, your reputation is the first consultation. Your reviews decide whether the second one ever happens.",
+    excerpt:
+      "Patients now use Google to vet aesthetic clinics for safety long before they ever book a consultation. Here is what a weak review profile actually costs a UAE clinic — and how a reputation turnaround restores the consultation pipeline.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/aesthetic-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      {
+        type: "p",
+        text:
+          "In every other category, a customer's first interaction with the business is the search. In aesthetics, it is the safety check. A prospective patient considering filler, laser, a surgical procedure, or any treatment that will alter how they look does not start by comparing brochures — they start by reading recent reviews to decide whether the clinic is one they would let near their face. That decision happens before any consultation is ever booked. In practical terms, your Google profile is the first consultation, and your reviews are doing the talking.",
+      },
+      {
+        type: "p",
+        text:
+          "The market has also become harder. Reporting in The Times notes that UK complaints about cosmetic clinics have climbed from 18 to 118 in five years — a sixfold rise. Patients are reading the news, and they are taking it with them into your review feed when they look you up. The bar of evidence they want before booking is higher than it has ever been.",
+      },
+    ],
+    keyTakeaways: [
+      "Patients use Google reviews as a safety check, not a marketing input. The decision to book a consultation is made before the consultation.",
+      "Cosmetic-clinic complaints in the UK have risen roughly sixfold in five years. Patients are now actively looking for warning signs.",
+      "A handful of negative reviews can collapse new-patient acquisition at a clinic, regardless of how strong the clinical outcomes actually are.",
+      "Aesthetic treatments have high per-patient revenue. A single visible negative review can quietly cost a clinic the equivalent of dozens of treatment packages a year.",
+      "Patients trust clinics with active, recent, responded-to review profiles. Silence reads as risk.",
+      "Reputation in aesthetics is not a brand exercise. It is the difference between a full diary and an empty one.",
+    ],
+    sections: [
+      {
+        id: "patients-vet-safety-not-aesthetics",
+        title: "Patients now use reviews to vet safety, not just aesthetics",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "The aesthetic patient of 2026 is a different buyer to the aesthetic patient of even three years ago. They have read the news stories. They know the regulatory environment has tightened. They have been told by friends, by social-media commentary and by their own GPs to do their homework before walking into any clinic. And the homework they do is your Google profile.",
+          },
+          {
+            type: "p",
+            text:
+              "What they read is not measured against your marketing. It is measured against a checklist of warning signs that the public conversation about the category has taught them to look for. A cluster of unanswered negative reviews. Recent complaints about safety or aftercare. A sudden run of suspicious-looking five-stars. A profile that has not moved in twelve months. Any one of these is enough for the patient to close the tab and move to the next clinic. They do not call. They do not tell you why.",
+          },
+          {
+            type: "p",
+            text:
+              "The shift is not subtle. The conversation patients used to have with the clinic in the consultation room has migrated, almost entirely, to the moment they are scrolling on their phone the night before. Your reviews are now answering the questions you used to answer in person — and they are answering them whether you are paying attention or not.",
+          },
+        ],
+      },
+      {
+        id: "what-it-actually-costs-a-clinic",
+        title: "What a damaged review profile actually costs an aesthetic clinic",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "The financial picture in aesthetics is unusually unforgiving. Treatments are high-ticket. Repeat rates and referral rates from a happy patient are exceptional. The reverse is also true: a patient who never books because of what they read on Google is not a small loss. They are the loss of a full course of treatment, plus the maintenance package, plus the friend or family member who would have followed them in. A single visible negative review, in a clinic charging premium prices, can quietly cost the business the equivalent of dozens of treatment packages a year.",
+          },
+          {
+            type: "p",
+            text:
+              "Several visible negative reviews collapse the pipeline. We have worked with UAE clinics where the clinical outcomes were genuinely excellent, the team was experienced, the equipment was first-rate, and the new-patient calendar was still emptying out month over month. The answer was sitting in plain sight on Google. Three credible-looking complaints from a few months earlier, no responses, no follow-up — and the prospective patients were quietly making the safer-feeling choice elsewhere.",
+          },
+          {
+            type: "p",
+            text:
+              "Marketing spend cannot dig the clinic out of this on its own. You can run the most effective Meta and Google campaigns in the city. You can refurbish the clinic, expand the team, upgrade the laser. None of it converts if the patient, having clicked your ad, opens your profile and sees a story they cannot trust.",
+          },
+        ],
+      },
+      {
+        id: "best-reviews-wins-the-consultation",
+        title: "The clinic with the best reviews wins the consultation",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "Patients are not weighing dozens of positive reviews against a handful of negative ones. They are zooming in on the negatives, drawing their conclusions, and booking the clinic with the cleaner story. The data on this is consistent across consumer-review research: a profile that looks active, recent and responded-to wins disproportionately over a profile with an identical star average that looks dormant or defensive.",
+          },
+          {
+            type: "p",
+            text:
+              "And once a clinic builds visible momentum — a strong recent review profile, professional responses, third-party press coverage that confirms the clinic's standing — the gap compounds. Patients refer friends. Search engines rank the clinic higher. AI assistants begin naming it when prospective patients ask, 'best aesthetic clinic near me'. The clinic that was already good becomes the clinic the market quietly agrees is the safest choice — and the bookings follow.",
+          },
+          {
+            type: "p",
+            text:
+              "The gap between the clinic with momentum and the clinic without is rarely a clinical gap. It is almost always a reputation gap. And that gap is closeable.",
+          },
+        ],
+      },
+      {
+        id: "aesthetic-reputation-is-our-expertise",
+        title: "Aesthetic reputation is our expertise",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "We run dedicated reputation programmes for aesthetic and cosmetic clinics, dermatology practices, and surgical clinics across the UAE. We treat aesthetic reputation as its own discipline because the patient's standard of evidence is higher, the language is more clinical, the price sensitivity is different, and the regulatory environment is tighter than in any other consumer-facing category.",
+          },
+          {
+            type: "p",
+            text:
+              "What we deliver is straightforward. Harmful reviews come down where platform policy permits. A professional pipeline of positive feedback comes online from your real, recent patients, in the languages they actually use — English, Arabic, Russian, Mandarin. Every public review is answered on your behalf, in your voice, inside a 48-hour SLA. The clinic moves into the top 3% of its category on Google Maps. And the answer prospective patients get from Google's AI Overview and ChatGPT, when they ask which clinic is best for filler, laser or any treatment in your specialty, starts naming you.",
+          },
+          {
+            type: "p",
+            text:
+              "Same clinicians, same equipment, same team, same location. The reputation is different — and the consultation calendar is different with it. Every engagement starts with a free 7-page audit of how each platform currently presents your clinic, and every engagement is backed by a 90-day money-back guarantee tied to the metrics we agree at the start. The first consultation is happening on Google. We make sure your clinic wins it.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): InsightsArticle | undefined {
