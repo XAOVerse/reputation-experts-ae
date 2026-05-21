@@ -13,7 +13,7 @@ export default function TemplateTOC({
   borderColor: string;
   activeColor: string;
 }) {
-  const [activeId, setActiveId] = useState<string>(items[items.length - 1]?.id ?? "");
+  const [activeId, setActiveId] = useState<string>("");
 
   useEffect(() => {
     const handler = () => {
@@ -48,14 +48,14 @@ export default function TemplateTOC({
               href={`#${it.id}`}
               style={{
                 display: "block",
-                paddingTop: "16px",
-                paddingBottom: "16px",
-                paddingLeft: isActive ? "40px" : "41px",
-                paddingRight: "40px",
-                borderLeft: isActive ? `4px solid ${activeColor}` : "none",
+                paddingTop: "12px",
+                paddingBottom: "12px",
+                paddingLeft: isActive ? "31px" : "33px",
+                paddingRight: "32px",
+                borderLeft: isActive ? `3px solid ${activeColor}` : "none",
                 color: isActive ? activeColor : "#000",
-                fontSize: "20px",
-                lineHeight: "28px",
+                fontSize: "14px",
+                lineHeight: "20px",
                 textDecoration: "none",
                 fontWeight: 400,
                 transition: "color 0.15s",
