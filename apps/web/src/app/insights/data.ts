@@ -936,6 +936,374 @@ export const ARTICLES: InsightsArticle[] = [
       },
     ],
   },
+  // ─── Dental clinics — the lifetime-value math ──────────────────────
+  {
+    slug: "dental-patients-the-lifetime-value-of-a-google-review",
+    category: "Dental Clinics",
+    categoryEyebrow: "INSIGHTS — DENTAL CLINICS",
+    title:
+      "A dental patient is worth more than any local-business customer. Reviews decide whether you ever meet them.",
+    excerpt:
+      "Dental practices have the highest lifetime value per patient of any local-service business — and the lowest tolerance for risk in their review research. Here is the math behind what a weak profile actually costs.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "A dental patient is not a transaction. They are a fifteen-year relationship that contains a check-up every six months, two or three rounds of specialty work, an emergency or two, and — almost always — a referral chain into their family. Industry research consistently puts the lifetime value of a retained private dental patient in the tens of thousands of dirhams. Which is why the cost of losing one to a weak review profile is much larger than most clinic owners calculate in their head." },
+      { type: "p", text: "And dental patients, more than almost any other consumer, do their homework before booking. Industry data shows that more than 90% of healthcare patients now check reviews before choosing a provider. For dental specifically, the consequence is sharp: the practice with the cleaner profile does not just win the first appointment. It wins the whole family for a decade." },
+    ],
+    keyTakeaways: [
+      "A retained private dental patient typically delivers tens of thousands of dirhams of lifetime revenue, plus a referral chain into their family.",
+      "Patients read reviews about pain management, hygiene, billing transparency, and bedside manner — the things they cannot verify from a website.",
+      "84% of patients will not consider a healthcare provider rated below four stars. The threshold is a hard filter.",
+      "A small number of unanswered negative reviews can collapse new-patient acquisition without affecting clinical outcomes at all.",
+      "Patients who choose your clinic on the strength of a good review profile have higher trust on day one and convert better on treatment plans.",
+      "Reputation work for a dental clinic is operations work with a marketing surface — not the other way round.",
+    ],
+    sections: [
+      { id: "lifetime-value", title: "The lifetime value the marketing team is not modelling", blocks: [
+        { type: "p", text: "Marketing dashboards for dental clinics tend to optimise for cost-per-new-patient. The metric flatters short-term campaigns but disguises the actual prize. The new patient acquired today is also the routine check-ups for the next decade, the orthodontic course for their teenager, the implant work in five years, and a constant low-rate flow of family and friends arriving on a referral. The patient acquisition number on the dashboard is roughly one tenth of the economic decision the customer just made." },
+        { type: "p", text: "Reviews directly decide whether that economic chain ever begins. The patient who quietly clicks past your clinic because of three credible-looking negative reviews is not a one-treatment loss. They are the loss of an entire family of cases and the people they would have brought with them." },
+      ] },
+      { id: "the-questions-patients-actually-ask", title: "The questions patients ask before they book", blocks: [
+        { type: "p", text: "What the prospective dental patient is reading reviews for is rarely the dentistry itself — that is taken for granted once they reach a clinic that crosses a basic credibility threshold. What they are reading for is hygiene, pain management, billing transparency, the warmth of the front desk, whether the consultation felt rushed, and whether the team explained the plan in plain language." },
+        { type: "p", text: "Those are exactly the attributes you cannot establish on a website. They are also exactly the attributes the patient cannot tolerate uncertainty about. The clinic whose recent reviews repeatedly confirm those qualities, in patients' own words, becomes the safe choice. The clinic whose reviews are silent or unanswered becomes the risky one." },
+      ] },
+      { id: "what-this-costs-the-practice", title: "What a weak profile actually costs the practice", blocks: [
+        { type: "p", text: "Run the arithmetic at the practice level. A clinic missing even one new patient a week because of a weak review profile is missing roughly fifty new patient relationships a year. With a long-term lifetime value in the tens of thousands per patient and a meaningful share of those bringing family with them, the annual revenue impact runs into the millions before the marketing manager has noticed anything is wrong. The reviews quietly do the damage and the dashboard quietly fails to report it." },
+        { type: "p", text: "And the loss compounds rather than stays flat. The competitor who picks up those patients gets the long lifetime value, the referrals, the testimonials, and the rising review velocity that pulls more new patients in. The practice with the weak profile is not just losing today. It is losing the next decade." },
+      ] },
+      { id: "dental-reputation-is-our-expertise", title: "Dental reputation is our expertise", blocks: [
+        { type: "p", text: "We work with dental clinics, paediatric practices, orthodontic groups and oral surgery centres across the UAE. We treat dental reputation as its own discipline because the patient's standard of evidence is exceptional, the language is clinical, and the long lifetime value means even small differences in conversion are very large in revenue terms over time." },
+        { type: "p", text: "The outcome we deliver is straightforward: harmful reviews come down where platform policy permits, a steady multilingual pipeline of authentic patient feedback comes online, every review is answered on your behalf within a 48-hour SLA, and the clinic moves into the top 3% of its category on Google Maps. Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree." },
+      ] },
+    ],
+  },
+  // ─── Restaurants — the 7pm Friday decision ─────────────────────────
+  {
+    slug: "restaurants-the-friday-night-decision-on-google",
+    category: "Restaurants",
+    categoryEyebrow: "INSIGHTS — RESTAURANTS & CAFÉS",
+    title:
+      "It is 7pm on Friday in Dubai. Three couples are choosing where to eat in the next 90 seconds. Your Google profile is the menu they read first.",
+    excerpt:
+      "Restaurant booking decisions are the fastest commercial decisions consumers make. They are made on a phone, in under two minutes, and they are made by reading a Google profile — not yours, almost certainly your competitor's.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Of every category of business in the consumer economy, restaurants have the shortest decision window. The customer is hungry. The customer is in a car. The customer has ninety seconds to choose, message the others, and book. They do not visit your website. They do not study your menu PDF. They open Google, glance at the star rating and the recent reviews, and act." },
+      { type: "p", text: "Which means that for any restaurant in Dubai, what shows on the Google profile in those ninety seconds is the entire marketing engine. Everything else — the chef hire, the room refit, the social campaign, the press cuttings — converts only through that bottleneck." },
+    ],
+    keyTakeaways: [
+      "Restaurant decisions are made in under 90 seconds on a phone — there is no time for a website visit.",
+      "Star rating, photo carousel, recent review tone, and replies to negative comments are the only signals that get read.",
+      "A 4.3 with 1,200 recent reviews outperforms a 4.7 with 60. Volume and freshness beat absolute rating.",
+      "Talabat, Deliveroo and Zomato ratings act as a separate funnel — they are effectively your delivery menu's cover photo.",
+      "A single visible bad review about hygiene, slow service or a billing surprise can move dozens of covers a week.",
+      "Reputation runs the cover count. The chef does not.",
+    ],
+    sections: [
+      { id: "ninety-seconds", title: "What happens inside ninety seconds", blocks: [
+        { type: "p", text: "The behaviour is consistent enough to model. The customer opens Google Maps from a search like 'best Italian in Marina' or 'sushi near me'. They get a list. They tap the top two or three results. On each one, they scan four things in order: the star rating, the number of reviews, the most recent photo, and the most recent two or three reviews. That is the entire decision. They are choosing one of three options and rejecting the rest." },
+        { type: "p", text: "Everything you have spent on your brand, your menu, your room and your hire pipeline meets the customer in those four signals. The restaurant with the cleaner signals wins the table. The restaurant next door, however good its food, does not get a chance to compete on it." },
+      ] },
+      { id: "the-volume-and-freshness-math", title: "Volume and freshness beat absolute rating", blocks: [
+        { type: "p", text: "Operators sometimes obsess about pushing a 4.5 to a 4.7. The customer is rarely making that distinction. They are making a different one: a 4.3 with 1,200 recent reviews looks unambiguously alive. A 4.7 with 60 reviews and the most recent one from eight months ago looks suspect. The customer reads volume as proof of a steady, full restaurant. They read freshness as proof that things have not silently gone wrong recently." },
+        { type: "p", text: "Which is why the operationally correct goal in restaurant reputation is not maximum average — it is maximum velocity. A steady cadence of authentic, recent reviews from real guests, in the languages your customers use, beats any single optimisation of the average score." },
+      ] },
+      { id: "delivery-platforms-are-a-separate-funnel", title: "Delivery platforms are a separate funnel", blocks: [
+        { type: "p", text: "For any restaurant doing meaningful delivery volume, Talabat, Deliveroo, Zomato and Careem Food are not extensions of the dine-in funnel. They are a parallel storefront, with their own star rating, their own review pile, and their own customer base of decision-makers who never set foot in the restaurant. The rating in the app is the equivalent of the cover photo on a menu — it is the first and biggest signal the customer reads." },
+        { type: "p", text: "A 3.9 average on Talabat for a restaurant doing 200 orders a week is not a small problem. It is the difference between 200 and 350 orders. The reputation work for delivery is operationally distinct from the dine-in work, and worth running explicitly." },
+      ] },
+      { id: "restaurant-reputation-is-our-expertise", title: "Restaurant reputation is our expertise", blocks: [
+        { type: "p", text: "We work with independent restaurants, restaurant groups, cafés and dark-kitchen operators across the UAE. We run the multilingual review-request workflow timed to the moment guests are happiest, the 48-hour response SLA on every review across Google, TripAdvisor and the delivery platforms, and the citation and press placements that move both Google rank and AI Overview answers." },
+        { type: "p", text: "The outcome is more covers, higher delivery volume, and a category position that compounds month over month. Same kitchen, same menu, same team — different reputation, different P&L. Free 7-page audit, 90-day money-back guarantee on the metrics we agree at the start." },
+      ] },
+    ],
+  },
+  // ─── Bars / Lounges / Entertainment — the 30-second decision ───────
+  {
+    slug: "bars-and-lounges-the-thirty-second-decision",
+    category: "Bars & Entertainment",
+    categoryEyebrow: "INSIGHTS — BARS, LOUNGES & ENTERTAINMENT",
+    title:
+      "The bar and lounge customer makes the fastest commercial decision in the consumer economy. Your reviews are the entire pitch.",
+    excerpt:
+      "By the time someone is deciding which lounge to walk into on a Friday night, they are not reading menus or websites. They are reading the Google profile that loads on their phone in five seconds. Here is what wins and loses in that window.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/bars-entertainment-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Nobody plans a night out the way they plan a holiday. The customer who is going to spend AED 800 in your bar tonight is, twenty minutes earlier, in a taxi with three friends, looking at their phone, and deciding. The decision is short, social and ungenerous to any operator whose profile does not load a quick, confident answer to one question: is this place worth the next hour of our evening?" },
+      { type: "p", text: "Which means the bar and lounge category has, by some distance, the shortest commercial decision window in the entire consumer economy. The website, the brand book and the launch campaign matter only insofar as they translate into what loads on the Google profile in five seconds at 9:15pm on a Friday." },
+    ],
+    keyTakeaways: [
+      "The decision window for a bar or lounge is roughly 30 seconds on a phone in a group setting.",
+      "Photos, recent star rating and recent review tone are the three signals that get read. Everything else is noise.",
+      "Negative reviews about door policy, billing surprises, or rude staff disproportionately damage discovery — they confirm exactly the fears the customer already has.",
+      "A flat profile (no recent reviews, no responses, no fresh photos) reads as a place that may have quietly closed or gone downhill.",
+      "Friday and Saturday demand is decided on Friday afternoon. Slow review velocity in mid-week is invisible to the operator but visible to the algorithm.",
+      "The economics of this category are unforgiving. A 20% lift in walk-in conversion is the difference between a profitable night and a flat one.",
+    ],
+    sections: [
+      { id: "thirty-seconds", title: "What loads in the first thirty seconds", blocks: [
+        { type: "p", text: "Watch the behaviour in any taxi at 9pm on a Thursday. The phone goes up, a Google search happens, three thumbnails get tapped, and the group is committed. The window is short enough that none of the deeper marketing assets ever load — no website, no Instagram bio, no booking page. The first impression has to be made by what Google decides to render in the preview pane: the headline rating, the photo carousel, the latest review snippets." },
+        { type: "p", text: "If any of those three signals communicates risk, the group moves on. They do not pause to investigate. They do not read further. They scroll to the next result." },
+      ] },
+      { id: "the-fears-that-reviews-confirm", title: "The fears reviews disproportionately confirm", blocks: [
+        { type: "p", text: "Customers walking into a bar at night are not anxious about the menu. They are anxious about three specific things: being turned away at the door, ending the night with an unexpectedly large bill, and being treated rudely by staff in front of friends. Reviews that mention any of those fears land with more weight than they should, because they confirm exactly what the customer was already half-expecting." },
+        { type: "p", text: "A single recent review describing a billing surprise can therefore do disproportionate damage to discovery, even if the underlying complaint is unrepresentative. The operational work to fix it is not denial — it is a fast, public, professional reply that gives the next reader the reassurance the review removed." },
+      ] },
+      { id: "flat-profile-reads-as-closed", title: "A flat profile reads as quietly closed", blocks: [
+        { type: "p", text: "Customers in this category are unusually pattern-matching. A bar with no reviews in the last three months, no fresh photos, and no responses to the few negative comments that exist looks, to the next customer in a hurry, like a venue that has quietly stopped trying. They will not call to check. They will move to the alternative one tap to the right." },
+        { type: "p", text: "The corrective is operational, not creative. A steady velocity of recent, authentic reviews from real guests. Photos refreshed monthly. Professional, fast responses to everything. The profile has to look unambiguously alive at 9:15pm on a Friday — because that is the only time it gets read." },
+      ] },
+      { id: "bars-reputation-is-our-expertise", title: "Bars and lounges reputation is our expertise", blocks: [
+        { type: "p", text: "We work with bars, lounges, nightlife venues and entertainment operators across Dubai and the wider UAE. We run the review-request workflow timed to the end of the night, when the guest is most likely to write. We handle every public reply within 48 hours, on-brand and on-tone. We secure citation and press placements in the Time Out Dubai, What's On and Hotelier Middle East ecosystem the AI engines now weight heavily." },
+        { type: "p", text: "The outcome is sharper Friday and Saturday discovery, better walk-in conversion, and a profile that loads, in five seconds, the answer the group in the taxi was about to make their decision on. Free 7-page audit. 90-day money-back guarantee on the metrics we agree." },
+      ] },
+    ],
+  },
+  // ─── Fitness, Spa & Wellness — retention math ──────────────────────
+  {
+    slug: "fitness-spa-membership-reviews-decide-retention",
+    category: "Fitness, Spa & Wellness",
+    categoryEyebrow: "INSIGHTS — FITNESS, SPA & WELLNESS",
+    title:
+      "Membership businesses are reputation businesses. A weak Google profile costs you the renewal, not just the next sign-up.",
+    excerpt:
+      "Fitness, spa and wellness operators tend to model reviews as a new-member acquisition problem. The data says reviews matter at least as much for retention. Here is what that means for the LTV side of the business.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Fitness studios, spas and wellness centres are membership businesses. Their economics depend on the renewal at month twelve more than the sign-up at month one. Which is why it is unusual that reputation work in the category is almost universally treated as a new-member acquisition problem. The data behind member behaviour suggests it should be treated as a retention problem too." },
+      { type: "p", text: "Current members are reading new reviews about the venue they already belong to. They are noticing when the standard slips, when the team turns over, when the maintenance complaints start accumulating. The review feed is not just talking to prospective members. It is quietly telling existing members whether they should still be paying." },
+    ],
+    keyTakeaways: [
+      "Existing members read reviews about their own gym, studio or spa — and decide whether to renew on what they see.",
+      "Reviews about cleanliness, equipment maintenance and instructor quality move retention more than any retention email campaign.",
+      "A noticeable drop in recent review tone is a leading indicator of churn that most operators see months too late.",
+      "Mid-week walk-throughs to address the operational complaints in the reviews lift both retention and discovery at the same time.",
+      "Member testimonials, properly captured, are the single most effective marketing asset a wellness business can produce.",
+      "Reputation is the cheapest retention programme available — and the only one that simultaneously drives acquisition.",
+    ],
+    sections: [
+      { id: "members-read-too", title: "Existing members are reading the reviews too", blocks: [
+        { type: "p", text: "Operators tend to imagine the review reader as a prospective customer. Membership categories work differently. A meaningful share of the people reading new reviews about your studio every week are the members who already pay you. They are checking that the standard they signed up for still holds. They are looking, in particular, for the operational details — was the air conditioning fixed, did the new instructor land, is the spa pool clean — that they themselves might be quietly considering complaining about." },
+        { type: "p", text: "What members read shapes the renewal conversation before it ever reaches the front desk. A profile filling with quiet complaints about declining standards is a profile telling existing members that their concerns are real. The renewal decision is half-made before the renewal email lands." },
+      ] },
+      { id: "leading-indicator-of-churn", title: "Reviews are the cheapest leading indicator of churn", blocks: [
+        { type: "p", text: "Cancellations almost always lag the operational problem that caused them by weeks or months. Reviews do not. A drift in average sentiment, a cluster of complaints about the same instructor, a run of comments about the cleanliness of the changing rooms — these are visible in the review feed long before they show in the cancellation report. The operator who reads reviews weekly sees churn building eight to twelve weeks before the finance team does." },
+        { type: "p", text: "The conversion is straightforward. Address what the reviews are telling you. Refresh the matt-room, retrain the front desk, replace the broken sauna door. The next batch of reviews changes. Member sentiment in the venue changes with it. The cancellation report eventually shows the lift two quarters later." },
+      ] },
+      { id: "testimonials-are-the-real-asset", title: "Authentic member testimonials are the real marketing asset", blocks: [
+        { type: "p", text: "Wellness customers buy on belief that the experience will deliver. They do not buy on price comparison, and they do not buy on features. They buy on the strength of stories from other members. Authentic, recent testimonials — the kind that flow out of a working review programme — are therefore the most effective acquisition asset a wellness business can produce. They cost almost nothing. They convert better than every paid channel." },
+        { type: "p", text: "The operational programme is the same one that retains members. Ask every happy member, in the moment they are happiest. Reply to every review, including the negative ones, professionally and quickly. The two outcomes — retention and acquisition — come out of one piece of work." },
+      ] },
+      { id: "wellness-reputation-is-our-expertise", title: "Wellness reputation is our expertise", blocks: [
+        { type: "p", text: "We work with gyms, fitness studios, spas, pilates and yoga studios, and luxury wellness centres across the UAE. We design and run the review programme that captures member feedback at the moment of peak satisfaction — after the class, after the treatment, after the personal-training milestone — and turns it into a steady, recent, multilingual profile across Google, TripAdvisor and the category-specific platforms that move discovery." },
+        { type: "p", text: "We also build the response programme that demonstrably lifts both retention and renewals. Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree." },
+      ] },
+    ],
+  },
+  // ─── Beauty Salons — walk-in conversion ────────────────────────────
+  {
+    slug: "beauty-salons-walk-in-and-rebook-decided-on-google",
+    category: "Beauty Salons",
+    categoryEyebrow: "INSIGHTS — PERSONAL CARE & BEAUTY SALONS",
+    title:
+      "The salon economy runs on walk-ins and rebooks. Both are decided on Google before the first appointment.",
+    excerpt:
+      "Personal-care and beauty salon businesses live or die on walk-in conversion and rebook rate. Both metrics move with the review profile in ways most owners systematically underestimate.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/aesthetic-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "A beauty salon's revenue is the product of two numbers most owners track only loosely: the walk-in conversion rate from passing footfall and Google discovery, and the rebook rate from the customer who has already had a treatment. Both numbers respond more strongly to the salon's online review profile than to any operational change the owner makes inside the salon." },
+      { type: "p", text: "Which is why beauty salon owners are routinely surprised by how much the review work moves the books. The mechanism is not visible from the salon floor. It is happening on a phone, on a sofa, the night before." },
+    ],
+    keyTakeaways: [
+      "Walk-in conversion responds directly to Google rating, recent review tone and replies to negatives.",
+      "Rebook rate depends on whether the customer's positive experience is reinforced by a salon that asks them to share it — they then become a returning customer with public commitment.",
+      "Reviews about specific stylists are now a key driver of both individual stylist bookings and the salon's overall acquisition.",
+      "Salons with weak review profiles compete heavily on price. Salons with strong ones quietly raise prices and lose nobody.",
+      "Negative reviews about hygiene, missed appointments and pushy upsells damage walk-in conversion more than any other category of complaint.",
+      "A well-run review programme typically pays back within the first sixty days in measurable rebook lift alone.",
+    ],
+    sections: [
+      { id: "walk-in-conversion", title: "Walk-in conversion is a Google function", blocks: [
+        { type: "p", text: "The customer walking past the salon on the way home, or sitting on the sofa thinking about a treatment, is not making a decision based on the shopfront. They are taking five seconds to type the salon name into Google and reading what comes back. A 4.7 average with active recent reviews flips them from 'maybe' to 'walk in'. A 3.9 with two months of silence flips them the other way." },
+        { type: "p", text: "The shopfront, the brand and the location all matter less than the operator imagines. The Google profile is the door the customer actually walks through." },
+      ] },
+      { id: "rebook-and-public-commitment", title: "The rebook lift hidden in the review request", blocks: [
+        { type: "p", text: "There is a subtle behavioural effect that operators rarely model. When a customer is asked, professionally, for a review at the moment they leave the salon happy, two things happen at once. They write a review — which lifts acquisition for the next customer — and they publicly commit themselves to the salon, which materially lifts their own probability of rebooking. The same operational step delivers both effects." },
+        { type: "p", text: "Salons that ask every happy customer for a review, in the right moment and in the right way, typically see rebook rate lift by a measurable margin within two months, before the new acquisition lift has even kicked in." },
+      ] },
+      { id: "stylist-level-reputation", title: "Reviews now attach to individual stylists", blocks: [
+        { type: "p", text: "The other shift in this category over the last few years is that reviews are increasingly being written about specific stylists by name. The customer says they came for a colour with Mariam, that they want to come back to her specifically, that they would not see anyone else. Those reviews are gold — and they are also a recruitment and retention signal that ripples through the team." },
+        { type: "p", text: "Salons that capture stylist-level praise systematically build named demand for their best staff, which both stabilises the team and gives the salon a defensible position against the competitor down the road." },
+      ] },
+      { id: "beauty-salon-reputation-is-our-expertise", title: "Beauty salon reputation is our expertise", blocks: [
+        { type: "p", text: "We work with hair and beauty salons, nail studios, lash and brow specialists, and barbershops across the UAE. We design the review-capture moment, the multilingual request flow, the professional response programme and the operational reporting that lifts both walk-in conversion and rebook rate." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a salon that quietly stops needing to compete on price." },
+      ] },
+    ],
+  },
+  // ─── Real Estate Agencies — agent vetting ──────────────────────────
+  {
+    slug: "real-estate-agents-buyers-vet-you-on-google",
+    category: "Real Estate",
+    categoryEyebrow: "INSIGHTS — REAL ESTATE AGENCIES",
+    title:
+      "Buyers and sellers are vetting your real-estate agency the same way they vet a restaurant. The Google profile decides the listing.",
+    excerpt:
+      "Real estate has the largest single transaction value of any consumer category. And the customer increasingly decides whether to work with the agency on the strength of its Google reviews. Here is what that means for the listing pipeline.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Property in Dubai is, on average, the single largest financial decision the buyer or seller will ever make. Which is why it is surprising how casually agencies treat the moment that decision begins — the moment a prospective client opens Google and types the agency name to see what comes back. A property listing worth millions of dirhams hinges, in part, on what shows up on a Google profile that takes ten seconds to read." },
+      { type: "p", text: "The shift has been quiet but it is real. Buyers and sellers are now vetting agencies the way they vet restaurants. The agency with the cleaner, more recent, better-responded review profile wins the meeting and, more often than not, wins the listing." },
+    ],
+    keyTakeaways: [
+      "Buyers and sellers now Google-vet real estate agencies before making contact, in the same way they vet a restaurant or a clinic.",
+      "Property Finder, Bayut and dubizzle agent ratings combine with the agency's Google profile as the trust signal the client reads first.",
+      "Reviews about communication, follow-through, paperwork transparency and fee surprises damage discovery disproportionately.",
+      "Agency profiles with active responses to negative reviews convert leads at materially higher rates than profiles that do not respond.",
+      "A high-value listing routed elsewhere because of a weak review profile is one of the most expensive invisible losses an agency can suffer.",
+      "Reputation is now a listing-acquisition channel — not just a marketing surface.",
+    ],
+    sections: [
+      { id: "google-vetting", title: "The Google-vet has migrated to real estate", blocks: [
+        { type: "p", text: "Until recently, prospective sellers chose an agency on personal recommendation, a polished pitch deck and the agent's negotiation reputation in the building or compound. The recommendation still matters, but it is now corroborated against the agency's Google profile within five minutes of the conversation. If the profile undermines the recommendation, the recommendation loses." },
+        { type: "p", text: "Buyers are doing the same exercise from the other side. The agency they are asked to view a property with becomes, in their head, a stand-in for the property itself. An agency that reads well on Google makes the property feel safer to commit to. An agency that does not undermines the listing it is trying to sell." },
+      ] },
+      { id: "platform-specific-trust", title: "Property Finder and Bayut profiles are a parallel signal", blocks: [
+        { type: "p", text: "In the UAE the Google profile is half of the equation. The other half is the agent-level reputation on Property Finder, Bayut and dubizzle. Buyers comparing three listings of similar properties at similar prices are not reading the property descriptions in detail. They are looking at the listing agent's profile, their response rate, their other listings, and the client reviews where they exist." },
+        { type: "p", text: "A weak agent profile on the listing portals quietly pushes enquiries to the agent down the floor with the better one. The property does not sell more slowly because of the property. It sells more slowly because of the agent." },
+      ] },
+      { id: "specific-complaints", title: "The complaints that move the needle", blocks: [
+        { type: "p", text: "Some categories of negative review do more damage than others in real estate. The complaint that lands hardest is about communication — buyers and sellers reading reviews are alert to any signal that the agent disappears once the offer is made. Close behind are complaints about paperwork transparency, undisclosed fees, and pressure tactics at the moment of signing." },
+        { type: "p", text: "Those are exactly the fears the customer has walking into the relationship. A handful of unanswered reviews confirming any of them collapses the pipeline before the agent has ever been on a call." },
+      ] },
+      { id: "real-estate-reputation-is-our-expertise", title: "Real estate reputation is our expertise", blocks: [
+        { type: "p", text: "We work with real estate agencies, brokerages and developer sales teams across the UAE. We design the review-capture programme around the moments clients are happiest — successful handover, completed lease, smooth resale — and run the professional response programme across Google, Property Finder, Bayut and dubizzle." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a listing pipeline that the brokerage stops fighting for and starts winning by default." },
+      ] },
+    ],
+  },
+  // ─── Car Rental — tourist decision-making ──────────────────────────
+  {
+    slug: "car-rental-the-decision-is-made-before-the-plane-lands",
+    category: "Car Rental",
+    categoryEyebrow: "INSIGHTS — CAR RENTAL",
+    title:
+      "Tourists choose their Dubai rental car on the flight, before the plane lands. Your reviews are the entire ad campaign.",
+    excerpt:
+      "Car rental in tourist markets is decided in transit, on a phone, off a Google search. Here is what a competitive review profile actually buys you versus what marketing spend can never compensate for.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/auto-service-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Tourists landing in Dubai for a week-long visit make most of their car rental decisions in the last hour of the flight. They open Google, search 'car rental Dubai', read the top results' star ratings, scroll the recent reviews, and book before they reach the carousel. The decision window is one in-flight WiFi connection. The shortlist is two or three companies." },
+      { type: "p", text: "Which means that car rental, more than almost any other category, is decided not by branding or campaigns but by what loads on a Google profile somewhere over the Arabian Gulf. The rental operator with the cleanest profile wins the booking before the tourist has cleared immigration." },
+    ],
+    keyTakeaways: [
+      "The car rental decision is made in transit, on a phone, with a 5-minute attention window.",
+      "Recent reviews about hidden fees, deposit disputes and vehicle cleanliness damage discovery disproportionately.",
+      "International tourists rely on TripAdvisor and Booking.com Cars in addition to Google — the multi-platform footprint matters.",
+      "Multilingual reviews — English, Arabic, Russian, Mandarin — change which segments of the market actually find you.",
+      "Repeat customers in this category are rare. Every booking is a one-shot decision driven almost entirely by reputation.",
+      "Operators with strong recent profiles quietly raise daily rates and lose nobody. Operators with weak profiles discount and still see occupancy fall.",
+    ],
+    sections: [
+      { id: "in-transit-decisions", title: "Booking decisions made before the plane lands", blocks: [
+        { type: "p", text: "The behaviour is unusually consistent. Survey data on inbound Dubai visitors and our own work with rental operators show the same pattern: the rental decision is made on the inbound flight or in the immigration queue, on a phone, in under five minutes. The traveller is tired, time-pressured, and reading whatever Google decides to show in the preview pane." },
+        { type: "p", text: "Which is why the marketing spend at the airport, on billboards and on tourist-paper inserts, is operating downstream of the actual decision. The decision has already happened. The tourist is just confirming the choice they made over Riyadh." },
+      ] },
+      { id: "the-specific-fears-tourists-have", title: "The specific fears that tourists are reading reviews for", blocks: [
+        { type: "p", text: "Tourist car rental customers are not worried about the cars. They assume the cars will be fine. They are worried about three specific things and they will read reviews looking for evidence of any of them: hidden fees and surprise charges at handover, aggressive deposit disputes when the car is returned, and rude or unhelpful counter staff when something goes wrong." },
+        { type: "p", text: "A single recent review confirming any of those fears moves the booking away from the operator. The operational fix is not a denial — it is a fast, professional, public response that gives the next reader the reassurance the review removed." },
+      ] },
+      { id: "multi-platform-multi-language", title: "Multi-platform and multilingual is not optional", blocks: [
+        { type: "p", text: "Tourists do not all use Google. Russian-speaking visitors disproportionately use Russian-language platforms and review sources. Chinese tourists rely on Mandarin-language guides. International travellers use Booking.com Cars and TripAdvisor in addition to Google. The operator with reviews in only one language on only one platform is invisible to large segments of the inbound market." },
+        { type: "p", text: "Multilingual review-request workflows, run systematically, are how the operator becomes visible to the right segments at the right moment." },
+      ] },
+      { id: "car-rental-reputation-is-our-expertise", title: "Car rental reputation is our expertise", blocks: [
+        { type: "p", text: "We work with car rental operators across Dubai and the wider UAE, including luxury, economy and long-stay segments. We design the multilingual review-capture workflow at vehicle return, run the fast professional response programme across Google, TripAdvisor and Booking.com, and secure the citation placements that move both AI Overview recommendations and direct-channel bookings." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a rental operation that the inbound tourist already trusted before they sat down at the counter." },
+      ] },
+    ],
+  },
+  // ─── Google Ads waste — the financial framing ──────────────────────
+  {
+    slug: "google-ads-spend-leaks-to-competitors-with-better-reviews",
+    category: "Strategy",
+    categoryEyebrow: "INSIGHTS — STRATEGY",
+    title:
+      "US businesses will spend over $140 billion on Google ads this year. Most of it is leaking to competitors with better review profiles.",
+    excerpt:
+      "Ad spend at scale only converts when the destination it sends prospects to converts. Here is the financial math behind why a damaged review profile turns Google Ads into the most expensive customer-acquisition subsidy your competitor will ever receive.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "US businesses are projected to spend more than 140 billion dollars on Google ads this calendar year. The number is large enough that it stops registering — it becomes background scenery. But the question worth asking is a more uncomfortable one: of every dollar spent on Google ads, how many actually end with the booking landing at the advertiser, and how many end with the booking landing at a competitor whose review profile happened to be cleaner the day the prospect clicked?" },
+      { type: "p", text: "The honest answer, in any category where reviews influence the buying decision, is that a meaningful portion of that 140 billion is being spent to deliver qualified, ready-to-buy customers to competitors. The advertiser pays the click. The competitor takes the customer. The dashboard reports the campaign as performing fine." },
+    ],
+    keyTakeaways: [
+      "US Google ad spend is projected above $140 billion in 2026. A meaningful share of it converts at the competitor, not the advertiser.",
+      "An ad click sends the prospect through the advertiser's funnel — which usually ends at the Google Business Profile and the review feed.",
+      "If the review feed does not convert, the cost-per-click is no longer the cost of the click. It is the cost of an expensive lead-generation system for the competitor with a better profile.",
+      "The CPC dashboard shows the campaign performing. The booking ledger shows the bookings going elsewhere. The two reports rarely meet.",
+      "Reputation is not an alternative to advertising. It is the precondition for advertising to actually convert.",
+      "Every dollar spent on ads without a clean review profile is being spent at the wrong sequence in the funnel.",
+    ],
+    sections: [
+      { id: "the-leakage-math", title: "The leakage math nobody puts on the dashboard", blocks: [
+        { type: "p", text: "An ad click is not a booking. The click sends the prospect into the funnel, where some sequence of pages and signals either converts them or does not. In almost every consumer-services category, the last step in that funnel is the same: the prospect checks the business's Google profile, reads the recent reviews, and either commits or walks. The CPC dashboard does not see that last step. It cannot. By the time the prospect is on Google, they are off the advertiser's domain." },
+        { type: "p", text: "Which means the dashboard's verdict on the campaign — the cost per click, the cost per conversion, the campaign ROI — is structurally blind to the place where the actual conversion is being decided. A campaign can be performing perfectly on every measurable metric and still be subsidising the competitor's bookings month after month." },
+      ] },
+      { id: "what-it-looks-like-in-practice", title: "What this looks like inside a real operator's funnel", blocks: [
+        { type: "p", text: "Picture an aesthetic clinic in Dubai spending forty thousand dirhams a month on Meta and Google performance ads. The reports show four hundred clicks a week at a healthy cost-per-click, with a falling cost-per-lead. The owner is reassured. What the report does not show is that of those four hundred clicks, perhaps three hundred and twenty open the clinic's Google profile within sixty seconds. Of those three hundred and twenty, half look at the recent reviews. Of that half, a meaningful fraction quietly closes the tab and opens the competitor's profile instead." },
+        { type: "p", text: "The clinic is paying the cost of the ad. The competitor is taking the booking. The cost-per-acquisition metric on the dashboard never sees the part of the funnel where the loss is happening. The operator concludes the ad campaign needs more budget." },
+      ] },
+      { id: "sequencing-the-fix", title: "Reputation is the precondition for advertising to convert", blocks: [
+        { type: "p", text: "The fix is sequencing, not substitution. Advertising and reputation are not alternatives — they are sequential. Advertising drives traffic. Reputation converts it. Skip the reputation step and the advertising spend simply moves prospects through a funnel that ends at someone else's profile." },
+        { type: "p", text: "Operators who fix their review profile first, and then spend on ads, see materially different campaign performance. The same click that was being wasted now lands at a profile the prospect trusts. The booking happens. The CAC drops. The campaign that 'needed more budget' suddenly does not need more — it needed a profile worth advertising into." },
+      ] },
+      { id: "strategy-is-our-expertise", title: "Sequencing reputation before spend is our expertise", blocks: [
+        { type: "p", text: "We sit with operators every week who are paying premium ad rates against a damaged or dormant review profile. The first conversation is always the same: stop expanding the ad budget for two months and let us close the gap on Google, Trustpilot, TripAdvisor and the platforms that matter for the category. Then put the ad budget back to work. The CAC numbers in month three are unrecognisable from the CAC numbers in month one." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. We do not run your ads. We make sure your ads actually convert." },
+      ] },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): InsightsArticle | undefined {
