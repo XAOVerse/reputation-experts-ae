@@ -1304,6 +1304,466 @@ export const ARTICLES: InsightsArticle[] = [
       ] },
     ],
   },
+  // ─── Laser-eye surgery — the highest-stakes review category ───────
+  {
+    slug: "laser-eye-surgery-the-highest-stakes-review-decision",
+    category: "Laser Eye Surgery",
+    categoryEyebrow: "INSIGHTS — LASER EYE SURGERY",
+    title:
+      "Laser eye patients are doing the most cautious online research of any consumer in the healthcare economy. Your reviews are the verdict.",
+    excerpt:
+      "A LASIK or refractive surgery patient is choosing whether to let someone cut their eyes. The standard of evidence they want before booking a consultation is higher than for any other elective procedure. Here is what that means for your clinic.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/aesthetic-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "There is no consumer health decision more rigorously researched than the decision to undergo laser eye surgery. The patient is asking a specific clinic to perform an irreversible procedure on the organ they rely on most. They will spend weeks reading reviews, watching first-person testimonials, comparing surgeon credentials, and checking the same clinic on three different platforms before they are willing to walk into a consultation. That research is real, it is sequential, and it is unforgiving." },
+      { type: "p", text: "Which means that in this category, a weak review profile is not a marketing inconvenience. It is a structural blocker on the front door. Patients are not weighing your pricing against your competitor's. They are filtering you out of the consideration set entirely, in silence, before you ever know they were looking." },
+    ],
+    keyTakeaways: [
+      "Laser eye patients commonly research a clinic for six to twelve weeks before booking a consultation. Your profile is read repeatedly.",
+      "A single credible-looking complaint about complications, follow-up, or surgeon availability can collapse the consultation funnel.",
+      "Patients cross-reference Google, Trustpilot, Doctify and category-specific platforms. Inconsistency between them reads as risk.",
+      "Surgeon-level reputation matters in this category — patients book the surgeon, not the clinic.",
+      "Repeat business is structurally limited (most patients are treated once). Every referral therefore matters disproportionately.",
+      "The cost of one unconverted high-intent enquiry in this category is materially larger than any other elective treatment.",
+    ],
+    sections: [
+      { id: "research-window", title: "A six to twelve week research window", blocks: [
+        { type: "p", text: "Unlike most consumer decisions, the laser eye decision plays out across weeks. The patient discovers the category, watches a few testimonials, narrows to two or three clinics, and then revisits each clinic's online presence several times before the consultation booking ever happens. Each revisit is another encounter with your Google profile, your Trustpilot, your surgeon biographies, and the recent reviews underneath them all." },
+        { type: "p", text: "A profile that looks active and consistent across each of those revisits builds confidence. A profile that has not moved in three months, or worse, has a recent negative review with no response, undoes weeks of research the patient was already doing in your favour." },
+      ] },
+      { id: "specific-fears", title: "The specific fears patients are reading reviews for", blocks: [
+        { type: "p", text: "Laser eye patients are not worried about the technology. They have already done that research. They are worried about three specific things, and any review confirming any of them lands disproportionately hard: post-operative complications that were not addressed, difficulty reaching the surgeon afterwards, and rushed or templated consultations that did not explain the risks fully." },
+        { type: "p", text: "Those are the questions reviews are being read to answer. The clinic whose recent reviews repeatedly demonstrate accountability on all three becomes the trusted choice. The clinic whose reviews are silent or defensive becomes the rejected one." },
+      ] },
+      { id: "surgeon-level-reputation", title: "Patients book the surgeon, not the clinic", blocks: [
+        { type: "p", text: "Refractive surgery is one of the few categories where the practitioner's name carries the brand. Patients are searching for the surgeon as much as the clinic, and reviews that mention surgeons by name carry far more weight than generic clinic reviews. The clinic that builds explicit, surgeon-level review velocity wins the high-intent enquiries the entire category is competing for." },
+        { type: "p", text: "Surgeon-specific reputation is also defensible. A senior refractive surgeon with two hundred named reviews on Google and Trustpilot is functionally untouchable in their local market. Competitors cannot manufacture that signal. They have to build it patient by patient." },
+      ] },
+      { id: "laser-eye-reputation-is-our-expertise", title: "Laser eye reputation is our expertise", blocks: [
+        { type: "p", text: "We work with refractive surgery clinics and ophthalmology groups across the UAE. We treat laser eye reputation as a specialty because the consultation funnel is unusually long, the patient's evidence threshold is unusually high, and the surgeon-level dimension of the reputation matters more here than in any other healthcare category." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a clinic that the cautious, well-researched LASIK patient finishes their twelve weeks of homework by booking." },
+      ] },
+    ],
+  },
+  // ─── Home services — the trust-economy ─────────────────────────────
+  {
+    slug: "home-services-trust-the-stranger-at-the-door",
+    category: "Home Services",
+    categoryEyebrow: "INSIGHTS — HOME SERVICES",
+    title:
+      "Home services is the trust-the-stranger economy. The review profile decides whether the customer ever lets the technician in.",
+    excerpt:
+      "Plumbers, electricians, AC technicians, handymen — the home services category sells the customer a stranger in their house. Reviews answer the safety question first, the competence question second. Here is what that means for the bookings calendar.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/home-services-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Home services is structurally different from every other consumer category. The customer is not just buying a service. They are letting an unfamiliar person into the house — sometimes when they are not there, sometimes when their family is. Which is why the review profile in this category answers the safety question first and the competence question only second. The customer is reading for evidence that they will not regret the booking." },
+      { type: "p", text: "And the customer almost always reads. Industry research consistently shows home-services consumers as among the heaviest pre-booking review readers in the entire local-business economy. The technician's competence is a baseline expectation. The reviews are about everything that surrounds it." },
+    ],
+    keyTakeaways: [
+      "Home-services customers read reviews to answer safety questions first, competence questions second.",
+      "Punctuality, professionalism, leaving the home as it was found, and transparent pricing are the four signals reviews are scanned for.",
+      "A small number of negative reviews about safety, behaviour or surprise charges damages discovery far more than negative reviews about technical issues.",
+      "Repeat customers in this category are unusually loyal — but only after the first booking lands well.",
+      "Word-of-mouth in residential buildings still matters, but it is now corroborated against Google before the call is made.",
+      "Reviews about specific named technicians let customers request them by name, building defensible repeat revenue for the operator.",
+    ],
+    sections: [
+      { id: "safety-first", title: "Safety reads come before competence reads", blocks: [
+        { type: "p", text: "The first scan of any home-services review is for trouble — not for the quality of the plumbing or the AC repair, but for any sign that the technician was rude, that the team did not turn up when they said they would, that something went missing, that the team left a mess behind. Customers are mostly assuming the technical work will be acceptable. They are reading reviews to make sure nothing else went wrong." },
+        { type: "p", text: "Which means that the operator whose reviews repeatedly confirm the soft signals — courteous staff, on-time arrival, clean kit, transparent billing — wins disproportionately, even if the actual technical reputation is no better than the competitor's." },
+      ] },
+      { id: "named-technicians", title: "Technician-named reviews are the operator's quiet asset", blocks: [
+        { type: "p", text: "The most valuable type of review in home services is the one that names the technician. 'Ahmed fixed our AC quickly, was respectful, cleaned up after himself, and gave us his number for follow-up.' That review does three things at once: it builds the operator's reputation, it builds the technician's individual reputation, and it lets the customer request the same person again — which is the most defensible form of repeat revenue in the category." },
+        { type: "p", text: "Operators that systematically capture technician-named reviews build a team that customers ask for by name. Operators that do not see the same technicians quietly poached by the competitor down the road." },
+      ] },
+      { id: "the-cost-of-a-single-bad-review", title: "The disproportionate damage of a single safety complaint", blocks: [
+        { type: "p", text: "In most categories, a single negative review is a small dent. In home services, a single negative review that touches on safety or behaviour can move the dial materially. Customers reading for safety will weight that one review heavily, because it confirms the exact concern they were testing for. The competitor next door will pick up the bookings without ever knowing why." },
+        { type: "p", text: "The operational response is not denial. It is a fast, professional, public reply that demonstrates accountability — which the next reader was reading the reviews to find." },
+      ] },
+      { id: "home-services-reputation-is-our-expertise", title: "Home services reputation is our expertise", blocks: [
+        { type: "p", text: "We work with plumbing, electrical, HVAC, handyman and home-maintenance operators across the UAE. We design the review-capture flow at job completion, the technician-named review workflow, the multilingual response programme on Google, and the citation placements in the directories customers actually use when they search for help in the home." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a bookings calendar that fills before the operator has spent a dirham on lead generation." },
+      ] },
+    ],
+  },
+  // ─── Cleaning services — recurring revenue meets public reviews ────
+  {
+    slug: "cleaning-services-recurring-revenue-meets-public-reviews",
+    category: "Cleaning Services",
+    categoryEyebrow: "INSIGHTS — CLEANING SERVICES",
+    title:
+      "Cleaning is a recurring-revenue business sold one-off on Google. Reviews decide both the first booking and the contract renewal.",
+    excerpt:
+      "Cleaning operators carry an unusual economic shape: each new client is potentially years of monthly revenue. Reviews decide who gets that revenue. They also now decide whether the holiday-let cleaning client keeps you on the rota.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "The cleaning business is one of the few in the consumer economy where a one-off booking is rarely just a one-off booking. A new residential client typically becomes a weekly or fortnightly recurring revenue stream. A new commercial client becomes a monthly contract. A new holiday-let client becomes a per-turnover invoice for the life of the listing. The lifetime value of one acquired customer is, almost always, twenty to fifty times the first invoice." },
+      { type: "p", text: "Which is why the reputation work for cleaning operators is structurally underpriced by the market. Every additional customer the review profile wins this month is years of revenue, not a single transaction." },
+    ],
+    keyTakeaways: [
+      "A new cleaning customer is rarely a single booking — it is months or years of recurring revenue. Lifetime value is 20–50× the first invoice.",
+      "Customers read reviews to check trust signals: trustworthiness with keys, attention to detail, English/Arabic communication, transparency on extras.",
+      "Holiday-let owners are now reading guest reviews of the property to evaluate the cleaning team — public reviews of the clean directly.",
+      "Commercial cleaning contracts are now Google-checked by facilities managers before any RFP is issued.",
+      "A weak review profile makes price the only lever. A strong profile lets the operator charge a premium and lose nobody.",
+      "Reviews about specific named team members create defensible repeat-customer requests and reduce churn.",
+    ],
+    sections: [
+      { id: "lifetime-value-not-job-value", title: "The lifetime value the operator is selling on", blocks: [
+        { type: "p", text: "Most cleaning operators quote on the basis of the job in front of them. The customer is comparing the AED 250 deep clean against three other quotes. What the operator is actually selling, if the first job goes well, is sixty more cleans over the next year and a half — plus the friend or family member who visits, asks for the recommendation, and books their own recurring service. The job-quote price is the wrong number to be thinking about." },
+        { type: "p", text: "Reviews are what convert the one-off booking into the recurring relationship. They do it by lowering the perceived risk of the first hire, which is the only barrier between the operator and the long lifetime value behind it." },
+      ] },
+      { id: "the-keys-question", title: "Customers are reading for the keys question", blocks: [
+        { type: "p", text: "The single biggest concern customers have when hiring a cleaning team is trust with property — house keys, office keys, building access. They will not ask the operator about this directly. They will read the reviews to find evidence that the team has handled this responsibly with other clients. A handful of recent reviews that mention security positively, or that name long-serving members of the team customers trust by name, materially lower the barrier to booking." },
+        { type: "p", text: "Operators who systematically prompt for these specific testimonials win more first bookings — and once the first booking lands well, the recurring relationship follows naturally." },
+      ] },
+      { id: "holiday-let-cleaning", title: "Holiday-let owners read guest reviews of the clean", blocks: [
+        { type: "p", text: "Cleaning operators serving the holiday-let market sit in an unusual position. Their work is reviewed publicly by every guest who stays at the property. A run of guest reviews complaining about cleanliness damages the property's listing on Airbnb or Booking.com, which damages the owner's revenue, which makes the owner replace the cleaning team within a quarter." },
+        { type: "p", text: "Operators who actively monitor and respond to guest cleanliness reviews — and who can point to a record of consistent cleanliness scores across properties — become the defensible choice for holiday-let portfolios that take cleanliness seriously. The reputation work is the contract-defence work." },
+      ] },
+      { id: "cleaning-reputation-is-our-expertise", title: "Cleaning reputation is our expertise", blocks: [
+        { type: "p", text: "We work with residential cleaning, commercial cleaning, deep-clean specialists and holiday-let cleaning operators across the UAE. We design the multilingual review-capture flow at job completion, the response programme that demonstrates accountability to prospective clients, and the holiday-let monitoring that protects ongoing contracts." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a calendar that fills with recurring revenue, not one-off work." },
+      ] },
+    ],
+  },
+  // ─── Fit-out contractors — B2B procurement ─────────────────────────
+  {
+    slug: "fit-out-contractors-shortlisted-on-google-before-the-tender",
+    category: "Fit-Out Contractors",
+    categoryEyebrow: "INSIGHTS — FIT-OUT CONTRACTORS",
+    title:
+      "A two-million-dirham fit-out shortlist is now built on Google, before the tender is ever written.",
+    excerpt:
+      "B2B procurement has moved upstream. By the time an RFP lands in your inbox, the developer or operator has already Google-checked every contender. Your review profile is the silent pre-qualifier — and it is removing firms from shortlists every week.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "There is a quiet stage in any commercial fit-out procurement that contractors rarely see directly. After the developer or the operator decides they need a contractor, but before the tender brief gets sent out, someone — usually the project manager — Googles every name on the long list. They open each contractor's website, then their Google profile, then their Bayut or LinkedIn presence, and they cut the list by a third before the formal RFP ever leaves the building." },
+      { type: "p", text: "That silent pre-qualification stage is where most contractors lose work they never knew was on the table. They were never invited to tender. They were never told why. And the reputation profile that removed them is the same profile they have not touched in eighteen months." },
+    ],
+    keyTakeaways: [
+      "B2B procurement now includes a silent Google pre-qualification stage before the formal RFP is written.",
+      "Contractors are eliminated from shortlists on the basis of their review profile, often without ever being told.",
+      "The questions clients are reading reviews to answer are about delivery on time, on budget, snag-list accountability and post-handover responsiveness.",
+      "A LinkedIn presence is not a substitute for an active Google profile in this category — both are checked.",
+      "A handful of named, recent client testimonials from comparable projects is the single most defensible asset a contractor can build.",
+      "Premium contractors with a strong reputation profile win tenders without competing on price. Mid-tier contractors with weak profiles never make the shortlist to compete at all.",
+    ],
+    sections: [
+      { id: "the-silent-pre-qualifier", title: "The silent pre-qualifier", blocks: [
+        { type: "p", text: "The mistake most contractors make is to assume the procurement process starts with the tender. It does not. It starts with the project manager's Google search. By the time the formal RFP is issued, the field has already been narrowed. Contractors who survive the narrowing have a chance to bid. Contractors who do not, do not know there was ever a process to bid for." },
+        { type: "p", text: "The narrowing decision is made on the same signals the rest of the consumer economy now reads: a Google profile that looks active, recent reviews that confirm competence and accountability, and the absence of unanswered red flags." },
+      ] },
+      { id: "the-questions-procurement-reads-for", title: "The questions B2B clients are reading for", blocks: [
+        { type: "p", text: "Commercial procurement teams are reading reviews to answer a specific set of questions: did the contractor deliver on time, did they hold the budget, did they manage the snag list properly after handover, did they pick up the phone when there was a problem two months later. Those are the dimensions on which the next project succeeds or fails. They cannot be inferred from the website." },
+        { type: "p", text: "Contractors whose recent reviews and named testimonials repeatedly confirm those qualities pre-qualify themselves. Contractors whose profiles are silent or only show generic praise from years ago do not." },
+      ] },
+      { id: "named-project-testimonials", title: "Named, recent client testimonials are the asset", blocks: [
+        { type: "p", text: "The most valuable thing a fit-out contractor can build, in reputation terms, is a portfolio of named, recent testimonials from comparable projects — ideally clients the procurement team has heard of. Three named, current testimonials in the right segment beat thirty generic five-stars, because procurement teams can verify the source and infer credibility from it." },
+        { type: "p", text: "Capturing those testimonials is operational work. It requires asking, at the right moment in the project lifecycle, in the right format, with the right consent. It also requires the citations to surface in the publications procurement teams actually read." },
+      ] },
+      { id: "fitout-reputation-is-our-expertise", title: "Fit-out contractor reputation is our expertise", blocks: [
+        { type: "p", text: "We work with commercial fit-out contractors, joinery firms, MEP contractors and design-and-build operators across the UAE. We design the named-testimonial capture programme around the project lifecycle, the editorial placements in the trade publications procurement teams actually read, and the response programme that addresses any negative review professionally and publicly." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a pipeline of tender invitations the firm did not have to chase." },
+      ] },
+    ],
+  },
+  // ─── Financial services — trust before transaction ─────────────────
+  {
+    slug: "financial-services-trust-before-transaction",
+    category: "Financial Services",
+    categoryEyebrow: "INSIGHTS — FINANCIAL SERVICES",
+    title:
+      "In financial services, the customer is hiring trust. The reviews decide whether the first meeting ever happens.",
+    excerpt:
+      "Wealth management, advisory, brokerage and consumer finance customers do not shop on price. They shop on reputation alone. The implication for what your review profile is actually doing on your behalf is uncomfortable.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Financial services is the consumer category in which trust matters most absolutely. A customer choosing a wealth manager, a broker, a financial adviser or a consumer-finance provider is committing money, time and confidential information on the strength of a relationship they have not yet entered. The decision to enter that relationship is made almost entirely on reputation — because there is no other reliable signal." },
+      { type: "p", text: "Which is why the review profile of a financial services firm is doing more work than the firm typically credits it for. It is not a marketing channel. It is the precondition for any conversation about money to ever happen." },
+    ],
+    keyTakeaways: [
+      "Financial services customers shop almost entirely on trust signals — reviews are the most accessible of those signals.",
+      "Even small reputation issues damage acquisition disproportionately, because the customer is asking the firm to handle their money.",
+      "Reviews about communication, responsiveness, fee transparency and discretion matter more than any technical capability claim.",
+      "Reputation in this category also affects regulatory and compliance perception — a strong profile is a soft compliance asset.",
+      "Word-of-mouth in financial services still matters but is corroborated online before any introduction is followed up.",
+      "Premium advisory firms quietly compete on reputation alone. Price is rarely the deciding factor.",
+    ],
+    sections: [
+      { id: "trust-is-the-product", title: "Trust is the product the firm is actually selling", blocks: [
+        { type: "p", text: "Financial products are commoditised. The interest rate, the fee schedule, the investment options — the customer can compare these on a comparison site in five minutes. What they cannot compare on a comparison site is whether the firm will look after their money the way they want it looked after. That is the actual product the customer is buying, and it is the product the review profile is being read to evaluate." },
+        { type: "p", text: "A firm that competes on trust has a defensible position. A firm that competes on rate is in a race the comparison site will always win." },
+      ] },
+      { id: "specific-trust-signals", title: "The specific trust signals customers read for", blocks: [
+        { type: "p", text: "Customers reading reviews of financial firms are looking for evidence of a specific set of behaviours: timely communication, plain-language explanation, discretion with sensitive information, and the absence of pressure-selling. They are particularly alert to any review describing a fee that was not explained upfront or a salesperson who pushed a product the customer did not need." },
+        { type: "p", text: "Reviews that confirm any of these concerns land disproportionately hard, because they confirm exactly the concerns the customer is already screening for. The operational fix is the same as in any other high-trust category — professional, fast, public responses that demonstrate accountability." },
+      ] },
+      { id: "compliance-as-asset", title: "Reputation is a soft compliance asset", blocks: [
+        { type: "p", text: "Beyond acquisition, reputation in financial services has a regulatory dimension. Regulators, audit teams and institutional partners all run informal Google checks on firms they are about to engage with. A firm with a clean, professional, well-responded profile is, in effect, demonstrating its compliance posture publicly. A firm with an unanswered cluster of complaints is doing the opposite." },
+        { type: "p", text: "The compliance team will not say this directly. The institutional counterparty will not put it in writing. But it shapes the decision either way." },
+      ] },
+      { id: "financial-reputation-is-our-expertise", title: "Financial reputation is our expertise", blocks: [
+        { type: "p", text: "We work with wealth managers, advisory firms, brokers, consumer-finance providers and family offices across the UAE. We treat financial reputation as a discipline that combines acquisition, retention and a quiet compliance dimension." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a firm the cautious, careful, high-trust customer chooses by default." },
+      ] },
+    ],
+  },
+  // ─── Business services / B2B — the buying committee ────────────────
+  {
+    slug: "business-services-the-buying-committee-googles-you-first",
+    category: "Business Services",
+    categoryEyebrow: "INSIGHTS — BUSINESS SERVICES",
+    title:
+      "In B2B, the buying committee Googles you before the first call. Any one of them can quietly veto the deal.",
+    excerpt:
+      "B2B purchases are now made by six-person buying committees on average. Each member runs their own informal due diligence. Your review profile is the lowest-friction veto in the procurement process.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/business-services-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "B2B buying has fragmented. The average enterprise purchase now involves around six stakeholders, each with their own view, their own veto, and their own informal due-diligence process. The decision-maker still signs, but the influencers around them shape the shortlist before the decision-maker is ever asked to weigh in. And every one of those influencers is now Googling every shortlisted vendor — individually." },
+      { type: "p", text: "Which means the B2B vendor is no longer being evaluated once. They are being evaluated six times in parallel, each by a different person looking for a different category of red flag. Any one of those six Google searches surfacing a problematic review can quietly remove the vendor from the deal." },
+    ],
+    keyTakeaways: [
+      "The average B2B purchase involves around six stakeholders — each running their own informal Google due diligence.",
+      "Any single committee member finding a problematic review can derail the deal, often silently.",
+      "B2B buyers read reviews to evaluate delivery reliability, account management responsiveness, and contractual transparency.",
+      "LinkedIn and Glassdoor sit alongside Google as evaluation sources. The reputation footprint has to be coherent across all of them.",
+      "B2B vendors with strong, named-client testimonials win procurement decisions before the formal pitch.",
+      "Reputation in B2B is risk-mitigation collateral. It is the easiest item for a committee member to point to in a meeting.",
+    ],
+    sections: [
+      { id: "six-stakeholders-six-searches", title: "Six stakeholders, six independent Google searches", blocks: [
+        { type: "p", text: "The vendor pitching into a B2B deal often imagines a single buyer evaluating them. The reality is closer to six people running six parallel mini-evaluations. The CFO looks for signs of contractual or pricing issues. The end-user team looks for delivery problems. The legal team checks for compliance flags. The CEO checks LinkedIn for credibility. Each one runs their own pass." },
+        { type: "p", text: "The deal survives only if all six passes come back clean — or at least, if no single pass surfaces something serious enough to make that person speak up in the next internal meeting." },
+      ] },
+      { id: "easy-veto", title: "Reviews are the lowest-friction veto", blocks: [
+        { type: "p", text: "Of all the things a committee member can flag, a problematic Google or Glassdoor review is the easiest. It does not require expertise. It does not require political capital. It does not require a long argument. It requires a screenshot in a Slack channel. The vendor never knows why their proposal slowed and then quietly died." },
+        { type: "p", text: "Which is why the reputation profile of a B2B vendor functions as veto-prevention more than acquisition. A clean, recent, well-responded profile removes the easiest reason for any committee member to spike the deal." },
+      ] },
+      { id: "named-client-testimonials", title: "Named-client testimonials beat case studies", blocks: [
+        { type: "p", text: "Case studies on the vendor's website are read with scepticism — they are obviously curated. Named-client reviews on Google, LinkedIn or industry-specific platforms are read with much higher trust because the source is verifiable. A committee member sceptical of the proposal can be reassured by a recent named testimonial from someone they themselves know or recognise." },
+        { type: "p", text: "Building that testimonial footprint systematically — at the right moments in the client lifecycle, with the right consents — is the most effective B2B reputation move available." },
+      ] },
+      { id: "b2b-reputation-is-our-expertise", title: "B2B reputation is our expertise", blocks: [
+        { type: "p", text: "We work with consultancies, software firms, professional services and B2B operators across the UAE. We design the named-testimonial capture programme around the client lifecycle, manage the LinkedIn and Glassdoor footprint alongside Google, and place editorial coverage in the trade publications buying committees actually read." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a sales cycle that the committee no longer has a quiet reason to slow down." },
+      ] },
+    ],
+  },
+  // ─── Takeaways / food delivery — the rating is the menu ────────────
+  {
+    slug: "takeaways-the-star-rating-is-the-menu",
+    category: "Takeaways & Food Delivery",
+    categoryEyebrow: "INSIGHTS — TAKEAWAYS & FOOD DELIVERY",
+    title:
+      "On Talabat, Deliveroo and Just Eat, the star rating is the menu. Everything else is the small print.",
+    excerpt:
+      "In-app food delivery is decided in fifteen seconds on a phone, by a hungry customer scrolling rating filters. The rating sits above the food photos. It is the headline. Here is what that means for order volume.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "4 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Food delivery is the most ruthlessly review-driven category in the consumer economy. The customer is on a phone, hungry, scrolling, and the in-app rating is the first signal they see — usually above the food photo, almost always above the price. A 4.6 average is a green light. A 3.9 is a stop sign. The hungry customer does not investigate further." },
+      { type: "p", text: "Which makes the in-app rating, mechanically, the menu. The kitchen, the recipes, the brand and the marketing all matter only to the extent that they feed into that one number." },
+    ],
+    keyTakeaways: [
+      "The in-app star rating is now the headline on the menu — read before the food photos, before the price, before the description.",
+      "A rating drop of even 0.2 in a high-volume area moves order volume materially within a fortnight.",
+      "Delivery reviews are about packaging, temperature, missing items and delivery time — not the food itself in many cases.",
+      "Operators who treat dine-in and delivery as one reputation problem under-perform. They are two parallel funnels.",
+      "Apps now algorithmically suppress lower-rated restaurants in default ordering — visibility is a function of rating.",
+      "A live response programme to delivery reviews lifts both the rating and the algorithmic position simultaneously.",
+    ],
+    sections: [
+      { id: "rating-is-the-headline", title: "The in-app rating is the actual headline", blocks: [
+        { type: "p", text: "Watch a customer order food on their phone. The order of attention is fixed: they pick a category, they get a list of restaurants, they scan the star ratings, they tap the two or three with the highest ratings, they look at the food photo, they decide. The rating decision happens before the food photo decision. The food photo decision happens before the price decision." },
+        { type: "p", text: "Which is why the operator who is fighting for visibility on the platform by paying for in-app placement is fighting a battle the rating has already largely decided." },
+      ] },
+      { id: "delivery-reviews-are-about-the-delivery", title: "Delivery reviews are usually about the delivery", blocks: [
+        { type: "p", text: "A common operator mistake is to read delivery reviews as feedback on the kitchen. They usually are not. They are feedback on the courier handoff, the packaging, the food temperature on arrival, and whether anything was missing. The kitchen could be producing identical food to the dine-in experience and still be receiving lower ratings because the delivery chain degraded it." },
+        { type: "p", text: "Which means the operational fix is rarely a recipe change. It is a packaging change, a courier-handoff training, or a temperature-control change. The reviews tell the operator what to fix. Most operators are reading them for the wrong thing." },
+      ] },
+      { id: "algorithmic-suppression", title: "The algorithm punishes low ratings twice", blocks: [
+        { type: "p", text: "Delivery platforms run their own ranking algorithms. Lower-rated restaurants are not just chosen less often by customers — they are also surfaced less often by the app, pushed down the default ordering, and excluded from promotional placements that the higher-rated competitors enjoy. The penalty is double. The customer cost compounds with the algorithm cost." },
+        { type: "p", text: "Operators who lift the rating get the lift on both fronts simultaneously. Which is why the reputation work in this category has compounding ROI more than in almost any other." },
+      ] },
+      { id: "delivery-reputation-is-our-expertise", title: "Delivery reputation is our expertise", blocks: [
+        { type: "p", text: "We work with restaurants, dark kitchens, cloud-kitchen operators and food-delivery brands across the UAE. We run the in-app review-capture flow, the response programme across Talabat, Deliveroo, Careem Food and Zomato, and the operational reporting that surfaces packaging, courier and temperature issues for the kitchen to fix." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is more orders, higher repeat rate, and a rating that quietly stops needing paid placement to drive volume." },
+      ] },
+    ],
+  },
+  // ─── How ChatGPT decides who to recommend ──────────────────────────
+  {
+    slug: "how-chatgpt-decides-which-businesses-to-recommend",
+    category: "AI Search",
+    categoryEyebrow: "INSIGHTS — AI SEARCH",
+    title:
+      "How ChatGPT actually decides which businesses to name in its answer.",
+    excerpt:
+      "ChatGPT now serves recommendation queries to hundreds of millions of weekly users. Here is what is actually happening under the hood when it names two or three businesses in an answer — and the levers operators can pull to be one of those names.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/ai-search-hero.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "ChatGPT now handles a meaningful share of the questions that used to start with a Google search. Hundreds of millions of weekly users now ask it for recommendations — for restaurants, clinics, dealerships, hotels, financial advisers. When it answers, it usually names two or three businesses. The mechanics of which two or three are not obvious from the customer side, and they are different enough from classic search that operators applying the old SEO playbook are systematically losing." },
+      { type: "p", text: "Here is what is actually happening, and what the levers are." },
+    ],
+    keyTakeaways: [
+      "ChatGPT's recommendation answers blend training-data knowledge with real-time web grounding from a small, trusted set of sources.",
+      "The web grounding step is where the citation game is won — which third-party publications and review platforms the model trusts in your category.",
+      "Review volume and freshness on the platforms ChatGPT cites (especially Google, Trustpilot, TripAdvisor) directly affect how often you are named.",
+      "Multilingual presence matters because the model adjusts answers to the language the user is asking in.",
+      "Static SEO content rarely surfaces in ChatGPT answers. The model rewards explicit, structured, recent third-party validation.",
+      "Operators who invest in citation authority alongside reviews and structured data see their brand named in ChatGPT answers within weeks.",
+    ],
+    sections: [
+      { id: "training-vs-grounding", title: "Training knowledge plus real-time grounding", blocks: [
+        { type: "p", text: "ChatGPT does two things at once when it answers a recommendation question. It pulls on what it learned during training, which captures the general shape of a category and the well-known brands in it. And, for any query where freshness or specificity matters, it grounds the answer in real-time information retrieved from a curated set of trusted web sources. The second step is where most operators have the most room to influence the answer." },
+        { type: "p", text: "Which sources count as trusted varies by category. For UAE hospitality, it tends to be Condé Nast Traveller Middle East, TripAdvisor, Hotelier Middle East, Google Maps and a small number of regional press outlets. For healthcare, it is Google, Doctify and category-specific directories alongside Trustpilot. The grounding sources are the leverage." },
+      ] },
+      { id: "the-citation-game", title: "Citation footprint is the new SEO", blocks: [
+        { type: "p", text: "Classic SEO optimises a single domain to rank its pages on Google. The AI search equivalent is wider and harder: a brand has to appear, repeatedly, across the third-party sources the model already trusts. A piece of coverage in a publication the model treats as authoritative is worth, in citation terms, vastly more than a self-published blog post on the brand's own site." },
+        { type: "p", text: "Which is why the operators who win AI search visibility tend to be the ones who treat third-party PR and editorial placements as a deliberate, ongoing programme rather than an opportunistic exercise." },
+      ] },
+      { id: "reviews-and-freshness", title: "Reviews and freshness do the rest", blocks: [
+        { type: "p", text: "Even when ChatGPT's answer is grounded primarily in editorial sources, the model checks review platforms for sentiment and volume to filter or rank candidates. A clinic that is well-cited in editorial but has a 3.8 average on Google with stale reviews will often be quietly dropped from the answer in favour of a slightly less-cited competitor with stronger live reviews." },
+        { type: "p", text: "Which means review programmes and citation programmes are not alternatives in AI search — they are complementary. The brands that lead are running both in parallel." },
+      ] },
+      { id: "ai-search-is-our-expertise", title: "AI search visibility is our expertise", blocks: [
+        { type: "p", text: "We measure your brand's share of ChatGPT, Gemini, Perplexity and Google AI Overview answers across the queries that matter for your category and your locations. We close the gap with editorial placements, multilingual reviews, and structured data your business actually controls." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is your brand named in the answer the customer reads." },
+      ] },
+    ],
+  },
+  // ─── Google AI Overview — the Maps integration ─────────────────────
+  {
+    slug: "google-ai-overview-the-maps-integration-no-one-talks-about",
+    category: "AI Search",
+    categoryEyebrow: "INSIGHTS — AI SEARCH",
+    title:
+      "What makes Google's AI Overview different from every other AI search engine — and why your Google Business Profile is the leverage point.",
+    excerpt:
+      "Google's AI Overview integrates directly with Google Maps and the Local Pack in a way no other AI engine does. Here is why that makes your Google Business Profile the most important asset in AI search visibility for any local business.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/accuracy-ai-overview.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Of the major AI search engines now answering customer questions, Google's AI Overview is the one operators most often underestimate, because it looks like a slightly enhanced version of the search results page they have known for years. It is not. Underneath the Overview sits a deep integration with Google Maps and the Local Pack that no other AI engine can match, and that integration is what makes the Google Business Profile the single most leveraged asset a local operator owns in AI search." },
+      { type: "p", text: "Which is also why the operators who treat their GBP as a static admin task are quietly losing — and the operators who treat it as the central live document of their reputation are quietly winning." },
+    ],
+    keyTakeaways: [
+      "Google's AI Overview is the only major AI engine with a direct, native pipeline to Google Maps and the Local Pack.",
+      "For any local-intent query, the Overview answer is heavily influenced by Google Business Profile data.",
+      "Categories, opening hours, services listed, photos, Q&A answers and review responses all feed directly into how the Overview describes you.",
+      "Inconsistency between your GBP and your other listings degrades both your Overview visibility and your Maps ranking.",
+      "Operators with a complete, recent, multilingual GBP outperform competitors with stronger websites but weaker profiles.",
+      "Your Google Business Profile is now your most important asset — more than your website.",
+    ],
+    sections: [
+      { id: "the-maps-pipeline", title: "Google AI Overview talks directly to Maps", blocks: [
+        { type: "p", text: "Where ChatGPT and Perplexity have to ground their answers in publicly available web content, Google's AI Overview has privileged access to the structured data inside Google itself — most importantly Google Business Profile entries, Maps listings, the Knowledge Graph and the Local Pack ranking signals. For a local-intent query like 'best dentist in JLT', the Overview answer is almost entirely shaped by which businesses Google's local algorithm already trusts." },
+        { type: "p", text: "Which means that the operator's leverage over their Google AI Overview position is much higher than over their ChatGPT position. The lever is the same one that drives Maps and Local Pack: the GBP." },
+      ] },
+      { id: "what-the-gbp-actually-does", title: "What the GBP actually feeds into", blocks: [
+        { type: "p", text: "The Google Business Profile is not a listing. It is a structured data document. Every field on it — categories, services, attributes, opening hours, photos, Q&A, review responses, multilingual descriptions — is parsed and used by Google's ranking and answer-generation systems. Fields left blank are not neutral; they create gaps the algorithm fills with assumptions, which are sometimes wrong and which compound over time." },
+        { type: "p", text: "A complete, accurate, multilingual GBP is the operational equivalent of an SEO-clean website in 2010. It is the foundation everything else is built on." },
+      ] },
+      { id: "consistency-across-platforms", title: "Consistency across platforms is a ranking signal", blocks: [
+        { type: "p", text: "One of the less-visible factors in Google's local ranking is consistency. A business whose name, address, phone and category descriptions match across Google, Apple Business Connect, Bing Places, Facebook and the major directories ranks higher than one whose details drift between platforms. The drift is often unintentional — an old number on Yelp, a different category on Apple — and it is invisible to the operator until it shows up as a Maps ranking decline." },
+        { type: "p", text: "Cleaning the inconsistencies up systematically is one of the highest-ROI hours of reputation work an operator can buy." },
+      ] },
+      { id: "google-ai-overview-is-our-expertise", title: "Google AI Overview visibility is our expertise", blocks: [
+        { type: "p", text: "We measure how often your business is named in Google AI Overview answers across the queries that matter for your category and your locations, in every language. We then close the gap through complete GBP optimisation, multilingual review velocity, citation work in the publications Google's AI weights, and structured data on your own site." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is your business named in the Overview that sits above every search result page Google now shows." },
+      ] },
+    ],
+  },
+  // ─── Perplexity — citation mechanics ───────────────────────────────
+  {
+    slug: "perplexity-citations-the-most-transparent-ai-engine",
+    category: "AI Search",
+    categoryEyebrow: "INSIGHTS — AI SEARCH",
+    title:
+      "Perplexity shows its work. That makes the citation game more transparent — and more competitive — than any other AI engine.",
+    excerpt:
+      "Of the major AI search engines, Perplexity is the one that explicitly shows the sources it used to build the answer. That makes its citation mechanics the most operator-friendly to influence — if you understand what the engine is actually rewarding.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/ai-search-hero.png",
+    heroImageAlt: "Placeholder image — to be replaced",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Perplexity has a feature the other AI engines mostly hide: every answer comes with explicit citation links to the sources the model used. For an operator trying to understand why their brand is or is not being named in an AI answer, Perplexity is the most useful diagnostic engine in the market — because it shows the receipts." },
+      { type: "p", text: "That same transparency, however, is what makes its citation game unusually competitive. The sources Perplexity trusts in your category are knowable. The brands those sources name are also knowable. Which means the playing field is visible — and the operators who study it pull ahead of those who do not." },
+    ],
+    keyTakeaways: [
+      "Perplexity displays the sources behind every answer — making AI citation diagnostics far easier than on ChatGPT or Gemini.",
+      "The same sources tend to recur across queries in a category — operators can map their category's authoritative citation set in an afternoon.",
+      "Reviews from Trustpilot, Google and TripAdvisor frequently appear in Perplexity's source list for service queries.",
+      "Editorial placements in trade and consumer publications appear more often in Perplexity answers than in ChatGPT.",
+      "The brands that lead Perplexity citations in a category often also lead Google AI Overview citations — the work compounds.",
+      "Perplexity is the easiest engine to use as a feedback loop for any AI search programme.",
+    ],
+    sections: [
+      { id: "showing-the-work", title: "An AI engine that shows the work", blocks: [
+        { type: "p", text: "Most AI search engines treat their answer as a finished product. Perplexity treats it as a research summary, with each claim linked back to the source it came from. For an operator, that turns the AI search question from an opaque guess into a verifiable mapping exercise. You can read which sources are being cited for the queries that matter in your category, and you can see exactly which competitors are surfacing in those sources and which are not." },
+        { type: "p", text: "Half a day of running your category's top queries through Perplexity will tell you more about the citation landscape than weeks of speculation." },
+      ] },
+      { id: "the-recurring-source-set", title: "The recurring citation set in your category", blocks: [
+        { type: "p", text: "Across any category, the same handful of sources tend to recur in Perplexity answers — usually a mix of high-authority editorial sites, category-specific platforms, and a couple of review platforms. For UAE hospitality, the list typically includes TripAdvisor, Time Out Dubai, Condé Nast Traveller Middle East and Google Maps. For UK service businesses, Trustpilot tends to dominate. For automotive, manufacturer-affiliated platforms appear alongside the major car-review sites." },
+        { type: "p", text: "Once you know your category's recurring source set, the work is straightforward: get your brand visible inside those sources, recently and with substance. Reviews on the platforms the engine trusts. Editorial placements in the publications it cites. Structured data on your own site that those sources can link to." },
+      ] },
+      { id: "feedback-loop", title: "Perplexity as the feedback loop", blocks: [
+        { type: "p", text: "Because Perplexity is so explicit about its citations, it becomes the easiest engine to use as a feedback loop for an AI search programme. Every two weeks, an operator can re-run their top queries, compare the citation set against the previous run, and see exactly which work is landing and which is not. The citation list becomes a living scoreboard." },
+        { type: "p", text: "Operators using Perplexity this way typically see the lift on Google AI Overview and ChatGPT within a few weeks of the lift on Perplexity itself, because the underlying source authority work moves all three engines in similar directions." },
+      ] },
+      { id: "perplexity-citations-are-our-expertise", title: "Perplexity citations are part of our expertise", blocks: [
+        { type: "p", text: "Our AI search programme uses Perplexity as the primary diagnostic and weekly feedback loop, then runs the underlying citation, review and structured-data work across the sources the engine actually trusts. The Perplexity dashboard becomes the visible scoreboard. The other AI engines follow." },
+        { type: "p", text: "Free 7-page audit at the start. 90-day money-back guarantee on the metrics we agree. The outcome is a brand that the most transparent AI engine in the market explicitly cites." },
+      ] },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): InsightsArticle | undefined {
