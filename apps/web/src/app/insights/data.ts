@@ -180,6 +180,129 @@ export const ARTICLES: InsightsArticle[] = [
       },
     ],
   },
+  // ─── Automotive article ─────────────────────────────────────────────
+  {
+    slug: "92-percent-car-buyers-research-online-before-showroom",
+    category: "Automotive",
+    categoryEyebrow: "INSIGHTS — AUTOMOTIVE INDUSTRY",
+    title:
+      "92% of car buyers research online before they ever visit a showroom. Your reviews decide which showroom they walk into.",
+    excerpt:
+      "The buyer has already chosen their dealer before they pull into the car park. Here is what weak reviews cost a UAE dealership in lost test drives, lost finance enquiries and lost gross margin — and what a reputation turnaround means for showroom traffic.",
+    date: "May 2026",
+    lastUpdated: "May 21, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/blog-3.png",
+    heroImageAlt:
+      "Modern Dubai automotive showroom floor with premium vehicles on display",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      {
+        type: "p",
+        text:
+          "By the time a car buyer pulls into your showroom, the choice has already been made. 92% of buyers research online before they ever set foot in a dealership. They spend more than 14 hours building a shortlist on Google, comparing star ratings, reading recent reviews, scrolling forum threads and watching walkaround videos — and by the time they call you, they are either confirming a decision or eliminating you from one.",
+      },
+      {
+        type: "p",
+        text:
+          "Your showroom, your sales team and your inventory are no longer your first impression. Your Google profile is. What sits on it decides whether the test drive happens in your showroom or in a competitor's.",
+      },
+    ],
+    keyTakeaways: [
+      "92% of car buyers research online before stepping into a dealership. Your Google profile, not your showroom, is your first impression.",
+      "86% of buyers will not consider a dealership rated below four stars. A 3.8 is not a low score — it is a screening filter that removes you.",
+      "Weak reviews quietly cost a dealership hundreds of thousands of dirhams a month in lost test drives, lost trade-ins and lost finance enquiries.",
+      "Buyers narrow their shortlist to one or two dealerships before they make contact. A weak profile is not a slow start — it is a complete absence from the shortlist.",
+      "Ad spend, inventory depth and aggressive finance packages do not compensate for what your buyers read about you on Google.",
+      "A clean review profile compounds: 86% of satisfied buyers come back and refer others. The reputation does not just win the next sale, it wins the next ten.",
+    ],
+    sections: [
+      {
+        id: "showroom-not-first-impression",
+        title: "The showroom is no longer your first impression",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "For most of the history of the car business, the showroom was where the sale began. A polished forecourt, the right car on the floor, a confident salesperson — and the relationship started. That sequence has now inverted. The relationship begins on Google, on TripAdvisor for car rental, on Property Finder-style listings for used cars, on YouTube walkarounds and on Instagram reels. The showroom is where the buyer comes to confirm a decision they already made online.",
+          },
+          {
+            type: "p",
+            text:
+              "The numbers behind that shift are unambiguous. A typical car buyer now spends more than fourteen hours researching online during their purchase journey, and arrives at the dealership with a shortlist of one or perhaps two showrooms. They have already read your reviews. They have already compared you against the dealership down the road. They are not arriving to be sold to — they are arriving to be served.",
+          },
+          {
+            type: "p",
+            text:
+              "What that means for an operator is simple, even if it is uncomfortable. A dealership with a weak online reputation does not get a chance to lose the sale on the showroom floor. It loses the sale before the buyer ever walks in.",
+          },
+        ],
+      },
+      {
+        id: "cost-to-dealership",
+        title: "What weak reviews actually cost a dealership",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "The financial damage from a damaged review profile is rarely visible on a single P&L line. It surfaces as quietly missing footfall: test drives that never get booked, finance enquiries that never come in, trade-in valuations that get done by the competitor instead. For a UAE dealership selling new vehicles at a typical margin structure, a steady leak of even ten qualified buyers a month — each carrying a vehicle, a finance package and a service-plan attachment — runs into hundreds of thousands of dirhams of monthly gross.",
+          },
+          {
+            type: "p",
+            text:
+              "The threshold is unforgiving. 86% of buyers will not even consider a business rated below four stars. A 3.8 is not a low score — it is a screening filter that removes the dealership from the buyer's shortlist before any salesperson, any package, any test drive ever enters the conversation. A 4.7 with twelve hundred reviews, by contrast, becomes the default choice in its segment.",
+          },
+          {
+            type: "p",
+            text:
+              "And buyers reading your profile are unusually sensitive in this category. They are about to spend more on a single purchase than they will on almost anything else this year. They are not weighing fifty positive reviews against four bad ones. They are zooming in on the four bad ones — the one about the hidden cost at handover, the one about the bait-and-switch on the trim, the one about the service department that never returns a call — and quietly removing your showroom from the route.",
+          },
+        ],
+      },
+      {
+        id: "marketing-cannot-fix-it",
+        title: "Your inventory, financing and ad spend cannot fix it",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "This is the blind spot most dealer principals miss. You can have the cleanest used stock in the city. You can have the most aggressive finance package on the lot. You can run Google Vehicle Ads, Meta carousel ads, OEM-funded display, and a polished SEO content stack. None of it converts if the buyer, having clicked your ad, opens your Google Business Profile and reads three recent reviews mentioning hidden fees, slow service, or a misleading listing.",
+          },
+          {
+            type: "p",
+            text:
+              "Your ad spend at that point is performing the most expensive trick in the business: feeding qualified, ready-to-buy customers straight into your competitor's funnel. The campaign report still shows clicks. The buyer still requests a brochure — from the dealership across town. The cost-per-click looks fine on the dashboard. The cost-per-customer-handed-to-someone-else is what is actually being paid.",
+          },
+          {
+            type: "p",
+            text:
+              "And the math compounds in the wrong direction. 86% of satisfied buyers come back and refer others. The dealership with the strong profile is not just winning the current sale — it is winning the next service contract, the next trade-up, the next family member who pulls into the same showroom three years later because they remember the first experience. The dealership with the weak profile loses all of it, silently.",
+          },
+        ],
+      },
+      {
+        id: "automotive-reputation-expertise",
+        title: "Automotive reputation is our expertise",
+        blocks: [
+          {
+            type: "p",
+            text:
+              "We work with dealerships, showrooms, automotive groups and rental companies across the UAE — and we treat automotive reputation as its own discipline. The buyer journey is longer than other categories, the financial commitment is bigger, and the channels that matter (Google, Booking.com for rental, TripAdvisor, the OEM directories, the local agent profiles) are different. A general-purpose reputation playbook does not move the needle here. A specialist one does.",
+          },
+          {
+            type: "p",
+            text:
+              "The outcome is straightforward to describe. Harmful reviews come down. A professional pipeline of positive feedback comes online from your real, recent customers. The dealership moves into the top 3% of its category on Google Maps. The answer buyers get from Google's AI Overview and ChatGPT — when they ask, 'best Audi dealer in Dubai', 'best used car showroom Sharjah', 'most reliable luxury car rental Marina' — starts naming you instead of the competitor down the road.",
+          },
+          {
+            type: "p",
+            text:
+              "Same forecourt, same inventory, same team, same finance partners. The reputation is different — and the test-drive calendar, the trade-in funnel and the monthly gross margin are different with it. That is what automotive reputation, done as a specialty, actually changes.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): InsightsArticle | undefined {

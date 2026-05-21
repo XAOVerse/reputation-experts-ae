@@ -21,7 +21,7 @@ const INSIGHTS = [
     image: "/images/blog-3.png",
     category: "INSIGHTS - AUTOMOTIVE INDUSTRY",
     title: "92–93% Of Consumers Read Online Reviews Before Making Initial Enquiry WHI",
-    href: "/blog/respond-when-reputation-under-attack",
+    href: "/insights/92-percent-car-buyers-research-online-before-showroom",
   },
   {
     image: "/images/blog-4.png",
