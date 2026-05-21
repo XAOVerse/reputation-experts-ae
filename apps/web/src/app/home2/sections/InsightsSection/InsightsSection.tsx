@@ -15,7 +15,7 @@ const INSIGHTS = [
     image: "/images/blog-2.png",
     category: "INSIGHTS - HEALTHCARE INDUSTRY",
     title: "About 94% Of Patients Today Use Online Reviews To Evaluate A Provider (Healthcare, Clinic, Dental)",
-    href: "/blog/how-search-results-shape-perception",
+    href: "/insights/94-percent-patients-use-reviews-to-choose-provider",
   },
   {
     image: "/images/blog-3.png",
