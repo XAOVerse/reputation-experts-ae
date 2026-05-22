@@ -187,7 +187,7 @@ import styles from "./PlatformsMediaSection.module.css";
 
 //           {/* Right col: 2 media cards */}
 //           <div className={styles.cardsCol}>
-//             <MediaCardItem image="/images/image-3.webp" overlay={<ForbesOverlay />} url="#" />
+//             <MediaCardItem image="/images/image-3.webp" overlay={<ForbesOverlay />} url="https://www.forbesmiddleeast.com/" />
 //             <MediaCardItem image="/images/image-4.webp" overlay={<FintechTimesOverlay />} url="#" />
 //           </div>
 //         </div>
@@ -308,12 +308,12 @@ const YahooFinanceOverlay = () => (
 /* ——— Data ————————————————————————————————————————————————————————————— */
 
 const MENTIONS = [
-  { logo: <CBSLogo />, name: "CBS", url: "#" },
-  { logo: <BBCLogo />, name: "BBC", url: "#" },
-  { logo: <FOXNewsLogo />, name: "FOX News", url: "#" },
-  { logo: <BusinessInsiderLogo />, name: "Business Insider", url: "#" },
-  { logo: <NBCLogo />, name: "NBC", url: "#" },
-  { logo: <DigitalJournalLogo />, name: "Digital Journal", url: "#" },
+  { logo: <CBSLogo />, name: "CBS", url: "https://www.cbsnews.com/" },
+  { logo: <BBCLogo />, name: "BBC", url: "https://www.bbc.com/" },
+  { logo: <FOXNewsLogo />, name: "FOX News", url: "https://www.foxnews.com/" },
+  { logo: <BusinessInsiderLogo />, name: "Business Insider", url: "https://www.businessinsider.com/" },
+  { logo: <NBCLogo />, name: "NBC", url: "https://www.nbcnews.com/" },
+  { logo: <DigitalJournalLogo />, name: "Digital Journal", url: "https://www.digitaljournal.com/" },
 ];
 
 // Correct extensions per actual files in /public/images/
@@ -394,14 +394,14 @@ export function PlatformsMediaSection() {
 
           {/* Middle col: 2 media cards */}
           <div className={styles.cardsCol}>
-            <MediaCardItem image="/images/image-1.webp" overlay={<APOverlay />} url="#" />
-            <MediaCardItem image="/images/image-2.webp" overlay={<BloombergOverlay />} url="#" />
+            <MediaCardItem image="/images/image-1.webp" overlay={<APOverlay />} url="https://apnews.com/" />
+            <MediaCardItem image="/images/image-2.webp" overlay={<BloombergOverlay />} url="https://www.bloomberg.com/" />
           </div>
 
           {/* Right col: 2 media cards */}
           <div className={styles.cardsCol}>
-            <MediaCardItem image="/images/image-3.webp" overlay={<ForbesOverlay />} url="#" />
-            <MediaCardItem image="/images/image-4.webp" overlay={<YahooFinanceOverlay />} url="#" />
+            <MediaCardItem image="/images/image-3.webp" overlay={<ForbesOverlay />} url="https://www.forbesmiddleeast.com/" />
+            <MediaCardItem image="/images/image-4.webp" overlay={<YahooFinanceOverlay />} url="https://finance.yahoo.com/" />
           </div>
         </div>
 
