@@ -438,7 +438,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "6 min read",
-    heroImage: "/images/ai-search-hero.png",
+    heroImage: "/images/insights/google-ai-overview.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -682,7 +682,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "7 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/cafe-diners.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1040,7 +1040,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/bars-entertainment-1.png",
+    heroImage: "/images/insights/upscale-dining.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1362,7 +1362,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/home-services-1.png",
+    heroImage: "/images/insights/fit-out-project.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1454,7 +1454,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/insights/fit-out-project.jpg",
+    heroImage: "/images/insights/villa-fit-out.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1638,7 +1638,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "6 min read",
-    heroImage: "/images/ai-search-hero.png",
+    heroImage: "/images/insights/chatgpt-vs-google.jpeg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
