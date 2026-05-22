@@ -118,15 +118,24 @@ export async function POST(req: NextRequest) {
       responseCode?: number;
       command?: string;
     };
-    console.error("[contact/route] Error sending email", {
+    const debugDetails = {
       message: e?.message,
       code: e?.code,
       responseCode: e?.responseCode,
       response: e?.response,
       command: e?.command,
-    });
+    };
+    console.error("[contact/route] Error sending email", debugDetails);
+    // TEMPORARY DEBUG: surface SMTP details in the response when called with
+    // ?debug=1. Strip this before going to production with public traffic.
+    const isDebug = req.nextUrl.searchParams.get("debug") === "1";
     return NextResponse.json(
-      { error: "Failed to send email. Please try again later." },
+      isDebug
+        ? {
+            error: "Failed to send email. Please try again later.",
+            debug: debugDetails,
+          }
+        : { error: "Failed to send email. Please try again later." },
       { status: 500 }
     );
   }
