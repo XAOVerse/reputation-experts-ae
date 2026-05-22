@@ -38,7 +38,7 @@ function renderBlock(block: Block, idx: number) {
       return (
         <p
           key={idx}
-          className="text-black text-[16px] leading-[26px] lg:text-[17px] lg:leading-[26px]"
+          className="text-black text-[16px] leading-[26px] lg:text-[17px] lg:leading-[26px] break-words [hyphens:auto]"
           style={{ paddingTop: idx === 0 ? "0" : "20px" }}
         >
           {block.text}
@@ -48,7 +48,7 @@ function renderBlock(block: Block, idx: number) {
       return (
         <h3
           key={idx}
-          className="text-black font-semibold text-[18px] leading-[26px] lg:text-[20px] lg:leading-[28px]"
+          className="text-black font-semibold text-[18px] leading-[26px] lg:text-[20px] lg:leading-[28px] break-words"
           style={{ paddingTop: "28px", paddingBottom: "4px" }}
         >
           {block.text}
@@ -60,10 +60,10 @@ function renderBlock(block: Block, idx: number) {
           {block.items.map((item, i) => (
             <li
               key={i}
-              className="text-black flex gap-3 text-[16px] leading-[26px] lg:text-[17px] lg:leading-[26px]"
+              className="text-black flex gap-3 text-[16px] leading-[26px] lg:text-[17px] lg:leading-[26px] break-words [hyphens:auto]"
             >
               <span aria-hidden style={{ paddingLeft: "1px" }}>•</span>
-              <span>{item}</span>
+              <span className="flex-1 min-w-0">{item}</span>
             </li>
           ))}
         </ul>
@@ -207,7 +207,7 @@ export default async function InsightsArticlePage({ params }: Props) {
 
         {/* RIGHT: article content */}
         <article className="relative lg:border-l lg:border-[#d2d2d5]">
-          <div className="px-5 lg:px-[32px]">
+          <div className="px-6 lg:px-[32px]">
             {/* Intro lead */}
             <div className="pt-8 lg:pt-[44px]" style={{ paddingBottom: "12px" }}>
               {article.intro.map((b, i) => {
@@ -255,7 +255,7 @@ export default async function InsightsArticlePage({ params }: Props) {
                 {/* Mid-page CTA banner — after the SECOND section */}
                 {sIdx === 1 && (
                   <div
-                    className="px-5 py-10 mt-10 lg:p-[56px_32px] lg:mt-[56px] -mx-5 lg:mx-0"
+                    className="px-6 py-10 mt-10 lg:p-[56px_32px] lg:mt-[56px] -mx-6 lg:mx-0"
                     style={{ background: ORANGE }}
                   >
                     <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
