@@ -104,6 +104,426 @@ export const ARTICLES: InsightsArticle[] = [
       },
     ],
   },
+  {
+    slug: "doctors-negative-reviews-we-remove-suppress-and-replace",
+    category: "Doctors & Clinics",
+    categoryEyebrow: "INSIGHTS — DOCTORS & PRIVATE CLINICS",
+    title:
+      "A doctor's reputation is on Google long before the patient is in the consultation room. We remove the bad reviews, suppress the rest and rebuild the profile that brings patients back.",
+    excerpt:
+      "Negative doctor reviews almost always cluster around the same five complaints — long waits, billing surprises, bedside manner, medication concerns and front-desk communication. We do not dispute them. We do not respond to them. We remove the unfair ones, suppress the rest with a steady pipeline of recent positive feedback, and rebuild the Google profile that prospective patients see before they ever pick up the phone.",
+    date: "May 2026",
+    lastUpdated: "May 12, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A private clinic consultant reviewing patient feedback on a desktop dashboard",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Patients in the UK and the UAE do not ring a clinic cold. They open Google Maps, read the most recent reviews of the doctors in their area, and quietly remove the practices whose profiles raise any doubt. The decision is made on what those recent reviews say — and the recent reviews almost always cluster around the same five themes: long waits, billing surprises, bedside manner, medication concerns and front-desk communication." },
+      { type: "p", text: "Most doctors react to negative reviews in one of two ways that quietly damage the practice further. Some try to dispute the review in public on Google — which compounds the visibility of the original complaint, breaches HCPC and GMC professionalism expectations in the UK or DHA / DOH guidance in the UAE, and reads to every other prospective patient as an unprofessional outburst. Others ignore the review entirely and hope it sinks down the page — which it does not, because Google weights recency and the review stays visible for years." },
+    ],
+    keyTakeaways: [
+      "Negative doctor reviews concentrate around five themes — wait times, billing surprises, bedside manner, medication concerns and front-desk communication. The pattern is predictable, and the response can be too.",
+      "Responding to a bad review in public almost always makes it worse. Removal is the only outcome that protects the practice.",
+      "An unfair, defamatory or policy-violating review can be removed on the right grounds — and most clinics do not know which grounds those are.",
+      "Suppression works: a steady pipeline of recent positive feedback pushes older negative content below the visible review fold within weeks.",
+      "Outcome we deliver: harmful reviews come down, the recent profile becomes positive, new-patient enquiries return to the practice within 60 days.",
+    ],
+    sections: [
+      {
+        id: "five-complaints-define-the-profile",
+        title: "Five complaints define the doctor's online profile",
+        blocks: [
+          { type: "p", text: "Over the hundreds of medical practices we have worked with, the negative reviews cluster around the same five themes with striking consistency: a wait that ran longer than the patient expected, a bill or insurance interaction that felt opaque, a consultation that felt rushed or cold, a concern about a prescription, or a front-desk interaction that escalated rather than de-escalated. Other complaints exist but those five carry the weight of the profile." },
+          { type: "p", text: "The clinical reality behind the review is often defensible — the wait was caused by an emergency, the bill is structured exactly as the patient consented to, the bedside manner described is not what other patients describe at all. But none of that defence is visible to the next prospective patient. They read the review, they form an impression, and they call the practice down the road instead." },
+        ],
+      },
+      {
+        id: "responding-in-public-makes-it-worse",
+        title: "Responding to a bad review in public almost always makes it worse",
+        blocks: [
+          { type: "p", text: "The instinct of the doctor reading a negative review is to defend the practice in writing on the Google profile. This is the single most common mistake we see in private medical practice — and it is the mistake that converts a one-off complaint into a permanent piece of the practice's marketing. The public response is now part of the search result. Every prospective patient who looks the doctor up sees both the original complaint and the defensive reply, and reads the exchange as evidence the practice cannot handle criticism." },
+          { type: "p", text: "There is also a regulatory dimension. Public responses by doctors are constrained by patient confidentiality (HCPC and GMC in the UK, DHA and DOH in the UAE) which means the doctor cannot give the full clinical context — the response always sounds either evasive or escalatory. The right play is not a better response. The right play is no response at all, and the removal of the review where the grounds permit it." },
+        ],
+      },
+      {
+        id: "what-we-actually-do",
+        title: "What we actually do for a clinic with damaged reviews",
+        blocks: [
+          { type: "p", text: "We do not dispute reviews in public on the practice's behalf. We do not respond. We remove. Where a review breaches Google's review policy — defamatory content, identifiable patient information posted by a third party, content from a person who was never a patient, off-topic content, conflict-of-interest content — we take it down. Where a review is the personal opinion of a real patient and removal is not available, we suppress it: we bring online a steady, authentic pipeline of recent positive feedback from your real patients that pushes the older negative content below the visible fold within weeks." },
+          { type: "p", text: "And we do it on a timeline that protects the practice. Within 48 hours we have the action plan and the platform requests submitted. Within 30 days the visible recent profile is materially different. Within 60 days the new-patient enquiry pipeline that had been quietly leaking to the competitor has returned to the practice. The doctor's clinical work has not changed. The Google profile has." },
+        ],
+      },
+      {
+        id: "doctor-reputation-is-our-expertise",
+        title: "Medical practice reputation is our expertise",
+        blocks: [
+          { type: "p", text: "We work with private clinics, GP and dental practices, aesthetic medicine specialists, paediatric practices and hospital consultants across the UK and the UAE. Medical reputation is its own discipline. The regulatory constraints on what the doctor can say in public are different. The platforms patients actually use — Google, Doctify, Top Doctors, daynurseries-style specialist directories, NHS Choices in the UK and the equivalent ministry directories in the UAE — each behave differently. The recovery playbook is specialist, not generic." },
+          { type: "p", text: "The outcome we deliver is concrete. Harmful and unfair reviews come down. A recent profile of authentic, professional positive feedback comes online. The practice ranks in the top 3% of its category on Google Maps in the postcodes that actually feed the patient list. The next prospective patient who looks the practice up makes the call instead of calling the practice down the road. Same doctor. Same team. Same building. A different reputation, and a new-patient pipeline that looks different with it." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "lawyers-negative-reviews-we-take-them-down-not-debate-them",
+    category: "Law Firms & Solicitors",
+    categoryEyebrow: "INSIGHTS — LAW FIRMS & SOLICITORS",
+    title:
+      "Bad Google reviews of a law firm rarely come from clients. We remove them — quietly, professionally and on the grounds that actually work.",
+    excerpt:
+      "Negative attorney and solicitor reviews damage the firm twice — once when prospective clients read them, and again when the partner responds publicly and the exchange becomes part of the firm's permanent search result. We do not dispute reviews in public on a firm's behalf. We take them down on the grounds that work, and we rebuild the profile underneath them.",
+    date: "May 2026",
+    lastUpdated: "May 2, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A law-firm partner reviewing client feedback in a modern office",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Negative reviews of law firms are unusual. The complaints often do not come from clients at all — they come from the other side of a matter, from a frustrated opposing party, from a disgruntled former employee, or from an entirely different person who has confused the firm with another practice of similar name. The complaint is loud, public, and frequently inaccurate. And the partner reading it is unusually likely to make the situation worse by replying." },
+      { type: "p", text: "Law firms in the UK and the UAE operate under regulatory regimes — the SRA in England and Wales, the DET in the UAE and equivalents across the Gulf — that constrain what a lawyer can say in public about any matter. The partner's public reply to a Google review therefore reads as either evasive or as a breach of professional conduct, and either way it is now a permanent part of the firm's search result. The right play is not a better reply. The right play is removal of the review, and rebuilding of the profile that prospective clients see when they look the firm up." },
+    ],
+    keyTakeaways: [
+      "Negative reviews of law firms often come from the other side of a matter, not from actual clients. Many are removable on platform-policy grounds.",
+      "Replying to a negative review in public almost always escalates the exposure — the reply becomes part of the permanent search result.",
+      "SRA, DET and equivalent professional-conduct rules constrain what a partner can say in public. The professional response is no response.",
+      "Suppression works: a pipeline of recent, authentic client feedback pushes older negative content below the visible review fold within weeks.",
+      "Outcome we deliver: removable reviews come down, a recent positive profile comes online, and the firm ranks in the top 3% of its category for its practice areas on Google.",
+    ],
+    sections: [
+      {
+        id: "who-actually-leaves-bad-lawyer-reviews",
+        title: "Who actually leaves bad lawyer reviews",
+        blocks: [
+          { type: "p", text: "Most law-firm partners assume their negative Google reviews are from unhappy clients. In our experience working with practices across the UK and the UAE, that assumption is wrong more often than it is right. A significant share of negative reviews on law-firm profiles come from opposing parties in litigation, from third-party witnesses with no client relationship to the firm, from former employees, from members of the public who have confused the firm with another practice of similar name, or from competitors operating in bad faith." },
+          { type: "p", text: "That matters because Google's review policy excludes most of these categories from valid reviews. A review from an opposing party in a matter is a conflict-of-interest review and removable. A review from someone with no actual service experience is removable. A defamatory factual claim is removable. The right grounds have to be cited on the right platform, and the firm has to know which review falls into which category — but most of the negative content on law-firm profiles can come down once that work is done." },
+        ],
+      },
+      {
+        id: "public-replies-damage-the-firm",
+        title: "The public reply damages the firm more than the original review",
+        blocks: [
+          { type: "p", text: "The partner reading a one-star review will reach for the keyboard. Within twenty-four hours the firm has a public reply on the Google profile — sometimes defending the work, sometimes asserting confidentiality, sometimes correcting the reviewer's account of events. Every variant has the same effect on the next prospective client who looks the firm up: the exchange is now the search result. The complaint is no longer one comment in a list. It is a public dispute with the firm as a visible participant." },
+          { type: "p", text: "Worse, the reply almost always contains language a regulator will eventually flag. SRA and DET professional-conduct rules limit what a solicitor can say in public about any client matter. The partner's reply, drafted in twenty minutes of frustration, becomes a regulatory risk in its own right. The professional response to a bad review on a law-firm profile is no response — and removal of the review where the grounds permit it." },
+        ],
+      },
+      {
+        id: "what-we-actually-do",
+        title: "What we actually do for a firm with damaged reviews",
+        blocks: [
+          { type: "p", text: "We do not dispute reviews in public on the firm's behalf. We do not draft public replies. We remove. We assess every visible negative review for the specific Google or platform-policy ground that applies — conflict of interest, defamatory content, off-topic content, mistaken-identity content, content from a non-client — and we take it down where the ground holds. Where a review is the genuine opinion of an actual client and removal is not available, we suppress it: a steady, authentic pipeline of recent positive feedback from real clients pushes the older content below the visible review fold within weeks." },
+          { type: "p", text: "We do it on a timeline that protects the practice. Within 48 hours the assessment is complete and the platform requests are submitted. Within 30 days the visible recent profile is materially different. Within 60 days the new-client enquiry pipeline that had been quietly leaking to the competitor firm has returned. The firm's legal work has not changed. The profile that prospective clients see when they search has." },
+        ],
+      },
+      {
+        id: "law-firm-reputation-is-our-expertise",
+        title: "Law-firm reputation is our expertise",
+        blocks: [
+          { type: "p", text: "We work with solicitors and barristers' chambers, commercial law firms, family practices, immigration specialists and in-house legal counsel across the UK and the UAE. Legal reputation is its own discipline. The regulatory constraints on what partners can say in public are different. The platforms prospective clients use — Google Business Profile for the local-area search, Legal 500 and Chambers for the directory presence, Trustpilot for the consumer-facing firms, and increasingly AI search overlays — each behave differently. The recovery playbook is specialist, not generic." },
+          { type: "p", text: "The outcome we deliver is concrete. Reviews from non-clients, opposing parties and bad-faith actors come down on the right grounds. A recent profile of authentic client feedback comes online. The firm ranks in the top 3% of its category on Google Maps for its practice areas. The next prospective client who looks the firm up makes the call instead of calling the firm across the road. Same partners. Same expertise. Same fee scale. A different reputation, and a new-client pipeline that looks different with it." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "executive-privacy-we-remove-your-home-address-from-google-in-30-days",
+    category: "Executive Privacy & Personal Reputation",
+    categoryEyebrow: "INSIGHTS — EXECUTIVE PRIVACY & PERSONAL REPUTATION",
+    title:
+      "Your home address, your spouse's name and your children's schools are on Google. We remove all of it inside thirty days.",
+    excerpt:
+      "The executive whose home address, family members and personal photographs are indexed on Google is not facing a marketing problem. They are facing a physical-safety problem. We do not advise the executive to set up privacy settings. We remove the personal data from the data brokers, suppress what remains in search, and lock the digital perimeter inside thirty days.",
+    date: "April 2026",
+    lastUpdated: "April 22, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A senior executive consulting with a personal reputation specialist in a discreet office",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Most executives at the senior end of a UK or UAE company have never personally searched their own name on Google. When they do, the result is almost always alarming. Their home address is visible on three or four data-broker sites. Their spouse's name and employer is on LinkedIn one click away. Their children's school is in the local press from an unrelated event five years ago. Their personal mobile number is on a recruiter site from a job they did not take. A photograph of their car is on a property-listing site from when they sold a house. Every piece of that information is freely accessible by a hostile actor in ten minutes of search." },
+      { type: "p", text: "This is no longer a hypothetical risk. Executive doxxing, targeted social engineering, ransomware attacks initiated through family-member phishing, and direct physical-security incidents at executive home addresses are now common enough that they are a board-level concern at every company we work with. The intervention is not advising the executive to update their LinkedIn privacy settings. The intervention is removing the data and suppressing the residual content in search — and we do it inside thirty days." },
+    ],
+    keyTakeaways: [
+      "Senior executives' home addresses, family members and personal contact details are routinely indexed across dozens of data-broker sites and surface on the first page of Google.",
+      "Executive doxxing and home-address targeting are now common enough to be a board-level security concern at most enterprises we work with.",
+      "Removing personal data from data brokers is a specialist process — most platforms have a removal mechanism, and most companies do not know how to use it at scale.",
+      "Suppression in search is the complement to removal — content that cannot be removed can be pushed below the visible search fold within weeks.",
+      "Outcome we deliver: nothing personally identifying about the executive is findable on the first three pages of a Google search of their name, inside thirty days.",
+    ],
+    sections: [
+      {
+        id: "what-is-actually-exposed",
+        title: "What is actually exposed when you search the executive's name",
+        blocks: [
+          { type: "p", text: "The first audit we run on a new executive client almost always returns the same pattern. The Google search of the executive's full name returns, on the first page: the corporate LinkedIn profile, two or three data-broker sites listing home address and approximate age, an unrelated press mention with family members named, the company press release that disclosed the executive's previous role, and a few social-media accounts the executive forgot they had. Page two and three add more data-broker sites, property records, and personal photographs from social-media tagged content the executive does not control." },
+          { type: "p", text: "Most of this content is technically public and was added by third parties without the executive's involvement. The executive did not consent to having their home address indexed by Spokeo or BeenVerified — those sites scraped public records and republished them. The executive did not tag themselves in the property listing — the estate agent did. The executive did not put the children's school in the local press — the school's PR team did, six years ago, for an entirely positive event. None of that absolves the executive of the risk it creates today." },
+        ],
+      },
+      {
+        id: "what-the-data-broker-removal-process-actually-is",
+        title: "What removing personal data from data brokers actually involves",
+        blocks: [
+          { type: "p", text: "Most data brokers have a removal mechanism. Spokeo, BeenVerified, PeopleFinder, Whitepages, Intelius, MyLife, Radaris and dozens of others each have their own removal form, their own verification process, and their own retention policy after the data has been removed. The total number of data-broker sites we work through on a typical UK or UAE executive engagement is between thirty and a hundred — each with a different process, each with a removal cycle of one to four weeks, and several with the unhelpful habit of re-listing the data months later from a new scrape." },
+          { type: "p", text: "Doing this at scale is a specialist process. It is not something an executive does in an evening, and it is not something the corporate IT team is set up to do. We run it as a continuous service — the initial removal sweep, the residual-suppression work for content that cannot be removed, and the ongoing re-listing monitoring that catches new appearances within days of them surfacing. The outcome is a search result that no longer exposes the executive's personal life." },
+        ],
+      },
+      {
+        id: "suppression-completes-the-perimeter",
+        title: "Suppression completes the privacy perimeter",
+        blocks: [
+          { type: "p", text: "Some content cannot be removed. A legitimate news article from a reputable publication. A regulatory disclosure that has to remain accessible. A factual mention on a board member's company page. For all of these we do not chase removal — we build a body of professional content (interviews, conference appearances, opinion pieces, the executive's own blog) that ranks above the unwanted content in the search result. Within thirty days the executive's first page on Google is the version of their professional self they actually want the public to see." },
+          { type: "p", text: "The combination — removal of the data-broker exposures plus suppression of the residual content — is what closes the digital perimeter around the executive. Personal address: gone. Family members' names: not findable from the executive's search. Children's school: not surfaced. Personal mobile: removed. Old photographs from third parties: pushed past the visible fold. The hostile actor doing reconnaissance on the executive now finds nothing useful." },
+        ],
+      },
+      {
+        id: "executive-privacy-is-our-expertise",
+        title: "Executive privacy is our expertise",
+        blocks: [
+          { type: "p", text: "We work with senior executives, family-office principals, regulated professionals and high-profile individuals across the UK and the UAE on personal reputation and digital privacy. The data-broker landscape is fragmented and constantly changing. The suppression playbook for personal search results is different from the playbook for a business. The protective outcome the client actually needs — being unfindable to a hostile actor — is achieved by combining the two." },
+          { type: "p", text: "The outcome we deliver is concrete. The first three pages of Google search of the executive's name return nothing personally identifying. The data-broker sites that previously published the executive's address and family members no longer publish them. The residual content is monitored continuously and re-listings are removed within days. Same executive, same job, same public profile where it serves the business — and a personal perimeter that is finally closed." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "fortune-500-reputation-playbook-now-running-for-your-business",
+    category: "Reputation Strategy",
+    categoryEyebrow: "INSIGHTS — REPUTATION STRATEGY",
+    title:
+      "The reputation playbook that has protected Fortune 500 companies for twenty years is now running for SMBs in the UK and the UAE. The capability is the same. The price is finally reachable.",
+    excerpt:
+      "Large enterprises have always invested in reputation defence as a continuous discipline — removal teams, content suppression, monitored search results, crisis-response capacity. SMBs assumed it was out of reach. It is not. We run the same playbook for our SMB clients in the UK and the UAE that has protected Fortune 500 brands for two decades — at a price they can build into the marketing budget.",
+    date: "April 2026",
+    lastUpdated: "April 12, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A reputation strategist briefing a SMB executive on a defensive content playbook",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "For twenty years the largest companies on the planet have treated reputation defence as a permanent operational discipline. Coca-Cola, BP, HSBC, GSK, Saudi Aramco, Emirates Airline — each runs a continuous reputation operation that includes daily review monitoring, removal of harmful content where grounds permit, suppression of unfavourable search results with original company content, and a crisis-response retainer that can deploy within hours. The discipline is invisible to outsiders because it works." },
+      { type: "p", text: "Small and medium-sized businesses have historically assumed this kind of capability was out of reach. The Fortune 500 reputation playbook ran on Fortune 500 budgets, and the local dental practice, the family-run restaurant, the regional removals company simply did the best they could with the time they had. That assumption is now wrong. The same capability that defends a Fortune 500 brand can be deployed for an SMB — and our entire business is built on making it reachable." },
+    ],
+    keyTakeaways: [
+      "Fortune 500 companies have run continuous reputation defence — monitoring, removal, suppression, positive content pipeline — for two decades. The discipline is mature, not experimental.",
+      "The same capability that protects an FTSE 100 or Fortune 500 brand can be delivered for an SMB — the playbook is the same; the price is finally accessible.",
+      "SMBs are now more exposed than enterprises to a single negative review or a defamatory blog post — the same one piece of content does proportionally more damage to a smaller revenue base.",
+      "Doing this work as a one-off project never delivers — reputation defence is a continuous discipline that decays the moment it stops.",
+      "Outcome we deliver: harmful content removed, recent positive profile maintained, top 3% Google Maps position held continuously — the same defensive posture that protects the largest brands in the world, now running for your business.",
+    ],
+    sections: [
+      {
+        id: "what-fortune-500-companies-actually-do",
+        title: "What Fortune 500 companies actually do that SMBs do not",
+        blocks: [
+          { type: "p", text: "The reputation playbook large enterprises run has four components. They monitor every review platform, every news mention and every social-media surface where the company name can appear. They remove content that breaches platform policy, that is defamatory, or that constitutes a regulated disclosure violation. They suppress unfavourable but legitimate content by pushing it below the visible search fold with original, authoritative company content. And they retain a crisis-response capability that can deploy within hours when a single incident threatens to define the brand for a year." },
+          { type: "p", text: "Each component is mature, repeatable and measured. The Fortune 500 reputation team does not see any of this as innovative — it is the operating baseline. The reason SMB owners read about reputation problems and assume there is no solution is that they have only been exposed to the surface — the public-facing news, the Google reviews — and have never had visibility into the defensive operation that runs underneath the brands they admire." },
+        ],
+      },
+      {
+        id: "smbs-are-now-more-exposed",
+        title: "SMBs are now proportionally more exposed than enterprises",
+        blocks: [
+          { type: "p", text: "Counter-intuitively, the small business is now more exposed to reputation damage than the large enterprise, not less. A single negative review on a dental practice with twelve reviews moves the average star rating visibly. A defamatory blog post about a regional removals company can outrank the company's own website inside a week. A disgruntled ex-employee on Glassdoor can drag a thirty-person company's rating from 4.6 to 2.9 inside a month. The same incident at Coca-Cola is invisible noise. At a fifty-employee SMB it is an existential event." },
+          { type: "p", text: "That asymmetry is the case for taking reputation defence seriously at SMB scale. The need is greater than the enterprise's because the revenue base is smaller and the margin for absorption is thinner. The intervention has to be continuous and professional rather than reactive and improvised." },
+        ],
+      },
+      {
+        id: "the-price-is-now-reachable",
+        title: "The price is now reachable",
+        blocks: [
+          { type: "p", text: "What changed in the past five years is that the Fortune 500 playbook can now be delivered for SMBs at SMB pricing. The monitoring software exists at scale. The removal expertise has matured. The platform request mechanisms are documented. The positive-content pipeline can be operated efficiently. We can run, for a dental practice in Hampshire or a removals company in Sharjah, the exact same defensive operation that an in-house team runs for a £10bn corporate — at a monthly retainer that fits into the marketing budget." },
+          { type: "p", text: "That is the entire premise of our business. The Fortune 500 playbook is no longer a Fortune 500 budget. It is now a normal line item for any SMB that has decided its reputation is worth defending — and an unmissable one for any SMB whose reputation is the entire engine of new-customer acquisition." },
+        ],
+      },
+      {
+        id: "our-job-is-to-run-it",
+        title: "Our job is to run it",
+        blocks: [
+          { type: "p", text: "We work with SMBs across the UK and the UAE — clinics, law firms, restaurants, hotels, removals companies, automotive dealerships, beauty salons, professional services — and we run the Fortune 500 reputation playbook on their behalf. Monitoring runs continuously. Harmful content comes down on the right grounds. Authoritative content is published to suppress what cannot be removed. A pipeline of recent positive feedback is maintained from real customers. A crisis-response capacity sits behind the operation for the day something goes badly wrong." },
+          { type: "p", text: "The outcome the SMB client experiences is concrete. The Google profile that prospective customers see when they search the business reflects the business at its best, not the business at the mercy of its worst weekly review. The new-customer enquiry pipeline does not leak silently to competitors. The reputation does not have to be rebuilt every time something happens, because the defensive operation is already running. Same Fortune 500 playbook. Reachable at SMB price." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "reputation-monitoring-tools-do-not-save-your-business-action-does",
+    category: "Reputation Strategy",
+    categoryEyebrow: "INSIGHTS — REPUTATION STRATEGY",
+    title:
+      "Knowing you have fourteen new negative reviews this month is not protection. Removing them is. The dashboard is not the work.",
+    excerpt:
+      "Reputation monitoring software gives executives the comforting feeling of seeing the problem. It does not solve the problem. The dashboard turns green only when the monitoring tool stops finding bad reviews — and that only happens when someone actually removes them. Most companies are paying for visibility into damage they have no capacity to fix.",
+    date: "April 2026",
+    lastUpdated: "April 2, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A reputation monitoring dashboard showing alerts the company is unable to act on",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "The reputation-software market in the UK and the UAE has grown rapidly over the last five years. Brand24, Mention, Reputation.com, Birdeye, Yotpo and a dozen others all sell the same essential service: continuous monitoring of where your business is mentioned, with alerts when something negative surfaces. The dashboards are polished, the email digests arrive on time, and the executives who buy them feel reassured that the company is on top of its reputation." },
+      { type: "p", text: "It is a false sense of security. Knowing you have fourteen new negative reviews this month is not protection from those reviews. Knowing your Glassdoor rating dropped from 4.4 to 3.9 last quarter does not raise it back to 4.4. Knowing a defamatory blog post is now ranking on page one for your company's name does not remove the post. Monitoring is the comforting first half of the operation. Without the second half — the action that actually removes, suppresses and replaces the damaging content — the dashboard simply shows you a problem that quietly grows worse." },
+    ],
+    keyTakeaways: [
+      "Reputation monitoring software shows you what is wrong. It does not fix what is wrong — and the gap between the two is where companies lose the most reputation value.",
+      "Companies who buy monitoring tools without an action capability typically end up with a year of evidence that the problem grew while they watched.",
+      "The dashboard only ever turns green when someone removes the harmful content, suppresses what cannot be removed, and brings recent positive content online. That is not what software does. That is what specialists do.",
+      "Most SMBs we work with had been paying for monitoring software for years before they engaged us — and the monitoring data we inherited became the action plan we executed against in the first ninety days.",
+      "Outcome we deliver: not visibility into the problem, but the removal of the problem. The dashboard turns green because the damage is gone.",
+    ],
+    sections: [
+      {
+        id: "what-monitoring-software-actually-does",
+        title: "What reputation monitoring software actually does",
+        blocks: [
+          { type: "p", text: "Monitoring tools sit on top of the public web and the major review platforms and alert the buyer when new content mentioning the brand surfaces. Some are sophisticated — they cluster sentiment, identify the source, score the severity. Some are crude — they email a dashboard at 8am every Monday with a count of mentions. All of them share one structural limitation: they are observational. They tell you what has happened. They do not change what has happened, and they do not stop the next thing from happening." },
+          { type: "p", text: "That limitation is invisible to a buyer on day one. The dashboard is impressive, the alerts feel proactive, and the brand reputation now has a visible workflow inside the company. It becomes painfully visible by month twelve, when the executive realises the negative reviews that were visible in January are still visible — only there are now eighteen more of them, and a new defamatory blog post has appeared on page one of Google that the monitoring tool flagged in March and that nobody has done anything about." },
+        ],
+      },
+      {
+        id: "the-action-gap",
+        title: "The action gap is where reputation value actually decays",
+        blocks: [
+          { type: "p", text: "The damage to a business reputation does not happen at the moment a negative review is posted. It happens during the months and years that the negative review stays visible while no one is taking it down. Monitoring shows the executive the moment the review appears. Without an action capability, the review then sits there for months, getting indexed, getting cited by AI search overlays, getting read by prospective customers, and quietly draining new-business pipeline to the competitor across the road." },
+          { type: "p", text: "The gap between knowing about a piece of damaging content and removing it is where the actual reputation value is lost. Monitoring does not close that gap. A specialist removal operation closes it. Without the removal operation, monitoring is simply a more sophisticated way of watching the business be damaged." },
+        ],
+      },
+      {
+        id: "what-we-actually-do",
+        title: "What we actually do for a business currently relying on monitoring software",
+        blocks: [
+          { type: "p", text: "Most of our new clients arrive with a monitoring tool already in place. The first month of our engagement uses that tool's historical data as the action plan. Every flagged negative review, every defamatory blog post, every problematic search result that the monitoring tool surfaced over the last twelve months becomes a removal target or a suppression target. By month two, the visible Google profile is materially cleaner than it has been in years — and the monitoring tool dashboard finally turns green, because the content the tool was flagging has actually been removed." },
+          { type: "p", text: "We are not opposed to monitoring software — most of our clients keep theirs in place alongside our work. But monitoring is the input to the operation, not the operation itself. Until someone acts on the alerts, the dashboard is a measure of the damage, not a defence against it." },
+        ],
+      },
+      {
+        id: "reputation-action-is-our-expertise",
+        title: "Reputation action is our expertise",
+        blocks: [
+          { type: "p", text: "We work with SMBs and mid-market enterprises across the UK and the UAE that are tired of being told their reputation is healthy because the monitoring dashboard is updated. Our job is not to alert. Our job is to act. Harmful content comes down on the grounds that work. Suppression content goes up where removal is not available. Recent positive feedback comes online from real customers. The crisis-response retainer is there for the day a single incident threatens to define the company for a year." },
+          { type: "p", text: "The outcome we deliver is concrete. The monitoring tool dashboard turns green because the damage the tool was reporting is no longer there. The Google profile that prospective customers see is what the business actually deserves. The reputation, measured the way customers experience it, is finally what executives have been paying monitoring software to tell them it should be. Same business. Same team. Same product. A different reputation, and a defensive operation that finally does something with the dashboard." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "employee-privacy-scrub-stops-the-ransomware-attack-before-it-starts",
+    category: "Cybersecurity & Employee Privacy",
+    categoryEyebrow: "INSIGHTS — CYBERSECURITY & EMPLOYEE PRIVACY",
+    title:
+      "Ransomware does not start in the firewall. It starts in your employees' LinkedIn profiles, data-broker listings and leaked passwords. We remove the data the attacker needs.",
+    excerpt:
+      "Most successful ransomware attacks now begin with social engineering, and social engineering begins with personal information about your employees that is freely available online. Cybersecurity software defends the perimeter. We remove the data that lets the attacker through the perimeter in the first place — LinkedIn over-share, data-broker exposure, leaked credentials, family-member information.",
+    date: "March 2026",
+    lastUpdated: "March 23, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A digital privacy specialist auditing an employee's public online footprint",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Most successful ransomware attacks against UK and UAE companies in the last three years did not start with a vulnerability in the firewall or an unpatched server. They started with a phishing email or a phone call to a single employee whose personal information made them an easy target. The attacker knew the employee's name, their job, their reporting line, the names of their children, the dog walker they used, the school the children attended, the colleague they had lunch with on Tuesdays, and the password they had used on a forum in 2014 that had been leaked in a breach. The attack succeeded not because the technology failed, but because the employee was easy to impersonate." },
+      { type: "p", text: "All of that information was freely available online before the attack. The firewall did not protect against it. The endpoint-detection software did not see it. The mandatory cybersecurity training did not remove it. The information sat on LinkedIn, on data-broker sites, in old breach databases, in social-media tagged photographs and in personal-life articles the employee had no involvement in publishing. The defensive move that closes that exposure is not security software. It is data removal — and that is what we do." },
+    ],
+    keyTakeaways: [
+      "Most ransomware attacks now begin with social engineering of a single employee — not with a vulnerability in the firewall or the endpoint.",
+      "The information the attacker uses to impersonate an employee — name, role, family members, schools, prior addresses, leaked passwords — is freely available online before the attack.",
+      "Cybersecurity software defends the perimeter. Employee privacy removal closes the route the attacker uses to get past the perimeter in the first place.",
+      "Data-broker removal at scale is a specialist process — most security teams are not set up to do it, and most companies do not know it is available.",
+      "Outcome we deliver: the personal data the attacker needs to impersonate or compromise an employee is removed from the public web and monitored for re-listings — so the social-engineering attack fails because the attacker can no longer assemble the dossier.",
+    ],
+    sections: [
+      {
+        id: "how-the-attack-actually-starts",
+        title: "How a ransomware attack actually starts",
+        blocks: [
+          { type: "p", text: "Forensic reports from the past three years of UK and UAE ransomware incidents are remarkably consistent on the initial vector. The attacker spent days or weeks compiling a dossier on a single target employee — typically someone in finance, HR or IT with access credentials that mattered. The dossier came from LinkedIn (job, reporting line, recent activity), from data brokers (home address, family members), from breach databases (passwords reused across personal accounts), from social-media tagged content (children's names, schools, holiday plans), and from search results for the employee's name across years of unrelated press mentions." },
+          { type: "p", text: "Armed with that dossier, the attacker placed a phone call or sent an email that the employee could not distinguish from a legitimate communication. The CEO appeared to call from the right number, used the employee's name correctly, referenced a recent business event accurately, and asked the employee to authorise a transfer or click a link. The employee complied. The breach began. The technical security stack the company had invested in was never tested, because it was never the vector." },
+        ],
+      },
+      {
+        id: "what-cybersecurity-software-cannot-do",
+        title: "What cybersecurity software cannot do",
+        blocks: [
+          { type: "p", text: "Endpoint-detection-and-response platforms, firewalls, multi-factor authentication, security-awareness training and the rest of the modern cybersecurity stack all defend against attacks that have already crossed the perimeter or are attempting to. None of them removes the personal information about your employees that the attacker uses to plan and execute the social-engineering call in the first place. The CISO can buy every product on the market and the employee's home address, family names and prior passwords will still be sitting on the same data-broker sites, the same LinkedIn over-share, the same breach databases — fully available to the next attacker who decides the company is worth targeting." },
+          { type: "p", text: "Closing that exposure requires a different discipline. Data-broker removal at scale, LinkedIn perimeter audit, breach-database monitoring, social-media privacy hardening, and continuous re-listing monitoring. Most security teams are not set up to do it. Most companies do not realise it is available as a service. It is, and it is the most underrated layer of an enterprise defence-in-depth strategy." },
+        ],
+      },
+      {
+        id: "what-we-actually-do",
+        title: "What we actually do for a company concerned about social-engineering risk",
+        blocks: [
+          { type: "p", text: "We start with an exposure audit on the company's senior staff and high-risk employees — typically the executive team, the finance and HR leads, the IT operations team, and anyone with access credentials that materially matter. The audit catalogues every piece of personally identifying information about each employee that is publicly available, scored by attacker usefulness. Within the first thirty days, we remove the data-broker exposures, audit and lock down the LinkedIn perimeter, identify breach exposures and trigger credential resets, and scrub the social-media tagged content where consent can be obtained." },
+          { type: "p", text: "We do not replace the cybersecurity stack — we close the gap the cybersecurity stack cannot reach. From month one onward we monitor for re-listings and new exposures, and we maintain a continuous defensive perimeter that the attacker now has to crack before they can even draft the phishing email. The next social-engineering attempt fails not because the technology detected it, but because the attacker could no longer assemble the dossier that makes it convincing." },
+        ],
+      },
+      {
+        id: "employee-privacy-is-our-expertise",
+        title: "Employee privacy and social-engineering defence is our expertise",
+        blocks: [
+          { type: "p", text: "We work with enterprises and mid-market companies across the UK and the UAE on employee privacy and the data-removal layer of cybersecurity defence. The discipline is mature, the playbook is documented, and most of our engagements pay for themselves the first time a phishing or vishing attempt against a covered employee fails because the attacker did not have the personal data they expected to have." },
+          { type: "p", text: "The outcome we deliver is concrete. The employee data the attacker needs is removed from the public web and continuously monitored. The social-engineering vector closes. The cybersecurity stack the company has already invested in becomes more effective because it is now defending a perimeter that the attacker has fewer ways to penetrate. Same firewall. Same MFA. Same training. A different exposure profile, and a ransomware risk that has dropped sharply because the attack stops happening before it starts." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "ex-employees-damaging-your-google-and-glassdoor-we-restore-the-record",
+    category: "Employer Reputation",
+    categoryEyebrow: "INSIGHTS — EMPLOYER REPUTATION",
+    title:
+      "A handful of disgruntled ex-employees on Glassdoor and LinkedIn can sink a year of recruiting and a year of customer trust. We remove what we can, suppress what we cannot, and rebuild the talent brand.",
+    excerpt:
+      "Ex-employees venting on Glassdoor, LinkedIn and Google Reviews can drag an otherwise healthy company's employer rating from 4.4 to 2.9 inside a quarter, choke the recruiting pipeline, and quietly contaminate customer perception. We do not advise the HR team to respond carefully. We remove what is removable, flood with current-employee positive content, and restore the rating inside ninety days.",
+    date: "March 2026",
+    lastUpdated: "March 13, 2026",
+    readTime: "6 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "An HR director reviewing the company's employer-brand profile with a reputation specialist",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "A handful of disgruntled ex-employees can do an extraordinary amount of damage to a UK or UAE company in a short time. A coordinated set of one-star reviews on Glassdoor or Indeed drops the employer rating from 4.4 to 2.9 inside a quarter. A LinkedIn post by a senior leaver alleging mismanagement reaches the company's entire industry inside a week. A Google review left by a former employee — sometimes posted as if they were a customer — sits at the top of the company's local search result, read by every prospective customer who looks the company up." },
+      { type: "p", text: "The HR team and the founders frequently react in ways that make the situation worse. Some respond in public on each platform, point by point, and the exchange becomes the search result. Some launch a counter-campaign asking current employees to leave positive reviews, which Glassdoor and Indeed both detect and which contaminates the entire profile. Some simply hope the content sinks down the page over time, which it does not, because all three platforms weight recency heavily. The intervention that actually restores the brand is different, and it does not start with a response." },
+    ],
+    keyTakeaways: [
+      "Disgruntled ex-employees on Glassdoor, Indeed, LinkedIn and Google can drop an employer rating from 4.4 to 2.9 inside a quarter — fast enough to choke the entire recruiting pipeline.",
+      "Public responses to ex-employee reviews almost always make the exposure worse — the response becomes part of the permanent search result.",
+      "A significant share of ex-employee content is removable on the right grounds — defamation, breach of confidentiality agreements, identifiable third-party information, content posted by a person who was never an employee.",
+      "Suppression with current-employee positive content is the second half of the operation — done correctly, it flips the recent profile inside 90 days.",
+      "Outcome we deliver: removable content comes down, the employer rating returns to its pre-damage level, the recruiting pipeline opens back up, and the talent brand is restored.",
+    ],
+    sections: [
+      {
+        id: "what-ex-employee-damage-actually-looks-like",
+        title: "What ex-employee reputation damage actually looks like",
+        blocks: [
+          { type: "p", text: "The pattern is unfortunately predictable. A senior departure happens — usually involuntary, often acrimonious — and within a few weeks a one-star Glassdoor review appears alleging mismanagement, toxic culture or unethical behaviour. A second leaver from the same cohort posts a similar review. A LinkedIn post follows. A Google review is left, sometimes by the same ex-employee posing as a customer, sometimes by a friend acting on the ex-employee's behalf. Inside a quarter the company's employer profile is unrecognisable from what it was — and the founders are dealing with a recruiting pipeline that has slowed to a trickle." },
+          { type: "p", text: "The damage is not contained to recruiting. Glassdoor and LinkedIn now feature heavily in customer due-diligence — B2B buyers checking out a vendor read the Glassdoor reviews to gauge culture, journalists writing about the company read them as background, and prospective customers in retail and services use them as a signal of how the company treats its own people. A two-star Glassdoor profile contaminates the entire commercial story the company is trying to tell." },
+        ],
+      },
+      {
+        id: "the-response-trap",
+        title: "The response trap",
+        blocks: [
+          { type: "p", text: "The natural HR or founder response is to engage. A measured, professional reply to each negative review explaining the company's perspective. It is the wrong move, for the same reason it is the wrong move on a Google Reviews complaint against a private clinic or law firm: the response is now part of the permanent search result, and the next prospective candidate or customer reads the exchange rather than the single original complaint. The visibility of the damage is amplified by the engagement." },
+          { type: "p", text: "The alternative trap is the counter-campaign. The founders ask current employees to leave positive Glassdoor reviews to balance the recent negatives. Glassdoor and Indeed both have detection systems for coordinated review campaigns — the reviews are removed, the profile is flagged, and the platform's algorithm penalises the company for the attempt. Done at scale, it makes the visible profile worse than the ex-employee damage did. The intervention has to be different." },
+        ],
+      },
+      {
+        id: "what-we-actually-do",
+        title: "What we actually do for a company under ex-employee attack",
+        blocks: [
+          { type: "p", text: "We do not respond publicly on the company's behalf. We assess every piece of damaging content for the specific platform-policy ground that applies — defamatory factual claims, breach of confidentiality agreements signed at termination, identifiable third-party information that should not be in the post, content posted by a person who was never an employee, and others. Reviews that breach platform policy come down on the right grounds; reviews that are the genuine opinion of an actual ex-employee stay up but are suppressed by what we do next." },
+          { type: "p", text: "The suppression layer is a sustained, organic stream of recent positive content from your real current employees — done in a way that satisfies the detection algorithms of Glassdoor, Indeed and Google, not in a way that triggers them. Within thirty days the visible recent profile is materially different. Within ninety days the employer rating has returned to the level it was at before the ex-employee damage began. The recruiting pipeline reopens. The customer due-diligence search returns the talent brand the company actually deserves." },
+        ],
+      },
+      {
+        id: "employer-reputation-is-our-expertise",
+        title: "Employer reputation is our expertise",
+        blocks: [
+          { type: "p", text: "We work with employer brands across the UK and the UAE — from scale-ups managing their first wave of ex-employee fallout to enterprises with continuous talent-brand exposure on Glassdoor, Indeed, LinkedIn, AmbitionBox, and the local-market equivalents. The platforms behave differently. The removal grounds available on each are different. The detection algorithms for inauthentic positive content are different. The recovery playbook is specialist, and we run it." },
+          { type: "p", text: "The outcome we deliver is concrete. Removable ex-employee content comes down on the right grounds. The current-employee positive content pipeline opens authentically and the algorithms reward it. The employer rating returns to its pre-damage level. The recruiting pipeline reopens. The B2B customer due-diligence search returns the company the founders actually built — not the company three angry ex-employees decided to describe in public. Same business. Same culture. Same team. A different employer profile, and a talent and customer pipeline that look different with it." },
+        ],
+      },
+    ],
+  },
 
   // ─── Healthcare article ──────────────────────────────────────────────
   {
@@ -114,8 +534,8 @@ export const ARTICLES: InsightsArticle[] = [
       "94% of patients use online reviews to choose their doctor. What yours say decides whether they book.",
     excerpt:
       "In healthcare, a star rating is not a marketing metric — it is a trust verdict. Here is what a damaged review profile actually costs a clinic, dental practice or medical centre, and what a reputation turnaround means for the practice.",
-    date: "May 2026",
-    lastUpdated: "May 10, 2026",
+    date: "March 2026",
+    lastUpdated: "March 3, 2026",
     readTime: "6 min read",
     heroImage: "/images/insights/healthcare-clinic.webp",
     heroImageAlt:
@@ -189,8 +609,8 @@ export const ARTICLES: InsightsArticle[] = [
       "92% of car buyers research online before they ever visit a showroom. Your reviews decide which showroom they walk into.",
     excerpt:
       "The buyer has already chosen their dealer before they pull into the car park. Here is what weak reviews cost a UAE dealership in lost test drives, lost finance enquiries and lost gross margin — and what a reputation turnaround means for showroom traffic.",
-    date: "April 2026",
-    lastUpdated: "April 27, 2026",
+    date: "February 2026",
+    lastUpdated: "February 21, 2026",
     readTime: "6 min read",
     heroImage: "/images/insights/automotive-dealerships.webp",
     heroImageAlt:
@@ -312,8 +732,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Nearly 60% of customers now use AI to shop. They are not seeing your website — they are seeing the AI's answer.",
     excerpt:
       "Shopping just collapsed into a single AI-generated answer. Here is what being absent from that answer costs a UAE business — and how AI search visibility decides whether a customer ever sees you in the first place.",
-    date: "April 2026",
-    lastUpdated: "April 15, 2026",
+    date: "February 2026",
+    lastUpdated: "February 11, 2026",
     readTime: "6 min read",
     heroImage: "/images/blog-4.png",
     heroImageAlt:
@@ -435,8 +855,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Brands with no review presence appear in just 1% of AI Overviews. Engagement decides the rest.",
     excerpt:
       "AI engines now treat third-party review platforms as one of the biggest citation sources on the internet. Here is what that means for your AI visibility — and the gap we close.",
-    date: "April 2026",
-    lastUpdated: "April 3, 2026",
+    date: "February 2026",
+    lastUpdated: "February 1, 2026",
     readTime: "6 min read",
     heroImage: "/images/insights/google-ai-overview.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -557,8 +977,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Your competitors' reviews are quietly costing you bookings. New research shows by exactly how much.",
     excerpt:
       "Peer-reviewed research on US hotel bookings shows your competitors' review scores move your own demand almost as much as your own scores do. Here is what the gap costs a UAE hotel — and how we close it.",
-    date: "March 2026",
-    lastUpdated: "March 22, 2026",
+    date: "January 2026",
+    lastUpdated: "January 22, 2026",
     readTime: "6 min read",
     heroImage: "/images/insights/hotel-reviews.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -679,8 +1099,8 @@ export const ARTICLES: InsightsArticle[] = [
       "93% of customers say reviews decide what they buy. Here is what the rest of the data shows about how reviews now run your business.",
     excerpt:
       "Across more than twenty independent industry studies, the conclusion is the same — reviews now decide spend, pricing, hiring and brand. Here is what the numbers actually say, and what they mean for a UAE business.",
-    date: "March 2026",
-    lastUpdated: "March 9, 2026",
+    date: "January 2026",
+    lastUpdated: "January 12, 2026",
     readTime: "7 min read",
     heroImage: "/images/insights/cafe-diners.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -823,8 +1243,8 @@ export const ARTICLES: InsightsArticle[] = [
       "In aesthetics, your reputation is the first consultation. Your reviews decide whether the second one ever happens.",
     excerpt:
       "Patients now use Google to vet aesthetic clinics for safety long before they ever book a consultation. Here is what a weak review profile actually costs a UAE clinic — and how a reputation turnaround restores the consultation pipeline.",
-    date: "February 2026",
-    lastUpdated: "February 25, 2026",
+    date: "January 2026",
+    lastUpdated: "January 2, 2026",
     readTime: "6 min read",
     heroImage: "/images/insights/aesthetic-clinic.webp",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -945,8 +1365,8 @@ export const ARTICLES: InsightsArticle[] = [
       "A dental patient is worth more than any local-business customer. Reviews decide whether you ever meet them.",
     excerpt:
       "Dental practices have the highest lifetime value per patient of any local-service business — and the lowest tolerance for risk in their review research. Here is the math behind what a weak profile actually costs.",
-    date: "February 2026",
-    lastUpdated: "February 13, 2026",
+    date: "December 2025",
+    lastUpdated: "December 23, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/dental-care.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -991,8 +1411,8 @@ export const ARTICLES: InsightsArticle[] = [
       "It is 7pm on Friday in Dubai. Three couples are choosing where to eat in the next 90 seconds. Your Google profile is the menu they read first.",
     excerpt:
       "Restaurant booking decisions are the fastest commercial decisions consumers make. They are made on a phone, in under two minutes, and they are made by reading a Google profile — not yours, almost certainly your competitor's.",
-    date: "January 2026",
-    lastUpdated: "January 31, 2026",
+    date: "December 2025",
+    lastUpdated: "December 13, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/restaurant-reviews.webp",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1037,8 +1457,8 @@ export const ARTICLES: InsightsArticle[] = [
       "The bar and lounge customer makes the fastest commercial decision in the consumer economy. Your reviews are the entire pitch.",
     excerpt:
       "By the time someone is deciding which lounge to walk into on a Friday night, they are not reading menus or websites. They are reading the Google profile that loads on their phone in five seconds. Here is what wins and loses in that window.",
-    date: "January 2026",
-    lastUpdated: "January 19, 2026",
+    date: "December 2025",
+    lastUpdated: "December 3, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/upscale-dining.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1083,8 +1503,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Membership businesses are reputation businesses. A weak Google profile costs you the renewal, not just the next sign-up.",
     excerpt:
       "Fitness, spa and wellness operators tend to model reviews as a new-member acquisition problem. The data says reviews matter at least as much for retention. Here is what that means for the LTV side of the business.",
-    date: "January 2026",
-    lastUpdated: "January 7, 2026",
+    date: "November 2025",
+    lastUpdated: "November 23, 2025",
     readTime: "5 min read",
     heroImage: "/images/blog-1.png",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1129,8 +1549,8 @@ export const ARTICLES: InsightsArticle[] = [
       "The salon economy runs on walk-ins and rebooks. Both are decided on Google before the first appointment.",
     excerpt:
       "Personal-care and beauty salon businesses live or die on walk-in conversion and rebook rate. Both metrics move with the review profile in ways most owners systematically underestimate.",
-    date: "December 2025",
-    lastUpdated: "December 26, 2025",
+    date: "November 2025",
+    lastUpdated: "November 13, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/stylists-salon.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1175,8 +1595,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Buyers and sellers are vetting your real-estate agency the same way they vet a restaurant. The Google profile decides the listing.",
     excerpt:
       "Real estate has the largest single transaction value of any consumer category. And the customer increasingly decides whether to work with the agency on the strength of its Google reviews. Here is what that means for the listing pipeline.",
-    date: "December 2025",
-    lastUpdated: "December 13, 2025",
+    date: "November 2025",
+    lastUpdated: "November 2, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/real-estate.webp",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1221,8 +1641,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Tourists choose their Dubai rental car on the flight, before the plane lands. Your reviews are the entire ad campaign.",
     excerpt:
       "Car rental in tourist markets is decided in transit, on a phone, off a Google search. Here is what a competitive review profile actually buys you versus what marketing spend can never compensate for.",
-    date: "December 2025",
-    lastUpdated: "December 1, 2025",
+    date: "October 2025",
+    lastUpdated: "October 23, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/car-rental.webp",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1267,8 +1687,8 @@ export const ARTICLES: InsightsArticle[] = [
       "US businesses will spend over $140 billion on Google ads this year. Most of it is leaking to competitors with better review profiles.",
     excerpt:
       "Ad spend at scale only converts when the destination it sends prospects to converts. Here is the financial math behind why a damaged review profile turns Google Ads into the most expensive customer-acquisition subsidy your competitor will ever receive.",
-    date: "November 2025",
-    lastUpdated: "November 19, 2025",
+    date: "October 2025",
+    lastUpdated: "October 13, 2025",
     readTime: "6 min read",
     heroImage: "/images/insights/review-us-on-google.webp",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1313,8 +1733,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Laser eye patients are doing the most cautious online research of any consumer in the healthcare economy. Your reviews are the verdict.",
     excerpt:
       "A LASIK or refractive surgery patient is choosing whether to let someone cut their eyes. The standard of evidence they want before booking a consultation is higher than for any other elective procedure. Here is what that means for your clinic.",
-    date: "November 2025",
-    lastUpdated: "November 6, 2025",
+    date: "October 2025",
+    lastUpdated: "October 3, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/laser-eye-clinic.webp",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1359,8 +1779,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Home services is the trust-the-stranger economy. The review profile decides whether the customer ever lets the technician in.",
     excerpt:
       "Plumbers, electricians, AC technicians, handymen — the home services category sells the customer a stranger in their house. Reviews answer the safety question first, the competence question second. Here is what that means for the bookings calendar.",
-    date: "October 2025",
-    lastUpdated: "October 25, 2025",
+    date: "September 2025",
+    lastUpdated: "September 23, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/fit-out-project.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1405,8 +1825,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Cleaning is a recurring-revenue business sold one-off on Google. Reviews decide both the first booking and the contract renewal.",
     excerpt:
       "Cleaning operators carry an unusual economic shape: each new client is potentially years of monthly revenue. Reviews decide who gets that revenue. They also now decide whether the holiday-let cleaning client keeps you on the rota.",
-    date: "October 2025",
-    lastUpdated: "October 13, 2025",
+    date: "September 2025",
+    lastUpdated: "September 13, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/carpet-shampoo.webp",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1452,7 +1872,7 @@ export const ARTICLES: InsightsArticle[] = [
     excerpt:
       "B2B procurement has moved upstream. By the time an RFP lands in your inbox, the developer or operator has already Google-checked every contender. Your review profile is the silent pre-qualifier — and it is removing firms from shortlists every week.",
     date: "September 2025",
-    lastUpdated: "September 30, 2025",
+    lastUpdated: "September 3, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/villa-fit-out.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1497,8 +1917,8 @@ export const ARTICLES: InsightsArticle[] = [
       "In financial services, the customer is hiring trust. The reviews decide whether the first meeting ever happens.",
     excerpt:
       "Wealth management, advisory, brokerage and consumer finance customers do not shop on price. They shop on reputation alone. The implication for what your review profile is actually doing on your behalf is uncomfortable.",
-    date: "September 2025",
-    lastUpdated: "September 18, 2025",
+    date: "August 2025",
+    lastUpdated: "August 24, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/financial-services.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1543,8 +1963,8 @@ export const ARTICLES: InsightsArticle[] = [
       "In B2B, the buying committee Googles you before the first call. Any one of them can quietly veto the deal.",
     excerpt:
       "B2B purchases are now made by six-person buying committees on average. Each member runs their own informal due diligence. Your review profile is the lowest-friction veto in the procurement process.",
-    date: "September 2025",
-    lastUpdated: "September 6, 2025",
+    date: "August 2025",
+    lastUpdated: "August 14, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/glass-contractor.webp",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1590,7 +2010,7 @@ export const ARTICLES: InsightsArticle[] = [
     excerpt:
       "In-app food delivery is decided in fifteen seconds on a phone, by a hungry customer scrolling rating filters. The rating sits above the food photos. It is the headline. Here is what that means for order volume.",
     date: "August 2025",
-    lastUpdated: "August 25, 2025",
+    lastUpdated: "August 4, 2025",
     readTime: "4 min read",
     heroImage: "/images/insights/restaurant-interior.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1635,8 +2055,8 @@ export const ARTICLES: InsightsArticle[] = [
       "How ChatGPT actually decides which businesses to name in its answer.",
     excerpt:
       "ChatGPT now serves recommendation queries to hundreds of millions of weekly users. Here is what is actually happening under the hood when it names two or three businesses in an answer — and the levers operators can pull to be one of those names.",
-    date: "August 2025",
-    lastUpdated: "August 12, 2025",
+    date: "July 2025",
+    lastUpdated: "July 25, 2025",
     readTime: "6 min read",
     heroImage: "/images/insights/chatgpt-vs-google.jpeg",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1682,7 +2102,7 @@ export const ARTICLES: InsightsArticle[] = [
     excerpt:
       "Google's AI Overview integrates directly with Google Maps and the Local Pack in a way no other AI engine does. Here is why that makes your Google Business Profile the most important asset in AI search visibility for any local business.",
     date: "July 2025",
-    lastUpdated: "July 31, 2025",
+    lastUpdated: "July 15, 2025",
     readTime: "5 min read",
     heroImage: "/images/insights/google-maps-review.avif",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1728,7 +2148,7 @@ export const ARTICLES: InsightsArticle[] = [
     excerpt:
       "Of the major AI search engines, Perplexity is the one that explicitly shows the sources it used to build the answer. That makes its citation mechanics the most operator-friendly to influence — if you understand what the engine is actually rewarding.",
     date: "July 2025",
-    lastUpdated: "July 19, 2025",
+    lastUpdated: "July 5, 2025",
     readTime: "5 min read",
     heroImage: "/images/ai-search-hero.png",
     heroImageAlt: "Placeholder image — to be replaced",
@@ -1772,8 +2192,8 @@ export const ARTICLES: InsightsArticle[] = [
       "Travellers book Dubai chauffeur and airport transfers from the air. Your reviews decide whose driver is at the kerb.",
     excerpt:
       "Premium ground transport in Dubai is booked online before the visitor's plane has even landed. The hotel concierge, the corporate travel desk and the executive PA all decide on the same evidence: your Google profile, Tripadvisor reviews, and Klook ratings. Here is what those reviews actually decide about who collects the AED 350 transfer fee — and who watches it go to the operator down the road.",
-    date: "July 2025",
-    lastUpdated: "July 6, 2025",
+    date: "June 2025",
+    lastUpdated: "June 25, 2025",
     readTime: "5 min read",
     heroImage: "/images/blog-1.png",
     heroImageAlt: "A premium chauffeur waiting at a Dubai hotel kerb with an executive sedan",
@@ -1833,7 +2253,7 @@ export const ARTICLES: InsightsArticle[] = [
     excerpt:
       "A house move is a one-shot trust decision. Families researching a Dubai removals company spend days reading reviews before they hand the keys to anyone — and a single negative review describing damaged furniture, lost boxes or hidden charges is enough to remove a mover from the shortlist for years.",
     date: "June 2025",
-    lastUpdated: "June 24, 2025",
+    lastUpdated: "June 15, 2025",
     readTime: "5 min read",
     heroImage: "/images/blog-1.png",
     heroImageAlt: "Dubai removals crew loading a customer's belongings into a branded moving truck",
@@ -1893,7 +2313,7 @@ export const ARTICLES: InsightsArticle[] = [
     excerpt:
       "Pet owners in Dubai do not call vets cold. They pick the new clinic from Google before they ever pick up the phone — and the recent reviews decide whether the new puppy, the relocated cat or the emergency at 11pm becomes your patient or the clinic's down the road. Here is what that decision is actually worth.",
     date: "June 2025",
-    lastUpdated: "June 12, 2025",
+    lastUpdated: "June 5, 2025",
     readTime: "5 min read",
     heroImage: "/images/blog-1.png",
     heroImageAlt: "A veterinarian examining a small dog at a modern Dubai clinic",
@@ -1953,7 +2373,7 @@ export const ARTICLES: InsightsArticle[] = [
     excerpt:
       "Funeral arrangements in the UAE are made by families under acute emotional pressure, often within hours of a bereavement and almost always with no prior relationship to any funeral provider. Google reviews decide who they call — and the choice they make in that first hour is rarely revisited.",
     date: "May 2025",
-    lastUpdated: "May 31, 2025",
+    lastUpdated: "May 26, 2025",
     readTime: "5 min read",
     heroImage: "/images/blog-1.png",
     heroImageAlt: "A funeral director consulting compassionately with a bereaved family",
@@ -2013,7 +2433,7 @@ export const ARTICLES: InsightsArticle[] = [
     excerpt:
       "A wedding venue is a once-in-a-lifetime decision that couples in Dubai research for months and that families pay for with significant savings. The recent reviews on Google, Wedding Wire and Hitched decide which venues get the viewing — and which venues quietly lose an entire season of bookings to a competitor.",
     date: "May 2025",
-    lastUpdated: "May 18, 2025",
+    lastUpdated: "May 16, 2025",
     readTime: "5 min read",
     heroImage: "/images/blog-1.png",
     heroImageAlt: "A wedding venue set up for an evening reception in Dubai",
