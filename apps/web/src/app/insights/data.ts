@@ -1224,7 +1224,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/auto-service-1.png",
+    heroImage: "/images/insights/car-rental.webp",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
