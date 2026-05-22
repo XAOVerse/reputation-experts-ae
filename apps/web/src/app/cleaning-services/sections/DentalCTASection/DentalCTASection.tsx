@@ -35,7 +35,7 @@ export function DentalCTASection() {
               <p>
                 <a
                   href="mailto:info@reputationexperts.ae"
-                  className="text-white text-[16px] sm:text-[17px] font-normal hover:text-white/70 transition-colors"
+                  className="text-white text-[16px] sm:text-[17px] font-normal hover:text-[#FF461E] transition-colors"
                 >
                   info@reputationexperts.ae
                 </a>
@@ -50,7 +50,7 @@ export function DentalCTASection() {
               <p>
                 <a
                   href="mailto:info@reputationexperts.ae"
-                  className="text-white text-[16px] sm:text-[17px] font-normal hover:text-white/70 transition-colors"
+                  className="text-white text-[16px] sm:text-[17px] font-normal hover:text-[#FF461E] transition-colors"
                 >
                   info@reputationexperts.ae
                 </a>
