@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { ARTICLES, getArticleBySlug, getAllSlugs } from "../data";
 import type { Block } from "../data";
 import ArticleTOC from "./ArticleTOC";
+import MobileTOC from "./MobileTOC";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -37,8 +38,8 @@ function renderBlock(block: Block, idx: number) {
       return (
         <p
           key={idx}
-          className="text-black"
-          style={{ fontSize: "17px", lineHeight: "26px", paddingTop: idx === 0 ? "0" : "20px" }}
+          className="text-black text-[16px] leading-[26px] lg:text-[17px] lg:leading-[26px]"
+          style={{ paddingTop: idx === 0 ? "0" : "20px" }}
         >
           {block.text}
         </p>
@@ -47,8 +48,8 @@ function renderBlock(block: Block, idx: number) {
       return (
         <h3
           key={idx}
-          className="text-black font-semibold"
-          style={{ fontSize: "20px", lineHeight: "28px", paddingTop: "28px", paddingBottom: "4px" }}
+          className="text-black font-semibold text-[18px] leading-[26px] lg:text-[20px] lg:leading-[28px]"
+          style={{ paddingTop: "28px", paddingBottom: "4px" }}
         >
           {block.text}
         </h3>
@@ -59,8 +60,7 @@ function renderBlock(block: Block, idx: number) {
           {block.items.map((item, i) => (
             <li
               key={i}
-              className="text-black flex gap-3"
-              style={{ fontSize: "17px", lineHeight: "26px" }}
+              className="text-black flex gap-3 text-[16px] leading-[26px] lg:text-[17px] lg:leading-[26px]"
             >
               <span aria-hidden style={{ paddingLeft: "1px" }}>•</span>
               <span>{item}</span>
@@ -86,39 +86,20 @@ export default async function InsightsArticlePage({ params }: Props) {
     { id: "key-takeaways", label: "Key takeaways" },
   ];
 
+  const shareUrl = `https://www.reputationexperts.ae/insights/${article.slug}`;
+
   return (
     <main className="bg-white pt-[64px]">
       {/* ── HERO ─────────────────────────────────────────── */}
       <section
-        className="grid w-full"
+        className="w-full lg:grid"
         style={{
           gridTemplateColumns: "8fr 16fr",
           borderBottom: `1px solid ${BORDER}`,
         }}
       >
-        <div
-          className="relative flex items-stretch"
-          style={{ borderBottom: `1px solid ${BORDER}`, padding: "28px" }}
-        >
-          <div className="relative w-full aspect-[4/3] overflow-hidden bg-[#d2d2d5]">
-            <Image
-              src={article.heroImage}
-              alt={article.heroImageAlt}
-              fill
-              priority
-              sizes="(max-width: 1280px) 33vw, 640px"
-              className="object-cover"
-            />
-          </div>
-        </div>
-
-        <div
-          style={{
-            borderLeft: `1px solid ${BORDER}`,
-            padding: "56px 32px",
-          }}
-          className="flex flex-col gap-[36px]"
-        >
+        {/* Title / meta block — mobile: appears FIRST, desktop: right column */}
+        <div className="order-1 lg:order-2 flex flex-col gap-5 lg:gap-[36px] px-5 pt-8 pb-6 lg:p-[56px_32px] lg:border-l lg:border-[#d2d2d5]">
           <Link
             href="/insights"
             className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
@@ -130,14 +111,14 @@ export default async function InsightsArticlePage({ params }: Props) {
             All Insights
           </Link>
           <h1
-            className="text-black font-normal"
-            style={{ fontSize: "40px", lineHeight: "46px", letterSpacing: "-0.01em" }}
+            className="text-black font-normal text-[30px] leading-[36px] lg:text-[40px] lg:leading-[46px]"
+            style={{ letterSpacing: "-0.01em" }}
           >
             {article.title}
           </h1>
 
-          <div className="grid grid-cols-[4fr_12fr]">
-            <div className="flex flex-col justify-center text-black" style={{ fontSize: "14px", lineHeight: "20px" }}>
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-[4fr_12fr] lg:gap-0">
+            <div className="flex flex-col justify-center text-black text-[14px] leading-[20px]">
               <p>Last updated:</p>
               <p>{article.lastUpdated}</p>
             </div>
@@ -149,22 +130,51 @@ export default async function InsightsArticlePage({ params }: Props) {
               >
                 <span style={{ color: ORANGE, fontWeight: 600, fontSize: 13 }}>RE</span>
               </div>
-              <div className="flex flex-col text-black" style={{ fontSize: "14px", lineHeight: "20px" }}>
+              <div className="flex flex-col text-black text-[14px] leading-[20px]">
                 <p className="underline underline-offset-[3px] decoration-1">{article.author.role},</p>
                 <p>{article.author.name}</p>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Hero image — mobile: appears SECOND, desktop: left column */}
+        <div className="order-2 lg:order-1 relative flex items-stretch px-5 pb-8 lg:p-[28px]">
+          <div className="relative w-full aspect-[16/10] lg:aspect-[4/3] overflow-hidden bg-[#d2d2d5] rounded-md lg:rounded-none">
+            <Image
+              src={article.heroImage}
+              alt={article.heroImageAlt}
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, (max-width: 1280px) 33vw, 640px"
+              className="object-cover"
+            />
+          </div>
+        </div>
       </section>
 
+      {/* ── MOBILE-ONLY: collapsible TOC + share ────────── */}
+      <div className="lg:hidden" style={{ borderBottom: `1px solid ${BORDER}` }}>
+        <MobileTOC items={tocItems} borderColor={BORDER} activeColor={ORANGE} />
+        <div
+          className="flex items-center gap-4 px-5"
+          style={{
+            borderTop: `1px solid ${BORDER}`,
+            paddingTop: "18px",
+            paddingBottom: "18px",
+          }}
+        >
+          <span className="text-black text-[14px] leading-[20px]">Share:</span>
+          <a href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1 text-[14px] leading-[20px]">Facebook</a>
+          <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1 text-[14px] leading-[20px]">LinkedIn</a>
+          <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1 text-[14px] leading-[20px]">X</a>
+        </div>
+      </div>
+
       {/* ── BODY ─────────────────────────────────────────── */}
-      <section
-        className="grid w-full"
-        style={{ gridTemplateColumns: "8fr 16fr" }}
-      >
-        {/* LEFT: sticky TOC */}
-        <aside className="relative">
+      <section className="w-full lg:grid" style={{ gridTemplateColumns: "8fr 16fr" }}>
+        {/* LEFT: sticky TOC — desktop only */}
+        <aside className="relative hidden lg:block">
           <div className="sticky top-[80px]" style={{ borderBottom: `1px solid ${BORDER}` }}>
             <div style={{ height: "100px", borderLeft: `1px solid ${BORDER}` }} />
 
@@ -187,26 +197,26 @@ export default async function InsightsArticlePage({ params }: Props) {
             >
               <div className="flex items-end gap-4">
                 <span className="text-black" style={{ fontSize: "14px", lineHeight: "20px" }}>Share:</span>
-                <a href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1" style={{ fontSize: "14px", lineHeight: "20px" }}>Facebook</a>
-                <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1" style={{ fontSize: "14px", lineHeight: "20px" }}>LinkedIn</a>
-                <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://www.reputationexperts.ae/insights/${article.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1" style={{ fontSize: "14px", lineHeight: "20px" }}>X</a>
+                <a href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1" style={{ fontSize: "14px", lineHeight: "20px" }}>Facebook</a>
+                <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1" style={{ fontSize: "14px", lineHeight: "20px" }}>LinkedIn</a>
+                <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="text-black underline underline-offset-[3px] decoration-1" style={{ fontSize: "14px", lineHeight: "20px" }}>X</a>
               </div>
             </div>
           </div>
         </aside>
 
         {/* RIGHT: article content */}
-        <article style={{ borderLeft: `1px solid ${BORDER}` }} className="relative">
-          <div style={{ padding: "0 32px" }}>
+        <article className="relative lg:border-l lg:border-[#d2d2d5]">
+          <div className="px-5 lg:px-[32px]">
             {/* Intro lead */}
-            <div style={{ paddingTop: "44px", paddingBottom: "12px" }}>
+            <div className="pt-8 lg:pt-[44px]" style={{ paddingBottom: "12px" }}>
               {article.intro.map((b, i) => {
                 if (b.type === "p" && i === 0) {
                   return (
                     <p
                       key={i}
-                      className="text-black"
-                      style={{ fontSize: "22px", lineHeight: "30px", letterSpacing: "-0.003em" }}
+                      className="text-black text-[19px] leading-[28px] lg:text-[22px] lg:leading-[30px]"
+                      style={{ letterSpacing: "-0.003em" }}
                     >
                       {b.text}
                     </p>
@@ -215,8 +225,8 @@ export default async function InsightsArticlePage({ params }: Props) {
                 return (
                   <p
                     key={i}
-                    className="text-black"
-                    style={{ fontSize: "17px", lineHeight: "26px", paddingTop: i === 0 ? "0" : "20px" }}
+                    className="text-black text-[16px] leading-[26px] lg:text-[17px] lg:leading-[26px]"
+                    style={{ paddingTop: i === 0 ? "0" : "20px" }}
                   >
                     {b.type === "p" ? b.text : ""}
                   </p>
@@ -227,8 +237,14 @@ export default async function InsightsArticlePage({ params }: Props) {
             {/* Sections + mid-CTA after section index 1 */}
             {article.sections.map((section, sIdx) => (
               <div key={section.id}>
-                <div style={{ paddingTop: sIdx === 0 ? "32px" : "44px" }} id={section.id} className="scroll-mt-[100px]">
-                  <h2 className="font-normal" style={{ color: ORANGE, fontSize: "30px", lineHeight: "38px" }}>
+                <div
+                  className={`${sIdx === 0 ? "pt-8 lg:pt-[32px]" : "pt-10 lg:pt-[44px]"} scroll-mt-[100px]`}
+                  id={section.id}
+                >
+                  <h2
+                    className="font-normal text-[24px] leading-[30px] lg:text-[30px] lg:leading-[38px]"
+                    style={{ color: ORANGE }}
+                  >
                     {section.title}
                   </h2>
                 </div>
@@ -239,24 +255,23 @@ export default async function InsightsArticlePage({ params }: Props) {
                 {/* Mid-page CTA banner — after the SECOND section */}
                 {sIdx === 1 && (
                   <div
-                    style={{
-                      background: ORANGE,
-                      padding: "56px 32px",
-                      marginTop: "56px",
-                    }}
+                    className="px-5 py-10 mt-10 lg:p-[56px_32px] lg:mt-[56px] -mx-5 lg:mx-0"
+                    style={{ background: ORANGE }}
                   >
-                    <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-                      <h2 className="text-white font-normal" style={{ fontSize: "40px", lineHeight: "46px", letterSpacing: "-0.01em" }}>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+                      <h2
+                        className="text-white font-normal text-[26px] leading-[32px] lg:text-[40px] lg:leading-[46px]"
+                        style={{ letterSpacing: "-0.01em" }}
+                      >
                         Ready to turn your reputation — and your business — around?
                       </h2>
-                      <p className="text-white" style={{ fontSize: "17px", lineHeight: "26px" }}>
+                      <p className="text-white text-[16px] leading-[26px] lg:text-[17px] lg:leading-[26px]">
                         Get a free, confidential audit of how your business appears to customers across Google, review platforms, and AI assistants — and a plain-language plan for what we will fix first.
                       </p>
-                      <div style={{ paddingTop: "20px" }}>
+                      <div className="pt-3 lg:pt-5">
                         <Link
                           href="/contact"
-                          className="text-white underline underline-offset-[6px] decoration-1"
-                          style={{ fontSize: "20px", lineHeight: "28px" }}
+                          className="text-white underline underline-offset-[6px] decoration-1 text-[18px] leading-[26px] lg:text-[20px] lg:leading-[28px]"
                         >
                           Contact us
                         </Link>
@@ -270,20 +285,20 @@ export default async function InsightsArticlePage({ params }: Props) {
             {/* Key takeaways — black H2 */}
             {article.keyTakeaways.length > 0 && (
               <>
-                <div style={{ paddingTop: "44px" }} id="key-takeaways" className="scroll-mt-[100px]">
-                  <h2 className="text-black font-normal" style={{ fontSize: "30px", lineHeight: "38px" }}>
+                <div className="pt-10 lg:pt-[44px] scroll-mt-[100px]" id="key-takeaways">
+                  <h2 className="text-black font-normal text-[24px] leading-[30px] lg:text-[30px] lg:leading-[38px]">
                     Key takeaways
                   </h2>
                 </div>
                 <ul style={{ paddingTop: "20px", paddingBottom: "12px" }} className="space-y-2">
                   {article.keyTakeaways.map((t, i) => (
-                    <li key={i} className="text-black flex gap-3" style={{ fontSize: "17px", lineHeight: "26px" }}>
+                    <li key={i} className="text-black flex gap-3 text-[16px] leading-[26px] lg:text-[17px] lg:leading-[26px]">
                       <span aria-hidden style={{ paddingLeft: "1px" }}>•</span>
                       <span>{t}</span>
                     </li>
                   ))}
                 </ul>
-                <div style={{ paddingBottom: "60px" }} />
+                <div className="pb-12 lg:pb-[60px]" />
               </>
             )}
           </div>
@@ -292,10 +307,10 @@ export default async function InsightsArticlePage({ params }: Props) {
 
       {/* ── More Insights ───────────────────────────────── */}
       {otherArticles.length > 0 && (
-        <section className="bg-white py-14 lg:py-20" style={{ borderTop: `1px solid ${BORDER}` }}>
-          <div style={{ padding: "0 32px", maxWidth: "1280px", marginLeft: "auto", marginRight: "auto" }}>
-            <div className="flex items-end justify-between mb-8">
-              <h2 className="text-black font-semibold" style={{ fontSize: "28px", lineHeight: "34px", letterSpacing: "-0.02em" }}>More Insights</h2>
+        <section className="bg-white py-12 lg:py-20" style={{ borderTop: `1px solid ${BORDER}` }}>
+          <div className="px-5 lg:px-[32px] max-w-[1280px] mx-auto">
+            <div className="flex items-end justify-between mb-6 lg:mb-8">
+              <h2 className="text-black font-semibold text-[22px] leading-[28px] lg:text-[28px] lg:leading-[34px]" style={{ letterSpacing: "-0.02em" }}>More Insights</h2>
               <Link
                 href="/insights"
                 className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
@@ -308,11 +323,11 @@ export default async function InsightsArticlePage({ params }: Props) {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {otherArticles.map((a) => (
                 <Link key={a.slug} href={`/insights/${a.slug}`} className="group flex flex-col gap-4">
-                  <div className="relative w-full overflow-hidden aspect-[3/2] bg-[#d2d2d5]">
+                  <div className="relative w-full overflow-hidden aspect-[3/2] bg-[#d2d2d5] rounded-md">
                     <Image src={a.heroImage} alt={a.heroImageAlt} fill className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-[1.03]" sizes="(max-width: 1024px) 50vw, 33vw" />
                   </div>
                   <p className="text-black" style={{ fontSize: "11px", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", lineHeight: "16px" }}>{a.categoryEyebrow}</p>
-                  <h3 className="text-black group-hover:text-[#FF461E] transition-colors" style={{ fontSize: "17px", lineHeight: "24px" }}>{a.title}</h3>
+                  <h3 className="text-black group-hover:text-[#FF461E] transition-colors text-[16px] leading-[22px] lg:text-[17px] lg:leading-[24px]">{a.title}</h3>
                 </Link>
               ))}
             </div>
