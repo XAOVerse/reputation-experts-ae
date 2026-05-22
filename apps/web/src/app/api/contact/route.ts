@@ -83,11 +83,15 @@ export async function POST(req: NextRequest) {
       </div>`
           : ""
       }
-      <hr class="divider" />
+      ${
+        message?.trim()
+          ? `<hr class="divider" />
       <div class="row">
         <div class="label">Message</div>
         <div class="value">${escapeHtml(message.trim()).replace(/\n/g, "<br>")}</div>
-      </div>
+      </div>`
+          : ""
+      }
     </div>
     <div class="footer">Reputation Experts Ltd &bull; reply directly to this email to respond</div>
   </div>
