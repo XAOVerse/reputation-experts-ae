@@ -39,9 +39,9 @@ export default async function BlogArticlePage({ params }: Props) {
       </div>
 
       <section className="bg-white py-12 lg:py-16">
-        <div className="max-w-[720px] mx-auto px-5 lg:px-8">
+        <div className="max-w-[720px] mx-auto px-6 lg:px-8">
           {article.content.map((paragraph, i) => (
-            <p key={i} className="text-[#444] text-[16px] lg:text-[17px] leading-[1.85] mb-6">{paragraph}</p>
+            <p key={i} className="text-[#444] text-[16px] lg:text-[17px] leading-[1.85] mb-6 break-words [hyphens:auto]">{paragraph}</p>
           ))}
         </div>
       </section>
