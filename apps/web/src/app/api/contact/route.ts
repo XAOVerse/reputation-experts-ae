@@ -99,7 +99,13 @@ export async function POST(req: NextRequest) {
 </html>`;
 
     await transporter.sendMail({
-      from: `"Reputation Experts Website" <${process.env.SMTP_FROM || process.env.SMTP_USER}>`,
+      from:
+        // SMTP_FROM may already be a fully-formed "Name <email@example.com>"
+        // string (preferred — keeps display-name control with config) or just
+        // a bare email. Use it as-is when set; fall back to a wrapped SMTP_USER
+        // otherwise so the deploy still works without SMTP_FROM configured.
+        process.env.SMTP_FROM ||
+        `"Reputation Experts Website" <${process.env.SMTP_USER}>`,
       to: process.env.CONTACT_TO_EMAIL,
       replyTo: email.trim(),
       subject: `New enquiry from ${name.trim()} — Reputation Experts`,
