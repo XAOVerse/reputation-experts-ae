@@ -41,7 +41,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/trustpilot-magnifier.jpg",
     heroImageAlt: "A reputation manager reviewing customer feedback dashboards",
     author: { name: "Reputation Experts", role: "Editorial team" },
     featured: true,
@@ -560,7 +560,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "6 min read",
-    heroImage: "/images/insights/restaurant-interior.jpg",
+    heroImage: "/images/insights/hotel-reviews.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1270,7 +1270,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/review-us-on-google.webp",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1592,7 +1592,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "4 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/restaurant-interior.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1684,7 +1684,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/accuracy-ai-overview.png",
+    heroImage: "/images/insights/google-maps-review.avif",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
