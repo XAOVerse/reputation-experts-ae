@@ -23,7 +23,7 @@ export default function Home2Page() {
     <main>
       {/* ── 1. Hero ──────────────────────────────────────────────── */}
       <DentalHeroSection
-        headline="We protect and grow Recruitment & Staffing agencies\u2019 online reputations."
+        headline="We protect and grow Recruitment & Staffing agencies’ online reputations."
         subtitle="Employers and workers check reviews before choosing an NHS agency, staff agency, temporary staffing firm, or construction staffing provider. We remove damaging reviews, strengthen your ratings, and position your agency where clients are searching, including in AI-driven search."
         ctaLabel="Free Assessment"
         ctaLink="/contact"
