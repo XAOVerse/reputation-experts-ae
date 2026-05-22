@@ -108,7 +108,23 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[contact/route] Error sending email:", err);
+    // Surface as much of the underlying SMTP / Resend error as we can so we
+    // can debug delivery problems from Vercel runtime logs. The user-facing
+    // 500 message is unchanged.
+    const e = err as {
+      message?: string;
+      code?: string;
+      response?: string;
+      responseCode?: number;
+      command?: string;
+    };
+    console.error("[contact/route] Error sending email", {
+      message: e?.message,
+      code: e?.code,
+      responseCode: e?.responseCode,
+      response: e?.response,
+      command: e?.command,
+    });
     return NextResponse.json(
       { error: "Failed to send email. Please try again later." },
       { status: 500 }
