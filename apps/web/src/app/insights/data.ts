@@ -1764,6 +1764,367 @@ export const ARTICLES: InsightsArticle[] = [
       ] },
     ],
   },
+  {
+    slug: "chauffeur-and-airport-transfers-reviews-decide-the-arrival",
+    category: "Chauffeur & Airport Transfers",
+    categoryEyebrow: "INSIGHTS — CHAUFFEUR & AIRPORT TRANSFERS",
+    title:
+      "Travellers book Dubai chauffeur and airport transfers from the air. Your reviews decide whose driver is at the kerb.",
+    excerpt:
+      "Premium ground transport in Dubai is booked online before the visitor's plane has even landed. The hotel concierge, the corporate travel desk and the executive PA all decide on the same evidence: your Google profile, Tripadvisor reviews, and Klook ratings. Here is what those reviews actually decide about who collects the AED 350 transfer fee — and who watches it go to the operator down the road.",
+    date: "May 2026",
+    lastUpdated: "May 22, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A premium chauffeur waiting at a Dubai hotel kerb with an executive sedan",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Premium ground transport in Dubai — chauffeur, executive transfer, airport pick-up, hotel-to-hotel — is one of the few service categories where the entire purchase decision happens before the customer is physically in the country. A guest booking a Burj Al Arab stay arranges the limo from Heathrow before take-off. A corporate PA in Singapore confirms the executive's Marina-to-DIFC chauffeur a week in advance. A tourist in Manila books the airport transfer along with the Atlantis ticket. None of them have met the driver, seen the car or set foot in the UAE." },
+      { type: "p", text: "What they all use to decide between operator A and operator B is the same evidence: your Google star rating, your Tripadvisor reviews, the recent comments on Klook and GetYourGuide, and the response your operator gives when a complaint goes public. By the time the wheels touch down at DXB, the booking has been placed for hours — sometimes days. The driver at the kerb is the driver whose reviews convinced the booker before the flight." },
+    ],
+    keyTakeaways: [
+      "Premium ground transport in Dubai is booked online, often days in advance — the operator with the cleanest reviews wins before the traveller has reached the airport.",
+      "Concierge teams at five-star Dubai hotels filter chauffeur operators by Google rating and recent reviews before they recommend a single one to a guest.",
+      "Corporate travel desks blacklist transfer operators after a single executive complaint that surfaces on Tripadvisor or Glassdoor.",
+      "Klook and GetYourGuide reviews function as ground-truth for tourist transfers — an AED 200 price difference rarely overrides a 0.4-star rating gap.",
+      "An empty back-of-car on a Saturday afternoon in Dubai is almost never a demand problem. It is a reputation problem in disguise.",
+    ],
+    sections: [
+      {
+        id: "booking-happens-in-the-air",
+        title: "The booking happens in the air",
+        blocks: [
+          { type: "p", text: "Dubai's ground-transport market has separated into two layers. The street-hail layer is owned by RTA taxis, Careem and Uber, and is decided by price and proximity. The premium layer — hotel transfers, executive chauffeur, airport meet-and-greet, multi-stop touring — is an entirely different business. It is decided online, often a week ahead, and almost always by reviews." },
+          { type: "p", text: "The booker is rarely the person who will sit in the car. It is a hotel concierge, a corporate PA, a destination management company, a high-end travel agent or a tourist on Klook who will hand the booking to a parent or business partner on arrival. Every one of those bookers is risk-averse. They are putting their own reputation on the line by recommending an operator they have never physically met. They manage that risk by reading the reviews and picking the cleanest profile." },
+        ],
+      },
+      {
+        id: "what-a-damaged-profile-costs",
+        title: "What a damaged profile actually costs a transfer operator",
+        blocks: [
+          { type: "p", text: "The economics of premium ground transport are deceptively concentrated. A single corporate chauffeur contract running daily executive transfers between Emirates Hills and DIFC is worth AED 25,000–60,000 a month. A single five-star hotel concierge desk pushing transfers to a recommended operator generates several hundred trips a month at premium rates. A repeat tourist family booking weekly transfers across a fortnight is worth thousands of dirhams of margin." },
+          { type: "p", text: "Lose any one of these to a competitor with a stronger review profile and the leak is immediate, large and recurring. The corporate account that switches because of one bad Tripadvisor review takes its monthly business with it and rarely comes back. The hotel concierge desk that quietly stops recommending you reroutes the entire pipeline overnight. The Klook listing that drops from 4.8 to 4.4 loses visibility in the Klook algorithm and the ranking does not recover passively." },
+        ],
+      },
+      {
+        id: "fleet-and-pricing-cannot-fix-it",
+        title: "A newer fleet and cheaper pricing cannot fix it",
+        blocks: [
+          { type: "p", text: "This is the part most operators get wrong. They invest in a newer Mercedes V-Class fleet. They drop their rates by AED 50 per transfer. They expand into airport meet-and-greet. They run Google Ads against 'Dubai chauffeur service'. None of it converts when the booker opens the operator's reviews and reads three recent complaints about no-shows, unprofessional drivers or surprise charges." },
+          { type: "p", text: "The Google Ad still gets the click. The Klook listing still gets the visit. The booker still searches the operator's name. And then the booker switches to the competitor — the one whose Mercedes is two years older, whose price is AED 50 higher, whose ad spend is lower — because the recent reviews on that competitor say the driver was on time, the car was immaculate and the experience was effortless. The ad spend paid for the click. The reviews decided where the dirham went." },
+        ],
+      },
+      {
+        id: "transport-reputation-is-our-expertise",
+        title: "Premium ground transport reputation is our expertise",
+        blocks: [
+          { type: "p", text: "We work with chauffeur companies, airport transfer operators, executive transport providers and tour-vehicle fleets across the UAE, and we treat ground-transport reputation as its own discipline. The booking channels that matter — Google Business Profile for the hotel-concierge filter, Tripadvisor for the leisure traveller, Klook and GetYourGuide for the tourist, and direct B2B accounts for the corporate booker — each behave differently, and the recovery playbook for each is different." },
+          { type: "p", text: "The outcome we deliver is concrete. Harmful or factually disputable reviews are challenged and removed where possible. A consistent pipeline of recent, authentic five-star feedback comes online from the customers your drivers just transferred yesterday. The operator moves into the top 3% of its category on Google Maps for the search terms that actually drive premium bookings. Same Mercedes, same drivers, same rate card — a different reputation, and a corporate-account share, hotel-referral pipeline and average ticket size that all look different with it." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "removals-and-movers-the-one-shot-trust-decision",
+    category: "Removals & Movers",
+    categoryEyebrow: "INSIGHTS — REMOVALS & MOVERS",
+    title:
+      "Dubai families hand a stranger every belonging they own on moving day. Your reviews decide whether that stranger is your team or the competitor's.",
+    excerpt:
+      "A house move is a one-shot trust decision. Families researching a Dubai removals company spend days reading reviews before they hand the keys to anyone — and a single negative review describing damaged furniture, lost boxes or hidden charges is enough to remove a mover from the shortlist for years.",
+    date: "May 2026",
+    lastUpdated: "May 22, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "Dubai removals crew loading a customer's belongings into a branded moving truck",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Moving house is one of the highest-trust transactions a family ever makes. They are handing strangers the keys to their home, the contents of their wardrobes, their children's belongings, irreplaceable family items, and — in Dubai's expatriate market — frequently the entire material weight of a relocation between countries. The cost of getting it wrong is not a refund. It is broken heirlooms, missing electronics, and the family's first week in a new property spent arguing with a removals company about a damage claim." },
+      { type: "p", text: "Families know this. They do not book a Dubai removals company impulsively. They spend two or three days reading Google reviews, scrolling Property Finder forum threads, checking the WhatsApp groups for their compound, and asking for recommendations before they hand the keys to anyone. The mover who wins the booking is the mover whose recent reviews convinced the family the day will be smooth. The mover who loses it is the mover whose last six months of reviews mentioned a broken TV, a missing box or a final invoice that was AED 1,500 higher than the quote." },
+    ],
+    keyTakeaways: [
+      "Dubai families research a removals company for an average of 2–4 days before booking. By the time they call, the shortlist is two or three movers.",
+      "Property Finder, expat WhatsApp groups and Google reviews are the three places a Dubai move actually gets shortlisted — not your website or your van livery.",
+      "A single recent negative review mentioning broken furniture, missing items or a price that ballooned on the day removes a mover from local consideration for months.",
+      "International relocation bookings (Dubai-to-London, Dubai-to-Singapore) are decided almost entirely by Google reviews and FIDI accreditation — companies without both lose the corporate-account pipeline.",
+      "A removals company with a strong, recent review profile commands a higher quoted price and books out three to four weeks ahead of competitors with weaker profiles.",
+    ],
+    sections: [
+      {
+        id: "one-shot-trust-decision",
+        title: "Removals is a one-shot trust decision",
+        blocks: [
+          { type: "p", text: "Most service businesses get a second chance. A restaurant that disappoints can win the diner back next month. A salon that messes up a colour can correct it the following week. A removals company does not get that chance. The customer is handing over every belonging they own, on a single day, to a team they have never met. If anything goes wrong — a broken sofa, a missing box of children's photos, a price that doubled on the day — that family will never use the company again, and they will tell everyone they know." },
+          { type: "p", text: "That structural reality is why reviews carry more weight in removals than in almost any other category. The family is not buying a service experience they can sample. They are buying the absence of disaster. The only proxy for that absence is the recent reviews from other families who have already taken the same risk and either escaped clean or did not." },
+        ],
+      },
+      {
+        id: "where-the-shortlist-is-built",
+        title: "Where the shortlist is actually built in Dubai",
+        blocks: [
+          { type: "p", text: "Dubai removals shortlists are not built from Google Ads or from your website. They are built from three places: the local Google Map pack for 'movers in Dubai' or 'house removals Dubai Marina', the recommendations posted in Property Finder forum threads and tower-specific WhatsApp groups, and the recent reviews the family reads on each mover's Google profile before making contact. The family typically arrives at two or three names and contacts only those." },
+          { type: "p", text: "What removes a mover from that shortlist is unforgiving. A recent one-star review mentioning damaged furniture. A complaint about a price that ballooned on the day. A photo of items left behind in the old apartment. A response from the company arguing with the customer in public rather than resolving the issue. Any one of these in the visible recent reviews is usually enough — even for a mover with hundreds of older five-star reviews." },
+        ],
+      },
+      {
+        id: "international-relocations",
+        title: "International relocations are decided by reviews and accreditation",
+        blocks: [
+          { type: "p", text: "The international-relocation side of the Dubai market — Dubai-to-London, Dubai-to-Singapore, Dubai-to-Sydney moves for expats finishing their UAE tour — is even more reputation-driven. The customer is committing to a company that will pack their belongings in Dubai, ship them across the world, and deliver them weeks later to a country they may already be living in. The trust required is enormous, and there is no second chance to recover a damaged shipment or a missing crate." },
+          { type: "p", text: "What corporate HR teams and expat families both filter on is the same: FIDI or IAM accreditation as the floor, and the recent Google and Trustpilot reviews as the ceiling. A mover without both is invisible to the corporate-relocation pipeline that signs the largest contracts in the Dubai market, and is unlikely to be on the shortlist of the senior expat families who pay self-funded for international moves." },
+        ],
+      },
+      {
+        id: "removals-reputation-is-our-expertise",
+        title: "Removals reputation is our expertise",
+        blocks: [
+          { type: "p", text: "We work with removals companies, international relocation specialists, office movers and self-storage operators across the UAE, and we treat removals reputation as its own discipline. The shortlist channels that matter — Google Business Profile, Property Finder forum threads, expat WhatsApp groups, FIDI directories and the corporate-relocation procurement panels — behave differently to other categories, and the recovery playbook for each is different." },
+          { type: "p", text: "The outcome we deliver is concrete. Harmful, unfair or factually disputable reviews are challenged and removed where possible. A steady pipeline of recent, authentic five-star feedback comes online from the families you have just moved. The mover ranks in the top 3% of its category on Google Maps in Dubai Marina, Downtown, Arabian Ranches, Jumeirah and the postcodes your sales team actually wants to win. Same vans, same crews, same equipment — a different reputation, and a quote-to-booking conversion, average ticket size and corporate-account share that all look different with it." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "vet-clinics-pet-owners-decide-on-google-before-they-call",
+    category: "Veterinary",
+    categoryEyebrow: "INSIGHTS — VETERINARY & ANIMAL CARE",
+    title:
+      "Dubai pet owners pick a vet on Google before they ever ring. Your reviews decide whether the new puppy becomes your patient for the next twelve years.",
+    excerpt:
+      "Pet owners in Dubai do not call vets cold. They pick the new clinic from Google before they ever pick up the phone — and the recent reviews decide whether the new puppy, the relocated cat or the emergency at 11pm becomes your patient or the clinic's down the road. Here is what that decision is actually worth.",
+    date: "May 2026",
+    lastUpdated: "May 22, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A veterinarian examining a small dog at a modern Dubai clinic",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "When a Dubai family picks up a new puppy from a breeder, relocates with a cat from London, or wakes up at midnight with a dog refusing food, their next move is not to ring the vet their building used to use. It is to open Google Maps, type 'vet near me' or '24 hour vet Dubai', and read the first three reviews on each of the top results. The clinic whose recent reviews convinced them the experience would be calm, competent and not financially predatory becomes their vet for the next decade." },
+      { type: "p", text: "That decision is unusually high-stakes for the clinic on the receiving end. The lifetime value of a new puppy patient in Dubai — annual checkups, vaccinations, dental work, the eventual difficult conversations about senior care, and the second pet the family will inevitably bring in — runs into tens of thousands of dirhams over the animal's lifetime. The clinic that lost the new puppy to a competitor never gets that decade of income back, and never sees the second pet or the family's next move." },
+    ],
+    keyTakeaways: [
+      "Dubai pet owners pick a new vet almost entirely from Google reviews and Google Maps — the recent comments decide who treats the puppy for the next 12 years.",
+      "Emergency vet decisions ('24 hour vet Dubai') are made in under 90 seconds, almost entirely on the top three Google reviews visible at the moment of crisis.",
+      "A single recent negative review describing overcharging, a misdiagnosis or a difficult-to-reach front desk removes a clinic from local consideration for months.",
+      "The lifetime value of a new puppy patient runs into tens of thousands of dirhams over the animal's life — and that decade of recurring revenue is decided on the day the owner first searches Google.",
+      "A clinic with a strong, recent review profile defends its consultation fee, fills its routine-appointments book weeks ahead and captures most of the area's emergency callouts.",
+    ],
+    sections: [
+      {
+        id: "first-google-search-decides-the-decade",
+        title: "The first Google search decides the next decade",
+        blocks: [
+          { type: "p", text: "The decision of which vet a Dubai family chooses for a new pet is one of the most consequential search-and-book decisions in the local services market. Unlike a single restaurant booking, a vet relationship typically lasts the entire life of the animal — and for many families, of the animals after it. The first Google search is therefore not a one-off transaction but the start of a ten- to fifteen-year revenue stream that flows entirely to whichever clinic the search recommended." },
+          { type: "p", text: "And the search is entirely review-driven. Pet owners do not have the clinical expertise to evaluate a vet on technical merit before the first visit. They use the recent Google reviews as the only available proxy for what the experience will be like — the warmth of the staff, the clarity of the explanation, the honesty of the pricing, and the willingness to take the time the animal and the owner both need." },
+        ],
+      },
+      {
+        id: "emergency-vet-decisions-in-ninety-seconds",
+        title: "Emergency vet decisions are made in ninety seconds",
+        blocks: [
+          { type: "p", text: "The other half of the vet business is the emergency callout — and that decision compresses to ninety seconds or less. A pet owner with a distressed dog at 11pm types '24 hour vet Dubai' into Google and books the first clinic whose profile looks trustworthy. They do not read fifty reviews. They read three. If those three describe a calm reception, a vet who took the situation seriously and a bill that was reasonable for the work done, the call is made. If they describe an aggressive bill at the door, a long wait, or a clinic that pushed unnecessary procedures, the owner scrolls past." },
+          { type: "p", text: "Emergency work is also where the long-term client relationship begins. The clinic that handles the 11pm crisis with kindness becomes the family's day vet from the next morning onward. The clinic whose three visible reviews filtered the family out at the moment of emergency never enters the relationship at all." },
+        ],
+      },
+      {
+        id: "what-a-damaged-profile-costs",
+        title: "What a damaged review profile actually costs a clinic",
+        blocks: [
+          { type: "p", text: "The financial damage from a weak Google profile in veterinary practice is concentrated in two leaks. The first is the recurring annual revenue of the new patients the clinic never acquires because the puppy owner shortlisted three competitors and the clinic was not one of them. The second is the emergency-callout revenue that flows entirely to the clinic with the cleanest recent profile in the postcode at the moment the search happens." },
+          { type: "p", text: "Both leaks are silent. The clinic does not see the puppy it did not get. The clinic does not see the late-night emergency that called the practice down the road. The principal vet assumes 'it's a quiet quarter' and tries to fix the problem by reducing the consultation fee or running a Facebook ad. Neither helps, because the gating factor was never price or marketing — it was the Google profile." },
+        ],
+      },
+      {
+        id: "vet-reputation-is-our-expertise",
+        title: "Veterinary reputation is our expertise",
+        blocks: [
+          { type: "p", text: "We work with veterinary clinics, animal hospitals, emergency-only practices and pet wellness chains across the UAE, and we treat veterinary reputation as its own discipline. The platforms that matter — Google Business Profile for the 'vet near me' search, the Dubai Pet Welfare community groups for referrals, the area-specific WhatsApp groups, and increasingly the AI search overlays — behave differently to other categories, and the recovery playbook for each is different." },
+          { type: "p", text: "The outcome we deliver is measurable. Harmful or factually disputable reviews are challenged and removed where possible. A steady pipeline of recent, authentic five-star feedback comes online from the owners of the pets you have just treated. The clinic ranks in the top 3% of its category on Google Maps in the postcodes that actually feed your patient list. Same vets, same equipment, same building — a different reputation, and a new-patient acquisition rate, emergency-callout share and routine-appointments book that all look different with it." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "funeral-directors-the-most-trust-sensitive-google-search-of-any-category",
+    category: "Funeral Directors",
+    categoryEyebrow: "INSIGHTS — FUNERAL DIRECTORS",
+    title:
+      "Families pick a funeral director in their worst hour. Your Google reviews decide whether they pick yours.",
+    excerpt:
+      "Funeral arrangements in the UAE are made by families under acute emotional pressure, often within hours of a bereavement and almost always with no prior relationship to any funeral provider. Google reviews decide who they call — and the choice they make in that first hour is rarely revisited.",
+    date: "May 2026",
+    lastUpdated: "May 22, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A funeral director consulting compassionately with a bereaved family",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Funeral arrangements are made under conditions unlike any other service decision. A family in the UAE that has just lost a parent, a spouse or a child is making the decision in shock, often within hours of the death, almost always with no prior relationship to any funeral director, and typically while they are simultaneously managing repatriation logistics, mosque or church arrangements, embassy paperwork and a grieving extended family. The decision is high-stakes, time-pressured and emotionally bare." },
+      { type: "p", text: "What that family does in the first ten minutes is universal. They open Google, type 'funeral director Dubai' or 'repatriation services UAE', and read the recent reviews on the first three results. The director whose reviews describe compassion, honesty about pricing and quiet competence becomes the family's choice. The director whose recent reviews mention surprise charges, poor communication or insensitive handling is not contacted, even if the family had been intending to use them." },
+    ],
+    keyTakeaways: [
+      "Funeral decisions in the UAE are made within hours of a bereavement, almost entirely from the top three Google reviews of the local funeral directors.",
+      "Repatriation services — particularly Dubai-to-India, Dubai-to-Philippines, Dubai-to-UK and Dubai-to-Pakistan — are decided almost entirely by Google reviews and embassy referrals.",
+      "A single recent review mentioning surprise charges, poor communication or insensitive handling removes a funeral director from local consideration for years.",
+      "Funeral director reviews carry unusual weight because the family writing the review has just been through the most vulnerable transaction of their life — and the public reads them with that knowledge.",
+      "A funeral director with a strong, recent review profile commands the area's referral pipeline from hospitals, places of worship, hospices and embassies — and quietly dominates the segment.",
+    ],
+    sections: [
+      {
+        id: "the-decision-in-the-first-hour",
+        title: "The decision is made in the first hour",
+        blocks: [
+          { type: "p", text: "Funeral arrangements are time-compressed in a way few other service decisions are. UAE regulations and religious customs typically require burial or repatriation within hours rather than days, which means the family has no time to research, no time to interview multiple providers, and no time to compare quotes in the way they would for almost any other service. The director who wins the call is the director whose Google profile satisfied a frightened, grieving family in a single quick read." },
+          { type: "p", text: "That brevity is what makes the Google profile so disproportionately powerful in this category. The family reads the recent reviews not for service detail but for emotional signal — the tone of the language, the kindness reported by past families, the way the director responded when something went wrong. If that signal is reassuring, the family calls. If it is anything other than reassuring, the family scrolls and calls the director below." },
+        ],
+      },
+      {
+        id: "repatriation-and-multi-faith-services",
+        title: "Repatriation and multi-faith services are entirely review-driven",
+        blocks: [
+          { type: "p", text: "Dubai's expatriate population means a significant share of UAE funeral work is repatriation — flying remains, often complete with embalming, embassy paperwork and consular escorts, to India, the Philippines, the UK, Pakistan, Egypt and across the Gulf. These arrangements are technically complex, time-sensitive and unforgiving. A family making them is almost entirely dependent on the funeral director's expertise and is in no position to verify the work themselves." },
+          { type: "p", text: "Families filter for that expertise in one place: the Google reviews of other families who have already done a similar repatriation. A handful of recent reviews describing a Dubai-to-Manila repatriation handled with patience and clarity is worth more than any marketing brochure. A handful describing missed flights, lost paperwork or insensitive handling silently removes a director from consideration for every repatriation in their corridor for months." },
+        ],
+      },
+      {
+        id: "referral-network-tracks-the-google-profile",
+        title: "The hospital and embassy referral network tracks your Google profile",
+        blocks: [
+          { type: "p", text: "Funeral directors who underestimate Google reviews often assume their pipeline is protected by hospital relationships, embassy referrals, places of worship and the network of professionals who handle a bereavement upstream of the family. In reality, those referrers have been reading the same Google reviews for years. A hospital social worker recommending a funeral director to a grieving family is not relying on a personal relationship from a decade ago. They are checking the recent Google reviews before they say a name out loud." },
+          { type: "p", text: "Which means a funeral director with a weak recent profile is losing two channels simultaneously: the direct-search channel from grieving families, and the institutional-referral channel from the hospitals, embassies and places of worship that used to feed the practice. Both leaks are silent, both are large, and both are entirely fixed by the same intervention." },
+        ],
+      },
+      {
+        id: "funeral-reputation-is-our-expertise",
+        title: "Funeral director reputation is our expertise",
+        blocks: [
+          { type: "p", text: "We work with funeral directors, repatriation specialists, embalming services and bereavement-care providers across the UAE, and we treat funeral reputation as its own discipline. The decision channels that matter — the local Google Map pack, the Hospital and embassy referral lists, the corridor-specific repatriation reviews and the multi-faith community groups — behave differently to any other category, and the recovery playbook is unusually careful." },
+          { type: "p", text: "The outcome we deliver is measurable. Harmful or factually disputable reviews are challenged and, where possible, removed. A steady pipeline of recent, authentic five-star reviews is brought online from the families you have just served, with deep sensitivity to the bereavement context. The director ranks in the top 3% of the category on Google Maps in the postcodes that actually feed the practice. Same staff, same chapel, same level of care — a different reputation, and a hospital-referral share, repatriation-call volume and overall caseload that all look different with it." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "wedding-venues-reviews-decide-the-once-in-a-lifetime-booking",
+    category: "Wedding Venues",
+    categoryEyebrow: "INSIGHTS — WEDDING & EVENT VENUES",
+    title:
+      "Couples spend a year reading reviews before they book your wedding venue. One bad review can cost you the entire wedding season.",
+    excerpt:
+      "A wedding venue is a once-in-a-lifetime decision that couples in Dubai research for months and that families pay for with significant savings. The recent reviews on Google, Wedding Wire and Hitched decide which venues get the viewing — and which venues quietly lose an entire season of bookings to a competitor.",
+    date: "May 2026",
+    lastUpdated: "May 22, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A wedding venue set up for an evening reception in Dubai",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "Booking a wedding venue is structurally unlike any other hospitality decision a couple will ever make. It is the single largest discretionary purchase most couples will make in their lifetime outside of a property, it cannot be rerun, and the customer is committing six to twelve months ahead — which means the gap between booking and event is long enough for any concerns raised in reviews to compound across multiple couples in parallel." },
+      { type: "p", text: "Dubai couples respond to that risk by reading. They read reviews on Google, on Hitched and Bridebook, on Wedding Wire, on Reddit's wedding subs, and on Instagram tagged-photo feeds. They cross-reference every venue on their shortlist against the recent reviews from couples who have just married there. By the time a couple visits a venue, they have typically narrowed the field to two or three and have already silently eliminated the rest based on what those recent reviews said." },
+    ],
+    keyTakeaways: [
+      "Dubai couples research wedding venues for an average of 3–6 months before booking, and contact only the top two or three on their shortlist.",
+      "A single recent negative review describing a service failure, hidden charges or a coordinator who was difficult on the day can remove a venue from local consideration for an entire wedding season.",
+      "Wedding venue reviews carry unusual weight because they describe a once-in-a-lifetime event — bad reviews are emotionally vivid, and prospective couples read them very carefully.",
+      "A venue with a strong recent review profile defends its package price, fills its premium dates (weekend evenings, October–March) twelve months ahead and reduces the marketing cost of every new enquiry.",
+      "Wedding inflation in the UAE means a single lost booking is worth AED 100,000–500,000 in venue, catering and add-on revenue.",
+    ],
+    sections: [
+      {
+        id: "year-long-research-decision",
+        title: "A wedding venue is a year-long research decision",
+        blocks: [
+          { type: "p", text: "Couples in Dubai do not pick a wedding venue impulsively. The decision typically begins twelve months before the wedding date and progresses through a long research phase before any venue is contacted. The couple visits Hitched and Bridebook to set a shortlist, scrolls Instagram tagged photos to see what real weddings looked like, reads the recent Google reviews of every shortlisted venue, and asks for honest opinions in Reddit threads and friend group chats." },
+          { type: "p", text: "By the time the couple visits a venue, they are typically choosing between two or three options that have already passed every filter — price, capacity, location, aesthetic, and crucially, recent reviews. The visit is where the couple confirms a decision they have provisionally made, not where they discover the venue. A venue that does not survive the recent-review filter never gets the visit, and never gets the chance to win on the tour." },
+        ],
+      },
+      {
+        id: "one-bad-review-can-cost-a-season",
+        title: "One bad review can cost an entire wedding season",
+        blocks: [
+          { type: "p", text: "Wedding bookings are highly seasonal. In the UAE, the premium season runs roughly October to April, and the premium dates within that season — weekend evenings, valentine's weekend, national-holiday weekends — fill twelve to fifteen months ahead. Most venues earn the bulk of their annual margin from a handful of these peak dates. A single visible negative review in the months leading up to peak booking season can therefore cost a venue six-figure revenue across the season, because every couple who reads it during their research phase silently removes the venue from the shortlist." },
+          { type: "p", text: "And the review tends to focus on themes that prospective couples find unusually triggering: a coordinator who was difficult on the day, a hidden corkage charge, a price quoted in AED that turned into a different figure once VAT and service were added, or a setup that did not match the photos. Any one of these in the recent reviews is enough to redirect the season's bookings to the competitor venue around the corner." },
+        ],
+      },
+      {
+        id: "instagram-and-google-and-hitched-the-three-platforms",
+        title: "Google, Instagram and Hitched are the three platforms that matter",
+        blocks: [
+          { type: "p", text: "Wedding-venue shortlists in Dubai are built across three distinct platforms in this order: Google for the local search ('wedding venues Dubai', 'beach wedding Palm Jumeirah'), Hitched and Bridebook for the curated reviews from couples who have actually married at the venue, and Instagram tagged-photo feeds for the aesthetic and the proof of how real weddings looked. A venue needs to perform on all three. Strong on Google but weak on Hitched still loses the booking. Strong on Hitched but no recent Instagram activity raises doubts." },
+          { type: "p", text: "And the three platforms feed each other. A couple who sees the venue on Instagram then searches Google. A couple who reads Hitched then checks Google. A couple who Googled the venue then scrolls Instagram for evidence. A weak profile on any one of the three breaks the trust loop and the couple silently moves on." },
+        ],
+      },
+      {
+        id: "wedding-reputation-is-our-expertise",
+        title: "Wedding venue reputation is our expertise",
+        blocks: [
+          { type: "p", text: "We work with wedding venues, banqueting halls, beachfront and rooftop event spaces, hotel ballrooms and destination-wedding venues across the UAE, and we treat wedding reputation as its own discipline. The platforms that matter — Google Business Profile, Hitched, Bridebook, Wedding Wire, Instagram tagged content and the local wedding-planner referral network — behave differently to other categories, and the recovery playbook is unusually time-sensitive given how seasonal the bookings are." },
+          { type: "p", text: "The outcome we deliver is concrete. Harmful or factually disputable reviews are challenged and removed where possible. A steady pipeline of recent, authentic five-star reviews comes online from the couples you have just married. The venue ranks in the top 3% of its category on Google Maps in the postcodes and segments that actually drive premium bookings. Same ballroom, same coordinator, same view of the Burj Al Arab — a different reputation, and a peak-date fill rate, average-package value and wedding-planner referral pipeline that all look different with it." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "travel-agents-and-dmcs-the-trip-is-booked-on-the-reviews",
+    category: "Travel & DMCs",
+    categoryEyebrow: "INSIGHTS — TRAVEL AGENTS & DMCs",
+    title:
+      "International travellers book Dubai trips on the reviews of one DMC. Your profile decides whether the AED 80,000 itinerary is yours.",
+    excerpt:
+      "Inbound travel to Dubai is increasingly booked through destination management companies and bespoke travel agents — and the decision of which DMC handles a five-figure Gulf itinerary is made almost entirely from Tripadvisor, Google and corporate-travel review platforms. Here is what those reviews actually decide about the AED 80,000 trip, the AED 200,000 group MICE booking and the long-term corporate account.",
+    date: "May 2026",
+    lastUpdated: "May 22, 2026",
+    readTime: "5 min read",
+    heroImage: "/images/blog-1.png",
+    heroImageAlt: "A Dubai destination management consultant building a bespoke itinerary on a laptop",
+    author: { name: "Reputation Experts", role: "Editorial team" },
+    intro: [
+      { type: "p", text: "International travel into Dubai is concentrated in a small number of high-value bookings. A family of four flying in from London for ten days at Atlantis with private transfers, desert safaris and a Burj Al Arab afternoon-tea spends AED 60,000–120,000 on the itinerary alone. A US-based wedding party booking a Dubai destination event spends AED 200,000–800,000 across the DMC. A corporate MICE group of a hundred delegates for three nights spends comfortably more than a million dirhams. None of these bookings happen impulsively, and none of them happen without weeks of review research." },
+      { type: "p", text: "What the booker — whether a family looking for an upscale trip, a wedding planner sourcing a destination DMC, or a corporate events team selecting an incentive operator — does is the same. They search the DMC, read recent Tripadvisor and Google reviews, check Trustpilot for the senior package agents, and quietly eliminate the operators whose recent reviews give them any cause for concern. The booking goes to the DMC whose reviews convinced them the trip would run without incident." },
+    ],
+    keyTakeaways: [
+      "International travellers book Dubai trips weeks or months in advance, almost entirely from the recent Tripadvisor and Google reviews of the DMCs and travel agents they shortlist.",
+      "Corporate MICE bookings (incentive trips, conferences, off-sites) are decided by procurement panels that filter DMCs by Trustpilot rating before a single tender invitation is sent.",
+      "A single recent negative review describing a missed transfer, an overcharge on the closing invoice or an inflexible operator can remove a DMC from the international agent referral network for years.",
+      "Bespoke high-value trips to the UAE are routinely worth AED 80,000+ per family — a leak of two of these per quarter to a competitor is a six-figure annual loss.",
+      "A DMC with a strong, recent review profile commands the international wholesale partnerships, the corporate procurement panels and the wedding-planner referral network that drive the largest tickets in the market.",
+    ],
+    sections: [
+      {
+        id: "high-value-booking-decided-online",
+        title: "A five-figure trip is decided online before a single email is sent",
+        blocks: [
+          { type: "p", text: "The traditional travel-agent business has moved online but the high-value end of the market — bespoke itineraries, multi-city Gulf tours, destination weddings, corporate incentives and high-net-worth family trips — has not been displaced by online travel agencies. It has been consolidated into the DMCs and senior travel agents whose Tripadvisor and Google reviews demonstrate they can execute on complex, time-sensitive arrangements without things going wrong." },
+          { type: "p", text: "The booker for these trips is risk-averse for one good reason: the trip cannot be rerun. A delayed transfer that misses a desert safari, an overcharge on the closing invoice, a hotel room category that turned out to be smaller than promised — all of these are irreversible at the moment they happen, and all of them surface in reviews. Prospective bookers read them very carefully, and a single recent incident is often enough to redirect the booking to the operator on the next page." },
+        ],
+      },
+      {
+        id: "corporate-procurement-uses-reviews-as-a-filter",
+        title: "Corporate MICE procurement uses reviews as a filter, not a tiebreaker",
+        blocks: [
+          { type: "p", text: "Corporate procurement teams selecting DMCs for incentive trips, off-sites and conferences in Dubai use reviews unusually early in the process. Before a tender invitation is even drafted, the procurement lead has typically already scanned each DMC's Trustpilot, Google and Cvent reviews and removed the operators whose recent profile looks weak. The tender is sent only to the DMCs whose reviews satisfied the procurement team's risk filter, which means a weak review profile excludes the operator from the largest tickets in the market before they have any opportunity to compete on price or capability." },
+          { type: "p", text: "And the leak is silent. The DMC never sees the tender it was not invited to. The senior business-development executive assumes the corporate pipeline is just quiet, when in reality the corporate pipeline is the same — the procurement teams have simply been filtering on reviews for years." },
+        ],
+      },
+      {
+        id: "wholesale-and-wedding-planner-referrals",
+        title: "Wholesale and wedding-planner referrals track the review profile",
+        blocks: [
+          { type: "p", text: "DMCs that depend on international wholesale partnerships and wedding-planner referrals — booking ground in Dubai for travel agents in London, New York, Mumbai or Sydney — should expect their referral pipeline to track their review profile precisely. International agents recommending a Dubai DMC to a client are not gambling their reputation on a relationship from a decade ago. They are checking the recent Tripadvisor and Google reviews before they make the introduction." },
+          { type: "p", text: "Which means a DMC with a weak review profile loses two pipelines simultaneously: the direct-search channel from clients researching their own trips, and the institutional-referral channel from the wholesale agents and wedding planners that used to feed the business. Both are large, both are silent, and both are fixed by the same intervention." },
+        ],
+      },
+      {
+        id: "dmc-reputation-is-our-expertise",
+        title: "DMC and travel-agent reputation is our expertise",
+        blocks: [
+          { type: "p", text: "We work with destination management companies, inbound and outbound travel agents, corporate-travel specialists, luxury bespoke-trip operators and MICE specialists across the UAE, and we treat travel reputation as its own discipline. The booking channels that matter — Google Business Profile, Tripadvisor, Trustpilot for corporate, Cvent for MICE procurement, the international wholesale-agent network and increasingly the AI search overlays — behave differently to other categories, and the recovery playbook for each is different." },
+          { type: "p", text: "The outcome we deliver is measurable. Harmful or factually disputable reviews are challenged and removed where possible. A steady pipeline of recent, authentic five-star feedback comes online from the families, couples and corporate groups you have just handled. The DMC ranks in the top 3% of its category on Google Maps for the search terms that drive the largest tickets — 'Dubai DMC', 'bespoke Dubai itinerary', 'destination wedding Dubai', 'corporate incentive trip UAE'. Same operations team, same supplier network, same on-the-ground capability — a different reputation, and a wholesale-pipeline volume, MICE-tender invite share and average-ticket value that all look different with it." },
+        ],
+      },
+    ],
+  },
+
 ];
 
 export function getArticleBySlug(slug: string): InsightsArticle | undefined {
