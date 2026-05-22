@@ -115,7 +115,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 12, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/doctor-feedback.webp",
     heroImageAlt: "A private clinic consultant reviewing patient feedback on a desktop dashboard",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -175,7 +175,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 2, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/law-firm-office.jpg",
     heroImageAlt: "A law-firm partner reviewing client feedback in a modern office",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -235,7 +235,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "April 2026",
     lastUpdated: "April 22, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/executive-privacy.jpg",
     heroImageAlt: "A senior executive consulting with a personal reputation specialist in a discreet office",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -295,7 +295,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "April 2026",
     lastUpdated: "April 12, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/fortune-500-playbook.webp",
     heroImageAlt: "A reputation strategist briefing a SMB executive on a defensive content playbook",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -355,7 +355,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "April 2026",
     lastUpdated: "April 2, 2026",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/monitoring-dashboard.jpg",
     heroImageAlt: "A reputation monitoring dashboard showing alerts the company is unable to act on",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -415,7 +415,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "March 2026",
     lastUpdated: "March 23, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/ransomware-defence.webp",
     heroImageAlt: "A digital privacy specialist auditing an employee's public online footprint",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -475,7 +475,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "March 2026",
     lastUpdated: "March 13, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/ex-employees-hr.jpg",
     heroImageAlt: "An HR director reviewing the company's employer-brand profile with a reputation specialist",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1506,7 +1506,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "November 2025",
     lastUpdated: "November 23, 2025",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/fitness-spa.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -2195,7 +2195,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "June 2025",
     lastUpdated: "June 25, 2025",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/chauffeur.webp",
     heroImageAlt: "A premium chauffeur waiting at a Dubai hotel kerb with an executive sedan",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -2255,7 +2255,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "June 2025",
     lastUpdated: "June 15, 2025",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/removals-crew.jpg",
     heroImageAlt: "Dubai removals crew loading a customer's belongings into a branded moving truck",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -2315,7 +2315,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "June 2025",
     lastUpdated: "June 5, 2025",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/vet-puppy.jpg",
     heroImageAlt: "A veterinarian examining a small dog at a modern Dubai clinic",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -2375,7 +2375,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2025",
     lastUpdated: "May 26, 2025",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/funeral-director.jpg",
     heroImageAlt: "A funeral director consulting compassionately with a bereaved family",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -2435,7 +2435,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2025",
     lastUpdated: "May 16, 2025",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/wedding-venue.jpg",
     heroImageAlt: "A wedding venue set up for an evening reception in Dubai",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -2495,7 +2495,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2025",
     lastUpdated: "May 6, 2025",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/travel-agent.jpg",
     heroImageAlt: "A Dubai destination management consultant building a bespoke itinerary on a laptop",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
