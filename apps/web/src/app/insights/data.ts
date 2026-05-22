@@ -117,7 +117,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-2.png",
+    heroImage: "/images/insights/healthcare-clinic.webp",
     heroImageAlt:
       "Reception of a modern medical centre — the first thing patients see online before they ever visit in person",
     author: { name: "Reputation Experts", role: "Editorial team" },
