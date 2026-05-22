@@ -147,7 +147,7 @@ export default async function InsightsArticlePage({ params }: Props) {
               fill
               priority
               sizes="(max-width: 1024px) 100vw, (max-width: 1280px) 33vw, 640px"
-              className="object-cover"
+              className="object-cover grayscale"
             />
           </div>
         </div>
@@ -324,7 +324,7 @@ export default async function InsightsArticlePage({ params }: Props) {
               {otherArticles.map((a) => (
                 <Link key={a.slug} href={`/insights/${a.slug}`} className="group flex flex-col gap-4">
                   <div className="relative w-full overflow-hidden aspect-[3/2] bg-[#d2d2d5] rounded-md">
-                    <Image src={a.heroImage} alt={a.heroImageAlt} fill className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-[1.03]" sizes="(max-width: 1024px) 50vw, 33vw" />
+                    <Image src={a.heroImage} alt={a.heroImageAlt} fill className="object-cover grayscale transition-transform duration-500 group-hover:scale-[1.03]" sizes="(max-width: 1024px) 50vw, 33vw" />
                   </div>
                   <p className="text-black" style={{ fontSize: "11px", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", lineHeight: "16px" }}>{a.categoryEyebrow}</p>
                   <h3 className="text-black group-hover:text-[#FF461E] transition-colors text-[16px] leading-[22px] lg:text-[17px] lg:leading-[24px]">{a.title}</h3>

@@ -192,7 +192,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "6 min read",
-    heroImage: "/images/blog-3.png",
+    heroImage: "/images/insights/automotive-dealerships.webp",
     heroImageAlt:
       "Modern Dubai automotive showroom floor with premium vehicles on display",
     author: { name: "Reputation Experts", role: "Editorial team" },
@@ -560,7 +560,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "6 min read",
-    heroImage: "/images/hotels-1.png",
+    heroImage: "/images/insights/restaurant-interior.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -826,7 +826,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "6 min read",
-    heroImage: "/images/aesthetic-1.png",
+    heroImage: "/images/insights/aesthetic-clinic.webp",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -948,7 +948,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/dental-care.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -994,7 +994,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/restaurant-reviews.webp",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1132,7 +1132,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/aesthetic-1.png",
+    heroImage: "/images/insights/stylists-salon.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1178,7 +1178,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/real-estate.webp",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1316,7 +1316,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/aesthetic-1.png",
+    heroImage: "/images/insights/laser-eye-clinic.webp",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1454,7 +1454,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/fit-out-project.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1500,7 +1500,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/blog-1.png",
+    heroImage: "/images/insights/financial-services.jpg",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
@@ -1546,7 +1546,7 @@ export const ARTICLES: InsightsArticle[] = [
     date: "May 2026",
     lastUpdated: "May 21, 2026",
     readTime: "5 min read",
-    heroImage: "/images/business-services-1.png",
+    heroImage: "/images/insights/business-services.webp",
     heroImageAlt: "Placeholder image — to be replaced",
     author: { name: "Reputation Experts", role: "Editorial team" },
     intro: [
