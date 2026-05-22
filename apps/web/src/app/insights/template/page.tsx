@@ -201,7 +201,7 @@ export default function InsightsTemplatePage() {
                 </p>
                 <div style={{ paddingTop: "20px" }}>
                   <Link
-                    href="/contact"
+                    href="#get-in-touch"
                     className="text-white underline underline-offset-[6px] decoration-1"
                     style={{ fontSize: "20px", lineHeight: "28px" }}
                   >

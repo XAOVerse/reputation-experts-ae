@@ -50,7 +50,7 @@ export default async function BlogArticlePage({ params }: Props) {
         <div className="max-w-[720px] mx-auto px-5 lg:px-8 text-center">
           <h2 className="text-[#0f0f0f] font-semibold text-[22px] mb-3">Need help with your reputation?</h2>
           <p className="text-[#777] text-[15px] mb-6">Get a free, confidential consultation with our team.</p>
-          <Link href="/contact" className="inline-block bg-[#e74c3c] text-white text-[14px] font-medium px-8 py-3 rounded-full hover:bg-[#d44335] transition-colors">Free Consultation</Link>
+          <Link href="#get-in-touch" className="inline-block bg-[#e74c3c] text-white text-[14px] font-medium px-8 py-3 rounded-full hover:bg-[#d44335] transition-colors">Free Consultation</Link>
         </div>
       </section>
 

@@ -67,7 +67,7 @@ export function DentalCaseStudiesSection() {
             Case Studies
           </h2>
           <Link
-            href="/contact"
+            href="#get-in-touch"
             className="inline-flex items-center rounded-full bg-[#0f0f0f] text-white text-[13px] font-medium px-5 py-2.5 hover:bg-[#333] transition-colors whitespace-nowrap"
           >
             Talk To Expert

@@ -62,7 +62,7 @@ export function GoogleAIOverviewSection() {
         {/* ── CTA buttons ──────────────────────────────────────────── */}
         <div className="flex flex-row flex-wrap items-center justify-center gap-4 mt-12">
           <Link
-            href="/contact"
+            href="#get-in-touch"
             className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#FF461E] text-white text-[14px] font-medium hover:bg-[#e63b15] transition-colors"
           >
             Talk To Expert

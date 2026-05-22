@@ -38,11 +38,6 @@ export function DentalContactSection() {
     } else if (!isValidEmail(f.email)) {
       e.email = "Please enter a valid email address.";
     }
-    if (!f.message.trim()) {
-      e.message = "Please tell us a bit about your project.";
-    } else if (f.message.trim().length < 10) {
-      e.message = "Message must be at least 10 characters.";
-    }
     if (!f.agreed) e.agreed = "You must accept the Privacy Policy to continue.";
     return e;
   };
@@ -91,8 +86,9 @@ export function DentalContactSection() {
 
   return (
     <section
-      className="bg-white py-14 lg:py-20"
-      style={{ fontFamily: "'Roboto', sans-serif" }}
+      id="get-in-touch"
+      className="bg-white py-14 lg:py-20 scroll-mt-[80px]"
+      style={{ fontFamily: "\'Roboto\', sans-serif" }}
       aria-label="Get in touch"
     >
       <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-10">
@@ -159,7 +155,7 @@ export function DentalContactSection() {
                     Google Maps / Trustpilot Link
                   </label>
                   <textarea
-                    placeholder="Something about your great idea"
+                    placeholder="Brief message on what you need assistance with - skip if not relevant"
                     rows={1}
                     value={form.link}
                     maxLength={500}
@@ -175,10 +171,10 @@ export function DentalContactSection() {
                 {/* Tell us more */}
                 <div>
                   <label className="block text-[#0f0f0f] text-[14px] font-medium mb-1.5">
-                    Tell us more about your project
+                    Message (optional)
                   </label>
                   <textarea
-                    placeholder="Something about your great idea"
+                    placeholder="Brief message on what you need assistance with - skip if not relevant"
                     rows={1}
                     value={form.message}
                     maxLength={500}

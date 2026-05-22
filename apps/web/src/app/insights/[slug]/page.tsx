@@ -270,7 +270,7 @@ export default async function InsightsArticlePage({ params }: Props) {
                       </p>
                       <div className="pt-3 lg:pt-5">
                         <Link
-                          href="/contact"
+                          href="/contact#get-in-touch"
                           className="text-white underline underline-offset-[6px] decoration-1 text-[18px] leading-[26px] lg:text-[20px] lg:leading-[28px]"
                         >
                           Contact us

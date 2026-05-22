@@ -189,7 +189,7 @@ export function Header({
 
             {/* Talk To Expert — orange filled pill (mailto CTA) */}
             <a
-              href="mailto:info@reputationexperts.ae"
+              href="#get-in-touch"
               className="header__cta-expert inline-flex items-center whitespace-nowrap rounded-full bg-[#FF461E] text-white text-[12px] sm:text-[13px] font-medium px-3.5 sm:px-5 py-[7px] hover:bg-[#e63b15] transition-colors"
             >
               Talk To Expert

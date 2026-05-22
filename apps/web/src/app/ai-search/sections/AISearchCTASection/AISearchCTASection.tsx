@@ -24,7 +24,7 @@ export function AISearchCTASection() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
             <div className="flex flex-row items-center gap-3 sm:contents">
               <Link
-                href="/contact"
+                href="#get-in-touch"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#FF461E] text-white text-[14px] font-medium hover:bg-[#e63b15] transition-colors whitespace-nowrap"
               >
                 Talk To Expert

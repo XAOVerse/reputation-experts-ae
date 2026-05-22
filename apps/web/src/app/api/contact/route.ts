@@ -13,9 +13,9 @@ export async function POST(req: NextRequest) {
     };
 
     // Basic server-side validation
-    if (!name?.trim() || !email?.trim() || !message?.trim()) {
+    if (!name?.trim() || !email?.trim()) {
       return NextResponse.json(
-        { error: "Name, email and message are required." },
+        { error: "Name and email are required." },
         { status: 400 }
       );
     }
