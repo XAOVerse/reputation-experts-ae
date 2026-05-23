@@ -34,10 +34,10 @@ export function DentalCTASection() {
               </span>
               <p>
                 <a
-                  href="mailto:info@reputationexperts.ae"
+                  href="mailto:ae@reputationexperts.ae"
                   className="text-white text-[16px] sm:text-[17px] font-normal hover:text-[#FF461E] transition-colors"
                 >
-                  info@reputationexperts.ae
+                  ae@reputationexperts.ae
                 </a>
               </p>
             </div>
