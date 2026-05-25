@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import type { NavItem, SocialLink } from "../../types";
+import { LanguageToggle } from "../../molecules/LanguageToggle";
 
 export interface FooterProps {
   logo?: { src: string; alt: string; width?: number; height?: number };
@@ -156,8 +157,11 @@ export function Footer({
         <div className="border-t border-[#f0f0f0] mb-6" />
 
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div>
+          <div className="flex items-center gap-4">
             <p className="text-[#aaa] text-[12px]">{copyrightText}</p>
+            <span className="text-[#444]">
+              <LanguageToggle variant="header" />
+            </span>
           </div>
 
           <div className="flex flex-wrap gap-4 lg:gap-8">

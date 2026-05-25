@@ -21,17 +21,16 @@ const ROWS: Row[] = [
 
   // Plan
   { group: "Plan", metric: "Monthly price", growth: "AED 1,995", core: "AED 2,995", pro: "AED 3,995", protection: "AED 5,995", enterprise: "AED 9,995" },
-  { metric: "Free review removals / month", growth: "0", core: "1", pro: "3", protection: "10", enterprise: "Provided" },
-  { metric: "Discount on additional removals", growth: X, core: "20%", pro: "35%", protection: "50%", enterprise: "Included" },
+  { metric: "Free review removals / month", growth: "0", core: "1", pro: "3", protection: "10", enterprise: "Unlimited" },
+  { metric: "Discount on additional removals", growth: "20%", core: "30%", pro: "40%", protection: "50%", enterprise: "Included" },
   { metric: "90-day score guarantee", growth: T, core: T, pro: T, protection: T, enterprise: T },
   { metric: "Setup fee", growth: "None", core: "None", pro: "None", protection: "None", enterprise: "None" },
 
   // Reviews & responses
   { group: "Reviews & responses", metric: "Request channels", growth: "Email", core: "Email + SMS", pro: "Email + SMS + WhatsApp", protection: "Email + SMS + WhatsApp", enterprise: "Email + SMS + WhatsApp" },
-  { metric: "Platforms monitored", growth: "1", core: "2", pro: "5", protection: "9", enterprise: "50+" },
   { metric: "Response languages", growth: "English", core: "English + Arabic", pro: "5 languages", protection: "8 languages", enterprise: "12 languages" },
   { metric: "Response SLA", growth: "24 hr", core: "12 hr", pro: "6 hr", protection: "2 hr, 24/7", enterprise: "1 hr, 24/7" },
-  { metric: "Negative-review intercept funnel", growth: X, core: "2–3 / mo", pro: T, protection: T, enterprise: T },
+  { metric: "Negative-review intercept funnel", growth: X, core: T, pro: T, protection: T, enterprise: T },
   { metric: "Review widget for your website", growth: X, core: T, pro: T, protection: T, enterprise: T },
 
   // Protection
@@ -41,8 +40,8 @@ const ROWS: Row[] = [
   { metric: "Reputation insurance", growth: X, core: X, pro: X, protection: X, enterprise: "Up to AED 250k / incident" },
 
   // Team & reporting
-  { group: "Team & reporting", metric: "Account team", growth: "Shared", core: "Shared", pro: "Dedicated manager", protection: "Dedicated manager + senior director", enterprise: "Dedicated 3-person team" },
-  { metric: "Reporting", growth: "Monthly", core: "Bi-weekly", pro: "Weekly", protection: "Weekly + monthly executive review", enterprise: "Weekly + monthly executive review" },
+  { group: "Team & reporting", metric: "Account team", growth: "Shared", core: "Shared", pro: "Dedicated manager", protection: "Dedicated manager", enterprise: "Dedicated manager" },
+  { metric: "Reporting", growth: "Monthly", core: "Bi-weekly", pro: "Bi-weekly", protection: "Weekly", enterprise: "Weekly + monthly executive review" },
 
   // AI Search Visibility (moved in from standalone section)
   { group: "AI search visibility", metric: "ChatGPT", growth: X, core: T, pro: T, protection: T, enterprise: T },
@@ -56,7 +55,7 @@ const ROWS: Row[] = [
   { metric: "Falcon (UAE) & Jais (Arabic)", growth: X, core: X, pro: X, protection: X, enterprise: T },
 
   // Media coverage (moved in from standalone section)
-  { group: "Media coverage", metric: "Authority Press (Bloomberg, Reuters, Khaleej Times, Forbes, etc.)", growth: X, core: X, pro: "Limited", protection: "Full access", enterprise: "Full + premium editorial" },
+  { group: "Media coverage", metric: "Authority Press (Bloomberg, Reuters, Khaleej Times, Forbes, etc.)", growth: X, core: X, pro: "Partial", protection: "Full access", enterprise: "Full + premium editorial" },
   { metric: "Trade & Regional Press", growth: X, core: "Listed", pro: "Full access", protection: "Full access", enterprise: "Full access" },
   { metric: "Press releases distributed", growth: X, core: "Quarterly", pro: "Monthly", protection: "Monthly", enterprise: "Weekly" },
   { metric: "Featured editorial (long-form, branded)", growth: X, core: X, pro: "Quarterly", protection: "Quarterly", enterprise: "Monthly" },

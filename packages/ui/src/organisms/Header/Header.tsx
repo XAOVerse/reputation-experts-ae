@@ -4,6 +4,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import type { HeaderProps } from "./Header.types";
+import { LanguageToggle } from "../../molecules/LanguageToggle";
 
 const SOLUTIONS: { label: string; href: string }[] = [
   { label: "Google AI Overview & ChatGPT Optimisation", href: "/google-ai-overview" },
@@ -188,6 +189,12 @@ export function Header({
           {/* Right controls */}
           <div className="header__controls flex items-center gap-1.5 sm:gap-2.5 ml-auto md:ml-0">
 
+
+            {/* EN / AR language toggle */}
+            <div className="hidden sm:block">
+              <LanguageToggle variant="header" />
+            </div>
+
             {/* Talk To Expert — orange filled pill (mailto CTA) */}
             <a
               href="#get-in-touch"
@@ -246,7 +253,10 @@ export function Header({
                   />
                 </svg>
               </button>
-              <span className="header__mobile-dot w-3 h-3 rounded-full bg-[#e63027] block" />
+              <div className="flex items-center gap-3">
+                <LanguageToggle variant="header" />
+                <span className="header__mobile-dot w-3 h-3 rounded-full bg-[#e63027] block" />
+              </div>
             </div>
 
             {/* Nav items with dividers */}
