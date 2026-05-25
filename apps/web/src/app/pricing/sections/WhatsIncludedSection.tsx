@@ -11,6 +11,10 @@ type Row = {
 };
 
 const ROWS: Row[] = [
+  // Outcomes (selling outcomes — what each tier delivers)
+  { group: "Outcomes", metric: "What you get", growth: "Review growth foundation", core: "Growth + harmful-content removal", pro: "Growth + removals + AI + media", protection: "Full reputation protection", enterprise: "Enterprise insurance & global press" },
+  { metric: "Best for", growth: "New businesses building 5 stars", core: "Established businesses maintaining their score", pro: "Multi-channel businesses growing across platforms", protection: "Multi-location and high-stakes reputations", enterprise: "Luxury, hospitality, regulated, multi-emirate" },
+
   // Plan
   { group: "Plan", metric: "Monthly price", growth: "AED 1,995", core: "AED 2,995", pro: "AED 3,995", protection: "AED 5,995", enterprise: "AED 9,995" },
   { metric: "Free review removals / month", growth: "0", core: "1", pro: "3", protection: "10", enterprise: "Unlimited" },
