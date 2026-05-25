@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 type Row = {
   group?: string;
@@ -17,14 +18,14 @@ const ROWS: Row[] = [
 
   // Plan
   { group: "Plan", metric: "Monthly price", growth: "AED 1,995", core: "AED 2,995", pro: "AED 3,995", protection: "AED 5,995", enterprise: "AED 9,995" },
-  { metric: "Free review removals / month", growth: "0", core: "1", pro: "3", protection: "10", enterprise: "Unlimited" },
+  { metric: "Free review removals / month", growth: "0", core: "1", pro: "3", protection: "10", enterprise: "Provided" },
   { metric: "Discount on additional removals", growth: "—", core: "20%", pro: "35%", protection: "50%", enterprise: "Included" },
   { metric: "90-day score guarantee", growth: "✓", core: "✓", pro: "✓", protection: "✓", enterprise: "✓" },
   { metric: "Setup fee", growth: "None", core: "None", pro: "None", protection: "None", enterprise: "None" },
 
   // Reviews & responses
   { group: "Reviews & responses", metric: "Request channels", growth: "Email", core: "Email + SMS", pro: "Email + SMS + WhatsApp", protection: "Email + SMS + WhatsApp", enterprise: "Email + SMS + WhatsApp" },
-  { metric: "Platforms monitored", growth: "Google", core: "+ Facebook", pro: "+ TripAdvisor, Booking, Trustpilot", protection: "+ Yelp, Foursquare, Zomato, Talabat", enterprise: "All 50+" },
+  { metric: "Platforms monitored", growth: "1", core: "2", pro: "5", protection: "9", enterprise: "50+" },
   { metric: "Response languages", growth: "English", core: "English + Arabic", pro: "5 languages", protection: "8 languages", enterprise: "12 languages" },
   { metric: "Response SLA", growth: "24 hr", core: "12 hr", pro: "6 hr", protection: "2 hr, 24/7", enterprise: "1 hr, 24/7" },
   { metric: "Negative-review intercept funnel", growth: "—", core: "2–3 / mo", pro: "✓", protection: "✓", enterprise: "✓" },
@@ -32,19 +33,36 @@ const ROWS: Row[] = [
 
   // Protection
   { group: "Protection & defence", metric: "Negative content takedowns (FB, IG, fake pages, copyright)", growth: "—", core: "—", pro: "—", protection: "✓", enterprise: "✓" },
-  { metric: "UAE defamation legal escalation", growth: "—", core: "—", pro: "—", protection: "✓", enterprise: "Unlimited, partner on retainer" },
-  { metric: "Crisis response", growth: "—", core: "—", pro: "We manage the case", protection: "We manage the case", enterprise: "We manage the case" },
+  { metric: "UAE defamation legal escalation", growth: "—", core: "—", pro: "—", protection: "✓", enterprise: "Partner on retainer" },
+  { metric: "Crisis response", growth: "—", core: "—", pro: "✓", protection: "✓", enterprise: "✓" },
   { metric: "Reputation insurance", growth: "—", core: "—", pro: "—", protection: "—", enterprise: "Up to AED 250k / incident" },
 
   // Team & reporting
-  { group: "Team & reporting", metric: "Account team", growth: "Shared", core: "Shared", pro: "Named manager", protection: "Dedicated manager", enterprise: "Account manager + 3-person team" },
+  { group: "Team & reporting", metric: "Account team", growth: "Shared", core: "Shared", pro: "Dedicated manager", protection: "Dedicated manager + senior director", enterprise: "Dedicated 3-person team" },
   { metric: "Reporting", growth: "Monthly", core: "Bi-weekly", pro: "Weekly", protection: "Weekly + monthly executive review", enterprise: "Weekly + monthly executive review" },
+];
+
+type TierMeta = {
+  name: string;
+  price: string;
+  recommended?: boolean;
+  cta: string;
+  href: string;
+};
+
+const TIERS: TierMeta[] = [
+  { name: "Growth",       price: "AED 1,995", cta: "Start with Growth",      href: "/contact?tier=growth" },
+  { name: "Core",         price: "AED 2,995", cta: "Start with Core",        href: "/contact?tier=core" },
+  { name: "Pro",          price: "AED 3,995", recommended: true, cta: "Start with Pro", href: "/contact?tier=pro" },
+  { name: "Protection+",  price: "AED 5,995", cta: "Request proposal",       href: "/contact?tier=protection-plus" },
+  { name: "Enterprise",   price: "AED 9,995", cta: "Apply to Enterprise",    href: "/contact?tier=enterprise" },
 ];
 
 export function WhatsIncludedSection() {
   return (
     <section
-      className="bg-white py-14 lg:py-20 border-t border-[#f0f0f0]"
+      id="plans"
+      className="bg-white py-10 lg:py-14"
       style={{ fontFamily: "'Roboto', sans-serif" }}
       aria-label="What's included"
     >
@@ -64,26 +82,24 @@ export function WhatsIncludedSection() {
             <thead>
               <tr className="border-b border-[#1a1a1a]">
                 <th className="text-[#1a1a1a] text-[12.5px] font-semibold py-4 pr-4"></th>
-                <th className="text-[#1a1a1a] text-[12.5px] font-semibold py-4 px-3 text-center">
-                  <div className="font-medium text-[14px]">Growth</div>
-                  <div className="text-[12px] text-[#555] font-normal">AED 1,995</div>
-                </th>
-                <th className="text-[#1a1a1a] text-[12.5px] font-semibold py-4 px-3 text-center">
-                  <div className="font-medium text-[14px]">Core</div>
-                  <div className="text-[12px] text-[#555] font-normal">AED 2,995</div>
-                </th>
-                <th className="text-[#1a1a1a] text-[12.5px] font-semibold py-4 px-3 text-center bg-[#FF461E]/[0.04]">
-                  <div className="font-medium text-[14px] text-[#FF461E]">Pro</div>
-                  <div className="text-[12px] text-[#555] font-normal">AED 3,995</div>
-                </th>
-                <th className="text-[#1a1a1a] text-[12.5px] font-semibold py-4 px-3 text-center">
-                  <div className="font-medium text-[14px]">Protection+</div>
-                  <div className="text-[12px] text-[#555] font-normal">AED 5,995</div>
-                </th>
-                <th className="text-[#1a1a1a] text-[12.5px] font-semibold py-4 px-3 text-center">
-                  <div className="font-medium text-[14px]">Enterprise</div>
-                  <div className="text-[12px] text-[#555] font-normal">AED 9,995</div>
-                </th>
+                {TIERS.map((t) => (
+                  <th
+                    key={t.name}
+                    className={`relative text-[#1a1a1a] text-[12.5px] font-semibold py-4 px-3 text-center ${
+                      t.recommended ? "bg-[#FF461E]/[0.04]" : ""
+                    }`}
+                  >
+                    {t.recommended && (
+                      <span className="absolute left-1/2 -translate-x-1/2 -top-3 inline-block bg-[#FF461E] text-white text-[9px] tracking-[0.18em] uppercase font-semibold rounded-full px-2.5 py-1 whitespace-nowrap">
+                        Recommended
+                      </span>
+                    )}
+                    <div className={`font-medium text-[14px] ${t.recommended ? "text-[#FF461E]" : ""}`}>
+                      {t.name}
+                    </div>
+                    <div className="text-[12px] text-[#555] font-normal">{t.price}</div>
+                  </th>
+                ))}
               </tr>
             </thead>
             <tbody>
@@ -108,9 +124,36 @@ export function WhatsIncludedSection() {
                   </tr>
                 </React.Fragment>
               ))}
+
+              {/* CTA row at bottom of table */}
+              <tr>
+                <td className="pt-6 pr-4"></td>
+                {TIERS.map((t) => (
+                  <td
+                    key={t.name}
+                    className={`pt-6 px-3 text-center ${t.recommended ? "bg-[#FF461E]/[0.03]" : ""}`}
+                  >
+                    <Link
+                      href={t.href}
+                      className={`inline-flex items-center justify-center rounded-full px-4 py-2 text-[12.5px] font-medium transition-colors whitespace-nowrap ${
+                        t.recommended
+                          ? "bg-[#FF461E] text-white hover:bg-[#e63b15]"
+                          : "border border-[#1a1a1a] text-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-white"
+                      }`}
+                    >
+                      {t.cta}
+                    </Link>
+                  </td>
+                ))}
+              </tr>
             </tbody>
           </table>
         </div>
+
+        <p className="text-[#888] text-[12.5px] leading-[1.7] mt-7 max-w-[820px]">
+          Pricing in AED, billed monthly. No setup fees. 90-day written score
+          guarantee included on every tier. Enterprise tier is by application.
+        </p>
       </div>
     </section>
   );

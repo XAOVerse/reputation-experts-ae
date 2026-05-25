@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { PricingHeroSection } from "./sections/PricingHeroSection";
-import { PricingTiersSection } from "./sections/PricingTiersSection";
 import { WhatsIncludedSection } from "./sections/WhatsIncludedSection";
 import { AIAndMediaSection } from "./sections/AIAndMediaSection";
 import { ReviewRemovalSection } from "./sections/ReviewRemovalSection";
@@ -20,7 +19,6 @@ export default function PricingPage() {
   return (
     <main>
       <PricingHeroSection />
-      <PricingTiersSection />
       <WhatsIncludedSection />
       <AIAndMediaSection />
       <ReviewRemovalSection />
