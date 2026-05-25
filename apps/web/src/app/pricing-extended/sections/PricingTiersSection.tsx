@@ -21,14 +21,14 @@ const TIERS: Tier[] = [
     per: "/ month",
     bestFor: "New businesses building a 5-star foundation",
     blurb:
-      "Built for owners who need to grow authentic reviews on the platform customers actually check before they book.",
+      "Built for owners who need to grow authentic reviews fast, on the platforms customers actually check before they book.",
     highlights: [
-      "Email review request channel",
-      "Google monitoring",
+      "Up to 500 review requests per month",
+      "Google reviews focus + monitoring",
       "English review responses",
-      "Monthly reporting",
+      "Monthly score & growth report",
     ],
-    removalsLabel: "0 free review removals",
+    removalsLabel: "0 removals included",
     cta: "Start with Growth",
     ctaHref: "/contact?tier=growth",
   },
@@ -38,14 +38,14 @@ const TIERS: Tier[] = [
     per: "/ month",
     bestFor: "Established businesses maintaining their score",
     blurb:
-      "Covers review growth, the first removal of the month, bilingual responses, and the intercept funnel that stops a 1-star going public.",
+      "Covers review growth, the first removal of the month, bilingual responses, and the intercept funnel that stops a 1-star from going public.",
     highlights: [
-      "Email + SMS request channels",
+      "Up to 1,500 review requests / month",
       "Google + Facebook monitoring",
       "Bilingual responses (EN + AR)",
       "Negative-review intercept funnel",
     ],
-    removalsLabel: "1 free review removal / month",
+    removalsLabel: "1 removal included / month",
     cta: "Start with Core",
     ctaHref: "/contact?tier=core",
   },
@@ -55,14 +55,14 @@ const TIERS: Tier[] = [
     per: "/ month",
     bestFor: "Multi-channel businesses growing across platforms",
     blurb:
-      "Adds AI search visibility, monthly press coverage, and five-language response capability. Most clients land here.",
+      "Adds AI search visibility, monthly press coverage across 200 news outlets, and five-language response capability. Most clients land here.",
     highlights: [
-      "Email + SMS + WhatsApp channels",
-      "+ TripAdvisor, Booking, Trustpilot monitoring",
+      "Up to 5,000 review requests / month",
       "AI search visibility (ChatGPT, Perplexity, Google AI Overview)",
-      "Monthly press coverage",
+      "1 press release / month → 200 outlets",
+      "5-language responses",
     ],
-    removalsLabel: "3 free review removals / month",
+    removalsLabel: "3 removals included / month",
     cta: "Start with Pro",
     ctaHref: "/contact?tier=pro",
     popular: true,
@@ -73,14 +73,14 @@ const TIERS: Tier[] = [
     per: "/ month",
     bestFor: "Multi-location and high-stakes reputations",
     blurb:
-      "24/7 monitoring, Tier-1 press placements, fake-page takedowns, UAE defamation legal escalation, and a senior director on your account.",
+      "24/7 monitoring, 200 directory listings managed, monthly press across 300 outlets, fake-page takedowns, and a senior director on your account.",
     highlights: [
-      "+ Yelp, Foursquare, Zomato, Talabat monitoring",
-      "Tier-1 press (Bloomberg, Khaleej Times, Gulf News)",
-      "Takedowns: Facebook, Instagram, fake pages, copyright",
-      "24/7 response SLA",
+      "Up to 20,000 review requests / month",
+      "24/7 monitoring + 2-hour response SLA",
+      "1 press release / month → 300 outlets",
+      "Fake-page & impostor takedowns",
     ],
-    removalsLabel: "10 free review removals / month",
+    removalsLabel: "10 removals included / month",
     cta: "Request proposal",
     ctaHref: "/contact?tier=protection-plus",
   },
@@ -90,14 +90,14 @@ const TIERS: Tier[] = [
     per: "/ month",
     bestFor: "Luxury, hospitality, regulated industries, multi-emirate",
     blurb:
-      "Full reputation insurance, dedicated 3-person team, defamation legal partner on retainer, and weekly press distribution to premium global outlets.",
+      "Weekly press distribution to 400+ outlets, unlimited removals, 12-language responses, defamation legal partner on retainer, and a dedicated three-person account team.",
     highlights: [
-      "All 50+ platforms monitored",
-      "Premium press (Forbes Middle East, Reuters, Yahoo Finance)",
-      "Reputation insurance up to AED 250k / incident",
+      "Unlimited review requests",
+      "4 press releases / month → 400+ outlets",
       "Defamation legal partner on retainer",
+      "Reputation insurance up to AED 250k",
     ],
-    removalsLabel: "Unlimited free review removals",
+    removalsLabel: "Unlimited removals (fair use)",
     cta: "Apply to Enterprise",
     ctaHref: "/contact?tier=enterprise",
   },
@@ -184,7 +184,8 @@ export function PricingTiersSection() {
 
         <p className="text-[#888] text-[12.5px] leading-[1.7] mt-7 max-w-[820px]">
           Pricing in AED, billed monthly. No setup fees. 90-day written score
-          guarantee included on every tier. Enterprise tier is by application.
+          guarantee included on every tier. All tiers can be upgraded or
+          cancelled inside the trial window. Enterprise tier is by application.
         </p>
       </div>
     </section>

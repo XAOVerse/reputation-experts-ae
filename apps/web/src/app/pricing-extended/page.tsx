@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { PricingHeroSection } from "./sections/PricingHeroSection";
 import { PricingTiersSection } from "./sections/PricingTiersSection";
-import { WhatsIncludedSection } from "./sections/WhatsIncludedSection";
-import { AIAndMediaSection } from "./sections/AIAndMediaSection";
+import { AISearchVisibilitySection } from "./sections/AISearchVisibilitySection";
+import { MediaCoverageSection } from "./sections/MediaCoverageSection";
+import { ReputationProtectionSection } from "./sections/ReputationProtectionSection";
+import { FeatureGridSection } from "./sections/FeatureGridSection";
 import { ReviewRemovalSection } from "./sections/ReviewRemovalSection";
 import { PricingGuaranteeSection } from "./sections/PricingGuaranteeSection";
 import { PricingFAQSection } from "./sections/PricingFAQSection";
@@ -11,9 +13,9 @@ import { DentalContactSection } from "../home2/sections/DentalContactSection";
 
 export const metadata: Metadata = {
   title:
-    "Pricing — Reputation Experts | Daily reputation work, 90-day score guarantee",
+    "Pricing (Extended Detail)",
   description:
-    "Five tiers from AED 1,995/mo to AED 9,995/mo. We grind on your reputation daily so you don't have to think about it. 90-day score guarantee on every tier.",
+    "Full feature-by-feature pricing detail for procurement and detail-hungry buyers. Five tiers from AED 1,995/mo to AED 9,995/mo with 90-day score guarantee.",
 };
 
 export default function PricingPage() {
@@ -21,8 +23,10 @@ export default function PricingPage() {
     <main>
       <PricingHeroSection />
       <PricingTiersSection />
-      <WhatsIncludedSection />
-      <AIAndMediaSection />
+      <AISearchVisibilitySection />
+      <MediaCoverageSection />
+      <ReputationProtectionSection />
+      <FeatureGridSection />
       <ReviewRemovalSection />
       <PricingGuaranteeSection />
       <PricingFAQSection />

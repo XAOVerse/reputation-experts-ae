@@ -5,51 +5,27 @@ import React, { useState } from "react";
 const FAQS = [
   {
     q: "Are these prices final, or are there extra fees?",
-    a: "These are the full monthly prices. No setup fee, no onboarding fee, no platform fee. The only optional cost is additional review removals above your tier's included quota, billed at the tier-discounted PAYG rate (no-win, no-fee, 14-day SLA).",
+    a: "These are the full monthly prices. No setup fee, no onboarding fee, no platform fee. The only optional cost is additional review removals beyond your tier's included quota, billed at the tier-discounted rate (no-win, no-fee, 14-day SLA).",
   },
   {
     q: "What is included on the 90-day guarantee?",
-    a: "Before work begins we agree a written target — for example moving from 4.2 to 4.6 stars, or adding 80 new 5-star reviews per location in 90 days. Miss the target by day 90, and we continue working at no extra cost until we hit it. The guarantee applies on every tier.",
-  },
-  {
-    q: "Can I switch tiers later?",
-    a: "Yes. Most clients start on Pro or Core and move up to Protection+ once they've seen the first 60 days of results. You can move up at any time. Moving down requires 30 days' notice so we can rebalance your team allocation.",
+    a: "Before work begins we agree a written target — for example moving from 4.2 to 4.6 stars in 90 days. Miss the target by day 90, and we continue working at no extra cost until we hit it. The guarantee applies on every tier.",
   },
   {
     q: "How do review removals work?",
-    a: "We dispute reviews that violate platform policy or UAE law. Each removal attempt runs against a 14-day SLA. For standalone (PAYG) removals you pay only on confirmed removal — no removal, no fee. On a subscription, included monthly removals roll within the month; unused removals do not bank.",
+    a: "We dispute reviews that violate platform policy or UAE law. Each removal attempt runs against a 14-day SLA. For standalone (PAYG) removals you pay only on confirmed removal — no removal, no fee. Subscription tiers include monthly free removals; unused removals do not bank.",
   },
   {
-    q: "Why are AI search and press coverage separate sections instead of in the base tier?",
-    a: "AI search visibility and press coverage are the highest-leverage parts of modern reputation work — when ChatGPT cites you or Bloomberg Middle East publishes your story, that beats almost any review-management activity. We isolated them so each tier shows exactly what you get and the higher tiers earn their price tag honestly.",
-  },
-  {
-    q: "Do you actually publish on Bloomberg, Khaleej Times, Forbes ME and the rest?",
-    a: "Yes, on the tiers that include them. Tier-1 outlets (Bloomberg ME, Reuters ME, Forbes ME, Khaleej Times, Gulf News, AP, Yahoo Finance) are included on Protection+ and Enterprise. Pro tier includes 200 mid-tier and regional outlets per release. Sample reports available on request.",
+    q: "Why are AI search and media coverage combined into one program?",
+    a: "Because they can't move without each other. AI models like ChatGPT and Perplexity cite high-authority press placements. So press coverage is what drives AI search visibility — running them separately wastes both. We run them as one engine from Pro upward.",
   },
   {
     q: "Do you use AI to write the responses to my reviews?",
-    a: "No. Every response is written by a human, in your voice, in your customer's language. AI is used to identify the right things to find (entity signals, citation networks, AI-search optimisation). People are used to write what gets said. This is locked policy.",
+    a: "No. Every reply is written by a human, in your voice, in your customer's language. AI is used to identify what to find. People are used to write what gets said.",
   },
   {
-    q: "Is this white-labelled? Will my customers see your branding?",
-    a: "Your customers see your brand, not ours. Review widgets, response signatures, request emails and SMS all carry your name and your domain. We operate in the background. The only place Reputation Experts appears is on this website and on the invoices we send you.",
-  },
-  {
-    q: "What about Sharjah, Abu Dhabi and the rest of the Emirates?",
-    a: "All seven Emirates are covered on every tier. Multi-location tracking starts on Pro (3 locations), Protection+ (10) and Enterprise (unlimited). KSA, Qatar, Bahrain and Oman expansion is available on Enterprise.",
-  },
-  {
-    q: "How quickly can we start?",
-    a: "Onboarding is 5 working days from contract sign on Growth, Core and Pro. Protection+ is 7 days because of the directory build-out and crisis-response setup. Enterprise is 10 working days and includes a kick-off with your dedicated 3-person team.",
-  },
-  {
-    q: "Can I cancel?",
-    a: "Yes, any time. Subscription is billed monthly with no lock-in. We don't believe in trapping clients. The 90-day guarantee gives you a fair window to evaluate, and if the work is not delivering you can walk.",
-  },
-  {
-    q: "Is Enterprise really worth the AED 9,995?",
-    a: "For a hotel, multi-location clinic, real estate group or luxury brand where a single bad PR cycle costs AED 50,000+ in lost bookings, the answer is yes. The reputation insurance alone (up to AED 250k per incident) covers it. For a single-location salon, Pro is the right tier. Talk to us if you're not sure.",
+    q: "Is this white-labelled?",
+    a: "Your customers see your brand, not ours. Review widgets, response signatures, request emails and SMS all carry your name and your domain. We operate in the background.",
   },
 ];
 

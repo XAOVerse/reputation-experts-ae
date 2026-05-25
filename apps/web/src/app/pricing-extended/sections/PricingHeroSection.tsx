@@ -15,22 +15,15 @@ export function PricingHeroSection() {
           className="text-[#0f0f0f] font-medium leading-[1.1] tracking-[-0.02em] mb-6"
           style={{ fontSize: "clamp(1.75rem, 3.4vw, 2.625rem)" }}
         >
-          You don&rsquo;t worry about reputation. We grind on it daily so you
-          don&rsquo;t have to.
+          Five tiers. One outcome. A reputation that wins customers before
+          they ever read a review.
         </h1>
         <p className="text-[#555] text-[15px] leading-[1.65] mb-8 max-w-[820px]">
-          Five tiers, written 90-day score guarantee on every one. We pick up
-          the phone, write every reply by hand, file the disputes, run the
-          press cycle, and report back weekly. You stay focused on the
-          business. Looking for the full feature breakdown for a procurement
-          team? See the {" "}
-          <a
-            href="/pricing-extended"
-            className="text-[#FF461E] hover:underline"
-          >
-            extended detail view
-          </a>
-          .
+          Transparent monthly pricing from AED 1,995 to AED 9,995. Every tier
+          includes our 90-day written score guarantee. No setup fees, no
+          long-term contracts, cancel any time within the trial window. The
+          higher tiers add review removals, AI search visibility, and press
+          coverage across hundreds of news outlets every month.
         </p>
       </div>
     </section>
