@@ -11,16 +11,19 @@ type Row = {
   enterprise: string;
 };
 
+const T = "✓";
+const X = "—";
+
 const ROWS: Row[] = [
-  // Outcomes (selling outcomes — what each tier delivers)
+  // Outcomes
   { group: "Outcomes", metric: "What you get", growth: "Review growth foundation", core: "Growth + harmful-content removal", pro: "Growth + removals + AI + media", protection: "Full reputation protection", enterprise: "Enterprise insurance & global press" },
   { metric: "Best for", growth: "New businesses building 5 stars", core: "Established businesses maintaining their score", pro: "Multi-channel businesses growing across platforms", protection: "Multi-location and high-stakes reputations", enterprise: "Luxury, hospitality, regulated, multi-emirate" },
 
   // Plan
   { group: "Plan", metric: "Monthly price", growth: "AED 1,995", core: "AED 2,995", pro: "AED 3,995", protection: "AED 5,995", enterprise: "AED 9,995" },
   { metric: "Free review removals / month", growth: "0", core: "1", pro: "3", protection: "10", enterprise: "Provided" },
-  { metric: "Discount on additional removals", growth: "—", core: "20%", pro: "35%", protection: "50%", enterprise: "Included" },
-  { metric: "90-day score guarantee", growth: "✓", core: "✓", pro: "✓", protection: "✓", enterprise: "✓" },
+  { metric: "Discount on additional removals", growth: X, core: "20%", pro: "35%", protection: "50%", enterprise: "Included" },
+  { metric: "90-day score guarantee", growth: T, core: T, pro: T, protection: T, enterprise: T },
   { metric: "Setup fee", growth: "None", core: "None", pro: "None", protection: "None", enterprise: "None" },
 
   // Reviews & responses
@@ -28,18 +31,36 @@ const ROWS: Row[] = [
   { metric: "Platforms monitored", growth: "1", core: "2", pro: "5", protection: "9", enterprise: "50+" },
   { metric: "Response languages", growth: "English", core: "English + Arabic", pro: "5 languages", protection: "8 languages", enterprise: "12 languages" },
   { metric: "Response SLA", growth: "24 hr", core: "12 hr", pro: "6 hr", protection: "2 hr, 24/7", enterprise: "1 hr, 24/7" },
-  { metric: "Negative-review intercept funnel", growth: "—", core: "2–3 / mo", pro: "✓", protection: "✓", enterprise: "✓" },
-  { metric: "Review widget for your website", growth: "—", core: "✓", pro: "✓", protection: "✓", enterprise: "✓" },
+  { metric: "Negative-review intercept funnel", growth: X, core: "2–3 / mo", pro: T, protection: T, enterprise: T },
+  { metric: "Review widget for your website", growth: X, core: T, pro: T, protection: T, enterprise: T },
 
   // Protection
-  { group: "Protection & defence", metric: "Negative content takedowns (FB, IG, fake pages, copyright)", growth: "—", core: "—", pro: "—", protection: "✓", enterprise: "✓" },
-  { metric: "UAE defamation legal escalation", growth: "—", core: "—", pro: "—", protection: "✓", enterprise: "Partner on retainer" },
-  { metric: "Crisis response", growth: "—", core: "—", pro: "✓", protection: "✓", enterprise: "✓" },
-  { metric: "Reputation insurance", growth: "—", core: "—", pro: "—", protection: "—", enterprise: "Up to AED 250k / incident" },
+  { group: "Protection & defence", metric: "Negative content takedowns (FB, IG, fake pages, copyright)", growth: X, core: X, pro: X, protection: T, enterprise: T },
+  { metric: "UAE defamation legal escalation", growth: X, core: X, pro: X, protection: T, enterprise: "Partner on retainer" },
+  { metric: "Crisis response", growth: X, core: X, pro: T, protection: T, enterprise: T },
+  { metric: "Reputation insurance", growth: X, core: X, pro: X, protection: X, enterprise: "Up to AED 250k / incident" },
 
   // Team & reporting
   { group: "Team & reporting", metric: "Account team", growth: "Shared", core: "Shared", pro: "Dedicated manager", protection: "Dedicated manager + senior director", enterprise: "Dedicated 3-person team" },
   { metric: "Reporting", growth: "Monthly", core: "Bi-weekly", pro: "Weekly", protection: "Weekly + monthly executive review", enterprise: "Weekly + monthly executive review" },
+
+  // AI Search Visibility (moved in from standalone section)
+  { group: "AI search visibility", metric: "ChatGPT", growth: X, core: T, pro: T, protection: T, enterprise: T },
+  { metric: "Google AI Overview", growth: X, core: T, pro: T, protection: T, enterprise: T },
+  { metric: "Perplexity", growth: X, core: X, pro: T, protection: T, enterprise: T },
+  { metric: "Microsoft Copilot", growth: X, core: X, pro: T, protection: T, enterprise: T },
+  { metric: "Claude", growth: X, core: X, pro: T, protection: T, enterprise: T },
+  { metric: "Gemini", growth: X, core: X, pro: T, protection: T, enterprise: T },
+  { metric: "Grok", growth: X, core: X, pro: X, protection: T, enterprise: T },
+  { metric: "Meta AI", growth: X, core: X, pro: X, protection: T, enterprise: T },
+  { metric: "Falcon (UAE) & Jais (Arabic)", growth: X, core: X, pro: X, protection: X, enterprise: T },
+
+  // Media coverage (moved in from standalone section)
+  { group: "Media coverage", metric: "Authority Press (Bloomberg, Reuters, Khaleej Times, Forbes, etc.)", growth: X, core: X, pro: "Limited", protection: "Full access", enterprise: "Full + premium editorial" },
+  { metric: "Trade & Regional Press", growth: X, core: "Listed", pro: "Full access", protection: "Full access", enterprise: "Full access" },
+  { metric: "Press releases distributed", growth: X, core: "Quarterly", pro: "Monthly", protection: "Monthly", enterprise: "Weekly" },
+  { metric: "Featured editorial (long-form, branded)", growth: X, core: X, pro: "Quarterly", protection: "Quarterly", enterprise: "Monthly" },
+  { metric: "“As Seen On” trust badge", growth: X, core: T, pro: T, protection: T, enterprise: T },
 ];
 
 type TierMeta = {
@@ -85,17 +106,17 @@ export function WhatsIncludedSection() {
                 {TIERS.map((t) => (
                   <th
                     key={t.name}
-                    className={`relative text-[#1a1a1a] text-[12.5px] font-semibold py-4 px-3 text-center ${
+                    className={`text-[#1a1a1a] text-[12.5px] font-semibold py-4 px-3 text-center ${
                       t.recommended ? "bg-[#FF461E]/[0.04]" : ""
                     }`}
                   >
-                    {t.recommended && (
-                      <span className="absolute left-1/2 -translate-x-1/2 -top-3 inline-block bg-[#FF461E] text-white text-[9px] tracking-[0.18em] uppercase font-semibold rounded-full px-2.5 py-1 whitespace-nowrap">
-                        Recommended
-                      </span>
-                    )}
-                    <div className={`font-medium text-[14px] ${t.recommended ? "text-[#FF461E]" : ""}`}>
-                      {t.name}
+                    <div className={`font-medium text-[14px] inline-flex items-center gap-2 ${t.recommended ? "text-[#FF461E]" : ""}`}>
+                      <span>{t.name}</span>
+                      {t.recommended && (
+                        <span className="inline-block bg-[#FF461E] text-white text-[9px] tracking-[0.16em] uppercase font-semibold rounded-full px-2 py-0.5 whitespace-nowrap">
+                          Recommended
+                        </span>
+                      )}
                     </div>
                     <div className="text-[12px] text-[#555] font-normal">{t.price}</div>
                   </th>
