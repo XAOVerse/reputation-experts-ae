@@ -76,3 +76,58 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 .fade-up { opacity: 0; animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+
+/* ─── Arabic / RTL adaptations ──────────────────────────────────────────── */
+/* When Arabic is the active language, swap fonts to a typeface designed for
+   Arabic readability ("Cairo" — a contemporary geometric Arabic face used
+   by major GCC brands), and apply small typography tweaks that keep Arabic
+   text legible at the same physical sizes as the English original. */
+html[lang="ar"],
+html[lang="ar"] body {
+  font-family: "Cairo", "Tajawal", "Segoe UI", Tahoma, "Geeza Pro",
+    "Noto Naskh Arabic", Arial, sans-serif;
+}
+html[lang="ar"] body {
+  /* Arabic glyphs sit slightly above the baseline of Latin letters; a touch
+     more line-height keeps mixed runs (e.g. "AED 1,995" inside Arabic copy)
+     from feeling cramped. */
+  line-height: 1.75;
+  /* Allow Arabic words to wrap naturally without ligature breaks. */
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4 {
+  font-weight: 700;
+  letter-spacing: 0; /* Latin negative letter-spacing is wrong for Arabic */
+  line-height: 1.45;
+}
+/* Numbers, codes, brand names should remain in Latin script and use the
+   project's sans font. */
+html[lang="ar"] [data-no-translate],
+html[lang="ar"] code,
+html[lang="ar"] kbd,
+html[lang="ar"] samp,
+html[lang="ar"] .ltr {
+  font-family: var(--font-sans);
+}
+
+/* Inputs in forms — keep numeric inputs LTR even on Arabic pages so phone
+   numbers, emails and AED amounts type left-to-right. */
+html[lang="ar"] input[type="email"],
+html[lang="ar"] input[type="tel"],
+html[lang="ar"] input[type="number"],
+html[lang="ar"] input[type="url"] {
+  direction: ltr;
+  text-align: right;
+}
+
+/* Scroll snapping / horizontal carousels: keep their internal flow LTR so
+   slide order doesn't reverse unintentionally. Components that need true RTL
+   can opt in via dir="rtl" on their own root. */
+html[lang="ar"] .carousel-ltr,
+html[lang="ar"] [data-carousel-ltr] {
+  direction: ltr;
+}

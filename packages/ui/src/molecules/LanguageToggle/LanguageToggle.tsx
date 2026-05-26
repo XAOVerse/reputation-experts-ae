@@ -36,11 +36,16 @@ export function LanguageToggle({
 
   const switchTo = (next: Lang) => {
     if (next === lang) return;
-    setLang(next);
-    applyLangToDocument(next);
     try {
       window.localStorage.setItem(LANG_KEY, next);
+      // Persist as a cookie too (1 year) so future SSR work can read it.
+      document.cookie = `${LANG_KEY}=${next}; path=/; max-age=31536000; samesite=lax`;
     } catch {}
+    applyLangToDocument(next);
+    // Reload the page so the translation overlay gets a clean, deterministic
+    // first pass over the whole document — and reverts cleanly when going
+    // back to English (the overlay has no inverse pass).
+    window.location.reload();
   };
 
   const isHeader = variant === "header";
@@ -52,11 +57,13 @@ export function LanguageToggle({
       }`}
       role="group"
       aria-label="Language selector"
+      data-no-translate
     >
       <button
         type="button"
         onClick={() => switchTo("en")}
         aria-pressed={lang === "en"}
+        data-no-translate
         className={`px-2 py-1 rounded-l-full transition-colors ${
           isHeader
             ? lang === "en"
@@ -81,6 +88,7 @@ export function LanguageToggle({
         type="button"
         onClick={() => switchTo("ar")}
         aria-pressed={lang === "ar"}
+        data-no-translate
         className={`px-2 py-1 rounded-r-full transition-colors ${
           isHeader
             ? lang === "ar"

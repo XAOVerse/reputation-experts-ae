@@ -9,6 +9,7 @@ export { Badge } from "./atoms/Badge";
 export type { BadgeProps } from "./atoms/Badge";
 // ─── Molecules ───────────────────────────────────────────────────────────────
 export { LanguageToggle } from "./molecules/LanguageToggle";
+export { TranslationOverlay, AR_DICT } from "./molecules/TranslationOverlay";
 
 
 // ─── Organisms ───────────────────────────────────────────────────────────────
