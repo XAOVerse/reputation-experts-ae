@@ -1,5 +1,6 @@
 import { AR_DICT_EXTRA } from "./ar-dictionary-extra";
 import { AR_DICT_HOME } from "./ar-dictionary-home";
+import { AR_DICT_PRICING } from "./ar-dictionary-pricing";
 
 // Native-quality Arabic dictionary for reputationexperts.ae
 // Adapted (not literally translated) for the GCC market — written in modern
@@ -463,3 +464,4 @@ for (const year of [2024, 2025, 2026, 2027]) {
 // Merge second-pass dictionary entries
 Object.assign(AR_DICT, AR_DICT_EXTRA);
 Object.assign(AR_DICT, AR_DICT_HOME);
+Object.assign(AR_DICT, AR_DICT_PRICING);
