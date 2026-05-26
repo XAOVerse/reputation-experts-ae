@@ -1,1 +1,0 @@
-export { DentalFAQSection } from "./DentalFAQSection";

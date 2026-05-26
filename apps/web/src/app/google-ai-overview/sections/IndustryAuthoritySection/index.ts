@@ -1,1 +1,0 @@
-export { IndustryAuthoritySection } from "./IndustryAuthoritySection";

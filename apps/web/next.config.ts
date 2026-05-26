@@ -26,10 +26,10 @@ const nextConfig: NextConfig = {
         destination: "/bars-lounges-entertainment/:path*",
         permanent: true,
       },
-      // Short URL → canonical URL for the AI Overview page.
+      // /ai-overview short URL — original target page deleted; route to /ai-search instead.
       {
         source: "/ai-overview",
-        destination: "/google-ai-overview",
+        destination: "/ai-search",
         permanent: true,
       },
       {

@@ -1,1 +1,0 @@
-export { TrustStripSection } from "./TrustStripSection";

@@ -7,7 +7,6 @@ import type { HeaderProps } from "./Header.types";
 import { LanguageToggle } from "../../molecules/LanguageToggle";
 
 const SOLUTIONS: { label: string; href: string }[] = [
-  { label: "Google AI Overview & ChatGPT Optimisation", href: "/google-ai-overview" },
   { label: "Solutions for Hotels & Resorts", href: "/hotels-resorts" },
   { label: "Solutions for Restaurants & Cafés", href: "/restaurants-cafes" },
   { label: "Solutions for Aesthetic & Cosmetic Clinics", href: "/aesthetic-cosmetic-clinics" },
