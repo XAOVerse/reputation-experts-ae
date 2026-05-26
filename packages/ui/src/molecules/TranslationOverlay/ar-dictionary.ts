@@ -4,6 +4,7 @@ import { AR_DICT_PRICING } from "./ar-dictionary-pricing";
 import { AR_DICT_AI_SEARCH } from "./ar-dictionary-ai-search";
 import { AR_DICT_REVIEWS_V2 } from "./ar-dictionary-reviews-v2";
 import { AR_DICT_BIZ } from "./ar-dictionary-business-services";
+import { AR_DICT_SVC_BODIES } from "./ar-dictionary-services-bodies";
 
 // Native-quality Arabic dictionary for reputationexperts.ae
 // Adapted (not literally translated) for the GCC market — written in modern
@@ -471,3 +472,4 @@ Object.assign(AR_DICT, AR_DICT_PRICING);
 Object.assign(AR_DICT, AR_DICT_AI_SEARCH);
 Object.assign(AR_DICT, AR_DICT_REVIEWS_V2);
 Object.assign(AR_DICT, AR_DICT_BIZ);
+Object.assign(AR_DICT, AR_DICT_SVC_BODIES);
