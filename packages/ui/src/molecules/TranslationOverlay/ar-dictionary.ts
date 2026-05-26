@@ -1,3 +1,5 @@
+import { AR_DICT_EXTRA } from "./ar-dictionary-extra";
+
 // Native-quality Arabic dictionary for reputationexperts.ae
 // Adapted (not literally translated) for the GCC market — written in modern
 // formal Arabic that an educated UAE / Khaleeji reader will recognise as
@@ -456,3 +458,6 @@ for (const year of [2024, 2025, 2026, 2027]) {
   AR_DICT[`© ${year} Reputation Experts. All rights reserved.`] =
     `© ${year} خبراء السمعة. جميع الحقوق محفوظة.`;
 }
+
+// Merge second-pass dictionary entries
+Object.assign(AR_DICT, AR_DICT_EXTRA);
