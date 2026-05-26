@@ -58,6 +58,7 @@ export function LanguageToggle({
       role="group"
       aria-label="Language selector"
       data-no-translate
+      dir="ltr"
     >
       <button
         type="button"
