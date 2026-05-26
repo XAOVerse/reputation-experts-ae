@@ -4,10 +4,6 @@ import React, { useState } from "react";
 
 const FAQ = [
   {
-    q: "How many platforms do you actually grow reviews on?",
-    a: "Nearly 200 in total, but the work concentrates on the eight to twelve that matter most for your category. Every business gets Google, Trustpilot, Facebook and Apple as a baseline; from there we layer in the trade-specific platforms — Tripadvisor and Booking.com for hospitality, Doctify and WhatClinic for healthcare, Yell and Bark for home services, Tradesy and Houzz for trades, and so on. The platform identifies the highest-leverage sites for your specific niche and routes review requests to the ones that move bookings.",
-  },
-  {
     q: "What does the 90-day score guarantee actually cover?",
     a: "Before we start we agree a written target — typically the move from your current average star rating to a higher one (e.g. 4.2 to 4.6), plus a minimum number of fresh authentic reviews per location. If we don't hit those numbers by day 90, the engagement keeps running at no additional cost until we do. The guarantee is anchored to specific written metrics, not vague effort.",
   },
@@ -30,14 +26,6 @@ const FAQ = [
   {
     q: "How quickly will I see results?",
     a: "Most clients see meaningful score movement and visible review velocity inside the first 30 days. By day 60, AI engines and Google Maps typically begin re-ranking the business upward. The full 90 days is needed for the harder lifts — moving an established score by 0.3 or more — because authentic reviews have to be earned at the speed your real customers can leave them.",
-  },
-  {
-    q: "Do you ever ask customers to write fake reviews?",
-    a: "No, ever. Fake reviews are a fast way to get a business permanently delisted from Google and Trustpilot, and they show up in AI sentiment analysis as obviously inauthentic. Everything we do is built on real customers leaving real opinions at the right moment — timed, prompted and routed correctly, but never invented.",
-  },
-  {
-    q: "Can you exclude unhappy customers from review campaigns?",
-    a: "We do not gate reviews — that breaches platform policy. What we do is route the request differently: an unhappy customer who completes our follow-up gets a private recovery flow first (your team gets a chance to fix the issue before any public review is invited), while a satisfied customer goes straight to the public review platform. This is policy-compliant and improves both your average rating and your customer relationships.",
   },
   {
     q: "Do you replace my marketing agency or work alongside them?",
