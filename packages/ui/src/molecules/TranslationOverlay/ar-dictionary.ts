@@ -17,6 +17,7 @@ import { AR_DICT_VERTICALS2 } from "./ar-dictionary-verticals2";
 import { AR_DICT_VERTICALS3 } from "./ar-dictionary-verticals3";
 import { AR_DICT_VERTICALS4 } from "./ar-dictionary-verticals4";
 import { AR_DICT_INSIGHTS } from "./ar-dictionary-insights";
+import { AR_DICT_INSIGHTS2 } from "./ar-dictionary-insights2";
 
 // Native-quality Arabic dictionary for reputationexperts.ae
 // Adapted (not literally translated) for the GCC market — written in modern
@@ -497,3 +498,4 @@ Object.assign(AR_DICT, AR_DICT_VERTICALS2);
 Object.assign(AR_DICT, AR_DICT_VERTICALS3);
 Object.assign(AR_DICT, AR_DICT_VERTICALS4);
 Object.assign(AR_DICT, AR_DICT_INSIGHTS);
+Object.assign(AR_DICT, AR_DICT_INSIGHTS2);
