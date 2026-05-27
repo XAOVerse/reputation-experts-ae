@@ -39,6 +39,43 @@ type TaggedNode = Text & { [PROCESSED]?: boolean };
 // with the original English, without scanning the dictionary every time.
 const englishCache = new WeakMap<Text, string>();
 
+// ── Prefix-anchored fallback index ──────────────────────────────────────────
+// The site's long marketing paragraphs are edited frequently — usually only
+// the *closing clause* changes while the opening sentence stays identical.
+// Exact-string matching breaks on every such edit. To stay robust, we build an
+// index of long dictionary entries keyed by a normalised prefix (first
+// PREFIX_LEN chars). When an exact match fails on a long text node we look it
+// up by prefix; if EXACTLY ONE dictionary entry shares that prefix we use its
+// translation. Requiring uniqueness avoids mistranslating two paragraphs that
+// merely begin the same way. Short strings never use the fallback.
+const PREFIX_LEN = 60;
+const MIN_FALLBACK_LEN = 120;
+
+function normalise(s: string): string {
+  return s.replace(/\s+/g, " ").trim();
+}
+
+let prefixIndex: Map<string, string | null> | null = null;
+
+function buildPrefixIndex(): Map<string, string | null> {
+  const idx = new Map<string, string | null>();
+  for (const key of Object.keys(AR_DICT)) {
+    if (key.length < MIN_FALLBACK_LEN) continue;
+    const pfx = normalise(key).slice(0, PREFIX_LEN);
+    idx.set(pfx, idx.has(pfx) ? null : key);
+  }
+  return idx;
+}
+
+function prefixFallback(trimmed: string): string | undefined {
+  if (trimmed.length < MIN_FALLBACK_LEN) return undefined;
+  if (!prefixIndex) prefixIndex = buildPrefixIndex();
+  const pfx = normalise(trimmed).slice(0, PREFIX_LEN);
+  const key = prefixIndex.get(pfx);
+  if (!key) return undefined;
+  return AR_DICT[key];
+}
+
 const SKIP_TAGS = new Set([
   "SCRIPT",
   "STYLE",
@@ -89,6 +126,18 @@ function translateTextNode(node: TaggedNode): boolean {
       node.nodeValue = leading + cachedHit + trailing;
       return true;
     }
+  }
+
+  // Last resort: prefix-anchored fallback for long paragraphs whose ending
+  // was edited after the dictionary entry was written. Only fires when a
+  // single dictionary entry uniquely shares the first PREFIX_LEN chars.
+  const fb = prefixFallback(trimmed);
+  if (fb) {
+    englishCache.set(node, trimmed);
+    const leading = raw.match(/^\s*/)?.[0] ?? "";
+    const trailing = raw.match(/\s*$/)?.[0] ?? "";
+    node.nodeValue = leading + fb + trailing;
+    return true;
   }
   return false;
 }
