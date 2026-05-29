@@ -71,6 +71,8 @@ export const AR_DICT_PRICING: Record<string, string> = {
   "Older text (over 4 weeks)": "تقييم نصّي قديم (أكثر من 4 أسابيع)",
   "Included in subscription": "مشمول ضمن الاشتراك",
   "How do review removals work?": "كيف تتمّ عملية إزالة التقييمات؟",
+  "No upfront fees for standalone (PAYG) removals you pay only on confirmed removal — no removal, no fee. Subscription tiers include monthly free removals; unused removals do not bank.":
+    "لا رسوم مسبقة لإزالات \"ادفع حسب الاستخدام\" (PAYG) — لا تدفع إلا عند تأكيد الإزالة. لا إزالة، لا رسوم. تتضمّن باقات الاشتراك إزالات مجانية شهريًا، والإزالات غير المستخدمة لا تُرحَّل.",
   "No-win, no-fee": "لا نجاح، لا رسوم",
   "No-win, no-fee. Pay only when a review is removed.":
     "لا نجاح، لا رسوم. لا تدفع إلا عند إزالة التقييم فعليًا.",
@@ -89,7 +91,6 @@ export const AR_DICT_PRICING: Record<string, string> = {
   "What is included on the 90-day guarantee?": "ما الذي يغطّيه ضمان الـ 90 يومًا؟",
   "Why are AI search and media coverage combined into one program?":
     "لماذا تمّ دمج البحث بالذكاء الاصطناعي والتغطية الإعلامية في برنامج واحد؟",
-  "Is this white-labelled?": "هل الخدمة تحت علامتي التجارية (وايت-ليبل)؟",
   "Every other reputation agency sells effort. We sell outcomes. The score we agree on day one is the score we have to deliver by day 90, or the work continues at no extra cost until we do. This applies on every tier, from Growth to Enterprise.":
     "تبيع كل وكالات إدارة السمعة الأخرى الجهد، أما نحن فنبيع النتائج. التقييم الذي نتفق عليه في اليوم الأول هو ما نلتزم بتحقيقه خلال 90 يومًا، وإلا واصلنا العمل دون أي تكلفة إضافية حتى نصل إليه. وينطبق ذلك على كل الباقات، من النمو وحتى الشركات الكبرى.",
 

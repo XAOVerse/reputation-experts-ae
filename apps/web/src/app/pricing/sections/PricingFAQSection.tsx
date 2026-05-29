@@ -13,7 +13,7 @@ const FAQS = [
   },
   {
     q: "How do review removals work?",
-    a: "We dispute reviews that violate platform policy or UAE law. Each removal attempt runs against a 14-day SLA. For standalone (PAYG) removals you pay only on confirmed removal — no removal, no fee. Subscription tiers include monthly free removals; unused removals do not bank.",
+    a: "No upfront fees for standalone (PAYG) removals you pay only on confirmed removal — no removal, no fee. Subscription tiers include monthly free removals; unused removals do not bank.",
   },
   {
     q: "Why are AI search and media coverage combined into one program?",
@@ -22,10 +22,6 @@ const FAQS = [
   {
     q: "Do you use AI to write the responses to my reviews?",
     a: "No. Every reply is written by a human, in your voice, in your customer's language. AI is used to identify what to find. People are used to write what gets said.",
-  },
-  {
-    q: "Is this white-labelled?",
-    a: "Your customers see your brand, not ours. Review widgets, response signatures, request emails and SMS all carry your name and your domain. We operate in the background.",
   },
 ];
 
