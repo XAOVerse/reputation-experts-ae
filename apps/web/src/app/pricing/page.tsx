@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 export default function PricingPage() {
   return (
     <main>
+      <ReviewRemovalSection />
       <PricingHeroSection />
       <WhatsIncludedSection />
       <OutletsSection />
-      <ReviewRemovalSection />
       <PricingGuaranteeSection />
       <PricingFAQSection />
       <DentalCTASection />
