@@ -10,12 +10,12 @@ type Row = {
   enterprise: string;
 };
 
-// Promotional rate card. Prices reduced from previous list rates.
+// Base PAYG prices, then 20% / 30% / 40% / 50% off for each tier respectively.
 // Enterprise = Unlimited (no PAYG calculation needed).
 const ROWS: Row[] = [
-  { type: "Image review (any age)",  payg: "AED 995",   growth: "AED 695",   core: "AED 595",   pro: "AED 495",   protection: "AED 395",   enterprise: "Unlimited" },
-  { type: "Recent text (under 4 weeks)", payg: "AED 1,295", growth: "AED 995",   core: "AED 895",   pro: "AED 695",   protection: "AED 595",   enterprise: "Unlimited" },
-  { type: "Older text (over 4 weeks)",   payg: "AED 1,695", growth: "AED 1,295", core: "AED 1,095", pro: "AED 995",   protection: "AED 795",   enterprise: "Unlimited" },
+  { type: "Image review (any age)",  payg: "AED 695", growth: "AED 555", core: "AED 485", pro: "AED 415", protection: "AED 345", enterprise: "Unlimited" },
+  { type: "Recent text (under 4 weeks)", payg: "AED 795", growth: "AED 635", core: "AED 555", pro: "AED 475", protection: "AED 395", enterprise: "Unlimited" },
+  { type: "Older text (over 4 weeks)",   payg: "AED 995", growth: "AED 795", core: "AED 695", pro: "AED 595", protection: "AED 495", enterprise: "Unlimited" },
 ];
 
 const SUMMARY = [
@@ -43,16 +43,12 @@ export function ReviewRemovalSection() {
         >
           No-win, no-fee. Pay only when a review is removed.
         </h2>
-        <p className="text-[#555] text-[15px] sm:text-[16px] leading-[1.7] mb-5 max-w-[820px]">
-          You pay only for successful removals &mdash; a 100% guarantee. You pay
-          upfront, and we then have 30 days to remove the review. If we don&rsquo;t
-          remove it, you don&rsquo;t pay: we issue a full refund. Each subscription
-          tier also includes free removals every month, plus a stacked discount
-          on Pay-as-you-go removals beyond the included quota.
-        </p>
         <p className="text-[#555] text-[15px] sm:text-[16px] leading-[1.7] mb-10 max-w-[820px]">
-          Because you pay by card, you&rsquo;re fully protected &mdash; that
-          guarantee is in writing.
+          Every removal attempt runs against a 14-day service-level agreement.
+          If we cannot remove the review within that window, you owe nothing.
+          Each subscription tier comes with free removals included every month
+          and a stacked discount on Pay-as-you-go removals beyond the included
+          quota.
         </p>
 
         {/* Per-tier summary strip */}
@@ -104,18 +100,17 @@ export function ReviewRemovalSection() {
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           <div className="border-t border-[#e5e5e5] pt-6">
-            <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-3">30-day guarantee</p>
+            <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-3">14-day SLA</p>
             <p className="text-[#555] text-[14.5px] leading-[1.7]">
-              You pay upfront and we have 30 calendar days to remove a
-              confirmed-eligible review. If we don&rsquo;t remove it, you get a
-              full refund.
+              We aim to remove every confirmed-eligible review within 14
+              calendar days. If we miss the window, the attempt fee is waived.
             </p>
           </div>
           <div className="border-t border-[#e5e5e5] pt-6">
             <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-3">No-win, no-fee</p>
             <p className="text-[#555] text-[14.5px] leading-[1.7]">
-              You only pay for removals that succeed. If a review does not come
-              down within 30 days, you owe nothing &mdash; we refund it in full.
+              Pay-as-you-go removals are billed only on confirmed removal. If
+              the review does not come down, you owe nothing for the attempt.
             </p>
           </div>
           <div className="border-t border-[#e5e5e5] pt-6">

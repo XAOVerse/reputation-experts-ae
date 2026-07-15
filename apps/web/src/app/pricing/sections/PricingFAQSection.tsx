@@ -13,7 +13,7 @@ const FAQS = [
   },
   {
     q: "How do review removals work?",
-    a: "No removal, no payment. You pay upfront so we can open the case with the platform immediately, we then have 30 days to remove the review, and if it is not down by then you get a full refund — and because you pay by card you're protected on top of our written guarantee. Subscription tiers include monthly free removals; unused removals don't bank.",
+    a: "No-win, no-fee. We only bill a removal once it is confirmed removed — if the review does not come down, you owe nothing for the attempt. You pay only after a successful removal. Subscription tiers include monthly free removals; unused removals don't bank.",
   },
   {
     q: "Why are AI search and media coverage combined into one program?",
