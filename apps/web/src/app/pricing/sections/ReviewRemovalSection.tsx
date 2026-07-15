@@ -13,7 +13,7 @@ type Row = {
 // Base PAYG prices, then 20% / 30% / 40% / 50% off for each tier respectively.
 // Enterprise = Unlimited (no PAYG calculation needed).
 const ROWS: Row[] = [
-  { type: "Image review (any age)",  payg: "AED 695", growth: "AED 555", core: "AED 485", pro: "AED 415", protection: "AED 345", enterprise: "Unlimited" },
+  { type: "Image review (any age)",  payg: "AED 795", growth: "AED 635", core: "AED 555", pro: "AED 475", protection: "AED 395", enterprise: "Unlimited" },
   { type: "Recent text (under 4 weeks)", payg: "AED 795", growth: "AED 635", core: "AED 555", pro: "AED 475", protection: "AED 395", enterprise: "Unlimited" },
   { type: "Older text (over 4 weeks)",   payg: "AED 995", growth: "AED 795", core: "AED 695", pro: "AED 595", protection: "AED 495", enterprise: "Unlimited" },
 ];
