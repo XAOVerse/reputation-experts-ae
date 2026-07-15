@@ -15,9 +15,9 @@ import { DentalContactSection } from "../home2/sections/DentalContactSection";
 
 export const metadata: Metadata = {
   title:
-    "Reviews — Reputation Experts | Grow positive reviews, remove harmful content, 90-day guarantee",
+    "Reviews — Reputation Experts | Grow reviews (90-day guarantee) & remove harmful ones (no-win, no-fee)",
   description:
-    "We grow authentic 5-star reviews across nearly 200 platforms, dispute and remove harmful content, optimise listings with structured-data markup, and back the work with a written 90-day score guarantee or we work free until your milestone is reached.",
+    "Two products, two guarantees: we grow authentic 5-star reviews across nearly 200 platforms on a written 90-day score guarantee, and we remove harmful reviews on a no-win, no-fee basis — no removal, no payment. Plus listing and schema optimisation that search engines and AI engines actually read.",
 };
 
 export default function ReviewsPage() {
