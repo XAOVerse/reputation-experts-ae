@@ -44,29 +44,12 @@ export function ReviewRemovalSection() {
           No-win, no-fee. Pay only when a review is removed.
         </h2>
         <p className="text-[#555] text-[15px] sm:text-[16px] leading-[1.7] mb-10 max-w-[820px]">
-          Every removal attempt runs against a 14-day service-level agreement.
+          Every removal attempt runs against a 30-day service-level agreement.
           If we cannot remove the review within that window, you owe nothing.
           Each subscription tier comes with free removals included every month
           and a stacked discount on Pay-as-you-go removals beyond the included
           quota.
         </p>
-
-        {/* Per-tier summary strip */}
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-x-6 gap-y-4 mb-10 lg:mb-12">
-          {SUMMARY.map((s) => (
-            <div key={s.tier} className="border-t border-[#e5e5e5] pt-4">
-              <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-2">
-                {s.tier}
-              </p>
-              <p className="text-[#1a1a1a] text-[14px] font-medium leading-[1.4] mb-1">
-                {s.free}
-              </p>
-              <p className="text-[#555] text-[12.5px] leading-[1.5]">
-                {s.discount}
-              </p>
-            </div>
-          ))}
-        </div>
 
         {/* Detailed price grid */}
         <div className="overflow-x-auto -mx-5 sm:mx-0">
@@ -100,9 +83,9 @@ export function ReviewRemovalSection() {
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           <div className="border-t border-[#e5e5e5] pt-6">
-            <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-3">14-day SLA</p>
+            <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-3">30-day SLA</p>
             <p className="text-[#555] text-[14.5px] leading-[1.7]">
-              We aim to remove every confirmed-eligible review within 14
+              We aim to remove every confirmed-eligible review within 30
               calendar days. If we miss the window, the attempt fee is waived.
             </p>
           </div>
@@ -121,6 +104,23 @@ export function ReviewRemovalSection() {
               reviews, or coerce reviewers.
             </p>
           </div>
+        </div>
+
+        {/* Per-tier summary strip — moved below the SLA cards */}
+        <div className="mt-12 lg:mt-16 grid grid-cols-2 lg:grid-cols-5 gap-x-6 gap-y-4">
+          {SUMMARY.map((s) => (
+            <div key={s.tier} className="border-t border-[#e5e5e5] pt-4">
+              <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-2">
+                {s.tier}
+              </p>
+              <p className="text-[#1a1a1a] text-[14px] font-medium leading-[1.4] mb-1">
+                {s.free}
+              </p>
+              <p className="text-[#555] text-[12.5px] leading-[1.5]">
+                {s.discount}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
