@@ -4,7 +4,7 @@ import Image from "next/image";
 const OUTCOMES = [
   {
     title: "Harmful reviews removed",
-    body: "We remove harmful reviews from Google, Trustpilot, Tripadvisor, Yelp and every major platform. The ones that cannot be taken down outright are suppressed beneath a steady flow of authentic positive reviews so they stop influencing buyers.",
+    body: "We remove harmful reviews from Google, Trustpilot, Tripadvisor, Yelp and every major platform on a no-win, no-fee basis — no removal, no payment. The ones that cannot be taken down outright are suppressed beneath a steady flow of authentic positive reviews so they stop influencing buyers.",
   },
   {
     title: "Defamation and impersonation handled",
@@ -42,8 +42,10 @@ export function OngoingProtectionSection() {
               Harmful content gone the moment it appears.
             </h2>
             <p className="text-[#555] text-[15px] leading-[1.7]">
-              What is removable, we remove. What is not, we suppress. Either way
-              the content stops costing you customers.
+              What is removable, we remove. What is not, we suppress. Removals
+              are no-win, no-fee &mdash; no removal, no payment &mdash; so the
+              risk sits with us. Either way the content stops costing you
+              customers. See removal pricing below.
             </p>
           </div>
 

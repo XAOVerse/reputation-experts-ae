@@ -4,12 +4,20 @@ import React, { useState } from "react";
 
 const FAQ = [
   {
-    q: "What does the 90-day score guarantee actually cover?",
-    a: "Before we start we agree a written target — typically the move from your current average star rating to a higher one (e.g. 4.2 to 4.6), plus a minimum number of fresh authentic reviews per location. If we don't hit those numbers by day 90, the engagement keeps running at no additional cost until we do. The guarantee is anchored to specific written metrics, not vague effort.",
+    q: "You have two products — how do the guarantees differ?",
+    a: "Review growth and review removal are separate products with separate guarantees. Review growth lifts your score and is backed by a written 90-day guarantee: hit the agreed target by day 90 or we keep working at no extra cost until we do. Review removal is no-win, no-fee: no removal, no payment. Each guarantee applies to its own work, so you are covered on both.",
+  },
+  {
+    q: "What does review removal cost, and what if it doesn't come down?",
+    a: "No removal, no payment. You pay upfront so we can open the case with the platform immediately, we then have 30 days to remove the review, and if it is not down by then you get a full refund. Because you pay by card, you're protected on top of our written guarantee. Pay-as-you-go removals start at AED 995; on a subscription they start at AED 395, with free removals included every month and a stacked discount on the rest.",
+  },
+  {
+    q: "What does the 90-day score guarantee cover?",
+    a: "This is the guarantee on our review-growth work. Before we start we agree a written target — typically the move from your current average star rating to a higher one (e.g. 4.2 to 4.6), plus a minimum number of fresh authentic reviews per location. If we don't hit those numbers by day 90, the engagement keeps running at no additional cost until we do. The guarantee is anchored to specific written metrics, not vague effort.",
   },
   {
     q: "Can you actually remove harmful or fake reviews?",
-    a: "We successfully remove around 78% of the reviews our clients flag. Anything that breaches the platform's policy — fake, off-topic, conflict-of-interest, harassment, hate speech, content from people who were never customers — is grounds for dispute. We file the request, follow it through, and re-file every time a removed review reappears. For reviews that don't meet the policy bar, we focus on burying them under a steady flow of authentic positive reviews so the platform's algorithm ranks them lower in the visible feed.",
+    a: "We successfully remove around 78% of the reviews our clients flag — and you only pay for the ones that come down. Anything that breaches the platform's policy — fake, off-topic, conflict-of-interest, harassment, hate speech, content from people who were never customers — is grounds for dispute. We file the request, follow it through, and re-file every time a removed review reappears. For reviews that don't meet the policy bar, we focus on burying them under a steady flow of authentic positive reviews so the platform's algorithm ranks them lower in the visible feed.",
   },
   {
     q: "Do you handle defamation and copyright takedowns too?",
@@ -25,7 +33,7 @@ const FAQ = [
   },
   {
     q: "How quickly will I see results?",
-    a: "Most clients see meaningful score movement and visible review velocity inside the first 30 days. By day 60, AI engines and Google Maps typically begin re-ranking the business upward. The full 90 days is needed for the harder lifts — moving an established score by 0.3 or more — because authentic reviews have to be earned at the speed your real customers can leave them.",
+    a: "Removals that qualify usually come down within the 30-day guarantee window, and often much sooner. On the growth side, most clients see meaningful score movement and visible review velocity inside the first 30 days; by day 60, AI engines and Google Maps typically begin re-ranking the business upward. The full 90 days is for the harder score lifts — moving an established score by 0.3 or more — because authentic reviews have to be earned at the speed your real customers can leave them.",
   },
   {
     q: "Do you replace my marketing agency or work alongside them?",
