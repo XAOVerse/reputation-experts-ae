@@ -6,6 +6,7 @@ import { ListingOptimisationSection } from "./sections/ListingOptimisationSectio
 import { ReputationScoreSection } from "./sections/ReputationScoreSection";
 import { ReviewGrowthSection } from "./sections/ReviewGrowthSection";
 import { OngoingProtectionSection } from "./sections/OngoingProtectionSection";
+import { ReviewRemovalSection } from "../pricing/sections/ReviewRemovalSection";
 import { GuaranteeSection } from "./sections/GuaranteeSection";
 import { ReviewsFAQSection } from "./sections/ReviewsFAQSection";
 import { IndustriesSection } from "./sections/IndustriesSection";
@@ -29,6 +30,7 @@ export default function ReviewsPage() {
       <ReputationScoreSection />
       <ReviewGrowthSection />
       <OngoingProtectionSection />
+      <ReviewRemovalSection />
       <GuaranteeSection />
       <IndustriesSection />
       <ReviewsFAQSection />
