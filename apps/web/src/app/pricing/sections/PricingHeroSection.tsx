@@ -19,9 +19,10 @@ export function PricingHeroSection() {
           don&rsquo;t have to.
         </h1>
         <p className="text-[#555] text-[15px] leading-[1.65] mb-8 max-w-[820px]">
-          Five tiers, written 90-day score guarantee on every one. We pick up
-          the phone, write every reply by hand, file the disputes, run the
-          press cycle, and report back weekly. You stay focused on the
+          Five subscription tiers, each with a written 90-day score guarantee.
+          Every review removal is no-win, no-fee &mdash; no removal, no payment.
+          We pick up the phone, write every reply by hand, file the disputes, run
+          the press cycle, and report back weekly. You stay focused on the
           business. Looking for the full feature breakdown for a procurement
           team? See the {" "}
           <a

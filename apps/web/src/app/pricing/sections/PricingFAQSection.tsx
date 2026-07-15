@@ -5,15 +5,15 @@ import React, { useState } from "react";
 const FAQS = [
   {
     q: "Are these prices final, or are there extra fees?",
-    a: "These are the full monthly prices. No setup fee, no onboarding fee, no platform fee. The only optional cost is additional review removals beyond your tier's included quota, billed at the tier-discounted rate (no-win, no-fee, 14-day SLA).",
+    a: "These are the full monthly prices. No setup fee, no onboarding fee, no platform fee. The only optional cost is additional review removals beyond your tier's included quota, billed at the tier-discounted rate (no-win, no-fee — no removal, no payment).",
   },
   {
     q: "What is included on the 90-day guarantee?",
-    a: "Before work begins we agree a written target — for example moving from 4.2 to 4.6 stars in 90 days. Miss the target by day 90, and we continue working at no extra cost until we hit it. The guarantee applies on every tier.",
+    a: "The 90-day guarantee covers our review-growth work on every subscription tier. Before work begins we agree a written target — for example moving from 4.2 to 4.6 stars in 90 days. Miss the target by day 90, and we continue working at no extra cost until we hit it. Review removals are covered separately by our no-win, no-fee promise.",
   },
   {
     q: "How do review removals work?",
-    a: "No upfront fees for standalone (PAYG) removals you pay only on confirmed removal — no removal, no fee. Subscription tiers include monthly free removals; unused removals do not bank.",
+    a: "No removal, no payment. You pay upfront so we can open the case with the platform immediately, we then have 30 days to remove the review, and if it is not down by then you get a full refund — and because you pay by card you're protected on top of our written guarantee. Subscription tiers include monthly free removals; unused removals don't bank.",
   },
   {
     q: "Why are AI search and media coverage combined into one program?",
