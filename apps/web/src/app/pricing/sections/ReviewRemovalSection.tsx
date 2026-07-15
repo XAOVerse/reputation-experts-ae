@@ -44,16 +44,15 @@ export function ReviewRemovalSection() {
           No-win, no-fee. Pay only when a review is removed.
         </h2>
         <p className="text-[#555] text-[15px] sm:text-[16px] leading-[1.7] mb-5 max-w-[820px]">
-          Every removal attempt runs against a 14-day service-level agreement.
-          If we cannot remove the review within that window, you owe nothing.
-          Each subscription tier comes with free removals included every month
-          and a stacked discount on Pay-as-you-go removals beyond the included
-          quota.
+          You pay only for successful removals &mdash; a 100% guarantee. You pay
+          upfront, and we then have 30 days to remove the review. If we don&rsquo;t
+          remove it, you don&rsquo;t pay: we issue a full refund. Each subscription
+          tier also includes free removals every month, plus a stacked discount
+          on Pay-as-you-go removals beyond the included quota.
         </p>
         <p className="text-[#555] text-[15px] sm:text-[16px] leading-[1.7] mb-10 max-w-[820px]">
-          You can pay upfront with complete confidence. If we do not remove the
-          review within 30 days, we send you a full refund. Because you pay by
-          card, you are fully protected &mdash; full protection, in writing.
+          Because you pay by card, you&rsquo;re fully protected &mdash; that
+          guarantee is in writing.
         </p>
 
         {/* Per-tier summary strip */}
@@ -105,17 +104,18 @@ export function ReviewRemovalSection() {
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           <div className="border-t border-[#e5e5e5] pt-6">
-            <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-3">14-day SLA</p>
+            <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-3">30-day guarantee</p>
             <p className="text-[#555] text-[14.5px] leading-[1.7]">
-              We aim to remove every confirmed-eligible review within 14
-              calendar days. If we miss the window, the attempt fee is waived.
+              You pay upfront and we have 30 calendar days to remove a
+              confirmed-eligible review. If we don&rsquo;t remove it, you get a
+              full refund.
             </p>
           </div>
           <div className="border-t border-[#e5e5e5] pt-6">
             <p className="text-[#e8503a] text-[11px] tracking-[0.22em] uppercase font-semibold mb-3">No-win, no-fee</p>
             <p className="text-[#555] text-[14.5px] leading-[1.7]">
-              Pay-as-you-go removals are billed only on confirmed removal. If
-              the review does not come down, you owe nothing for the attempt.
+              You only pay for removals that succeed. If a review does not come
+              down within 30 days, you owe nothing &mdash; we refund it in full.
             </p>
           </div>
           <div className="border-t border-[#e5e5e5] pt-6">
