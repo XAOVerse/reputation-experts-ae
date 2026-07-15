@@ -10,12 +10,12 @@ type Row = {
   enterprise: string;
 };
 
-// Base PAYG prices, then 20% / 30% / 40% / 50% off for each tier respectively.
+// Promotional rate card. Prices reduced from previous list rates.
 // Enterprise = Unlimited (no PAYG calculation needed).
 const ROWS: Row[] = [
-  { type: "Image review (any age)",  payg: "AED 1,500", growth: "AED 1,200", core: "AED 1,050", pro: "AED 900",   protection: "AED 750",   enterprise: "Unlimited" },
-  { type: "Recent text (under 4 weeks)", payg: "AED 2,000", growth: "AED 1,600", core: "AED 1,400", pro: "AED 1,200", protection: "AED 1,000", enterprise: "Unlimited" },
-  { type: "Older text (over 4 weeks)",   payg: "AED 2,500", growth: "AED 2,000", core: "AED 1,750", pro: "AED 1,500", protection: "AED 1,250", enterprise: "Unlimited" },
+  { type: "Image review (any age)",  payg: "AED 995",   growth: "AED 695",   core: "AED 595",   pro: "AED 495",   protection: "AED 395",   enterprise: "Unlimited" },
+  { type: "Recent text (under 4 weeks)", payg: "AED 1,295", growth: "AED 995",   core: "AED 895",   pro: "AED 695",   protection: "AED 595",   enterprise: "Unlimited" },
+  { type: "Older text (over 4 weeks)",   payg: "AED 1,695", growth: "AED 1,295", core: "AED 1,095", pro: "AED 995",   protection: "AED 795",   enterprise: "Unlimited" },
 ];
 
 const SUMMARY = [
@@ -43,12 +43,17 @@ export function ReviewRemovalSection() {
         >
           No-win, no-fee. Pay only when a review is removed.
         </h2>
-        <p className="text-[#555] text-[15px] sm:text-[16px] leading-[1.7] mb-10 max-w-[820px]">
+        <p className="text-[#555] text-[15px] sm:text-[16px] leading-[1.7] mb-5 max-w-[820px]">
           Every removal attempt runs against a 14-day service-level agreement.
           If we cannot remove the review within that window, you owe nothing.
           Each subscription tier comes with free removals included every month
           and a stacked discount on Pay-as-you-go removals beyond the included
           quota.
+        </p>
+        <p className="text-[#555] text-[15px] sm:text-[16px] leading-[1.7] mb-10 max-w-[820px]">
+          You can pay upfront with complete confidence. If we do not remove the
+          review within 30 days, we send you a full refund. Because you pay by
+          card, you are fully protected &mdash; full protection, in writing.
         </p>
 
         {/* Per-tier summary strip */}
