@@ -5,11 +5,11 @@ import React, { useState } from "react";
 const FAQ = [
   {
     q: "You have two products — how do the guarantees differ?",
-    a: "Review growth and review removal are separate products with separate guarantees. Review growth lifts your score and is backed by a written 90-day guarantee: hit the agreed target by day 90 or we keep working at no extra cost until we do. Review removal is no-win, no-fee: no removal, no payment. Each guarantee applies to its own work, so you are covered on both.",
+    a: "Review growth and review removal are separate products with separate guarantees. Review growth lifts your score and is backed by a written 90-day guarantee: hit the agreed target by day 90 or we keep working at no extra cost until we do. Review removal is no-win, no-fee: you only pay after a successful removal — no removal, no payment. Each guarantee applies to its own work, so you are covered on both.",
   },
   {
     q: "What does review removal cost, and what if it doesn't come down?",
-    a: "No removal, no payment. You pay upfront so we can open the case with the platform immediately, we then have 30 days to remove the review, and if it is not down by then you get a full refund. Because you pay by card, you're protected on top of our written guarantee. Pay-as-you-go removals start at AED 995; on a subscription they start at AED 395, with free removals included every month and a stacked discount on the rest.",
+    a: "No-win, no-fee. We only bill a removal once we've successfully removed the review — if it doesn't come down, you owe nothing for the attempt. You pay only after a successful removal. Pay-as-you-go removals start at AED 695; on a subscription they start at AED 345, with free removals included every month and a stacked discount on the rest.",
   },
   {
     q: "What does the 90-day score guarantee cover?",
@@ -33,7 +33,7 @@ const FAQ = [
   },
   {
     q: "How quickly will I see results?",
-    a: "Removals that qualify usually come down within the 30-day guarantee window, and often much sooner. On the growth side, most clients see meaningful score movement and visible review velocity inside the first 30 days; by day 60, AI engines and Google Maps typically begin re-ranking the business upward. The full 90 days is for the harder score lifts — moving an established score by 0.3 or more — because authentic reviews have to be earned at the speed your real customers can leave them.",
+    a: "Most removals that qualify come down within a couple of weeks, and you only pay once they do. On the growth side, most clients see meaningful score movement and visible review velocity inside the first 30 days; by day 60, AI engines and Google Maps typically begin re-ranking the business upward. The full 90 days is for the harder score lifts — moving an established score by 0.3 or more — because authentic reviews have to be earned at the speed your real customers can leave them.",
   },
   {
     q: "Do you replace my marketing agency or work alongside them?",
