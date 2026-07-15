@@ -20,7 +20,7 @@ const ROWS: Row[] = [
   { metric: "Best for", growth: "New businesses building 5 stars", core: "Established businesses maintaining their score", pro: "Multi-channel businesses growing across platforms", protection: "Multi-location and high-stakes reputations", enterprise: "Luxury, hospitality, regulated, multi-emirate" },
 
   // Plan
-  { group: "Plan", metric: "Monthly price", growth: "AED 1,995", core: "AED 2,995", pro: "AED 3,995", protection: "AED 5,995", enterprise: "AED 9,995" },
+  { group: "Plan", metric: "Monthly price", growth: "AED 995", core: "AED 1,995", pro: "AED 2,995", protection: "AED 3,995", enterprise: "AED 6,995" },
   { metric: "Free review removals / month", growth: "0", core: "1", pro: "3", protection: "10", enterprise: "Unlimited" },
   { metric: "Discount on additional removals", growth: "20%", core: "30%", pro: "40%", protection: "50%", enterprise: "Included" },
   { metric: "90-day score guarantee", growth: T, core: T, pro: T, protection: T, enterprise: T },
@@ -71,11 +71,11 @@ type TierMeta = {
 };
 
 const TIERS: TierMeta[] = [
-  { name: "Growth",       price: "AED 1,995", cta: "Start with Growth",      href: "/contact?tier=growth" },
-  { name: "Core",         price: "AED 2,995", cta: "Start with Core",        href: "/contact?tier=core" },
-  { name: "Pro",          price: "AED 3,995", recommended: true, cta: "Start with Pro", href: "/contact?tier=pro" },
-  { name: "Protection+",  price: "AED 5,995", cta: "Request proposal",       href: "/contact?tier=protection-plus" },
-  { name: "Enterprise",   price: "AED 9,995", cta: "Apply to Enterprise",    href: "/contact?tier=enterprise" },
+  { name: "Growth",       price: "AED 995", cta: "Start with Growth",      href: "/contact?tier=growth" },
+  { name: "Core",         price: "AED 1,995", cta: "Start with Core",        href: "/contact?tier=core" },
+  { name: "Pro",          price: "AED 2,995", recommended: true, cta: "Start with Pro", href: "/contact?tier=pro" },
+  { name: "Protection+",  price: "AED 3,995", cta: "Request proposal",       href: "/contact?tier=protection-plus" },
+  { name: "Enterprise",   price: "AED 6,995", cta: "Apply to Enterprise",    href: "/contact?tier=enterprise" },
 ];
 
 export function WhatsIncludedSection() {
